@@ -1067,35 +1067,55 @@ def main():
         return
 
     log(f"\n  {'━' * 50}")
-    log(f"  [4/7] OLE 스트림 쓰기")
+    log(f"  [4/7] 직접 바이너리 수정 (OLE 구조 보존)")
     log(f"  {'━' * 50}")
 
-    if os.path.exists(OUT_TMP):
-        try:
-            os.remove(OUT_TMP)
-        except:
-            pass
     shutil.copy2(SRC, OUT_TMP)
     os.chmod(OUT_TMP, stat.S_IWRITE | stat.S_IREAD)
     log(f"  작업본 복사 완료: {OUT_TMP}")
-    hash_before_write = file_hash(OUT_TMP)
-    log(f"  쓰기 전 해시: {hash_before_write}")
 
-    try:
-        ole_write = olefile.OleFileIO(OUT_TMP, write_mode=True)
-        for sn in modified_streams:
-            data = all_stream_data[sn]
-            log(f"  쓰기: {sn}, {len(data):,} bytes...")
-            ole_write.write_stream(sn, data)
-        ole_write.close()
-        log(f"  모든 스트림 쓰기 완료")
-    except Exception as e:
-        log(f"  [오류] write_stream 실패: {e}")
-        try:
-            ole_write.close()
-        except:
-            pass
-        return
+    ole_info = olefile.OleFileIO(SRC, write_mode=False)
+    sector_size = ole_info.sector_size
+
+    for sn in modified_streams:
+        data = all_stream_data[sn]
+        sp = sn.split('/')
+        sid = ole_info._find(sp)
+        entry = ole_info.direntries[sid]
+        stream_size = entry.size
+        start_sector = entry.isectStart
+
+        log(f"  스트림: {sn}, size={stream_size:,}, start_sector={start_sector}")
+
+        fat = ole_info.fat
+        chain = []
+        current = start_sector
+        while current >= 0 and current < len(fat):
+            chain.append(current)
+            current = fat[current]
+            if len(chain) > 100000:
+                break
+
+        log(f"  섹터 체인: {len(chain)}개 섹터")
+
+        with open(OUT_TMP, 'r+b') as f:
+            data_written = 0
+            for sect_idx, sect in enumerate(chain):
+                offset = sector_size + sect * sector_size
+                chunk_start = data_written
+                chunk_end = min(data_written + sector_size, len(data))
+                chunk = data[chunk_start:chunk_end]
+                if len(chunk) < sector_size:
+                    chunk = chunk + b'\x00' * (sector_size - len(chunk))
+                f.seek(offset)
+                f.write(chunk)
+                data_written += sector_size
+                if data_written >= len(data):
+                    break
+
+        log(f"  직접 쓰기 완료: {len(data):,} bytes → {len(chain)} 섹터")
+
+    ole_info.close()
 
     if os.path.exists(OUT):
         try:
@@ -1115,10 +1135,10 @@ def main():
 
     hash_after_write = file_hash(OUT_FINAL)
     log(f"  쓰기 후 해시: {hash_after_write}")
-    log(f"  해시 변경됨: {hash_after_write != hash_before_write}")
+    log(f"  해시 변경됨: {hash_after_write != file_hash(SRC)}")
 
-    if hash_after_write == hash_before_write:
-        log(f"  [오류] 해시 변경 없음! write_stream 미적용!")
+    if hash_after_write == file_hash(SRC):
+        log(f"  [오류] 해시 변경 없음! 직접 쓰기 미적용!")
         return
 
     log(f"\n  {'━' * 50}")
