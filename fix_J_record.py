@@ -1,13 +1,14 @@
-import sys, os, time, re, struct, zlib, shutil, hashlib
+import sys, os, time, re, struct, zlib, shutil, hashlib, stat
 
 sys.path.insert(0, r"C:\AMD\AJ\hwp_proofreading_package")
 import olefile
 from collections import Counter
 
-SRC = r"C:\Users\doris\Desktop\【大中朝 14】J 1419-1693--275--20240920_1st_copy.hwp"
-OUT = r"C:\Users\doris\Desktop\【大中朝 14】J 1419-1693--275--20240920.hwp"
-BACKUP_DIR = r"C:\Users\doris\Desktop\hwp_backup"
-LOG_DIR = r"C:\Users\doris\Desktop\한국어_문장_수정본_최종결과"
+SRC = r"C:\Users\doris\Desktop\【大中朝 16】L 1787-1958--172--20240920__v1.hwp"
+OUT = r"c:\Users\doris\.agent-skills\L_output.hwp"
+OUT_TMP = r"c:\Users\doris\.agent-skills\L_work_" + str(__import__('uuid').uuid4().hex[:8]) + ".bin"
+BACKUP_DIR = r"C:\Users\doris\AppData\Local\Temp\hwp_backup"
+LOG_DIR = r"C:\Users\doris\AppData\Local\Temp\hwp_logs"
 RULES_FILE = r"C:\AMD\AJ\hwp_proofreading_package\rules_documentation.txt"
 
 GEOT_NOSPLIT = {"이것", "그것", "저것", "이것저것", "그것저것"}
@@ -76,6 +77,11 @@ DEUNG_NOSPLIT = {
     "자원평등", "교통신호등", "립식전등", "련결등",
     "풍력등", "초불등", "신용등", "벌등",
     "렬등", "귓등", "뢰공등", "랭음극형광등",
+    "열등", "산등", "홍등", "세등", "중등", "이등", "균등",
+    "렬등", "귓등", "뢰공등", "랭음극형광등",
+    "교통신호등", "립식전등", "련결등", "자원평등",
+    "상등", "손전등", "전등", "곱사등", "호적등",
+    "풍력등", "초불등", "신용등", "벌등",
 }
 
 TTE_NOSPLIT = {"제때", "그때", "이때", "한때", "때때로", "아무때", "때때", "명절때", "점심때", "저녁때", "병때", "본때"}
@@ -152,6 +158,15 @@ TEO_NOSPLIT = {
     "센터를", "센터에", "센터로", "센터의", "센터가", "센터는",
     "프린터를", "프린터에", "프린터로", "프린터의",
     "필터를", "필터에", "필터의",
+    "예로부터", "옛날부터", "이전부터", "싸움터", "전쟁터", "포스터", "리히터",
+    "흘리터", "쎈치메터", "립방메터", "처음부터", "예전부터", "어릴적부터",
+    "올해부터", "언제부터", "가죽부터", "물러터", "사회로부터", "주형으로부터",
+    "동지부터", "이미전부터", "세기말부터", "휴대용콤퓨터", "로인병치료센터",
+    "발사로부터", "눈물부터", "뒤부터", "립방쎈치메터", "평방메터", "쎈치리터",
+    "릿터", "리티움배터", "겁부터", "만메터", "세제곱메터", "립방데시메터",
+    "립방미리메터", "립방센치메터", "아침부터", "고체로부터", "어디에서부터",
+    "오래전부터", "이때부터", "고대로부터", "인터페이스", "인터럽트",
+    "콤퓨터", "컴퓨터", "노트북", "랩터", "슬러터",
 }
 
 CHAE_NOSPLIT = {
@@ -201,6 +216,129 @@ BA_NOSPLIT = {
     "곧바", "똑바", "옳바", "뒤바",
     "지르바", "울바", "낯바", "밑바",
     "고무바", "손바", "가을바",
+}
+
+
+IHA_NOSPLIT = {
+    "가까이하다", "가까이하고", "가까이하여", "가까이해서", "가까이한",
+    "기이하다", "기이하고", "기이한",
+    "되풀이하다", "되풀이하고", "되풀이하여", "되풀이한",
+    "해이하다", "해이하고", "해이한", "해이하여",
+    "같이하다", "같이하고", "같이하여",
+    "괴이하다", "괴이하고", "괴이한", "괴이하여",
+    "매갈이하다", "매갈이하고",
+    "돈벌이하다", "돈벌이하고",
+    "밭갈이하다", "밭갈이하고",
+    "특이하다", "특이하고", "특이한", "특이하여",
+    "고기잡이하다", "고기잡이하고",
+    "용이하다", "용이하고", "용이한",
+    "부득이하다", "부득이하고", "부득이한",
+    "맞이하다", "맞이하고", "맞이하여", "맞이한",
+    "수준이하", "생리적령점이하", "령이하", "영도이하", "류행성이하",
+    "상이하다", "상이하고", "상이한",
+    "중동무이하다", "중동무이하고",
+    "되풀이", "고기잡이", "기이", "용이", "가까이", "해이", "괴이", "매갈이", "돈벌이",
+    "같", "되풀", "고기잡", "기", "용", "가까", "해", "괴", "매갈", "돈벌",
+}
+
+JUNG_NOSPLIT = {
+    "신중", "대중", "이중", "관중", "귀중", "공중", "랑중", "집중",
+    "소중", "존중", "도중", "진중", "정중", "엄중", "명중", "적중",
+    "궁중", "하중", "시중", "군중", "장중", "출중", "과중", "기중",
+    "일반대중", "무의식중", "한밤중", "어중이떠중", "부지중",
+    "그중", "나중", "산중", "밤중", "한중", "위중", "고대중",
+    "세기중", "압연과정중",
+    "중간", "중심", "중앙", "중요", "중복", "중단", "중지", "중계",
+    "중량", "중소", "중순", "중세", "중기", "중류", "중합", "중화",
+    "중독", "중상", "중년", "중국", "중부", "중층", "중형",
+    "집중하다", "집중하고", "집중하여",
+    "신중하다", "신중하고", "신중한",
+    "대중적", "대중화",
+}
+
+SANG_NOSPLIT = {
+    "세상", "항상", "현상", "리상", "이상", "예상", "사상", "로상",
+    "조상", "책상", "증상", "감상", "륙상", "고상", "진상", "대상",
+    "린상", "정상", "수상", "기상", "해상", "손상", "호상", "인상",
+    "앙상", "지상", "추상", "중상", "가상", "화상", "령상", "살상",
+    "일상", "관상", "걸상", "련쇄상", "립상",
+    "인간세상", "노벨물리학상", "둘이상",
+    "상하", "상대", "상황", "상태", "상식", "상류", "상반", "상쇄",
+    "상한", "상처", "상실", "상쾌", "상쾌하다",
+    "예상하다", "예상하고", "예상한",
+    "감상하다", "감상하고",
+    "진상하다", "진상하고",
+}
+
+U_NOSPLIT = {
+    "매우", "경우", "좌우", "겨우", "폭우", "강우", "전우", "대우",
+    "아우", "새우", "무우", "배우", "태우", "채우", "키우", "싸우",
+    "세우", "피우", "뉘우", "도우", "메우", "씌우",
+    "산봉우", "산봉우리", "물우", "산우", "땅우", "들보우",
+    "머리우", "책상우", "담장우", "나무우",
+    "덮어씌우", "멈춰세우", "내세우",
+    "명배우", "첩첩산봉우",
+    "우리", "우주", "우수", "우월", "우연", "우편", "우호",
+    "우량", "우세", "우습다", "우습고",
+    "루저우", "길우", "뢰우",
+    "어려우", "쉬우",
+}
+
+HA_NOSPLIT = {
+    "비유하다", "비유하고", "비유하여", "비유한",
+    "속하다", "속하고", "속하여", "속한",
+    "형용하다", "형용하고", "형용하여", "형용한",
+    "못하다", "못하고", "못하여", "못한",
+    "말하다", "말하고", "말하여", "말한",
+    "청렴하다", "청렴하고", "청렴한",
+    "사용하다", "사용하고", "사용하여", "사용한",
+    "일하다", "일하고", "일하여", "일한",
+    "처리하다", "처리하고", "처리하여", "처리한",
+    "로련하다", "로련하고", "로련한",
+    "대하다", "대하고", "대하여", "대한",
+    "다하다", "다하고", "다하여", "다한",
+    "련결하다", "련결하고", "련결하여", "련결한",
+    "리용하다", "리용하고", "리용하여", "리용한",
+    "리해하다", "리해하고", "리해하여", "리해한",
+    "생각하다", "생각하고", "생각하여", "생각한",
+    "피로하다", "피로하고", "피로한",
+    "랭담하다", "랭담하고", "랭담한",
+    "좋아하다", "좋아하고", "좋아하여", "좋아한",
+    "그리워하다", "그리워하고", "그리워하여",
+    "쌀쌀하다", "쌀쌀하고", "쌀쌀한",
+    "정리하다", "정리하고", "정리하여", "정리한",
+    "어수선하다", "어수선하고", "어수선한",
+    "비슷하다", "비슷하고", "비슷한",
+    "시원하다", "시원하고", "시원한",
+    "발생하다", "발생하고", "발생하여", "발생한",
+    "계속하다", "계속하고", "계속하여", "계속한",
+    "당하다", "당하고", "당하여", "당한",
+    "조심하다", "조심하고", "조심하여", "조심한",
+    "정직하다", "정직하고", "정직한",
+    "민첩하다", "민첩하고", "민첩한",
+    "란잡하다", "란잡하고", "란잡한",
+    "깨끗하다", "깨끗하고", "깨끗한",
+    "침착하다", "침착하고", "침착한",
+    "안내하다", "안내하고", "안내하여", "안내한",
+    "이야기하다", "이야기하고", "이야기하여", "이야기한",
+    "진행하다", "진행하고", "진행하여", "진행한",
+    "실행하다", "실행하고", "실행하여", "실행한",
+    "싫어하다", "싫어하고", "싫어하여",
+    "단정하다", "단정하고", "단정한",
+    "하다", "하고", "하여", "해서", "하였다", "한다", "한", "하세요",
+    "하기", "함", "할", "했", "하는",
+}
+
+GAT_NOSPLIT = {
+    "똑같다", "똑같이", "똑같은",
+    "마찬가지로",
+    "같이", "같은", "같다",
+}
+
+GO_NOSPLIT = {
+    "고하다", "고하고", "고하여", "고해서", "고한",
+    "고가다", "고간다", "고가고",
+    "고있다", "고있고", "고있는", "고있다",
 }
 
 
@@ -378,8 +516,50 @@ def apply_text_corrections(text):
             continue
         add(word, f"{word[:-1]} 뿐", "뿐")
 
+    pattern = re.compile(r'([가-힣]+뿐만)')
+    for word, cnt in Counter(pattern.findall(text)).most_common(200):
+        if word == '뿐만':
+            continue
+        add(word, f"{word[:-2]} 뿐만", "뿐만")
+
     if text.count("고있") > 0:
         add("고있", "고 있", "고있")
+
+    pattern = re.compile(r'고(있다|있고|있는|가다|간다|하다|하고|하여|해서|한다|하였다)')
+    for m in pattern.finditer(text):
+        orig = m.group(0)
+        suffix = m.group(1)
+        add(orig, f"고 {suffix}", "고+동사")
+
+    pattern = re.compile(r'(것)(같.+?)')
+    for m in pattern.finditer(text):
+        orig = m.group(0)
+        gat_part = m.group(2)
+        add(orig, f"것 {gat_part}", "것 같은")
+
+    pattern = re.compile(r'([가-힣]+것)(같[은다이고])')
+    for m in pattern.finditer(text):
+        orig = m.group(0)
+        geot_part = m.group(1)
+        gat_part = m.group(2)
+        if geot_part in GEOT_NOSPLIT:
+            continue
+        add(orig, f"{geot_part} {gat_part}", "것 같은")
+
+    pattern = re.compile(r'([가-힣]+)같([은다이고])')
+    for word, cnt in Counter(pattern.findall(text)).most_common(200):
+        full = f"{word}같{cnt}"
+    gat_pattern = re.compile(r'([가-힣]+같[은다이고])')
+    for m in gat_pattern.finditer(text):
+        orig = m.group(1)
+        if orig in GAT_NOSPLIT:
+            continue
+        idx_gat = orig.index('같')
+        before = orig[:idx_gat]
+        after = orig[idx_gat+1:]
+        if before.endswith('것'):
+            continue
+        add(orig, f"{before} 같{after}", "같은")
 
     pattern = re.compile(r'([가-힣]+척[가-힣]*)')
     for word, cnt in Counter(pattern.findall(text)).most_common(500):
@@ -400,13 +580,17 @@ def apply_text_corrections(text):
         add(word, f"{before} 척{after}", "척")
 
     for cat, nosplit, suffix_len in [
-        ("이상", ISANG_NOSPLIT, 2), ("밑", MIT_NOSPLIT, 1),
+        ("이상", ISANG_NOSPLIT, 2), ("이하", IHA_NOSPLIT, 2),
+        ("밑", MIT_NOSPLIT, 1),
         ("등", DEUNG_NOSPLIT, 1), ("때", TTE_NOSPLIT, 1),
         ("때문", TTAE_MUN_NOSPLIT, 2), ("번", BEON_NOSPLIT, 1),
         ("데", DE_NOSPLIT, 1),
         ("대로", DAERO_NOSPLIT, 2),
         ("만큼", MANKEUM_NOSPLIT, 2), ("줄", JUL_NOSPLIT, 1),
         ("바", BA_NOSPLIT, 1),
+        ("중", JUNG_NOSPLIT, 1),
+        ("상", SANG_NOSPLIT, 1),
+        ("우", U_NOSPLIT, 1),
     ]:
         pattern = re.compile(r'([가-힣]+' + cat + r')')
         for word, cnt in Counter(pattern.findall(text)).most_common(500):
@@ -415,11 +599,42 @@ def apply_text_corrections(text):
             if cat == "데" and len(word) >= 3:
                 if word[-3:] in ("는데", "은데", "던데", "는데"):
                     continue
+            if cat == "하":
+                if re.search(r'하[다고여면며서았었겠는]', word):
+                    continue
+                if re.search(r'하[기임할봐야지죠네요거]', word):
+                    continue
+                if re.search(r'했', word):
+                    continue
+                if len(word) >= 3 and word[-3] in '가나다라마바사아자차카타파하':
+                    continue
             stem = word[:-suffix_len]
             add(word, f"{stem} {cat}", cat)
 
+    HA_DIRECTIONAL = {"위하", "아래하", "앞하", "뒤하", "안하", "밖하", "옆하", "위쪽하", "아래쪽하"}
+    ha_pattern = re.compile(r'([가-힣]+하)')
+    for word, cnt in Counter(ha_pattern.findall(text)).most_common(500):
+        if word == '하' or word in HA_NOSPLIT:
+            continue
+        if word in HA_DIRECTIONAL:
+            stem = word[:-1]
+            add(word, f"{stem} 하", "하(방향)")
+            continue
+        if re.search(r'하[다고여면며서았었겠는기임할봐야지죠네요거]', word):
+            continue
+        if re.search(r'했', word):
+            continue
+        if len(word) >= 3:
+            last_char_code = ord(word[-2])
+            if 0xAC00 <= last_char_code <= 0xD7A3:
+                jongseong = (last_char_code - 0xAC00) % 28
+                if jongseong == 0:
+                    continue
+        stem = word[:-1]
+        add(word, f"{stem} 하", "하")
+
     DEUT_NOSPLIT = {"반듯", "반듯이", "빠듯", "빠듯이", "여느듯", "그듯", "가득듯"}
-    for cat, suffix_len, nosplit in [("듯", 1, DEUT_NOSPLIT), ("차례", 2, set()), ("무렵", 2, set())]:
+    for cat, suffix_len, nosplit in [("듯", 1, DEUT_NOSPLIT), ("채", 1, CHAE_NOSPLIT), ("차례", 2, set()), ("무렵", 2, set())]:
         pattern = re.compile(r'([가-힣]+' + cat + r')')
         for word, cnt in Counter(pattern.findall(text)).most_common(200):
             if word == cat or word in nosplit:
@@ -481,7 +696,7 @@ def main():
         log_lines.append(msg)
 
     log(f"{'=' * 70}")
-    log(f"  J파일 띄어쓰기 교정 (레코드 단위 수정)")
+    log(f"  L파일 띄어쓰기 교정 (레코드 단위 수정)")
     log(f"  시작: {time.strftime('%Y-%m-%d %H:%M:%S')}")
     log(f"{'=' * 70}")
 
@@ -517,8 +732,9 @@ def main():
     log(f"  추출 텍스트: {len(text):,}자")
 
     before_stats = {}
-    for cat in ["것", "수", "따위", "사이", "뿐", "고있", "척", "이상", "밑", "등", "때", "때문", "번",
-                "데", "대로", "만큼", "줄", "듯", "채", "바", "터", "차례", "무렵", "듬"]:
+    for cat in ["것", "수", "따위", "사이", "뿐", "뿐만", "고있", "고+동사", "척", "이상", "이하", "밑", "등", "때", "때문", "번",
+                "데", "대로", "만큼", "줄", "듯", "채", "바", "터", "차례", "무렵", "듬",
+                "중", "상", "우", "하", "같은", "것 같은", "나라"]:
         spaced = text.count(f" {cat}")
         total = text.count(cat)
         attached = total - spaced
@@ -530,13 +746,38 @@ def main():
     txt_rules = parse_txt_rules(RULES_FILE)
     text_changes = apply_text_corrections(text)
 
-    log(f"\n  [1단계] 나라→조 + 지명: {len(china_rules)}개")
+    DYNASTIES = [
+        "당(唐)", "송(宋)", "명(明)", "청(淸)", "원(元)", "수(隋)", "진(秦)", "한(漢)",
+        "위(魏)", "촉(蜀)", "오(吴)", "진(晉)", "동진(東晉)", "서진(西晉)",
+        "남송(南宋)", "북송(北宋)", "서하(西夏)", "요(遼)", "금(金)",
+        "제(齊)", "초(楚)", "량(梁)", "진(陳)",
+    ]
+    dyn_suffixes = ["때", "시기", "말기", "초기", "중기", "시기에", "때의", "의", "에", "가", "를", "이후에는", "사람으로서"]
+    dynamic_nara_rules = []
+    for dyn in DYNASTIES:
+        for suf in dyn_suffixes:
+            orig = f"{dyn}나라{suf}"
+            repl = f"{dyn}조 {suf}"
+            if orig in text:
+                cnt = text.count(orig)
+                dynamic_nara_rules.append((orig, repl, "1단계-중한(동적)", cnt))
+    for suf in dyn_suffixes:
+        orig = f"당나라{suf}"
+        repl = f"당조 {suf}"
+        if orig in text:
+            cnt = text.count(orig)
+            dynamic_nara_rules.append((orig, repl, "1단계-중한(동적)", cnt))
+
+    log(f"\n  [1단계] 나라→조 + 지명: {len(china_rules)}개 (파일) + {len(dynamic_nara_rules)}개 (동적)")
     step1_rules = []
     for orig, repl in china_rules:
         if orig in text:
             cnt = text.count(orig)
             step1_rules.append((orig, repl, "1단계-중한", cnt))
             log(f"  '{orig}' → '{repl}' ({cnt}건)")
+    for orig, repl, cat, cnt in dynamic_nara_rules:
+        step1_rules.append((orig, repl, cat, cnt))
+        log(f"  '{orig}' → '{repl}' ({cnt}건, 동적)")
 
     log(f"\n  [2단계] TXT 통합규칙: {len(txt_rules)}개 로드")
     step2_rules = []
@@ -569,7 +810,8 @@ def main():
     log(f"  {'━' * 50}")
 
     os.makedirs(BACKUP_DIR, exist_ok=True)
-    backup_path = os.path.join(BACKUP_DIR, os.path.basename(SRC))
+    backup_name = os.path.basename(SRC).replace('.hwp', f'_bak_{time.strftime("%H%M%S")}.hwp')
+    backup_path = os.path.join(BACKUP_DIR, backup_name)
     shutil.copy2(SRC, backup_path)
     log(f"  백업: {backup_path}")
 
@@ -682,26 +924,50 @@ def main():
     log(f"  [4/7] OLE 스트림 쓰기")
     log(f"  {'━' * 50}")
 
-    shutil.copy2(SRC, OUT)
-    log(f"  작업본 복사 완료")
-    hash_before_write = file_hash(OUT)
+    if os.path.exists(OUT_TMP):
+        try:
+            os.remove(OUT_TMP)
+        except:
+            pass
+    shutil.copy2(SRC, OUT_TMP)
+    os.chmod(OUT_TMP, stat.S_IWRITE | stat.S_IREAD)
+    log(f"  작업본 복사 완료: {OUT_TMP}")
+    hash_before_write = file_hash(OUT_TMP)
     log(f"  쓰기 전 해시: {hash_before_write}")
 
-    ole_write = olefile.OleFileIO(OUT, write_mode=True)
     try:
+        ole_write = olefile.OleFileIO(OUT_TMP, write_mode=True)
         for sn in modified_streams:
             data = all_stream_data[sn]
-            log(f"  write_stream('{sn}', {len(data):,} bytes)...")
+            log(f"  쓰기: {sn}, {len(data):,} bytes...")
             ole_write.write_stream(sn, data)
-            log(f"  완료")
+        ole_write.close()
+        log(f"  모든 스트림 쓰기 완료")
     except Exception as e:
         log(f"  [오류] write_stream 실패: {e}")
-        ole_write.close()
+        try:
+            ole_write.close()
+        except:
+            pass
         return
-    finally:
-        ole_write.close()
 
-    hash_after_write = file_hash(OUT)
+    if os.path.exists(OUT):
+        try:
+            os.remove(OUT)
+        except PermissionError:
+            log(f"  [경고] 기존 .hwp 파일 삭제 실패, 새 이름으로 저장")
+            OUT_FINAL = OUT.replace('.hwp', '_new.hwp')
+            if os.path.exists(OUT_FINAL):
+                try:
+                    os.remove(OUT_FINAL)
+                except PermissionError:
+                    OUT_FINAL = OUT.replace('.hwp', f'_new_{time.strftime("%H%M%S")}.hwp')
+    else:
+        OUT_FINAL = OUT
+    os.rename(OUT_TMP, OUT_FINAL)
+    log(f"  .bin → .hwp 변경 완료: {OUT_FINAL}")
+
+    hash_after_write = file_hash(OUT_FINAL)
     log(f"  쓰기 후 해시: {hash_after_write}")
     log(f"  해시 변경됨: {hash_after_write != hash_before_write}")
 
@@ -714,7 +980,7 @@ def main():
     log(f"  {'━' * 50}")
 
     try:
-        ole = olefile.OleFileIO(OUT, write_mode=False)
+        ole = olefile.OleFileIO(OUT_FINAL, write_mode=False)
         streams = ole.listdir()
         body_count = sum(1 for s in streams if s and s[0] == "BodyText")
         for sp in streams:
@@ -736,27 +1002,29 @@ def main():
     log(f"  [6/7] 교정 결과 검증 (수정 전후 비교)")
     log(f"  {'━' * 50}")
 
-    text2 = extract_text(OUT)
+    text2 = extract_text(OUT_FINAL)
     log(f"  수정 후 텍스트: {len(text2):,}자 (원본: {len(text):,}자)")
 
     after_stats = {}
-    for cat in ["것", "수", "따위", "사이", "뿐", "고있", "척", "이상", "밑", "등", "때", "때문", "번",
-                "데", "대로", "만큼", "줄", "듯", "채", "바", "터", "차례", "무렵", "듬"]:
+    for cat in ["것", "수", "따위", "사이", "뿐", "뿐만", "고있", "고+동사", "척", "이상", "이하", "밑", "등", "때", "때문", "번",
+                "데", "대로", "만큼", "줄", "듯", "채", "바", "터", "차례", "무렵", "듬",
+                "중", "상", "우", "하", "같은", "것 같은", "나라"]:
         spaced = text2.count(f" {cat}")
         total = text2.count(cat)
         attached = total - spaced
         after_stats[cat] = {"spaced": spaced, "attached": attached, "total": total}
 
-    log(f"\n  {'패턴':<6} {'전-붙임':>8} {'전-띄움':>8} {'후-붙임':>8} {'후-띄움':>8} {'변화':>8}")
-    log(f"  {'─' * 50}")
-    for cat in ["것", "수", "따위", "사이", "뿐", "고있", "척", "이상", "밑", "등", "때", "때문", "번",
-                "데", "대로", "만큼", "줄", "듯", "채", "바", "터", "차례", "무렵", "듬"]:
+    log(f"\n  {'패턴':<8} {'전-붙임':>8} {'전-띄움':>8} {'후-붙임':>8} {'후-띄움':>8} {'변화':>8}")
+    log(f"  {'─' * 55}")
+    for cat in ["것", "수", "따위", "사이", "뿐", "뿐만", "고있", "고+동사", "척", "이상", "이하", "밑", "등", "때", "때문", "번",
+                "데", "대로", "만큼", "줄", "듯", "채", "바", "터", "차례", "무렵", "듬",
+                "중", "상", "우", "하", "같은", "것 같은", "나라"]:
         b = before_stats.get(cat, {"spaced": 0, "attached": 0})
         a = after_stats.get(cat, {"spaced": 0, "attached": 0})
         diff = b["attached"] - a["attached"]
         if b["attached"] > 0 or a["attached"] > 0:
             mark = "✅" if diff > 0 else ("➖" if diff == 0 else "❌")
-            log(f"  {cat:<6} {b['attached']:>8} {b['spaced']:>8} {a['attached']:>8} {a['spaced']:>8} {diff:>+8} {mark}")
+            log(f"  {cat:<8} {b['attached']:>8} {b['spaced']:>8} {a['attached']:>8} {a['spaced']:>8} {diff:>+8} {mark}")
 
     remaining = 0
     remaining_details = []
@@ -801,7 +1069,7 @@ def main():
         import subprocess
         hwp_exe = r'C:\Program Files (x86)\Hnc\Office 2024\HOffice130\Bin\Hwp.exe'
         if os.path.exists(hwp_exe):
-            proc = subprocess.Popen([hwp_exe, OUT])
+            proc = subprocess.Popen([hwp_exe, OUT_FINAL])
             time.sleep(5)
             poll = proc.poll()
             if poll is None:
@@ -818,14 +1086,14 @@ def main():
     log(f"\n{'=' * 70}")
     log(f"  완료: {time.strftime('%Y-%m-%d %H:%M:%S')}")
     log(f"  총 교정: {total_changes}건")
-    log(f"  출력 파일: {OUT}")
-    log(f"  최종 해시: {file_hash(OUT)}")
+    log(f"  출력 파일: {OUT_FINAL}")
+    log(f"  최종 해시: {file_hash(OUT_FINAL)}")
     log(f"  원본 해시: {src_hash}")
-    log(f"  파일 변경됨: {file_hash(OUT) != src_hash}")
+    log(f"  파일 변경됨: {file_hash(OUT_FINAL) != src_hash}")
     log(f"{'=' * 70}")
 
     os.makedirs(LOG_DIR, exist_ok=True)
-    log_path = os.path.join(LOG_DIR, f"J교정로그_{time.strftime('%Y%m%d_%H%M%S')}.txt")
+    log_path = os.path.join(LOG_DIR, f"L교정로그_{time.strftime('%Y%m%d_%H%M%S')}.txt")
     with open(log_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(log_lines))
     log(f"  로그 저장: {log_path}")
