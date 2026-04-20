@@ -1037,8 +1037,8 @@ def main():
             log(f"  압축: {original_size:,} → {len(new_compressed):,} bytes")
 
             if len(new_compressed) <= original_size:
-                padded = new_compressed + b'\x00' * (original_size - len(new_compressed))
-                log(f"  패딩: {len(new_compressed):,} + {original_size - len(new_compressed):,} null = {len(padded):,}")
+                all_stream_data[sn] = (new_compressed, original_size)
+                log(f"  압축: {len(new_compressed):,} / {original_size:,} (여유: {original_size - len(new_compressed):,})")
             else:
                 log(f"  [경고] 압축 크기 초과! 원본={original_size:,}, 새={len(new_compressed):,}")
                 log(f"  [해결] 압축 레벨을 낮추어 재시도...")
@@ -1046,18 +1046,16 @@ def main():
                 new_compressed2 = co2.compress(new_dec) + co2.flush()
                 log(f"  재압축(level=1): {len(new_compressed2):,} bytes")
                 if len(new_compressed2) <= original_size:
-                    padded = new_compressed2 + b'\x00' * (original_size - len(new_compressed2))
-                    log(f"  패딩: {len(new_compressed2):,} + {original_size - len(new_compressed2):,} null")
+                    all_stream_data[sn] = (new_compressed2, original_size)
+                    log(f"  압축: {len(new_compressed2):,} / {original_size:,} (여유: {original_size - len(new_compressed2):,})")
                 else:
                     log(f"  [오류] 압축 불가! 파일이 너무 커짐")
                     return
 
-            verify_dec = zlib.decompress(padded, -15)
+            verify_dec = zlib.decompress(new_compressed if len(new_compressed) <= original_size else new_compressed2, -15)
             verify_records = parse_records(verify_dec)
             verify_text = extract_text_from_records(verify_records)
-            log(f"  패딩 검증: ✅ 압축해제 일치 (레코드={len(verify_records)}, 텍스트={len(verify_text):,}자)")
-
-            all_stream_data[sn] = padded
+            log(f"  검증: ✅ 압축해제 일치 (레코드={len(verify_records)}, 텍스트={len(verify_text):,}자)")
             modified_streams.append(sn)
         else:
             log(f"  변경 없음")
@@ -1078,7 +1076,7 @@ def main():
     sector_size = ole_info.sector_size
 
     for sn in modified_streams:
-        data = all_stream_data[sn]
+        compressed_data, original_stream_size = all_stream_data[sn]
         sp = sn.split('/')
         sid = ole_info._find(sp)
         entry = ole_info.direntries[sid]
@@ -1086,6 +1084,7 @@ def main():
         start_sector = entry.isectStart
 
         log(f"  스트림: {sn}, size={stream_size:,}, start_sector={start_sector}")
+        log(f"  압축 데이터: {len(compressed_data):,} bytes (스트림 크기: {original_stream_size:,})")
 
         fat = ole_info.fat
         chain = []
@@ -1099,21 +1098,59 @@ def main():
         log(f"  섹터 체인: {len(chain)}개 섹터")
 
         with open(OUT_TMP, 'r+b') as f:
-            data_written = 0
+            data_offset = 0
             for sect_idx, sect in enumerate(chain):
                 offset = sector_size + sect * sector_size
-                chunk_start = data_written
-                chunk_end = min(data_written + sector_size, len(data))
-                chunk = data[chunk_start:chunk_end]
+                if data_offset >= len(compressed_data):
+                    break
+                chunk_end = min(data_offset + sector_size, len(compressed_data))
+                chunk = compressed_data[data_offset:chunk_end]
                 if len(chunk) < sector_size:
-                    chunk = chunk + b'\x00' * (sector_size - len(chunk))
+                    f.seek(offset)
+                    existing = f.read(sector_size)
+                    chunk = chunk + existing[len(chunk):]
                 f.seek(offset)
                 f.write(chunk)
-                data_written += sector_size
-                if data_written >= len(data):
-                    break
+                data_offset += sector_size
 
-        log(f"  직접 쓰기 완료: {len(data):,} bytes → {len(chain)} 섹터")
+        log(f"  직접 쓰기 완료: {len(compressed_data):,} bytes → {min(data_offset, len(compressed_data)):,} bytes 기록")
+
+        if len(compressed_data) != stream_size:
+            with open(OUT_TMP, 'r+b') as f:
+                header = f.read(512)
+                dir_start_sect = struct.unpack_from('<I', header, 48)[0]
+
+                dir_chain = []
+                cur_d = dir_start_sect
+                while cur_d >= 0 and cur_d < len(fat):
+                    dir_chain.append(cur_d)
+                    cur_d = fat[cur_d]
+                    if len(dir_chain) > 100:
+                        break
+
+                entries_per_sect = sector_size // 128
+                sect_idx = sid // entries_per_sect
+                entry_idx = sid % entries_per_sect
+
+                if sect_idx < len(dir_chain):
+                    dir_sect = dir_chain[sect_idx]
+                    dir_entry_offset = sector_size + dir_sect * sector_size + entry_idx * 128
+
+                    f.seek(dir_entry_offset + 120)
+                    old_size_bytes = f.read(4)
+                    old_size = struct.unpack('<I', old_size_bytes)[0]
+
+                    f.seek(dir_entry_offset + 120)
+                    f.write(struct.pack('<I', len(compressed_data)))
+                    f.seek(dir_entry_offset + 124)
+                    f.write(struct.pack('<I', 0))
+
+                    log(f"  디렉토리 엔트리 size 업데이트: {old_size:,} → {len(compressed_data):,}")
+                    log(f"  디렉토리 엔트리 offset: 0x{dir_entry_offset:X} (섹터 {dir_sect}:{entry_idx})")
+                else:
+                    log(f"  [경고] 디렉토리 엔트리를 찾을 수 없음 (sid={sid}, sect_idx={sect_idx})")
+        else:
+            log(f"  디렉토리 엔트리 size 변경 불필요 (동일: {stream_size:,})")
 
     ole_info.close()
 
