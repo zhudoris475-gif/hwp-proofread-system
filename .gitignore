@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.hwp
+*.hwpx
+*.doc
+*.docx
+*.pdf
+*.bak
+*.tmp
+*.log
+.planning/
+hwp_proofreading_package/hwp_work/
+hwp_proofreading_package/reports/
+hwp_proofreading_package/temp_hwpx_extract/
+hwp_proofreading_package/__pycache__/
+gen_py/
