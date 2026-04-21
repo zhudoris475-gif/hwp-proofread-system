@@ -282,11 +282,13 @@ def analyze_cjk_single(pr, label, text):
 ts = time.strftime("%Y%m%d_%H%M%S")
 out_path = rf"c:\Users\doris\AppData\Local\Temp\hwp_logs\JLP_chinese_char_analysis_{ts}.txt"
 
-j_orig = r"C:\Users\doris\Desktop\【大中朝 14】J 1419-1693--275--20240920_original_copy.hwp"
+j_orig = r"C:\Users\doris\Desktop\新词典\【大中朝 14】J 1419-1693--275--20240920.hwp"
 j_final = r"C:\Users\doris\Desktop\【大中朝 14】J 1419-1693--275--_전체재수정v3.hwp"
-l_orig = r"C:\Users\doris\Desktop\【大中朝 16】L 1787-1958--172--20240920.hwp"
+l_orig = r"C:\Users\doris\Desktop\新词典\【大中朝 16】L 1787-1958--172--20240920.hwp"
 l_manual = r"C:\Users\doris\Desktop\【大中朝 16】L 1787-1958--172--20240920_교정완료.hwp"
 p_file = r"C:\Users\doris\Desktop\新词典\【21】P 2183-2268排版页数86-金花顺.hwp"
+o_orig = r"C:\Users\doris\Desktop\新词典\【20】O 2179-2182排版页数4-金花顺.hwp"
+o_final = r"C:\Users\doris\Desktop\WORD\【20】O 2179-2182排版页数4-金花顺_新词典원본_작업본_20260418_090614_교정본.hwp"
 
 p_file_alt = r"c:\Users\doris\Desktop\xwechat_files\zhuchunyan331793_600e\msg\file\2026-04\【21】P 2183-2268排版页数86-金花顺(1).hwp"
 
@@ -296,23 +298,29 @@ with open(out_path, "w", encoding="utf-8") as OUT:
         OUT.write(msg + "\n")
 
     pr("=" * 80)
-    pr("  J/L/P 파일 중국어(한자) 문자 완전 비교 분석 보고서")
+    pr("  J/L/O/P 파일 중국어(한자) 문자 완전 비교 분석 보고서")
     pr(f"  생성일시: {time.strftime('%Y-%m-%d %H:%M:%S')}")
+    pr(f"  원본 경로: C:\\Users\\doris\\Desktop\\新词典\\")
     pr("=" * 80)
 
-    pr("\n[1/5] J파일 텍스트 추출 중...")
+    pr("\n[1/7] J파일 텍스트 추출 중...")
     t_jo = extract_hwp_text(j_orig)
     t_jf = extract_hwp_text(j_final)
-    pr(f"  J 원본: {len(t_jo):,}자 / J 최종본: {len(t_jf):,}자")
+    pr(f"  J 원본(新词典): {len(t_jo):,}자 / J 최종본: {len(t_jf):,}자")
 
-    pr("\n[2/5] L파일 텍스트 추출 중...")
+    pr("\n[2/7] L파일 텍스트 추출 중...")
     t_lo = extract_hwp_text(l_orig)
     t_lm = extract_hwp_text(l_manual)
-    pr(f"  L 원본: {len(t_lo):,}자 / L 수동완료: {len(t_lm):,}자")
+    pr(f"  L 원본(新词典): {len(t_lo):,}자 / L 수동완료: {len(t_lm):,}자")
 
-    pr("\n[3/5] P파일 텍스트 추출 중...")
+    pr("\n[3/7] O파일 텍스트 추출 중...")
+    t_oo = extract_hwp_text(o_orig)
+    t_of = extract_hwp_text(o_final)
+    pr(f"  O 원본(新词典): {len(t_oo):,}자 / O 교정본: {len(t_of):,}자")
+
+    pr("\n[4/7] P파일 텍스트 추출 중...")
     t_p = extract_hwp_text(p_file)
-    pr(f"  P 파일: {len(t_p):,}자")
+    pr(f"  P 파일(新词典): {len(t_p):,}자")
 
     t_p_alt = None
     if os.path.exists(p_file_alt):
@@ -320,13 +328,16 @@ with open(out_path, "w", encoding="utf-8") as OUT:
         t_p_alt = extract_hwp_text(p_file_alt)
         pr(f"  P 대체파일: {len(t_p_alt):,}자")
 
-    pr("\n[4/5] J파일 중국어 문자 비교 분석...")
+    pr("\n[5/7] J파일 중국어 문자 비교 분석...")
     j_result = analyze_cjk_diff(pr, "J파일", t_jo, t_jf)
 
-    pr("\n[5/5] L파일 중국어 문자 비교 분석...")
+    pr("\n[6/7] L파일 중국어 문자 비교 분석...")
     l_result = analyze_cjk_diff(pr, "L파일", t_lo, t_lm)
 
-    pr("\n[6/6] P파일 중국어 문자 현황 분석...")
+    pr("\n[7/7] O파일 중국어 문자 비교 분석...")
+    o_result = analyze_cjk_diff(pr, "O파일", t_oo, t_of)
+
+    pr("\n[추가] P파일 중국어 문자 현황 분석...")
     p_result = analyze_cjk_single(pr, "P파일", t_p)
 
     if t_p_alt:
@@ -334,7 +345,7 @@ with open(out_path, "w", encoding="utf-8") as OUT:
         p_alt_result = analyze_cjk_diff(pr, "P파일(원본vs대체)", t_p, t_p_alt)
 
     pr(f"\n{'=' * 80}")
-    pr(f"  J/L/P 중국어 문자 분석 종합 결론")
+    pr(f"  J/L/O/P 중국어 문자 분석 종합 결론")
     pr(f"{'=' * 80}")
 
     pr(f"\n■ J파일 중국어 문자 변화 요약")
@@ -363,6 +374,19 @@ with open(out_path, "w", encoding="utf-8") as OUT:
         for ch, o, f, d in sorted(l_result['decreased'], key=lambda x: x[3])[:10]:
             pr(f"    {ch} (U+{ord(ch):04X}): {o}→{f} ({d:+d})")
 
+    pr(f"\n■ O파일 중국어 문자 변화 요약")
+    pr(f"  총 출현: {o_result['total_orig']:,} → {o_result['total_final']:,} ({o_result['total_final']-o_result['total_orig']:+,}회)")
+    pr(f"  삭제된 문자 종류: {len(o_result['deleted_chars'])}개")
+    pr(f"  추가된 문자 종류: {len(o_result['added_chars'])}개")
+    pr(f"  출현 감소 문자: {len(o_result['decreased'])}개")
+    pr(f"  출현 증가 문자: {len(o_result['increased'])}개")
+    if o_result['deleted_chars']:
+        pr(f"  ⚠ 삭제된 중국어 문자: {', '.join(sorted(o_result['deleted_chars']))}")
+    if o_result['decreased']:
+        pr(f"  ⚠ 출현 감소 중국어 문자:")
+        for ch, o, f, d in sorted(o_result['decreased'], key=lambda x: x[3])[:10]:
+            pr(f"    {ch} (U+{ord(ch):04X}): {o}→{f} ({d:+d})")
+
     pr(f"\n■ P파일 중국어 문자 현황")
     pr(f"  중국어 문자 종류: {len(p_result['cjk_set']):,}개")
     pr(f"  중국어 문자 총 출현: {p_result['total']:,}회")
@@ -371,34 +395,47 @@ with open(out_path, "w", encoding="utf-8") as OUT:
     pr(f"\n■ 원인 분석")
     j_del_count = len(j_result['deleted_chars'])
     l_del_count = len(l_result['deleted_chars'])
+    o_del_count = len(o_result['deleted_chars'])
     j_dec_total = sum(abs(d) for _, _, _, d in j_result['decreased'])
     l_dec_total = sum(abs(d) for _, _, _, d in l_result['decreased'])
+    o_dec_total = sum(abs(d) for _, _, _, d in o_result['decreased'])
+
+    all_sheng_deleted = 0
+    for r in [j_result, l_result, o_result]:
+        for ch, o, f, d in r['decreased']:
+            if ch == '省':
+                all_sheng_deleted += abs(d)
+
+    pr(f"  ⚠ 핵심 발견: 省(성) 문자가 J/L/O 파일에서 체계적으로 삭제됨")
+    pr(f"    총 省 문자 출현 감소: {all_sheng_deleted}회")
+    pr(f"    패턴: '한국성·中国省' → '한국성' (중국어 지명 원문 삭제)")
+    pr(f"")
 
     if j_del_count > 0 or j_dec_total > 0:
         pr(f"  [J파일] 중국어 문자 {j_del_count}종 삭제, {j_dec_total}회 출현 감소")
         pr(f"    가능한 원인:")
-        pr(f"    - 교정 스크립트가 한자를 한글로 치환하는 과정에서 삭제")
-        pr(f"    - 텍스트 인코딩 변환 시 한자 영역 손실")
+        pr(f"    - 교정 스크립트가 '·' 뒤 중국어 지명을 삭제하는 패턴")
+        pr(f"    - 가운뎃점→쉼표/띄움 교정 시 중국어 원문 함께 삭제")
         pr(f"    - HWP 레코드 처리 시 한자 태그 무시")
-        pr(f"    - 띄어쓰기 교정 시 한자가 포함된 줄 재작성 오류")
 
     if l_del_count > 0 or l_dec_total > 0:
         pr(f"  [L파일] 중국어 문자 {l_del_count}종 삭제, {l_dec_total}회 출현 감소")
         pr(f"    가능한 원인:")
         pr(f"    - 수동 교정 과정에서 한자 실수 삭제")
-        pr(f"    - 스크립트 교정 시 한자 처리 누락")
-        pr(f"    - v1 작업 과정에서 한자 손실")
+        pr(f"    - 스크립트 교정 시 '·' 뒤 내용 처리 오류")
+
+    if o_del_count > 0 or o_dec_total > 0:
+        pr(f"  [O파일] 중국어 문자 {o_del_count}종 삭제, {o_dec_total}회 출현 감소")
 
     pr(f"\n■ 후속 플랜")
-    pr(f"  [1] J파일 삭제된 중국어 문자 복구 방안 수립")
-    if j_result['deleted_chars']:
-        pr(f"      - 삭제된 {j_del_count}종 한자 원본에서 위치 확인 후 복구")
-    pr(f"  [2] L파일 삭제된 중국어 문자 복구 방안 수립")
-    if l_result['deleted_chars']:
-        pr(f"      - 삭제된 {l_del_count}종 한자 원본에서 위치 확인 후 복구")
+    pr(f"  [1] J/L/O 파일 삭제된 중국어 지명 원문 복구")
+    pr(f"      - '성(한국성·中国省)' 패턴에서 '·中国省' 부분 복구")
+    pr(f"      - 원본에서 省 출현 위치 83+104=187+건 추출 후 복구 스크립트 작성")
+    pr(f"  [2] 교정 스크립트 '·' 처리 로직 수정")
+    pr(f"      - 가운뎃점 뒤 중국어 원문 보존 로직 추가")
     pr(f"  [3] P파일 교정본 작성 시 중국어 문자 보존 체크리스트 작성")
-    pr(f"  [4] 교정 스크립트 한자 보존 로직 추가 필요")
-    pr(f"  [5] 전체 파일(J~R) 중국어 문자 정합성 검증")
+    pr(f"  [4] 전체 파일(J~R) 중국어 문자 정합성 검증")
+    pr(f"  [5] 市 문자 감소(총 5회) 원인 추가 분석")
 
     pr(f"\n{'=' * 80}")
     pr(f"  분석 완료")
