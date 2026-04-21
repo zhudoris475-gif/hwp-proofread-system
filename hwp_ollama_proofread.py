@@ -406,34 +406,112 @@ def post_ollama_chat(payload, timeout=120, max_retries=2):
 
 
 def parse_ollama_json_array(resp_text):
-    start = resp_text.find('[')
-    if start < 0:
-        return []
-    depth = 0
-    for i in range(start, len(resp_text)):
-        if resp_text[i] == '[':
-            depth += 1
-        elif resp_text[i] == ']':
-            depth -= 1
-            if depth == 0:
-                try:
-                    return json.loads(resp_text[start:i + 1])
-                except json.JSONDecodeError:
+    all_items = []
+    pos = 0
+    while pos < len(resp_text):
+        start = resp_text.find('[', pos)
+        if start < 0:
+            break
+        depth = 0
+        end = start
+        for i in range(start, len(resp_text)):
+            if resp_text[i] == '[':
+                depth += 1
+            elif resp_text[i] == ']':
+                depth -= 1
+                if depth == 0:
+                    end = i + 1
                     break
-    end = resp_text.rfind(']') + 1
-    if end > start:
-        try:
-            return json.loads(resp_text[start:end])
-        except json.JSONDecodeError:
-            pass
-    return []
+        if end > start:
+            try:
+                arr = json.loads(resp_text[start:end])
+                if isinstance(arr, list) and len(arr) > 0:
+                    all_items.extend(arr)
+            except json.JSONDecodeError:
+                pass
+        pos = end if end > start else start + 1
+    return all_items
+
+
+def apply_dot_rules(text, log_fh=None):
+    corrections = []
+    seen = set()
+
+    quoted_dot_pattern = re.compile(r"([''""‘'][^'""’']+[''""’'])([·•・])([''""‘'][^'""’']+[''""’'])")
+    for m in quoted_dot_pattern.finditer(text):
+        orig = m.group(0)
+        if orig in seen:
+            continue
+        seen.add(orig)
+        repl = f"{m.group(1)}, {m.group(3)}"
+        corrections.append((orig, repl))
+        log(f"  [가운데점 변환-따옴표]: '{orig}' -> '{repl}'", log_fh)
+
+    multi_quoted_dot = re.compile(r"([''""‘'][^'""’']+[''""’'])([·•・])([''""‘'][^'""’']+[''""’'])([·•・])([''""‘'][^'""’']+[''""’'])")
+    for m in multi_quoted_dot.finditer(text):
+        orig = m.group(0)
+        if orig in seen:
+            continue
+        seen.add(orig)
+        parts = re.split(r"[·•・]", orig)
+        repl = ", ".join(parts)
+        corrections.append((orig, repl))
+        log(f"  [가운데점 변환-따옴표]: '{orig}' -> '{repl}'", log_fh)
+
+    dot_pattern = re.compile(r'([가-힣A-Za-z\u4e00-\u9fff]+)([·•・])([가-힣A-Za-z\u4e00-\u9fff]+)')
+    matches = dot_pattern.findall(text)
+
+    for left, dot, right in matches:
+        orig = f"{left}{dot}{right}"
+        if orig in seen:
+            continue
+        seen.add(orig)
+
+        if re.search(r'[가-힣]\([가-힣·•・\u4e00-\u9fff]+\)', orig):
+            log(f"  [가운데점 유지-지명]: '{orig}' (지명 병렬)", log_fh)
+            continue
+
+        if re.search(r'[\u4e00-\u9fff]{2,}[·•・][\u4e00-\u9fff]{2,}', orig):
+            ctx_start = max(0, text.find(orig) - 30)
+            ctx_end = min(len(text), text.find(orig) + len(orig) + 30)
+            ctx = text[ctx_start:ctx_end]
+            if '(' in ctx or '（' in ctx or '《' in ctx or '》' in ctx:
+                log(f"  [가운데점 유지-지명/책제목]: '{orig}'", log_fh)
+                continue
+
+        if re.search(r'[가-힣]{2,}[·•・][가-힣]{2,}', orig):
+            repl = f"{left}, {right}"
+            corrections.append((orig, repl))
+            log(f"  [가운데점 변환]: '{orig}' -> '{repl}'", log_fh)
+
+    multi_dot = re.compile(r'([가-힣\u4e00-\u9fff]+)([·•·])([가-힣\u4e00-\u9fff]+)([·•·])([가-힣\u4e00-\u9fff]+)')
+    for m in multi_dot.finditer(text):
+        orig = m.group(0)
+        if orig in seen:
+            continue
+        seen.add(orig)
+
+        ctx_start = max(0, text.find(orig) - 30)
+        ctx_end = min(len(text), text.find(orig) + len(orig) + 30)
+        ctx = text[ctx_start:ctx_end]
+        if '(' in ctx or '（' in ctx or '《' in ctx or '》' in ctx:
+            log(f"  [가운데점 유지-지명/책제목]: '{orig}'", log_fh)
+            continue
+
+        parts = re.split(r'[·•·]', orig)
+        if len(parts) >= 3:
+            repl = ', '.join(parts)
+            corrections.append((orig, repl))
+            log(f"  [가운데점 변환]: '{orig}' -> '{repl}'", log_fh)
+
+    return corrections
 
 
 def collect_dot_corrections_with_ollama(text, log_fh=None):
     corrections = []
     if not ollama_is_available():
-        log("  Ollama 미실행 - 가운데점 규칙 건너뜀", log_fh)
-        return corrections
+        log("  Ollama 미실행 - 규칙 기반 가운데점 교정 적용", log_fh)
+        return apply_dot_rules(text, log_fh)
 
     dot_contexts = []
     for dot in ["·", "•", "・"]:
@@ -450,21 +528,18 @@ def collect_dot_corrections_with_ollama(text, log_fh=None):
     filtered = [c for c in dot_contexts if not phonetic_pattern.search(c)]
 
     log(f"  가운데점 문맥 발견: {len(dot_contexts)}개 (발음기호 제외: {len(filtered)}개)", log_fh)
-    for i, ctx in enumerate(filtered[:50]):
+    for i, ctx in enumerate(filtered[:20]):
         log(f"    [{i + 1}] {ctx}", log_fh)
-    if len(filtered) > 50:
-        log(f"    ... 외 {len(filtered) - 50}개 생략", log_fh)
+    if len(filtered) > 20:
+        log(f"    ... 외 {len(filtered) - 20}개 생략", log_fh)
 
-    max_ctx = 50
-    for attempt in range(3):
-        batch = filtered[:max_ctx]
+    batch_size = 50
+    processed = 0
+    for batch_start in range(0, len(filtered), batch_size):
+        batch = filtered[batch_start:batch_start + batch_size]
         if not batch:
-            break
+            continue
 
-        # [규칙 파일 경로]
-        # TXT 규칙: C:\Users\51906\Desktop\rules_documentation.txt (5,288개)
-        # 중국 지명: C:\Users\51906\Desktop\rules_china_place.txt (236개)
-        # 정규식(비활성): C:\Users\51906\Desktop\rules_regex.txt (1,032개)
         dot_list = "\n".join([f'  {i + 1}. {c}' for i, c in enumerate(batch)])
         dot_prompt = f"""당신은 조선어 교정 전문가입니다. 가운데점(·, •, ・) 교정 규칙:
 
@@ -521,23 +596,24 @@ def collect_dot_corrections_with_ollama(text, log_fh=None):
 
 		**핵심**: 순수 한국어 병렬 나열(한자·괄호·숫자 없는 동등한 단어 2개 이상)만 쉼표+공백으로 변경. 한자 포함·중국어 포함·숫자 포함·괄호 포함·인명·비병렬연결·책제목·편명은 모두 유지. 지명 격식(한글(한자))이 아닌 가운데점은 절대 수정하지 않음.
 
-아래 문맥에서 가운데점 교정이 필요한 항목만 출력:
+아래 문맥에서 가운데점 교정이 필요한 항목만 JSON 배열로 반환:
 
 {dot_list}
 
-출력 형식:
+JSON 배열만 반환 (다른 텍스트 없이):
 [{{"original":"서울·부산", "corrected":"서울, 부산", "reason":"병렬 단어"}}]
-교정 불필요하면 []"""
+교정 불필요하면 빈 배열 []"""
 
         try:
+            log(f"  [가운데점 배치 {processed//batch_size + 1}] 문맥 {len(batch)}개 처리 중...", log_fh)
             response_json = post_ollama_chat({
                 "model": OLLAMA_MODEL,
                 "messages": [{"role": "user", "content": dot_prompt}],
                 "stream": False,
-                "options": {"num_predict": 2000}
+                "options": {"num_predict": 4000}
             }, timeout=OLLAMA_DOT_TIMEOUT)
             resp_text = response_json.get("message", {}).get("content", "")
-            log(f"  [가운데점-Ollama 응답] (시도 {attempt+1}, 문맥 {len(batch)}개): {resp_text[:300]}", log_fh)
+            log(f"  [가운데점-Ollama 응답] (문맥 {len(batch)}개): {resp_text[:1000]}", log_fh)
             arr = parse_ollama_json_array(resp_text)
             for item in arr:
                 if not isinstance(item, dict):
@@ -547,21 +623,25 @@ def collect_dot_corrections_with_ollama(text, log_fh=None):
                 reason = item.get("reason", "")
                 if orig and corr and orig != corr and orig in text:
                     cnt = text.count(orig)
+                    dot_count = orig.count('·') + orig.count('•') + orig.count('・')
+                    word_count = dot_count + 1
+                    word_type = f"병렬 {word_count}단어" if word_count >= 2 else "단일"
                     corrections.append((orig, corr))
-                    log(f"  [가운데점 교정]: '{orig}' -> '{corr}' ({reason}, {cnt}회)", log_fh)
+                    log(f"  [가운데점 교정] [{word_type}]: '{orig}' -> '{corr}' ({reason}, {cnt}회)", log_fh)
                 elif orig and (not corr or orig == corr):
-                    log(f"  [가운데점 유지]: '{orig}' ({reason or '교정 불필요'})", log_fh)
-            break
+                    dot_count = orig.count('·') + orig.count('•') + orig.count('・')
+                    word_count = dot_count + 1
+                    word_type = f"병렬 {word_count}단어" if word_count >= 2 else "단일"
+                    log(f"  [가운데점 유지] [{word_type}]: '{orig}' ({reason or '교정 불필요'})", log_fh)
+            processed += len(batch)
         except Exception as e:
-            log(f"  가운데점 Ollama 오류 (시도 {attempt+1}, 문맥 {max_ctx}개): {e}", log_fh)
-            if attempt < 2:
-                max_ctx = max_ctx // 2
-                log(f"  문맥을 {max_ctx}개로 줄여서 재시도...", log_fh)
-                time.sleep(3)
-            else:
-                log(f"  가운데점 Ollama 최종 실패", log_fh)
+            log(f"  가운데점 Ollama 오류 (문맥 {len(batch)}개): {e}", log_fh)
+            processed += len(batch)
 
-    log(f"  가운데점 교정 결과: {len(corrections)}개 교정 / {len(filtered)}개 유효 문맥 중 (전체 {len(dot_contexts)}개)", log_fh)
+    log(f"  가운데점 교정 결과: {len(corrections)}개 교정 / {processed}개 처리됨 (전체 {len(dot_contexts)}개)", log_fh)
+    if len(corrections) == 0:
+        log("  Ollama 응답 없음 - 규칙 기반 가운데점 교정 적용", log_fh)
+        return apply_dot_rules(text, log_fh)
     return corrections
 
 
@@ -579,17 +659,15 @@ def should_convert_double_to_single(q):
         return False, "대화형 문장"
     if any(ch in q for ch in "，。？！"):
         return False, "대화형 문장"
-    if len(q) >= 10:
-        return False, "대화형 문장"
     if re.search(r'(吗|呢|吧|啊|呀|啦|嘛|么)$', q):
         return False, "대화형 문장"
 
     if re.fullmatch(r'[零一二三四五六七八九十百千万兩两〇○]+', q):
         return True, "중문 숫자형"
-    if re.fullmatch(r'[\u4e00-\u9fff]{4,12}', q):
-        return False, "중문 성구/구절"
-    if re.fullmatch(r'[\u4e00-\u9fff]{1,6}', q):
+    if re.fullmatch(r'[\u4e00-\u9fff]{1,12}', q):
         return True, "중문 단어형"
+    if re.fullmatch(r'[\u4e00-\u9fff\(\)（）A-Za-z0-9]{1,20}', q):
+        return True, "중문 단어형(괄호포함)"
     if has_hangul and not has_chinese:
         if re.fullmatch(r'[가-힣·ㆍ\- ]{1,9}', q):
             return True, "한글 단어/구"
@@ -634,11 +712,11 @@ def collect_quote_corrections(text, log_fh=None):
         if convert:
             corr = f"{LSQ}{q}{RSQ}"
             corrections.append((orig, corr))
-            log(f"  [따옴표 변환]: '{orig}' -> '{corr}' ({reason}, {count}회)", log_fh)
+            log(f"  [따옴표 변환] [쌍따옴표→홑따옴표]: '{orig}' -> '{corr}' ({reason}, {count}회)", log_fh)
         else:
-            log(f"  [따옴표 유지]: '{orig}' ({reason}, {count}회)", log_fh)
+            log(f"  [따옴표 유지] [쌍따옴표 그대로]: '{orig}' ({reason}, {count}회)", log_fh)
 
-    log(f"  따옴표 교정: {len(corrections)}개", log_fh)
+    log(f"  따옴표 교정 결과: {len(corrections)}개 변환 / {len(hit_map)}개 대상 중", log_fh)
     return corrections
 
 
@@ -657,7 +735,7 @@ def collect_china_korean_corrections(text, china_rules, log_fh=None):
     return corrections
 
 
-def process_hwp_file(filepath, txt_rules, regex_rules, china_rules, log_fh=None):
+def process_hwp_file(filepath, txt_rules, regex_rules, china_rules, ollama_ok=True, log_fh=None):
     fname = os.path.basename(filepath)
     log(f"\n{'=' * 60}", log_fh)
     log(f"파일: {fname}", log_fh)
@@ -688,8 +766,10 @@ def process_hwp_file(filepath, txt_rules, regex_rules, china_rules, log_fh=None)
         cnt = text.count(orig)
         all_corrections.append((orig, repl, "중한규칙", cnt))
         china_matched_srcs.add(orig)
+    log(f"  1단계 결과: {len(china_corrections)}개 교정", log_fh)
 
     log(f"\n--- 2단계: TXT 통합규칙 ({len(txt_rules)}개) ---", log_fh)
+    txt_count = 0
     for src, dst in txt_rules:
         if src in text and not is_protected(src):
             skip = False
@@ -702,6 +782,8 @@ def process_hwp_file(filepath, txt_rules, regex_rules, china_rules, log_fh=None)
             cnt = text.count(src)
             all_corrections.append((src, dst, "TXT규칙", cnt))
             log(f"  [TXT]: '{src}' -> '{dst}' ({cnt}개)", log_fh)
+            txt_count += 1
+    log(f"  2단계 결과: {txt_count}개 교정", log_fh)
 
     if regex_rules:
         log(f"\n--- 2.5단계: 정규식 규칙 ({len(regex_rules)}개) ---", log_fh)
@@ -736,10 +818,13 @@ def process_hwp_file(filepath, txt_rules, regex_rules, china_rules, log_fh=None)
                 log(f"  [정규식 오류]: '{pattern}' - {e}", log_fh)
 
     log(f"\n--- 3단계: 가운데점 Ollama ---", log_fh)
-    dot_corrections = collect_dot_corrections_with_ollama(text, log_fh)
-    for orig, repl in dot_corrections:
-        cnt = text.count(orig)
-        all_corrections.append((orig, repl, "가운데점", cnt))
+    if ollama_ok:
+        dot_corrections = collect_dot_corrections_with_ollama(text, log_fh)
+        for orig, repl in dot_corrections:
+            cnt = text.count(orig)
+            all_corrections.append((orig, repl, "가운데점", cnt))
+    else:
+        log("  Ollama 미연결 - 가운데점 교정 건너뜀", log_fh)
 
     log(f"\n--- 4단계: 따옴표 규칙 ---", log_fh)
     quote_corrections = collect_quote_corrections(text, log_fh)
@@ -842,7 +927,7 @@ def save_report(filepath, all_corrections, total_applied, log_fh=None):
     try:
         with open(report_path, 'w', encoding='utf-8') as f:
             f.write(f"{'=' * 60}\n")
-            f.write(f"HWP 교정 결과 리포트 v17.0 (바이너리 + Ollama)\n")
+            f.write(f"HWP 교정 결과 리포트 v18.1 (바이너리 + Ollama)\n")
             f.write(f"{'=' * 60}\n")
             f.write(f"일시: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             f.write(f"파일: {os.path.basename(filepath)}\n")
@@ -882,7 +967,7 @@ def main():
 
     if not args:
         print("=" * 55)
-        print("  HWP 교정 v17.0 (바이너리 + Ollama)")
+        print("  HWP 교정 v18.1 (바이너리 + Ollama)")
         print("  중한규칙 + TXT규칙 + 정규식 + 가운데점Ollama + 따옴표")
         print(f"  규칙: {RULES_FILE}")
         print(f"  대상: {HWP_DIR}")
@@ -923,7 +1008,7 @@ def main():
 
     with open(LOG_FILE, 'a', encoding='utf-8') as log_fh:
         log(f"\n\n{'#' * 60}", log_fh)
-        log(f"HWP 교정 v17.0: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", log_fh)
+        log(f"HWP 교정 v18.1: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", log_fh)
         log(f"중한 규칙: {len(china_rules)}개", log_fh)
         log(f"TXT 규칙: {len(txt_rules)}개", log_fh)
         log(f"정규식 규칙: {len(regex_rules)}개", log_fh)
@@ -968,7 +1053,7 @@ def main():
                 log(f"  매치 합계: {match_count}개", log_fh)
                 all_file_results.append((os.path.basename(fp), match_count, 0))
             else:
-                applied, corrections = process_hwp_file(fp, txt_rules, regex_rules, china_rules, log_fh)
+                applied, corrections = process_hwp_file(fp, txt_rules, regex_rules, china_rules, ollama_ok, log_fh)
                 grand_total += applied
                 all_file_results.append((os.path.basename(fp), len(corrections), applied))
                 save_report(fp, corrections, applied, log_fh)
