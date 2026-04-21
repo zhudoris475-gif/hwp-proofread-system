@@ -311,10 +311,7 @@ def classify_entry(orig_text, corr_text, heading, valid_word_set=None):
 
     kr_ratio = SequenceMatcher(None, orig_kr_str, corr_kr_str).ratio()
 
-    if heading in ('信', '子之交淡如水', '己己溺', '梭', '机关算尽', '槽', '涛骇浪', '葭苍苍', '阅'):
-        print(f"  [DEBUG] 【{heading}】 kr_ratio={kr_ratio:.4f} orig_len={len(orig_kr_str)} corr_len={len(corr_kr_str)}")
-
-    if orig_kr_str == corr_kr_str or kr_ratio >= 0.95:
+    if orig_kr_str == corr_kr_str or kr_ratio >= 0.94:
         orig_korean_all = extract_korean_words(orig_text)
         corr_korean_all = extract_korean_words(corr_text)
         orig_korean_valid = [w for w in orig_korean_all if is_valid_korean_word(w, valid_word_set)]

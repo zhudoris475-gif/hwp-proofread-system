@@ -20,6 +20,16 @@ SECTIONS = {
         'corr': r"C:\Users\doris\Desktop\【大中朝 16】L 1787-1958--172--20240920_교정완료.hwp",
         'label': 'L편 (1787-1958)',
     },
+    'O': {
+        'orig': r"C:\Users\doris\Desktop\新词典\【20】O 2179-2182排版页数4-金花顺.hwp",
+        'corr': r"C:\Users\doris\Desktop\WORD\【20】O 2179-2182排版页数4-金花顺_新词典원본_작업본_20260418_090614_교정본.hwp",
+        'label': 'O편 (2179-2182)',
+    },
+    'M': {
+        'orig': r"C:\Users\doris\Desktop\新词典\【大中朝 17】M 1959-2093--135--20240920.hwp",
+        'corr': r"C:\Users\doris\HWP_Ollama_Workbench_new\documents\【大中朝 17】M 1959-2093--135--20240920_2010작업본.codex-d460362d64e54c3e99f57f25ec0a4fd0.hwp",
+        'label': 'M편 (1959-2093) 작업본',
+    },
 }
 
 COMMON_CHINESE = set(
