@@ -1156,12 +1156,15 @@ def main():
 
     if os.path.exists(OUT):
         try:
+            os.chmod(OUT, stat.S_IWRITE | stat.S_IREAD)
             os.remove(OUT)
+            OUT_FINAL = OUT
         except PermissionError:
             log(f"  [경고] 기존 .hwp 파일 삭제 실패, 새 이름으로 저장")
             OUT_FINAL = OUT.replace('.hwp', '_new.hwp')
             if os.path.exists(OUT_FINAL):
                 try:
+                    os.chmod(OUT_FINAL, stat.S_IWRITE | stat.S_IREAD)
                     os.remove(OUT_FINAL)
                 except PermissionError:
                     OUT_FINAL = OUT.replace('.hwp', f'_new_{time.strftime("%H%M%S")}.hwp')
