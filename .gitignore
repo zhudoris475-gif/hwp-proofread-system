@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs (keep latest, ignore old)
+hwp_comparison_log_v*.txt
+!hwp_final_report_*.txt
+
+# OS
+Thumbs.db
+.DS_Store

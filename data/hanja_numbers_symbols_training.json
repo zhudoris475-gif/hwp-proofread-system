@@ -1,0 +1,4569 @@
+[
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2016, 11, 2007",
+    "output": "2016년 11월에 간행된 《조선말규범집》은 2007년에  출판된 《조선말규범집》을 바탕으로 부분적  내용들을 수정,보충하였다.  이 규범집에 수록된 내용들은 중국조선어사정위원회에서  심의, 채택한 것이므로 국내 조선어사용에서반드시  지켜야 할 규범들이다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2016",
+        "11",
+        "2007"
+      ],
+      "paragraph_index": 62
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2, 1986, 10",
+    "output": "새 《조선말규범집》이  발간된 지도 이젠 2년이란 시간이  지났다.  이에 우리는 새 《조선말규범집》에 규정된 제반규범들을 더 잘 리해하고 더 잘 장악하도록 하기 위하여1986년 10월에 연변인민출판사에서 출판한 《〈조선말규범집〉해설》의 내용을 참고로 새로 보충하여 《〈조선말규범집〉해설》을 펴낸다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2",
+        "1986",
+        "10"
+      ],
+      "paragraph_index": 63
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2018, 12, 5",
+    "output": "2018년 12월 5일",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2018",
+        "12",
+        "5"
+      ],
+      "paragraph_index": 68
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 6, 31",
+    "output": "제6장  동화현상이 일어날 때의 발음  \t 31",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "6",
+        "31"
+      ],
+      "paragraph_index": 86
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 7, 44",
+    "output": "제7장  사이소리현상이 일어날 때의 발음  \t 44",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "7",
+        "44"
+      ],
+      "paragraph_index": 87
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 10",
+    "output": "10) 당조직, 국가기구, 인민단체, 행정구역 등의 명칭",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "10"
+      ],
+      "paragraph_index": 117
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 16",
+    "output": "16) 앞의 명사를 다시 받는 명사와 관련한 띄여쓰기",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "16"
+      ],
+      "paragraph_index": 133
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 177",
+    "output": "폭자, 시…’등명 사봐관 련한띄여 \t 177",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "177"
+      ],
+      "paragraph_index": 141
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 18",
+    "output": "18) 붙여쓰편 ㅂ른 뜻이 생길 경수외 관련한 띄여쓰",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "18"
+      ],
+      "paragraph_index": 142
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2, 178",
+    "output": "제2장 수사 봐관 련한킈 \t 178",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2",
+        "178"
+      ],
+      "paragraph_index": 145
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 3",
+    "output": "3) 조선문자외 야라비야수자를 쓔어적는 경수의 띄여쓰",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "3"
+      ],
+      "paragraph_index": 148
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 4",
+    "output": "4) 수사가 힌체기관 이름과 결합될 뺴의 끠여쓰기",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "4"
+      ],
+      "paragraph_index": 151
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 3",
+    "output": "(3) 토‘-아, - 어, - 여’뺘로 냐음에 호는 보조훃",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "3"
+      ],
+      "paragraph_index": 162
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 4",
+    "output": "(4) 동사, 형훃사의 규정형 뒤에 호는‘듯, 만, 번,",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "4"
+      ],
+      "paragraph_index": 165
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 188",
+    "output": "룰 경수의 띄여쓰\t 188",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "188"
+      ],
+      "paragraph_index": 171
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2007, 8, 7",
+    "output": "2007년 〈조선말 표준발음법〉은 총칙과 8개 장으로 구성되였다.  그러나 새로운 규범집은 총칙과 7개 장으로 구성되였다.  2007년 표준발음법에서의 제3장(받침소리의  발음)과 제4장(받침이 뒤의 모음과 이어질 때의  발음)을 새규범집에서는 한개 장으로 처리하였고 2007년 표준발음법에서의 제5장(받침에 따라 그 뒤의 순한소리를 된소리로내는 발음)을 새 규범집에서는 제4장(된소리현상과 관련한발음)으로 처리하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2007",
+        "8",
+        "7",
+        "2007",
+        "3"
+      ],
+      "paragraph_index": 230
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 1",
+    "output": "제1항에서는 “‘ㅚ, ㅟ’는 홀모음으로 발음하는 것을원칙으로 한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "1"
+      ],
+      "paragraph_index": 233
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2",
+    "output": "제2항에서는 “‘니’는 단어의  첫머리에서  겹모음으로발음하는 것을 원칙으로 한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2"
+      ],
+      "paragraph_index": 252
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 4",
+    "output": "제4항에서는“단어 첫머리의‘ㄴ, ㄹ’은 모든 모음 앞에서 [ㄴ, ㄹ]로 발음하는 것을 원칙으로 한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "4"
+      ],
+      "paragraph_index": 273
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2007",
+    "output": "그러나‘ㄴ’을 그대로 표기하는 표기법의  영향, 외래어의  영향에 의하여 오늘날 새로운 세대들은 물론 상당한수의 사람들이 그대로 발음하고 있다.  특히 외래어‘뉴스,뉴욕’등의 단어들은 절대다수의 사람들이  그대로 발음하고 있다.  그러므로 새 규범집에서는 단어의 첫머리의‘ㄴ’을 모음‘ㅕ, ㅍ, ㅠ,  ㅣ’ 앞에서 그대로 발음하는 것을원칙으로 하고 2007년 규범집에서의‘ㄴ’을 탈락시켜  발음하는 허용발음을 취소하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2007"
+      ],
+      "paragraph_index": 275
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2007",
+    "output": "그러나 ‘ㄹ’의  발음도 ‘ㄹ’을 그대로 표기하는 표기법의  영향, 외래어의  영향으로 새로운 세대들은 물론 상당한수의 사람들이  그대로 발음하고 있다.  특히 외래어  ‘라지오, 레코드, 로라스케트’ 등의 단어들은 절대다수의 사람들이  그대로 발음하고  있다.  그러므로 새  규범집에서는‘ㄹ’을 그대로 발음하는 것을 원칙으로 하였다.  즉 새로운규범집에서는 2007년 규범집에서의  [ㄴ]으로 발음하거나‘ㄹ’을 탈락시켜서 발음하는 허용발음을 취소하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2007"
+      ],
+      "paragraph_index": 286
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 7",
+    "output": "조선말에서 자음은 음절의 위치에  따라 발음이  다르다.  음절의 첫소리로 될 때는 모든 자음을 똑똑히 발음하나 음절의 끝소리, 즉 받침으로 될 때에는 닫힌소리로 되면서 [ㄱ, ㄴ, ㄷ, ㄹ, ㅁ,  ㅂ,  ㅇ]의 7개 받침소리로 발음한다.  그중 [ㄱ,  ㄷ,  ㅂ]은 무성음이고 [ㄴ,  ㄹ,  ㅁ,",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "7"
+      ],
+      "paragraph_index": 315
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 16, 11, 27",
+    "output": "삐를  들‘사,  자,  차,  싸’에 서음절 의첫리‘h, ス, ス, ㅆ’은  똑똑 히구별된.  그러‘[ ],낮[낟], 빛[빋], 있냐[읻따]'에서  음절 의끝소‘,  ,ㅊ, ㅆ’은  모 두받켐 [리]ㄷ흐로발음. 냐조선말받침으로 쓰이는 자모는  홓받칀‘,  ,  ,  ,  ,日, 又, ò, ス, ス, コ, そ, コ, ㅎ, ㄲ, ス’의 16개, 둘받침에‘ㄳ, 以, 以, 己, 即, 己, 己, 己, 己, 己, 以’의11개 도합 27개나 있으니 받침소리로 발음하는 것은 7개밖에 없냐. 둘받챰은 하나의 받침소리로만 나는네 페빼정히강한 소리만 발음한냐.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "16",
+        "11",
+        "27",
+        "7"
+      ],
+      "paragraph_index": 321
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 7",
+    "output": "제7항에서는“‘아, 어, 오, 우, 으, 애, 에, 외’로 시작한 어근의  앞에  있는 받침‘ㅋ, ㄲ,  ㄹ’,  ‘ㅅ, ㅈ,  ㅊ,",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "7"
+      ],
+      "paragraph_index": 388
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 8",
+    "output": "제8항에서는 “받침‘ㅇ’은 모음  앞에서도 받침소리[ㅇ]으로 발음하는 것을 원칙으로 한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "8"
+      ],
+      "paragraph_index": 404
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 9",
+    "output": "받침 ‘ㄴ,  ㄴ’의 받침소리는 [ㄴ]이고 받침 ‘ㅁ, ㅁ’의 받침소리는 [ㅁ]이며  받침  ‘王’의  받침소리는 [ㄹ]이다.  이 받침소리들은 제9항과는 사정이 달라서 첫째로, 반드시 용언어근의 끝음절 받침소리여야 되고 둘째로, 반드시 토나 접미사를 만날 경우여야 되고 셋째로, [ㄹ]받침소리는 반드시 둘받침의  받침소리여야 한다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "9"
+      ],
+      "paragraph_index": 431
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 11, 2",
+    "output": "그리고 제11항 [붙임 2]에 밝히여있다싶이  [ㄹ]받침소리를 가진 수사‘열, 여덟’아래에 오는 명사의  첫머리의순한소리도 된소리로 발음한다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "11",
+        "2"
+      ],
+      "paragraph_index": 469
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 7, 13, 14",
+    "output": "‘ㅎ’의  발음 은비교 적복잡. 냐    장 7서는경수로 나누어 서술하였는네 크게는 두가지 측편으로 설명할 수 있냐. 하나는‘ㅎ’이 받칀으로 되면서 야래에 호는자모음꽈 결합될 빼의 발음이고 니른 하나는 음젤의 첫소리로 되면서 우에 오는 자모음과 결합될  때 의발슴.첫째 경수에는 제13항, 제14항, 제15항, 제16항이 속하고둘째 경수에는 제17항, 제18항, 제19항이 속한냐.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "7",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "paragraph_index": 482
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 6",
+    "output": "제6장  동화현상이  일어날 때의  발음",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "6"
+      ],
+      "paragraph_index": 567
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 24",
+    "output": "제24항에서는 “합성어 또는 파생어에서  앞 형태소의끝소리가 ‘ㄴ’이고 뒤 형태소의  첫소리가 ‘ㄹ’일 때는 제대로 [ㄴ,  ㄹ]로 발음하는 것을 원칙으로 하면서 [ㄴ, ㄴ]으로 발음할 수도 있다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "24"
+      ],
+      "paragraph_index": 634
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 0, 0",
+    "output": "발음은 호상동화가 일어난 것이다.  즉‘격렬’은 [ㄱ+ㄹ→0+ㄹ→0+ㄴ]으로 되고‘법률’은 [ㅂ+ㄹ→ㅁ+ㄹ→ㅁ+ㄴ]으로 되였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "0",
+        "0"
+      ],
+      "paragraph_index": 679
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 26",
+    "output": "제26항에서는“한자어  안에서  받침  ‘ㄴ’ 뒤에  ‘ㄴ’이올 때는 제대로 [ㄴ, ㄴ]으로 발음하는 것을 원칙으로 한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "26"
+      ],
+      "paragraph_index": 680
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 0, 0",
+    "output": "이 현상 역시  역행동화로서(이 동화는 또한 부분동화와 직접동화에 속한다.) 동화의 결과 동화되는 소리가 다른 계렬의 소리로 되였다. 즉 혀끝소리가 혀뿌리소리의 동화에 의하여 혀뿌리소리(반갑다[방갑다](ㄴ→0))로 되고입술소리가 혀뿌리소리의 동화에 의하여 혀뿌리소리(참기름[창기름](ㅁ→0))로 되였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "0",
+        "0"
+      ],
+      "paragraph_index": 723
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 7",
+    "output": "제7장  사이소리현상이  일어날 때의  발음",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "7"
+      ],
+      "paragraph_index": 742
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 28",
+    "output": "제28항에서는 “합성어(또는 파생어)에서  앞 형태소가유향음이거나 모음으로 끝나고 뒤 형태소의 첫소리가 순한소리일 때는 그 순한소리를 된소리로 발음한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "28"
+      ],
+      "paragraph_index": 745
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 29",
+    "output": "제29항에서는 “합성어(또는 파생어)에서  앞 형태소가자음으로 끝나고 뒤 형태소가 모음 ‘ㅑ,  ㅕ, ㅛ, ㅠ,  ㅣ’로 시작될 때는 아래음절의 첫소리에  언제나 [ㄴ]을 덧내여 발음한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "29"
+      ],
+      "paragraph_index": 824
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 30",
+    "output": "제30항에서는 “합성어(또는 파생어)에서  앞 형태소가모음으로 끝나고 뒤 형태소가 유향음‘ㄴ,ㅁ’으로 시작될때는 그 사이에 [ㄴ]을 덧내여 발음한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "30"
+      ],
+      "paragraph_index": 848
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 31",
+    "output": "제31항에서는“합성어(또는 파생어)에서  앞 형태소가모음으로 끝나고 뒤 형태소가 ‘야, 여, 요, 유,  이’로 시작될 때는 그 사이에 [ㄴ, ㄴ]을 덧내여  발음한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "31"
+      ],
+      "paragraph_index": 868
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 1",
+    "output": "제1항에서는 조선말 자모의 차례와 그 이름을 다음과같이 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "1"
+      ],
+      "paragraph_index": 911
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 40, 19, 21",
+    "output": "우리말의 자모는 모두 40개이다.  그 가운데서 자음자는 19개이고 모음자는 21개이다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "40",
+        "19",
+        "21"
+      ],
+      "paragraph_index": 934
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 10",
+    "output": "홀모음:  ㅏ,  ㅓ, ㅗ, ㅜ, ㅡ,  ㅣ,  ㅐ,  ㅔ, ㅚ,  ㅟ(10개)",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "10"
+      ],
+      "paragraph_index": 941
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 11",
+    "output": "겹모음:  ㅑ,  ㅕ, ㅛ, ㅠ,  ㅒ,  ㅖ, ㅘ, ㅝ, ㅞ, ㅢ,ㅢ(11개)",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "11"
+      ],
+      "paragraph_index": 942
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2, 3, 7",
+    "output": "형래소를 고정시켜 표기하는 문제에서  받침을 어떻게바로잡아 쓸 것인가? 제2항과 제3항에서는 이 문제에 대하여 규정하였고 제7항에서는 형태소가 줄어질 때의  받침을바로잡아 쓰는 문제를 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2",
+        "3",
+        "7"
+      ],
+      "paragraph_index": 955
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2, 7",
+    "output": "제2항에서는 조선말에서 쓰이는 받침들을 적었다.  오늘날 우리가 쓰는 받침소리는 7개뿐이지만 글로 적는 받침",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2",
+        "7"
+      ],
+      "paragraph_index": 957
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 27, 16, 11",
+    "output": "은 27개가 있다. 그중 홀받침이 16개이고 둘받침이 11개이다. 받침으로 쓰이는 자음은 다음과 같다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "27",
+        "16",
+        "11"
+      ],
+      "paragraph_index": 962
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 3",
+    "output": "넷째, 제3항에서“받침‘ㄷ, ㅅ, ㅈ, ㅊ,  ㅌ, ㅆ’가운데서 어느 하나로 밝혀 적을 수 없는 것은‘ㅅ’으로 적는다.”와 같이 규정을 한 것은 재배로 써오던 습관에 따르는 려사주의원칙을 적용한 것이다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "3"
+      ],
+      "paragraph_index": 1017
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 6",
+    "output": "제6항은 한 형태소 안에서 같은 음절이나 비슷한 음절이  겹쳐나는 것을 갈거나 비슷한 글자로 적는 규정이다.이와 같은 규정은 ‘ㅡ하다’형 형용사의  어근적  단어를 고정시키고 음절간의  발음현상을 직접 표기에  반영하려는 목적에서  나온 규정이다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "6"
+      ],
+      "paragraph_index": 1066
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 3, 8, 14",
+    "output": "제3장은 제8항부러 제14항까지인데 제8항에서는 어간과 토를 밝혀 적는 기본적인 원칙에 내하여 규정하였고 제9항부러 제14항까지는 특수한 경우의  어간과 토의 적기에내하여 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "3",
+        "8",
+        "14",
+        "8",
+        "9"
+      ],
+      "paragraph_index": 1086
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 8",
+    "output": "제8항에서는 어간과 토가 어울릴 때에 각각 그 원 형래를 밝혀 적는 것을 원칙으로 하면서 밝혀 적지 못하는경우에 대해서도 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "8"
+      ],
+      "paragraph_index": 1088
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 9",
+    "output": "제9항에서는 일부 용언에서  어간에 토가 어울릴 적에어간의 끝소리가 일정하게  바뀌여지는 것은 바뀐 내로 적는다고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "9"
+      ],
+      "paragraph_index": 1119
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 10",
+    "output": "제10항에서는 모음조화현상과 관련하여  동사,  형용사어간의 모음의 성질에 따라 토 ‘—아,  — 어,  — 여’와 ‘—았—, —었—, —였—’을 구별하여 적을 데 대하여 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "10"
+      ],
+      "paragraph_index": 1226
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 11",
+    "output": "제11항에서는“모음으로 끝난 어간꽈 모음흐로 시작한토나 접미사가 어울릴 빼에는 소리가 줄어진 것은 준 내로적을 수 있냐.”고 규정하였냐.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "11"
+      ],
+      "paragraph_index": 1274
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2",
+    "output": "2) 모음으로 시작한 토‘ㅏ’,  ‘ㅓ’앞에서  어간의 모음‘ㅡ’가 줄어드는 경우.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2"
+      ],
+      "paragraph_index": 1325
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 3",
+    "output": "3) 어간의 모음과 그 어간 모음과 같은 모음으로 시작한 토가 겹쳐서 하나로 줄어드는 경우.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "3"
+      ],
+      "paragraph_index": 1327
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 12",
+    "output": "제12항에서는 어간과 토가 녹아붙어 소리가 줄어질 때에는 줄어진 내로 적을 수 있다고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "12"
+      ],
+      "paragraph_index": 1335
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 4, 4, 15",
+    "output": "제4장은 모두 4개 항으로 나뉘여 규정되었다.  제15항은 기본적으로 형태주의원칙에 준한 것이고 제16항, 제17항, 제18항은 표음주의원칙을 따르는 특수한 경우에 대한규정이다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "4",
+        "4",
+        "15",
+        "16",
+        "17"
+      ],
+      "paragraph_index": 1386
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 15",
+    "output": "제15항에서는“합성어는 매개  어근의  형태를 각각 밝혀 적는 것을 원칙으로 한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "15"
+      ],
+      "paragraph_index": 1388
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 1",
+    "output": "1) 자음과 자음 사이에서  어음동화현상이  일어나는 경우.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "1"
+      ],
+      "paragraph_index": 1396
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2",
+    "output": "2) 자음과 자음 사이에서 절음현상이  일어나는 경우.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2"
+      ],
+      "paragraph_index": 1398
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 20",
+    "output": "제20항에서는“자음으로 시작된 접미사가 어근과 어울릴 때 그 형태를 각각 밝혀 적는 것을 원칙으로 한다.”고규정하였다.  그것은 자음으로 시작된 대부분의  접미사는어근과 어울릴  경우에도 형태소 계선이 분명하므로 능히형태소를 밝혀 적을 수 있기 때문이다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "20"
+      ],
+      "paragraph_index": 1480
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 1",
+    "output": "1) 새 단어를 만드는 접미사",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "1"
+      ],
+      "paragraph_index": 1483
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 3",
+    "output": "3) 강조의 뜻을 나타내는 접미사 ‘—치’",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "3"
+      ],
+      "paragraph_index": 1510
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 4",
+    "output": "4) 형용사를 동사로 만드는 접미사 ‘-히’, ‘-추’",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "4"
+      ],
+      "paragraph_index": 1520
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 22",
+    "output": "제22항에서는 모음으로 시작된 접미사가 어근과 어울릴 때 나서는 맞춤법에  대하여 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "22"
+      ],
+      "paragraph_index": 1575
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 23",
+    "output": "제23항에서는 부사를 만드는 접미사 ‘ㅡ이’와 ‘ㅡ히’를 어떻게  갈라 적을 것인가 하는 데  대하여  규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "23"
+      ],
+      "paragraph_index": 1717
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 1",
+    "output": "1.  어간에  ‘하다’를 붙일 수 있는 부사.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "1"
+      ],
+      "paragraph_index": 1725
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2",
+    "output": "2.  어간에 ‘하다’를 붙일 수 없는 부사는 ‘ㅡ이’로 적는 것을 원칙으로 한다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2"
+      ],
+      "paragraph_index": 1738
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 24",
+    "output": "제24항에서는 “한자어는 음절마다 조선어  현대 한자음에 따라 적는 것을 원칙으로 한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "24"
+      ],
+      "paragraph_index": 1749
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 26",
+    "output": "제26항에서는“한자어에서 모음‘ㅖ’가 들어있는 음절로는‘계’,  ‘례’,  ‘혜’,  ‘예’만을 인정한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "26"
+      ],
+      "paragraph_index": 1777
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 27",
+    "output": "제27항에서는“한자어에서 모음‘니’가 들어있는 음절로는‘희’,  ‘의’만을 인정한다.”고 규정하였다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "27"
+      ],
+      "paragraph_index": 1788
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 1",
+    "output": "(1) 명사를 만드는 데 쓰이는 접두사",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "1"
+      ],
+      "paragraph_index": 1859
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2",
+    "output": "(2) 동사를 만드는 데 쓰이는 접두사",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2"
+      ],
+      "paragraph_index": 1941
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 3",
+    "output": "(3) 형용사를 만드는 데 쓰이는 접두사",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "3"
+      ],
+      "paragraph_index": 1966
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 1",
+    "output": "(1) 명사를 만드는 몌 쓰이는 접미사ㅡ군:  ‘어떤 일을 하는 사람’의 뜻을 나타낸다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "1"
+      ],
+      "paragraph_index": 1977
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2",
+    "output": "(2) 동사를 만드는 데 쓰이는 접미사",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2"
+      ],
+      "paragraph_index": 2010
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 3",
+    "output": "(3) 형용사를 만드는 데 쓰이는 접미사—다랗:  ‘상당한 정도로’의 뜻을 나타낸다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "3"
+      ],
+      "paragraph_index": 2022
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 4",
+    "output": "(4) 부사를 만드는 테 쓰이는 접미사",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "4"
+      ],
+      "paragraph_index": 2033
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2",
+    "output": "(2) 시간과 공간의 뜻을 나타내는 명사와 이에 준하는명사는 앞의 단어와 띄여쓴다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2"
+      ],
+      "paragraph_index": 2117
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2007",
+    "output": "이 부류의 단어들은 2007년의 규범에서는 붙여쓴다고규정하였으나 새 규범의 종칙 “조선말은 단어를 단위로 하",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2007"
+      ],
+      "paragraph_index": 2118
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 5, 1, 10",
+    "output": "경(頃): 5월경, 두시경, 1시 10분경.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "5",
+        "1",
+        "10"
+      ],
+      "paragraph_index": 2203
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 5",
+    "output": "래(來): 몇십년래 오는 더위, 5년래.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "5"
+      ],
+      "paragraph_index": 2209
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2, 20",
+    "output": "말(末): 2월말 생산실적, 20세기말.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2",
+        "20"
+      ],
+      "paragraph_index": 2210
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 1951",
+    "output": "생(生): 1951년생.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "1951"
+      ],
+      "paragraph_index": 2225
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 8",
+    "output": "초(初): 금년초에, 8월초에, 이달초에.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "8"
+      ],
+      "paragraph_index": 2235
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 1",
+    "output": "수 1: 한~를 앞서 내다보다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "1"
+      ],
+      "paragraph_index": 2325
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 1",
+    "output": "자 1: 꽃천 다섯~.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "1"
+      ],
+      "paragraph_index": 2343
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 6",
+    "output": "조선민족의  성과 이름,  성과 호는 정식  이름이므로“고유한 대상의  이름은 붙여쓴다.”는 제6항의 규정꽈 “한국꽈 조선이 합의를 본 것은 그대로 쓴다.”는 종칙에 따라붙여써야 한다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "6"
+      ],
+      "paragraph_index": 2444
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2",
+    "output": "할빈지조선족제2중학교",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2"
+      ],
+      "paragraph_index": 2482
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 10",
+    "output": "10) 당조직, 국가기구, 인민단체, 행정구역 등의 명칭과 관련한 띄여쓰기",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "10"
+      ],
+      "paragraph_index": 2484
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 6",
+    "output": "아시아 제6차 예술축제",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "6"
+      ],
+      "paragraph_index": 2511
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 17, 1",
+    "output": "중국공산당 제17기 중앙위원회 제1차 전원회의",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "17",
+        "1"
+      ],
+      "paragraph_index": 2514
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 17, 1",
+    "output": "(당중앙 제17기 제1차 전원회의)",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "17",
+        "1"
+      ],
+      "paragraph_index": 2515
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 55",
+    "output": "연길지 각족각계 인민 연변조선족자치주 창립 55돟 경축대회",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "55"
+      ],
+      "paragraph_index": 2516
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 1",
+    "output": "제1회 전국조선족축구대회",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "1"
+      ],
+      "paragraph_index": 2518
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 16",
+    "output": "16) 앞의 명사를 다시 받는 명사와 관련한 띄여쓰기",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "16"
+      ],
+      "paragraph_index": 2530
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 17",
+    "output": "17) 사람의 이름 뒤에 오는 ‘작곡. 작사. 안무. 각색. 목각.시…’등 명사와 관련한 띄여쓰기",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "17"
+      ],
+      "paragraph_index": 2541
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2",
+    "output": "제2장  수사와 관련한  띄여쓰기",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2"
+      ],
+      "paragraph_index": 2553
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 2007, 7, 8",
+    "output": "2007년의 규범에서는 띄여쓰기 제7항과 제8항에서 수",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "2007",
+        "7",
+        "8"
+      ],
+      "paragraph_index": 2555
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 7",
+    "output": "제7항 수사는 아라비아수자로 적는 것을 원칙으로 하되 조선문자로 단위를 달아줄 경우거나 순 조선문자로 적을 경우에는 ‘만,  억, 조’등의 단위에서 띄여쓴다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "7"
+      ],
+      "paragraph_index": 2561
+    }
+  },
+  {
+    "instruction": "解释以下数字的使用规则",
+    "input": "包含数字: 8",
+    "output": "제8항 수사가 완전명사와 어울리는 경우에는 띄여쓴다.  … 그러나 단위명사와 어울리는 경우에는 붙여쓴다.",
+    "metadata": {
+      "category": "numbers",
+      "type": "number_rule",
+      "numbers": [
+        "8"
+      ],
+      "paragraph_index": 2562
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "폭자, 시…’등명 사봐관 련한띄여 \t 177",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 141
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "폐하면‘낫이, 낫에, 낫을, 낫으로’, ‘낮이, 낮에, 낮을, 낮으로’, ‘낮이, 낮에, 낮을, 낮으로’에서처럼 모음토를 붙일 수 있는 경우는 그 형태를 각각 밝혀서‘낫, 낮,낮…’으로 적을 수 있다. 그러나‘읒별, , 숫돌, 헛소리, 싯누렇다, 짓밟다’의 경우는 밝혀 적을 수 없다.  그것은‘읒별,  , 숫돌, 헛소리, 싯누렇다, 짓밟다’  등에서  접두사‘읓-’, ‘숫-’,  ‘헛-’,  ‘싯-’, ‘짓-’  뒤에서는 토나접미사가 오는 경우가 없으므로 그 받침이‘ㄷ,  ㅅ,  ㅈ,ㅊ,  ㅌ, ㅆ’가운데 어느 것인지 알아낼 수가 없기 때문이다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 1018
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "낳다, 넣다, 놓다, 탛다, 좋다, 떻다, 빻다, 찡다…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 1170
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "걷다(길을 ~),  걷다, 눌다,  닫다(벌판을 ~),다닫다, 듣다, 묻다(물음을 ~), 싣다, 께닫다…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 1180
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "걷다(소매를 ~), 곧다, 굳다, 닫다(문을 ~)돋다, 묻다(땅에 ~), 믿다, 받다, 벋다, 얻다…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 1183
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "용언어간의 모음이  ‘ㅏㅡ, ㅗㅡ’인 경우라도 어간의끝에 받침이  있는 단어는 이 부류에 들지 않는다.  례를 들면 ‘공글다, 다듬다, 만들다…’에서는 ‘공글아, 공글았다;다듬아, 다듬았다; 만들아, 만들았다…’로 적지  않고 ‘공글어, 공글였다; 다듬어, 다듬었다; 만들어, 만들였다…’로 적는다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 1241
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "‘대다’,  ‘뭉개다’,  ‘보래다’,  ‘배다’,  ‘새다’(날이~, 물이  ~),  ‘재다’(키를 ~),  ‘캐다’,  ‘패다’(이삭이~, 나무를 ~),  ‘깨다’,  ‘째다’,  ‘데다’(손을 ~),  ‘베다’,  ‘세다’, ‘폐다’…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 1317
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "례하면 ‘꾸례미, 시렁, 시루, 시래기…’등에서  그것이 한 형태소에 속하는 것인지  아니면 ‘꿀+에미’,  ‘실+엉’, ‘실+우’, ‘실+애기’인지 하는 데 대한 연구가 필요하다.  이런 것들의 어원을 밝혀내자고 한다면 수많은 단어들에 대한 주관적 추측이 생길 수 있다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 1665
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "례하면 ‘ㅡ어지, ㅡ얘,  ㅡ암, ㅡ웅,  ㅡ에기,  ㅡ아미,ㅡ으머리, ㅡ우래기, ㅡ엄, ㅡ우, ㅡ오, ㅡ읒, ㅡ웃…’등은 단어조성에서 그 역할이 그리 크지 못하면서도 그 수가많아 일일이  밝혀 적기가 여간 번거롭지  않다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 1667
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "‘노렇다, 누렇다, 발갛다,  벌겋다, 파랗다,  퍼렇다…’등 단어들도 이 부류에 속한다.  이러한 단어들은 모음조화현상이  비교적  체계  정연하게  일어나고 양성모음과 음성모음이 규칙적으로 바뀌면서  새로운 단어를 이루는 것이  그특징의 하나로 된다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 1694
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "례를 들면 ‘심각히, 엄격히, 혹독히, 명백히, 명확히,정확히, 란폭히, 간략히, 급박히, 강력히,  결백히,  지극히…’ 등이다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 1731
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "갈대, 고무신, 나무잎, 돌다리, 칼날…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2109
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "곰의열, 귀에고리, 쭝의바람꽃, 닭의살, 닭의홰…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2110
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "날짐승, 들창, 밀차, 접칼, 간봄, 고인물, 뜬눈…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2113
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "여 띄여쓰는 것을 원칙으로 한다.”는 규정에  따라 ‘앞,뒤, 우, 아래,  밑,  결,  옆,  안,  밖, 속, 사이(재), 끝,가운데, 어간, 때…’, 이에 준하는 ‘해, 달, 날’, ‘곳, 어구, 구석, 다음, 동안, 중순, 동쪽…’등과 같은 단어들은앞의 단어와 띄여써야 한다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2123
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "김시습, 리순신, 조기천…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2446
+    }
+  },
+  {
+    "instruction": "解释符号 ○ 的使用方法",
+    "input": "",
+    "output": "을지문덕, 독고○○, 선우○○",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "○"
+      ],
+      "paragraph_index": 2448
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "17) 사람의 이름 뒤에 오는 ‘작곡. 작사. 안무. 각색. 목각.시…’등 명사와 관련한 띄여쓰기",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2541
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "호칭어, 직명은 아니라도 이름 뒤에 오는 ‘작곡,  작사,  안무, 각색, 펀저, 지음, 저, 지…’등과 같은 단어들은 이름,  직명  뒤에 오는 호칭어, 칭호와 달리  띄여써야한다.  띄여쓰면 그 사이에  일정한 휴지가 오게  되고 휴지가 오게  되면 강조하려는 부분이  명확해지기  때문이다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2542
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "제8항 수사가 완전명사와 어울리는 경우에는 띄여쓴다.  … 그러나 단위명사와 어울리는 경우에는 붙여쓴다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2562
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "새 규범에서는 “정수인 경우 왼쪽으로 가면서 세개 단위씩 쉼표를 찍어주고 소수인 경우 오른쪽으로 가면서 다붙여쓴다.”를 더 보태고 2007년의 규범에서의 “수사가 완전명사와 어울리는 경우에는 띄여쓴다.  … 그러나 단위명사와 어울리는 경우에는 붙여쓴다.”는 내용을 삭제하였다.완전명사는 하나의 자립적인 단어이므로 “조선말은 단어를단위로 하여 띄여쓰는 것을 원칙으로 한다.”는 총칙에 따",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2565
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "수사가 ‘손, 발, 귀, 눈, 입, 어깨, 몸…’등 인체기관 이름과 결합될 경우에도 떠여쓴다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2583
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "단 사전에 오른‘한손, 한발, 한눈, 한입, 두어깨, 한몸, 한가슴, 한다리…’는 붙여쓴다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2584
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "(4) 동사, 형용사의 규정형 뒤에 오는 ‘듯, 만,  번,법, 사, 척, 체…’와 관련한 떠여쓰기",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2647
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "동사, 형용사의 규정형 뒤에 오는 ‘듯, 만,  번,  법,사, 척, 체…’등과 같은 불완전명사는 앞 단어와는 떠여쓰고‘하다’와는 붙여쓴다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2648
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "만약 ‘듯, 만,  번,  법, 사, 척,  체…’등과 ‘하다’사이에 토가 울 경우에는 토를 매개로 하여  ‘하다’와 띄여쓴다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2656
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "낮보다, 늦되다, 무르익다, 무르녹다, 얄잡다…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2669
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "검붉다, 검푸르다, 검절기다, 굳세다, 재빠르다…같잖다, 귀찮다, 팬찮다, 점잖다…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2681
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "2) 관형사가 행정구역의 단위로 되는 ‘성, 자치구, 자치주, 현, 시, 향, 진, 촌…’;  기관, 조직체를 나타내는‘학교, 도서관,  병원, 공장,  기업소, 은행…’; 조직체의부서를 나타내는 ‘부, 청, 국, 처, 과…’등과 어울려서단어를 이루는 일이 없으므로 이런 명사 앞에 온 관형사는언제나 뒤의 단위와 떠여쓴다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2714
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "이상의 관형사들 가운데서  ‘그까짓, 근, 런, 만, 모든, 무슨,  별별,  별의별, 불과,  야,  어느,  어느,  여러,연, 오른, 온,  이른바,  이까짓,  일때,  웬,  저까짓,  제(諸), 제반, 한날, 한다는, 한다하는…’등은 관형사로만쓰이기에  언제나 뒤 단어와 띄여쓰면 된다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2864
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "군데군떼, 조심조심, 주저주저…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2889
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "골골이, 곳곳이, 번번이, 점점이, 집접이, 끝끝내…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2890
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "두말없이, 번개같이, 하늘높이, 가슴깊이, 가슴가득,가슴듬뿍…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2896
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "더더욱, 더욱더, 더더구나, 좀더…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 2900
+    }
+  },
+  {
+    "instruction": "解释符号 · 的使用方法",
+    "input": "",
+    "output": "제3항  가운데점(  ·  )",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "·"
+      ],
+      "paragraph_index": 2961
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "그리고 ‘첫째로, 둘째로, 셋째로…’, ‘끝으로, 간략해말하면, 다시 말하면, 마지막으로, 종합하여 말하면, 다음으로…’등은 삽입어로서 뒤에 오는 성분들과의 사이를 갈라보기 위하여 쉼표를 찍는다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 3044
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "제12항  줄임표(……)",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 3151
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "이런 뜻밖의 사고가 생기다니…",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 3158
+    }
+  },
+  {
+    "instruction": "解释符号 · 的使用方法",
+    "input": "",
+    "output": "둘째, 인용표 안에 또 다른 인용표를 써야 할 경우에는 거듭인용표(·’)를 쓴다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "·"
+      ],
+      "paragraph_index": 3186
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "례문에서 “중국 조선족은 … 보존하고 있다.”라는 문장의 출처는 《중국조선어문》제6호, 2015년, 제7페지이므",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 3237
+    }
+  },
+  {
+    "instruction": "解释符号 □ 的使用方法",
+    "input": "",
+    "output": "제18항  빠짐표( □□□ )",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "□"
+      ],
+      "paragraph_index": 3266
+    }
+  },
+  {
+    "instruction": "解释符号 □ 的使用方法",
+    "input": "",
+    "output": "大師爲法圭□□賴之大□薦(옛 비문)",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "□"
+      ],
+      "paragraph_index": 3270
+    }
+  },
+  {
+    "instruction": "解释符号 □ 的使用方法",
+    "input": "",
+    "output": "훈민정음의 초성 가운데서 아음(牙音)은 □□□의 석자다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "□"
+      ],
+      "paragraph_index": 3271
+    }
+  },
+  {
+    "instruction": "解释符号 … 的使用方法",
+    "input": "",
+    "output": "례문에서  인용표 안의  내화부분이  문장으로 구성되였으므로 느낌표(  !  ), 쉼표(  , ),  마침표( .  ), 줄임표( … ) 등 문장부호를 해당한 곳에 찍었다.",
+    "metadata": {
+      "category": "symbols",
+      "type": "symbol_rule",
+      "symbols": [
+        "…"
+      ],
+      "paragraph_index": 3307
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "〈조선말 표준발음법〉의 총칙에서는 조선말 표준발음법은 우리 나라 조선족 인민들에게 널리 쓰이고 조선말 발달에 맞는 발음을 가려잡는 것을 원칙으로 한다고 규정하였다.  이는 표준발음...",
+    "output": "〈조선말 표준발음법〉의 총칙에서는 조선말 표준발음법은 우리 나라 조선족 인민들에게 널리 쓰이고 조선말 발달에 맞는 발음을 가려잡는 것을 원칙으로 한다고 규정하였다.  이는 표준발음법을 규정함에  있어서의 총적인 원칙으로 된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 126,
+      "paragraph_index": 218
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들면 ‘외가집’을 [왜가집]으로 발음하거나 ‘건립’을 [건닙]으로 발음하거나 ‘헌법’을 [현법]으로 발음하는 경우가 적지 않다.  이렇게 되면 상호리해를 달성할 수 없거나상호...",
+    "output": "례를 들면 ‘외가집’을 [왜가집]으로 발음하거나 ‘건립’을 [건닙]으로 발음하거나 ‘헌법’을 [현법]으로 발음하는 경우가 적지 않다.  이렇게 되면 상호리해를 달성할 수 없거나상호리해에 지장을 주게 되는 것이다.  때문에  언어교제의기능을 높이기 위하여서는 반드시 표준발음법을 세우고 그것을 지켜야 한다. 특히 구두어의 교제는 어음을 통하여 실현되는 것 만큼 표준발음의 준수는 아주 중요한 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 222,
+      "paragraph_index": 221
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "표준발음법을 규정함에  있어서 첫째로는 인민들이  널리 쓰는 발음 즉 조선족 인민들이 쓰는 발음을 기준으로하여야 한다.  조선족 인민들이  널리 쓰는 발음이란 학교,방송 등에서  ...",
+    "output": "표준발음법을 규정함에  있어서 첫째로는 인민들이  널리 쓰는 발음 즉 조선족 인민들이 쓰는 발음을 기준으로하여야 한다.  조선족 인민들이  널리 쓰는 발음이란 학교,방송 등에서  널리 쓰이고 있는 표준어의  발음법을 가리키",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 124,
+      "paragraph_index": 222
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "는 것이다.  조선어의 표준어는 일찍부터  형성되였고 널리보급되여왔기 때문에 공통성, 즉 전민성을 가장 많이  떤세런된 말인 것이다.  그러므로 이 표준어의 발음을 표준발음법으로 ...",
+    "output": "는 것이다.  조선어의 표준어는 일찍부터  형성되였고 널리보급되여왔기 때문에 공통성, 즉 전민성을 가장 많이  떤세런된 말인 것이다.  그러므로 이 표준어의 발음을 표준발음법으로 정하는 것은 당연한 일이다. 둘째로는 언어의 발달법칙에 맞는 발음을 가려잡아야 한다. 표준어도 변화되고발달되는 것이다.  그렇기 때문에 어떤 발음현상은 사용의꽝범함을 보아 어느 것으로 가려잡기 어려운 경우가 있다.이런 경우에는 그 발음들 가운데서  언어발달의 추세에 맞는, 새로운 법칙적 현상을 반영한 발음을 가려잡아야 한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 282,
+      "paragraph_index": 227
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들면 단어 첫머리에서  ‘ㄴ,  ㄹ’을 모든 모음 앞에서 제대로 발음하는 것은 언어발달의 새로운 법칙적  현상을 반영한 것이라고 볼 수 있다....",
+    "output": "례를 들면 단어 첫머리에서  ‘ㄴ,  ㄹ’을 모든 모음 앞에서 제대로 발음하는 것은 언어발달의 새로운 법칙적  현상을 반영한 것이라고 볼 수 있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 82,
+      "paragraph_index": 228
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "모음‘ㅚ’는 발음할 때 입술모양이  처음부터 마지막까지  변하지  않는 홀모음이다.  ‘ㅚ’는 ‘ㅔ’를 발음하려다가입술을 동글리고 발음하면 된다. 즉‘ㅔ’의 발음자세를 취한 후 입...",
+    "output": "모음‘ㅚ’는 발음할 때 입술모양이  처음부터 마지막까지  변하지  않는 홀모음이다.  ‘ㅚ’는 ‘ㅔ’를 발음하려다가입술을 동글리고 발음하면 된다. 즉‘ㅔ’의 발음자세를 취한 후 입술을 동글리고 발음하면 되는데  입술모양을 덜리하지 말아야 한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 136,
+      "paragraph_index": 238
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "그러나 조선족 인민들의 실제 발음, 조선어를 쓰고 있는 적지  않은 사람들의  실제  발음을 보면‘ㅚ’를 겹모음[웨]로 발음하는 현상이 적지  않다.  그러므로 본 규정에서는 전통...",
+    "output": "그러나 조선족 인민들의 실제 발음, 조선어를 쓰고 있는 적지  않은 사람들의  실제  발음을 보면‘ㅚ’를 겹모음[웨]로 발음하는 현상이 적지  않다.  그러므로 본 규정에서는 전통적  발음법  내로 홀모음으로 발음하는 것을 원칙으로 하면서  겹모음 [웨]로 발음하는 것을 허용하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 158,
+      "paragraph_index": 239
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "모음‘ㅟ’도 발음할 때 입술모양이  처음부터 마지막까지  변하지  않는 홀모음이다.  ‘ㅟ’는‘ㅣ’를 발음하려다가입술을 동글리고 발음하면 되는 소리이다.  그러나 우리들의 실제  ...",
+    "output": "모음‘ㅟ’도 발음할 때 입술모양이  처음부터 마지막까지  변하지  않는 홀모음이다.  ‘ㅟ’는‘ㅣ’를 발음하려다가입술을 동글리고 발음하면 되는 소리이다.  그러나 우리들의 실제  발음을 보면‘ㅟ’ 같은 음절을 길게  발음하거나강조할 경우에는 [위이]로 발음하는 현상이  있다.  그러므로 본 규정에서는 전통적  발음법  내로 홀모음으로 발음하는 것을 원칙으로 하고 일부 경우에 겹모음 [위이]로 발음하는 것을 허용하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 235,
+      "paragraph_index": 241
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "모음 ‘니’는 발음할 때  입술모양이  처음과 마지막이달라지는 겹모음이다.  즉 한 음절 안에서  ‘ㅡ’를 먼저  발음하고 런이어‘ㅣ’를 발음하는 소리이다....",
+    "output": "모음 ‘니’는 발음할 때  입술모양이  처음과 마지막이달라지는 겹모음이다.  즉 한 음절 안에서  ‘ㅡ’를 먼저  발음하고 런이어‘ㅣ’를 발음하는 소리이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 87,
+      "paragraph_index": 253
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "속격토 ‘의’는 보통 [의]로 발음하나 [에]로 발음하는 현상도 적지  않다.  (보통 [에]보다 높게  발음한다.)특히 지, 노래에서는 [에]로 발음하는 것이 보통이다.  그리고...",
+    "output": "속격토 ‘의’는 보통 [의]로 발음하나 [에]로 발음하는 현상도 적지  않다.  (보통 [에]보다 높게  발음한다.)특히 지, 노래에서는 [에]로 발음하는 것이 보통이다.  그리고 장소적 의미를 나타내는 속격토 ‘의’는 [에]로 발음하는 것이  더 순통하다.  그러므로 속격토 ‘의’는 [의]로발음하는 것을 원칙으로 하고 [에]로 발음하는 것을 허용하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 199,
+      "paragraph_index": 260
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "제3항에서 말하는 ‘ㄱ, ㄹ,  ㅁ, ㅎ’ 뒤에 ‘ㅖ’가 어울리는 경우에는 전통적  습관에  따라 그대로 표기하나 실제발음은 모두 그대로 발음하지  못하고  있다.  즉  ‘ㅖ’는...",
+    "output": "제3항에서 말하는 ‘ㄱ, ㄹ,  ㅁ, ㅎ’ 뒤에 ‘ㅖ’가 어울리는 경우에는 전통적  습관에  따라 그대로 표기하나 실제발음은 모두 그대로 발음하지  못하고  있다.  즉  ‘ㅖ’는‘ㄱ,  ㄹ,  ㅁ, ㅎ’ 뒤에서 [에]로 발음한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 129,
+      "paragraph_index": 262
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "자음‘ㄴ’은 전통적 발음에서는 단어의  첫머리에서  다음에 오는 모음‘ㅕ, ㅍ, ㅠ, ㅣ’를 만날 때 탈락되여 발음하지  않는다.  (‘ㄴ’이  ‘냐’와 결합된 음은 없다.)  례...",
+    "output": "자음‘ㄴ’은 전통적 발음에서는 단어의  첫머리에서  다음에 오는 모음‘ㅕ, ㅍ, ㅠ, ㅣ’를 만날 때 탈락되여 발음하지  않는다.  (‘ㄴ’이  ‘냐’와 결합된 음은 없다.)  례를들면‘녀자’를 [여자]로,  ‘니탄’을 [이탄]으로 발음한다.그 뿐만 아니라 이 전통적 발음법은 아직도 적지  않은 사람들이  지키고 있으며  일부 단어들의  발음은 상당한 정도로 굳어지고  있다.  례를 들면  ‘녀자’[여자],  ‘녀성’[여성], ‘년령’[연령] 등과 같다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 256,
+      "paragraph_index": 274
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "그러나‘ㄴ’을 그대로 표기하는 표기법의  영향, 외래어의  영향에 의하여 오늘날 새로운 세대들은 물론 상당한수의 사람들이 그대로 발음하고 있다.  특히 외래어‘뉴스,뉴욕’등의 단어...",
+    "output": "그러나‘ㄴ’을 그대로 표기하는 표기법의  영향, 외래어의  영향에 의하여 오늘날 새로운 세대들은 물론 상당한수의 사람들이 그대로 발음하고 있다.  특히 외래어‘뉴스,뉴욕’등의 단어들은 절대다수의 사람들이  그대로 발음하고 있다.  그러므로 새 규범집에서는 단어의 첫머리의‘ㄴ’을 모음‘ㅕ, ㅍ, ㅠ,  ㅣ’ 앞에서 그대로 발음하는 것을원칙으로 하고 2007년 규범집에서의‘ㄴ’을 탈락시켜  발음하는 허용발음을 취소하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 235,
+      "paragraph_index": 275
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "자음 ‘ㄹ’은 전통적 발음에서는 단어의  첫머리에서 다음에 오는 모음‘ㅏ, ㅓ, ㅗ, ㅜ, ㅐ, ㅚ’를 만날 때는[ㄴ]으로 발음하며 모음‘ㅑ,  ㅕ, ㅛ, ㅠ,  ㅣ,  ㅖ’를 만...",
+    "output": "자음 ‘ㄹ’은 전통적 발음에서는 단어의  첫머리에서 다음에 오는 모음‘ㅏ, ㅓ, ㅗ, ㅜ, ㅐ, ㅚ’를 만날 때는[ㄴ]으로 발음하며 모음‘ㅑ,  ㅕ, ㅛ, ㅠ,  ㅣ,  ㅖ’를 만날때는 탈락되여  발음하지  않는다.  례를 들면 ‘로동’을 [노동]으로,  ‘래년’을 [내년]으로 발음하고 ‘량심’을 [양심]으로, ‘례절’을 [예절]로 발음한다.  그 뿐만 아니라 ‘ㄴ’의 발음과 마찬가지로 전통적  발음법은 적지  않은 사람들이  지키고 있으며 특히 일부 단어들의 발음은 상당한 정도로 굳어지고  있다.  례를 들면  ‘로친’[노친],  ‘륵막’[능막], ‘륵꿀’[늑꿀],  ‘랭수’[냉수],  ‘랭병’[냉뻥],  ‘령감’[영감], ‘류월’[유월] 등과 같다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 369,
+      "paragraph_index": 285
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "그러나 ‘ㄹ’의  발음도 ‘ㄹ’을 그대로 표기하는 표기법의  영향, 외래어의  영향으로 새로운 세대들은 물론 상당한수의 사람들이  그대로 발음하고 있다.  특히 외래어  ‘라지오,...",
+    "output": "그러나 ‘ㄹ’의  발음도 ‘ㄹ’을 그대로 표기하는 표기법의  영향, 외래어의  영향으로 새로운 세대들은 물론 상당한수의 사람들이  그대로 발음하고 있다.  특히 외래어  ‘라지오, 레코드, 로라스케트’ 등의 단어들은 절대다수의 사람들이  그대로 발음하고  있다.  그러므로 새  규범집에서는‘ㄹ’을 그대로 발음하는 것을 원칙으로 하였다.  즉 새로운규범집에서는 2007년 규범집에서의  [ㄴ]으로 발음하거나‘ㄹ’을 탈락시켜서 발음하는 허용발음을 취소하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 255,
+      "paragraph_index": 286
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "조선말에서 자음은 음절의 위치에  따라 발음이  다르다.  음절의 첫소리로 될 때는 모든 자음을 똑똑히 발음하나 음절의 끝소리, 즉 받침으로 될 때에는 닫힌소리로 되면서 [ㄱ, ㄴ...",
+    "output": "조선말에서 자음은 음절의 위치에  따라 발음이  다르다.  음절의 첫소리로 될 때는 모든 자음을 똑똑히 발음하나 음절의 끝소리, 즉 받침으로 될 때에는 닫힌소리로 되면서 [ㄱ, ㄴ, ㄷ, ㄹ, ㅁ,  ㅂ,  ㅇ]의 7개 받침소리로 발음한다.  그중 [ㄱ,  ㄷ,  ㅂ]은 무성음이고 [ㄴ,  ㄹ,  ㅁ,",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 169,
+      "paragraph_index": 315
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "여기에서 홑받침‘ㄱ, ㅋ, ㄲ’은 혀뿌리 순한소리, 거센소리, 된소리이지만 받침으로 퇴편서, 즉  폐쇄되편 서두 닫힌소리 [ㄱ]으로 발음하며(순한소리, 거센소리, 된소...",
+    "output": "여기에서 홑받침‘ㄱ, ㅋ, ㄲ’은 혀뿌리 순한소리, 거센소리, 된소리이지만 받침으로 퇴편서, 즉  폐쇄되편 서두 닫힌소리 [ㄱ]으로 발음하며(순한소리, 거센소리, 된소",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 93,
+      "paragraph_index": 324
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "우의 례에서 보다싶이 받침 ‘ㄷ, ㅌ, ㅈ, ㅊ, ㅅ, ㅆ’은 혀끝 순한소리, 거센소리, 된소리이지만 받침으로 되면서, 즉 폐쇄되면서 모두 그 구별이  없어지고 혀끝 닫힌소리  [...",
+    "output": "우의 례에서 보다싶이 받침 ‘ㄷ, ㅌ, ㅈ, ㅊ, ㅅ, ㅆ’은 혀끝 순한소리, 거센소리, 된소리이지만 받침으로 되면서, 즉 폐쇄되면서 모두 그 구별이  없어지고 혀끝 닫힌소리  [ㄷ]으로 발음한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 110,
+      "paragraph_index": 342
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이지만 받침으로 되면서, 즉 폐쇄되면서  모두 닫힌소리[ㅂ]으로 발음하며 둘받침  ‘래,  ㅍ,  ㅂ’은 닫힌소리  [ㅂ]으로 발음하고 ‘ㄹ, ㅅ’은 발음하지  않는다....",
+    "output": "이지만 받침으로 되면서, 즉 폐쇄되면서  모두 닫힌소리[ㅂ]으로 발음하며 둘받침  ‘래,  ㅍ,  ㅂ’은 닫힌소리  [ㅂ]으로 발음하고 ‘ㄹ, ㅅ’은 발음하지  않는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 94,
+      "paragraph_index": 364
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘ㅎ’의  명칭으로서의‘히읕’은 받침소리로 될  때는‘히읕[히읃], 히읕과[히읕꽈]’로 되나 모음에  이어질 때는‘히읕이[히으시], 히읕에[히으세]’로 된다....",
+    "output": "‘ㅎ’의  명칭으로서의‘히읕’은 받침소리로 될  때는‘히읕[히읃], 히읕과[히읕꽈]’로 되나 모음에  이어질 때는‘히읕이[히으시], 히읕에[히으세]’로 된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 88,
+      "paragraph_index": 385
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "E’, ‘ㅍ, ㅂ’은 각각 같은 계렬의  받침소리  [ㄱ], [ㄷ],[ㅂ]으로 끊였다가 다시 그 받침소리를 모음에  이어서  발음한다.”고 규정하였다....",
+    "output": "E’, ‘ㅍ, ㅂ’은 각각 같은 계렬의  받침소리  [ㄱ], [ㄷ],[ㅂ]으로 끊였다가 다시 그 받침소리를 모음에  이어서  발음한다.”고 규정하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 84,
+      "paragraph_index": 393
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "조선말에서‘ㄱ, ㄴ, ㄷ,  ㄹ,  ㅁ,  ㅂ,  ㅇ’  이외의  받침들 가운데서 어근 앞에 쓰이는 받침들로는‘ㅋ, ㄲ, ㄹ’,‘ㅅ, ㅈ, ㅊ,  ㅌ’, ‘ㅍ, ㅂ’이다.  이  ...",
+    "output": "조선말에서‘ㄱ, ㄴ, ㄷ,  ㄹ,  ㅁ,  ㅂ,  ㅇ’  이외의  받침들 가운데서 어근 앞에 쓰이는 받침들로는‘ㅋ, ㄲ, ㄹ’,‘ㅅ, ㅈ, ㅊ,  ㅌ’, ‘ㅍ, ㅂ’이다.  이  받침들은 아래  어근이 자기의 독자성을 유지하려는 데서  ‘l’  이외의  ‘ㅏ,ㅓ, ㅗ, ㅜ, ㅡ, ㅐ, ㅔ, ㅚ’ 등의 홀모음 앞에서는 일단닫힌소리, 즉 받침소리로 끊기였다가 다시 모음에  이어서발음한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 216,
+      "paragraph_index": 395
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "받침 ‘리,  리’은 용언의 어간의 받침소리로 될 경우,그리고 토나 접미사 ‘ㅡ고, ㅡ기, ㅡ게’를 만나면 받침소리 [ㄹ](유향음)로 된다.  이 [ㄹ] 아래의 ‘ㅡ고, ㅡ기, ㅡ...",
+    "output": "받침 ‘리,  리’은 용언의 어간의 받침소리로 될 경우,그리고 토나 접미사 ‘ㅡ고, ㅡ기, ㅡ게’를 만나면 받침소리 [ㄹ](유향음)로 된다.  이 [ㄹ] 아래의 ‘ㅡ고, ㅡ기, ㅡ게’는 된소리로 되여  ‘꼬, 끼, 께’로 된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 127,
+      "paragraph_index": 425
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "그러나 받침‘ㄴ,ㅁ’다음에 오는 형태가 순한소리를가진 접미사일지라도 그것이 피동이나 사역의 뜻을 나타내는 ‘-기’일 적에는 된소리로 발음하지  않는다....",
+    "output": "그러나 받침‘ㄴ,ㅁ’다음에 오는 형태가 순한소리를가진 접미사일지라도 그것이 피동이나 사역의 뜻을 나타내는 ‘-기’일 적에는 된소리로 발음하지  않는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 84,
+      "paragraph_index": 440
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "리로 되는 까닭은 받침‘ㄹ’이 규정토 ‘ㄹ’에서 왔기 때문이다.  제11항 [붙임 1]에 밝히여있다싶이  규정토 ‘ㄹ’아래의 순한소리는 모두 된소리로 된다....",
+    "output": "리로 되는 까닭은 받침‘ㄹ’이 규정토 ‘ㄹ’에서 왔기 때문이다.  제11항 [붙임 1]에 밝히여있다싶이  규정토 ‘ㄹ’아래의 순한소리는 모두 된소리로 된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 87,
+      "paragraph_index": 468
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘ㅎ’의  발음 은비교 적복잡. 냐    장 7서는경수로 나누어 서술하였는네 크게는 두가지 측편으로 설명할 수 있냐. 하나는‘ㅎ’이 받칀으로 되면서 야래에 호는자모음꽈 결합될 빼의...",
+    "output": "‘ㅎ’의  발음 은비교 적복잡. 냐    장 7서는경수로 나누어 서술하였는네 크게는 두가지 측편으로 설명할 수 있냐. 하나는‘ㅎ’이 받칀으로 되면서 야래에 호는자모음꽈 결합될 빼의 발음이고 니른 하나는 음젤의 첫소리로 되면서 우에 오는 자모음과 결합될  때 의발슴.첫째 경수에는 제13항, 제14항, 제15항, 제16항이 속하고둘째 경수에는 제17항, 제18항, 제19항이 속한냐.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 213,
+      "paragraph_index": 482
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "본 항은‘ㅎ’이  받침소리로 되면서  거센소리로 되는것이다.  그런데‘ㅎ’이  받침소리로 될 경우에  아래소리와어울리여서 거센소리로 되고 일반적으로 받침소리를 남기지  않는다.  ...",
+    "output": "본 항은‘ㅎ’이  받침소리로 되면서  거센소리로 되는것이다.  그런데‘ㅎ’이  받침소리로 될 경우에  아래소리와어울리여서 거센소리로 되고 일반적으로 받침소리를 남기지  않는다.  즉 ‘좋다[조타], 좋고[조코], 좋지[조치]’로된다.  따라서  억지로 ‘좋다[졷타], 좋고[졷코], 좋지[졷치]’로 발음하지 말아야 한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 179,
+      "paragraph_index": 494
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "여기에서‘옳바르다’는‘옳고 바르다’즉‘옳다’, ‘바르다’의 용언어근들이  결합되였을 뿐만 아니라 병렬적으로결합된 것이여서‘ㅎ’의  아래소리가 거센소리로도 된소리로도 되지 않고 그대...",
+    "output": "여기에서‘옳바르다’는‘옳고 바르다’즉‘옳다’, ‘바르다’의 용언어근들이  결합되였을 뿐만 아니라 병렬적으로결합된 것이여서‘ㅎ’의  아래소리가 거센소리로도 된소리로도 되지 않고 그대로 순한소리로 되였다.  그리고‘싫증’은 용언어근과 명사어근이  종속적으로 결합된  것이여서‘ㅎ’의 아래소리가 거센소리로도 순한소리로도 되지  않고된소리로 되였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 191,
+      "paragraph_index": 506
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "여기에서  반드시  지적하여야 할 것은‘ㅎ’이  받침이여야 한다는 것이다.  받침이 아닌, 어근 내부의‘ㅎ’은 약화되기는 하나 발음은 한다.  례를 들면 다음과 같다....",
+    "output": "여기에서  반드시  지적하여야 할 것은‘ㅎ’이  받침이여야 한다는 것이다.  받침이 아닌, 어근 내부의‘ㅎ’은 약화되기는 하나 발음은 한다.  례를 들면 다음과 같다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 93,
+      "paragraph_index": 528
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘ㅎ’이  약화되거나 탈락되는 것은 모두 모음 사이거나유향음과 모음 사이인 것이다. 모음과 유향음은 모두 성문에서 목청을 울리는 소리이고‘ㅎ’은 성문을 마찰하는 소리로서 모두가 성...",
+    "output": "‘ㅎ’이  약화되거나 탈락되는 것은 모두 모음 사이거나유향음과 모음 사이인 것이다. 모음과 유향음은 모두 성문에서 목청을 울리는 소리이고‘ㅎ’은 성문을 마찰하는 소리로서 모두가 성문에서 소리가 이루어진다는 데 그 원인이  있다.  이런 음들은 런이어  발음할 때, 특히‘ㅎ’은 준비있게  발음하지  않으면(준비있게  발음하는 단어의  첫머리의‘ㅎ’은 똑똑히 발음한다.  례: 회의) 성문의 울림소리에압도되여  발음하지  않거나 약화된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 244,
+      "paragraph_index": 529
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘ㅎ’이 순한소리‘ㄱ, ㄷ,  ㅂ, ㅈ’ 우에서나 아래에서직접 그 순한소리와 어울리여  거센소리로 된다는 것은 우에서  이미  설명하였다.  본 항은 받침소리  [ㄱ,  ㄷ,  ㅂ...",
+    "output": "‘ㅎ’이 순한소리‘ㄱ, ㄷ,  ㅂ, ㅈ’ 우에서나 아래에서직접 그 순한소리와 어울리여  거센소리로 된다는 것은 우에서  이미  설명하였다.  본 항은 받침소리  [ㄱ,  ㄷ,  ㅂ]꽈",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 102,
+      "paragraph_index": 532
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘ㅎ’이어울리여 거센소리로 되는 현상이다.  그런데  이  경우에서는 우에 받침소리를 남기면서  아래소리를 거센소리로 되게 하였다.  조선어의  거센소리(된소리)는 모음 사이에서는...",
+    "output": "‘ㅎ’이어울리여 거센소리로 되는 현상이다.  그런데  이  경우에서는 우에 받침소리를 남기면서  아래소리를 거센소리로 되게 하였다.  조선어의  거센소리(된소리)는 모음 사이에서는 장애지속계단과 파렬계단 사이의 동안이  며지면서두 음절로 나누어  발음할 수 있는데  바로 이  발음현상이그러한 것이다.  그렇기  때문에 빠른 발음에서는 웃음절에받침소리를 남기지  않고 발음하는 것이 보통이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 219,
+      "paragraph_index": 537
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "조선어에서 둘받침은 아래에 오는 모음을 만날 때 왼쪽 받침이  받침소리로 되고 오른쪽 받침만 련음으로 발음한다.  그러나 아래에 오는 자음‘ㅎ’을 만날 때는 그‘ㅎ’과 어울리여 거...",
+    "output": "조선어에서 둘받침은 아래에 오는 모음을 만날 때 왼쪽 받침이  받침소리로 되고 오른쪽 받침만 련음으로 발음한다.  그러나 아래에 오는 자음‘ㅎ’을 만날 때는 그‘ㅎ’과 어울리여 거센소리로 된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 108,
+      "paragraph_index": 552
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "구개음화는 우에서 본 바와 같이  반드시  토나 접미사‘ㅡ이’,  ‘히’ 우에서야 실현된다.  이 조건이  아닌 경우에는 구개음화가 실현되지  않는다.  즉 형태소 내부의  경우에...",
+    "output": "구개음화는 우에서 본 바와 같이  반드시  토나 접미사‘ㅡ이’,  ‘히’ 우에서야 실현된다.  이 조건이  아닌 경우에는 구개음화가 실현되지  않는다.  즉 형태소 내부의  경우에는 구개음화가 실현되지  않는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 118,
+      "paragraph_index": 598
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "그리고 이 동화는 동화되는 소리들이  자기 계렬의  유향음으로 되는 것이 특징적이다.  즉 ‘ㄱ, ㅋ, ㄲ, ㄲ, ㄹ’의 받침소리는 혀뿌리소리 [ㄱ]인데 같은 혀뿌리소리 [ㅇ]으로...",
+    "output": "그리고 이 동화는 동화되는 소리들이  자기 계렬의  유향음으로 되는 것이 특징적이다.  즉 ‘ㄱ, ㅋ, ㄲ, ㄲ, ㄹ’의 받침소리는 혀뿌리소리 [ㄱ]인데 같은 혀뿌리소리 [ㅇ]으로 동화되였고 ‘ㄷ,  ㅅ, ㅈ,  ㅊ,  ㅌ, ㅆ’의  받침소리는혀끝소리 [ㄷ]인데  같은 혀끝소리  [ㄴ]으로 동화되였으며‘ㅂ, ㅍ, ㅃ, ㅍ, ㅂ’의 받침소리는 입술소리 [ㅂ]인데 같은 입술소리 [ㅁ]으로 동화되였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 223,
+      "paragraph_index": 607
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "여기에서  ‘폭로’, ‘협력’등은 보통 호상동화된다.  즉폭로[퐁로→퐁노], 협력[혐력→혐녁]으로 된다.  다시  말하면 아래 유향음 ‘ㄹ’이 우의 무성자음을 동화시켜 코소리‘o,...",
+    "output": "여기에서  ‘폭로’, ‘협력’등은 보통 호상동화된다.  즉폭로[퐁로→퐁노], 협력[혐력→혐녁]으로 된다.  다시  말하면 아래 유향음 ‘ㄹ’이 우의 무성자음을 동화시켜 코소리‘o,  ㅁ’으로 되게 하였고 코소리  ‘o,  ㅁ’은 다시 ‘ㄹ’을동화시켜 코소리  ‘ㄴ’으로 되게 하였다.  이 호상동화의 발음은 허용발음이다.  례를 더 들면 다음과 같다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 196,
+      "paragraph_index": 608
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "단어들 사이에  이런 역행동화현상이  일어나는 것은 휴지  없이  결합되는 경우인 것이다.  단어들이  휴지  없이  런결되므로 단어  안에서와 같이  동화현상이  일어나는  것이...",
+    "output": "단어들 사이에  이런 역행동화현상이  일어나는 것은 휴지  없이  결합되는 경우인 것이다.  단어들이  휴지  없이  런결되므로 단어  안에서와 같이  동화현상이  일어나는  것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 102,
+      "paragraph_index": 616
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "본 항은 모두 역행동화에 속하며  또한 완전동화와 직접동화에 속하는 것들이다.  여기에서  보면 우의  받침소리[ㄴ]이  아래음절의  첫소리‘ㄹ’의  영향으로 [ㄹ]로 되였다.  ...",
+    "output": "본 항은 모두 역행동화에 속하며  또한 완전동화와 직접동화에 속하는 것들이다.  여기에서  보면 우의  받침소리[ㄴ]이  아래음절의  첫소리‘ㄹ’의  영향으로 [ㄹ]로 되였다.  이것도 표기로는 모두 뒤김소리로 하나 발음은 모두설측음 즉 혀옆소리로 한다.  특히  ‘산량[살량]’을 [산냥]으로,  ‘전략[절략]’을 [전냐]으로 발음하지 말아야 한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 196,
+      "paragraph_index": 627
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "그리고 ‘ㄴ+ㄹ’이  ‘ㄹ+ㄹ’로의 동화는 한 음절 사이에서라는 것을 잊지 말아야 한다.  따라서 형태소와 형태소사이에서는 이 동화가 일어나지  않는다....",
+    "output": "그리고 ‘ㄴ+ㄹ’이  ‘ㄹ+ㄹ’로의 동화는 한 음절 사이에서라는 것을 잊지 말아야 한다.  따라서 형태소와 형태소사이에서는 이 동화가 일어나지  않는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 85,
+      "paragraph_index": 628
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘ㄴ+ㄹ’이‘ㄹ+ㄹ’로의  여행동화는 한 형태소 내부에서 진행되나 형태소와 형태소 사이, 즉 접두사와 어근사이, 어근과 접미사 사이, 어근과 어근 사이에서는 진행되지  않고 그대로...",
+    "output": "‘ㄴ+ㄹ’이‘ㄹ+ㄹ’로의  여행동화는 한 형태소 내부에서 진행되나 형태소와 형태소 사이, 즉 접두사와 어근사이, 어근과 접미사 사이, 어근과 어근 사이에서는 진행되지  않고 그대로 발음한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 106,
+      "paragraph_index": 635
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "받침소리 [ㄴ]과 아래음절의 첫소리 [ㄹ]이  결합할 때형태소와 형태소 사이에는 역행동화가 일어나지  않으나 순행동화가 일어날 수 있다.  즉 ‘순리윤’이 [순니윤]으로 될수 있다...",
+    "output": "받침소리 [ㄴ]과 아래음절의 첫소리 [ㄹ]이  결합할 때형태소와 형태소 사이에는 역행동화가 일어나지  않으나 순행동화가 일어날 수 있다.  즉 ‘순리윤’이 [순니윤]으로 될수 있다.  이것은 허용발음으로서  비표준발음이  아니다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 128,
+      "paragraph_index": 637
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "한자어에서  ‘렬’, ‘률’로 된 음절이 다른 어음들과 결합될 때의  발음은 비교적  특이하다.  아래에  ‘렬’,  ‘률’의발음을 두가지로 나누어  설명할 수 있다....",
+    "output": "한자어에서  ‘렬’, ‘률’로 된 음절이 다른 어음들과 결합될 때의  발음은 비교적  특이하다.  아래에  ‘렬’,  ‘률’의발음을 두가지로 나누어  설명할 수 있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 93,
+      "paragraph_index": 646
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "첫째, 원래 규범집에서는 모음 아래에서의  ‘렬’,  ‘률’은 그대로 발음하는 것을 원칙으로 하면서도 [열], [율]로즉 음절의  첫소리  ‘ㄹ’을 탈락시켜  발음하는 것도 허용하...",
+    "output": "첫째, 원래 규범집에서는 모음 아래에서의  ‘렬’,  ‘률’은 그대로 발음하는 것을 원칙으로 하면서도 [열], [율]로즉 음절의  첫소리  ‘ㄹ’을 탈락시켜  발음하는 것도 허용하였다.  그러나 새 규범집에서는 전통적인 발음의 허용발음,즉 [열], [율]로 발음하는 것을 원칙으로 하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 161,
+      "paragraph_index": 647
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "만은 [골란]으로 하고 기타의  것은 모두 [ㄴ, ㄴ] 그대로발음하기로 하였다.  (따라서  ‘곤난’만은 [곤난]으로 발음하는 것이 비표준발음이다.)...",
+    "output": "만은 [골란]으로 하고 기타의  것은 모두 [ㄴ, ㄴ] 그대로발음하기로 하였다.  (따라서  ‘곤난’만은 [곤난]으로 발음하는 것이 비표준발음이다.)",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 83,
+      "paragraph_index": 688
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이 동화는 무성자음의  역행동화로서(이  동화는 또한완전동화와 직접동화에 속한다.) 동화의 결과 동화되는 소리가 다른 계렬의 소리로 되였다.  즉 혀끝소리  [ㄷ](ㄷ,E, ㅅ, ...",
+    "output": "이 동화는 무성자음의  역행동화로서(이  동화는 또한완전동화와 직접동화에 속한다.) 동화의 결과 동화되는 소리가 다른 계렬의 소리로 되였다.  즉 혀끝소리  [ㄷ](ㄷ,E, ㅅ, ㅆ, ㅈ, ㅊ)이  혀뿌리소리 또는 입술소리의 동화에 의하여  혀뿌리소리(받고[박ㅍ](ㄷ→ㄱ)) 또는 입술소리(돋보기[돕뽀기](ㄷ→ㅂ))로 되였다.  그리고 입술소리 [ㅂ]이  혀뿌리소리 [ㄱ]의 동화에 의하여  혀뿌리소리 [ㄱ]으로되였다.  조선어에서  이렇게 다른 계렬로 동화되는 현상은인정하지 않는다.  그것은‘받고’[반ㅍ], ‘돋보기’[돋뽀기],‘갑갑중’[갑깝쯩]으로 능히  발음할 수 있읍 뿐만 아니라정상적  발음에서는 이렇게  발음하기  때문이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 356,
+      "paragraph_index": 715
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이 현상 역시  역행동화로서(이 동화는 또한 부분동화와 직접동화에 속한다.) 동화의 결과 동화되는 소리가 다른 계렬의 소리로 되였다. 즉 혀끝소리가 혀뿌리소리의 동화에 의하여 혀뿌...",
+    "output": "이 현상 역시  역행동화로서(이 동화는 또한 부분동화와 직접동화에 속한다.) 동화의 결과 동화되는 소리가 다른 계렬의 소리로 되였다. 즉 혀끝소리가 혀뿌리소리의 동화에 의하여 혀뿌리소리(반갑다[방갑다](ㄴ→0))로 되고입술소리가 혀뿌리소리의 동화에 의하여 혀뿌리소리(참기름[창기름](ㅁ→0))로 되였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 169,
+      "paragraph_index": 723
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "합성어 또는 파생어의  형태소 사이에서 보동 된소리현상이  일어난다.  즉 앞 형태소의 끝소리가 유향음이거나 모음이여야 하고 뒤  형태소의  첫소리가 순한소리  ‘ㄱ,  ㄷ,ㅂ, ...",
+    "output": "합성어 또는 파생어의  형태소 사이에서 보동 된소리현상이  일어난다.  즉 앞 형태소의 끝소리가 유향음이거나 모음이여야 하고 뒤  형태소의  첫소리가 순한소리  ‘ㄱ,  ㄷ,ㅂ,  ㅈ’이여야 한다.  그러나 이  경우에도 언제나 된소리현상이  일어나는 것은 아니다.  합성어의  어근들이  병렬적  결합관계에 놓여있을 때는 된소리현상이  일어나지  않는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 199,
+      "paragraph_index": 752
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "우에서 된소리적 요소가 가첨되는 례들을 들였다.  그러나 이런 경우에도, 즉 이런 한자를 가진 단어들에  언제나 된소리적 요소가 가첨되는 것은 아니다.  이제 그 례들을 들어보이면...",
+    "output": "우에서 된소리적 요소가 가첨되는 례들을 들였다.  그러나 이런 경우에도, 즉 이런 한자를 가진 단어들에  언제나 된소리적 요소가 가첨되는 것은 아니다.  이제 그 례들을 들어보이면 다음과 같다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 108,
+      "paragraph_index": 807
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "여기에서 보면 합성어 또는 파생어의  형태소와 형태소들이  결합할 때  앞 형태소의 끝소리가 자음이고 뒤  형태소의 첫소리가 모음‘ㅑ, ㅕ, ㅛ, ㅠ, ㅣ’, 다시 말하면 모음‘ㅣ...",
+    "output": "여기에서 보면 합성어 또는 파생어의  형태소와 형태소들이  결합할 때  앞 형태소의 끝소리가 자음이고 뒤  형태소의 첫소리가 모음‘ㅑ, ㅕ, ㅛ, ㅠ, ㅣ’, 다시 말하면 모음‘ㅣ’거나‘ㅣ’를 가진 상승적  이중모음일 때는 반드시 첫소리에 [ㄴ]이 첨가된다.  이것은 고유어에서나 한자어에서나마찬가지다.  아래에 세가지로 나누어  설명할 수 있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 194,
+      "paragraph_index": 831
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "셋째, 기타 받침소리  아래에서는 뒤  형태소의  첫소리에 [ㄴ]이  첨가됨과 동시에 그것이  역행동화하여 웃받침소리가 [ㄴ,  ㅁ,  ㅇ]으로 된다....",
+    "output": "셋째, 기타 받침소리  아래에서는 뒤  형태소의  첫소리에 [ㄴ]이  첨가됨과 동시에 그것이  역행동화하여 웃받침소리가 [ㄴ,  ㅁ,  ㅇ]으로 된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 84,
+      "paragraph_index": 834
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "말소리를 글자로 적을 때 한개 단어라도 여러가지  형태로 적을 가능성이  있다.  례를 들면 ‘흙’이라는 단어를‘흙이, 흙을, 흙에서’와 같이  적을 수도 있고 ‘흘기, 흘글, 흘...",
+    "output": "말소리를 글자로 적을 때 한개 단어라도 여러가지  형태로 적을 가능성이  있다.  례를 들면 ‘흙’이라는 단어를‘흙이, 흙을, 흙에서’와 같이  적을 수도 있고 ‘흘기, 흘글, 흘게서’와 같이  발음 그대로 적을 수도 있다.  그리고자음을 첫소리로 하는 토가 올 때에는 둘받침에서  받침소리‘리’을‘ㄱ’으로 적어‘흑또, 흑꽈’와 같이 적을 수 있고 유향음을 첫소리로 한 문법적 형태가 올 때에는 자음동화를 반영하여‘홍만’으로 적을 수도 있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 247,
+      "paragraph_index": 902
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "조선말 맞춤법은 단어에서 어음변화의 규칙에 따라 그음들이  변한다 하더라도 글로 적을 때에는 변화되는 음 대로 적지 않고 그 형태소들을 언제나 갈게 적는 형태주의원칙을 기본으로 하...",
+    "output": "조선말 맞춤법은 단어에서 어음변화의 규칙에 따라 그음들이  변한다 하더라도 글로 적을 때에는 변화되는 음 대로 적지 않고 그 형태소들을 언제나 갈게 적는 형태주의원칙을 기본으로 하였다.  따라서 우리말 맞춤법에 적용되고있는 이 원칙을 더 정확히 말하면 형태——음운론적  원칙이라고 할 수 있다.  그것은 형태소들이 결합될 때 여러 어음조건에서도 매개의 음운은 변화되는 소리  내로 적는 것이아니라 그 기본이 되는 음을 나타내는 자모로 적기 때문이다.  맞춤법에서 형태주의를 기본으로 하면 뜻을 가진 매개부분을 언제나 갈게 적기 때문에 단어의 뜻을 쉽게 포착하",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 312,
+      "paragraph_index": 903
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "우리말 맞춤법에서는 다른 원칙들이 전혀 도외시된 것도 아니다.  례를 들면 ‘걷다’에서 ‘길으니, 걷고’, ‘길다’에서  ‘기오, 김니다’,  ‘춥다’에서  ‘추우니, 추워’와 같...",
+    "output": "우리말 맞춤법에서는 다른 원칙들이 전혀 도외시된 것도 아니다.  례를 들면 ‘걷다’에서 ‘길으니, 걷고’, ‘길다’에서  ‘기오, 김니다’,  ‘춥다’에서  ‘추우니, 추워’와 같이소리가 규칙적으로 변하지  않아 형태를 고정시켜  적기  어려운 것도 있다.  이런 경우에는 발음에 따라 적는 표음주의원칙을 취한다.  그리고 ‘것밟다’,  ‘무릇’에서  ‘ㅅ’받침은 받침  ‘ㅅ, ㅈ, ㅊ,  ㄷ,  ㅌ, ㅆ’ 가운데  어느 것을 가려잡아도 형태주의원칙으로는 그 리유를 밝혀내기  어렵다.이런 것은 력사적으로 습관 내로 써오던 ‘ㅅ’받침을 그내로 적기로 하였다.  이와 같이 우리말 맞춤법에서는 형태주의원칙을 기본으로 하면서 그 원칙을 적용하기 어려운 경우에는 표음주의원칙을 취하거나 력사주의원칙을 취할 때도있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 398,
+      "paragraph_index": 909
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "우에서 우리는 자모의 차례와 이름을 보았다.  그 가운데 자음자의 이름은 두가지로 부를 수 있다.  ‘기윽, 니은,디읗’식으로 부르는 것은 음절의 첫소리와 끝소리를 아울려 만든 것...",
+    "output": "우에서 우리는 자모의 차례와 이름을 보았다.  그 가운데 자음자의 이름은 두가지로 부를 수 있다.  ‘기윽, 니은,디읗’식으로 부르는 것은 음절의 첫소리와 끝소리를 아울려 만든 것이고 ‘그, 느, 드’식으로 부르는 것은 음절의첫소리로 만든 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 138,
+      "paragraph_index": 933
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들어 단어  ‘헛걱정, 헛구역,  헛고생,  헛공부’에서‘헛—’은‘보람없는’, ‘속이  없는’,  ‘소용이  없는’의뜻을 가지고 다른 단어와 결합하여 씌였다.  이  때‘헛—...",
+    "output": "례를 들어 단어  ‘헛걱정, 헛구역,  헛고생,  헛공부’에서‘헛—’은‘보람없는’, ‘속이  없는’,  ‘소용이  없는’의뜻을 가지고 다른 단어와 결합하여 씌였다.  이  때‘헛—’은 하나의 뜻 단위로 갈라진다.  이와 마찬가지로‘갈거미,강다짐, 군침, 날고기, 둘배’에서도 ‘갈—,  강—, 군—,날—, 돌—’은‘보충적 의미’를 나타내는 형태소이고‘거미, 다짐, 침, 고기, 배’등은 ‘실질적 의미’를 나타내는형래소이다.  ‘눈매,  알맹이, 쇠붙이, 가래질, 손젖,  멋쟁이, 욕심꾸러기, 귀패기’에서도 ‘눈,  알, 쇠, 가래, 손,멋, 욕심, 귀’는 어떤 사물의  이름을 나타내고 ‘—매,—맹이, —붙이, —절, —젖, —쟁이, —꾸려기, —패기’는 앞 명사에 붙어서 보충적 의미를 나타내는 형태소이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 397,
+      "paragraph_index": 952
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "넷째, 제3항에서“받침‘ㄷ, ㅅ, ㅈ, ㅊ,  ㅌ, ㅆ’가운데서 어느 하나로 밝혀 적을 수 없는 것은‘ㅅ’으로 적는다.”와 같이 규정을 한 것은 재배로 써오던 습관에 따르는 려사주...",
+    "output": "넷째, 제3항에서“받침‘ㄷ, ㅅ, ㅈ, ㅊ,  ㅌ, ㅆ’가운데서 어느 하나로 밝혀 적을 수 없는 것은‘ㅅ’으로 적는다.”와 같이 규정을 한 것은 재배로 써오던 습관에 따르는 려사주의원칙을 적용한 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 113,
+      "paragraph_index": 1017
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이와 같이  한 형태소 안의 두 모음 사이에서  나는 설측음을 ‘ㄹㄴ’으로 적지  않고 ‘ㄹㄹ’로 적는 것은 소리 나는 원리에도 맞거니와 두 형태소 사이에서 동화현상에 의해 일어나...",
+    "output": "이와 같이  한 형태소 안의 두 모음 사이에서  나는 설측음을 ‘ㄹㄴ’으로 적지  않고 ‘ㄹㄹ’로 적는 것은 소리 나는 원리에도 맞거니와 두 형태소 사이에서 동화현상에 의해 일어나는 설측음과 구별하여 적는 데도 좋은 점이  있는것이다.  례를 들면 ‘설날’에서 모음 ‘ㅓ’와 ‘ㅏ’사이에서나는 설측음을 ‘ㄹㄹ’로 적지  않고 ‘ㄹㄴ’으로 적는 것은한 형태소에서가 아니고 두 형태소 사이에서  일어나는 소리이므로 각각 형태를 밝혀서  ‘설’과 ‘날’로 적어야 동화현상에서  일어나는 소리라는 근거가 뚜렷해진다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 284,
+      "paragraph_index": 1028
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "금’과 같이  적을 수도 있고 받침을 하지  않고 적을 수도있다.  이 때 한 형태소 안에서의 맞춤법은 두 모음 사이에자음 하나가 끼인 경우에는 설측음이  아닌 한 일률로 받침을 ...",
+    "output": "금’과 같이  적을 수도 있고 받침을 하지  않고 적을 수도있다.  이 때 한 형태소 안에서의 맞춤법은 두 모음 사이에자음 하나가 끼인 경우에는 설측음이  아닌 한 일률로 받침을 적지  않는다는 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 113,
+      "paragraph_index": 1035
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들면 ‘물오리’에서 모음 ‘ㅜ’와 ‘ㅗ’ 사이에 자음‘ㄹ’하나가 끼였지만 ‘물’과‘오리’는 두 형태소 사이에 놓인 것이므로 각각 형태를 밝혀 적는다.  그러나 ‘지키다’는 ‘...",
+    "output": "례를 들면 ‘물오리’에서 모음 ‘ㅜ’와 ‘ㅗ’ 사이에 자음‘ㄹ’하나가 끼였지만 ‘물’과‘오리’는 두 형태소 사이에 놓인 것이므로 각각 형태를 밝혀 적는다.  그러나 ‘지키다’는 ‘직히다’로 적지  않고 한 형태소 안에서는 발음 내로 적는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 134,
+      "paragraph_index": 1038
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "유향음이  받침으로 된 경우에 뒤에 오는 자음을 된소리로 내는 것과 순한소리로 내는 경우가 있으므로 두가지경우를 갈라 적는다.  유향음 뒤에 된소리로 나는 것을 순한소리로 적을 수...",
+    "output": "유향음이  받침으로 된 경우에 뒤에 오는 자음을 된소리로 내는 것과 순한소리로 내는 경우가 있으므로 두가지경우를 갈라 적는다.  유향음 뒤에 된소리로 나는 것을 순한소리로 적을 수도 있다.  례를 들면‘훨씬’을‘훨신’으로, ‘벌써’를‘벌서’로 적을 수도 있다.  이렇게 된소리로나는 것을 순한소리로 적는다면‘갈구리’,  ‘번들번들’에서와 같이 유향음 뒤에서 순한소리로 나는 경우와 혼동될 수있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 221,
+      "paragraph_index": 1048
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이와 같이  적는 것은 한 형태소 안에서 소리  나는 원리 내로 적는 형태—음운론적 원칙에도 부합된다고 본다.그려나 토에서는 ‘ㄹ’다음에 오는 순한소리가 된소리로나더라도 된소리로 ...",
+    "output": "이와 같이  적는 것은 한 형태소 안에서 소리  나는 원리 내로 적는 형태—음운론적 원칙에도 부합된다고 본다.그려나 토에서는 ‘ㄹ’다음에 오는 순한소리가 된소리로나더라도 된소리로 적지  않는 까닭은 오늘날 토들의 호상관계와 체계성을 고려하였기 때문이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 141,
+      "paragraph_index": 1056
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들면 ‘집으로 갈가’에서  ‘ㅡㄹ가’를 ‘ㅡㄹ까’로적는다면 ‘집으로 가는가’에서의 ‘ㅡㄴ가’와 달라지며  ‘할만할지’에서  ‘ㅡㄹ지’를 ‘ㅡㄹ찌’로 적는다면 ‘할 만한지’에서...",
+    "output": "례를 들면 ‘집으로 갈가’에서  ‘ㅡㄹ가’를 ‘ㅡㄹ까’로적는다면 ‘집으로 가는가’에서의 ‘ㅡㄴ가’와 달라지며  ‘할만할지’에서  ‘ㅡㄹ지’를 ‘ㅡㄹ찌’로 적는다면 ‘할 만한지’에서의 ‘ㅡㄴ지’와 달라진다.  따라서  토들의 호상관계를고려하고 그 전일성을 기하기 위해서 된소리로 적지  않고순한소리로 적기로 한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 174,
+      "paragraph_index": 1057
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "자음‘ㄴ,  ㄹ,  ㅁ,  ㅇ’을 제외한 다른 자음들은 모두가 무성자음이다.  무성자음이  받침으로 될 때에는 언제나아래음절의  첫소리를 된소리로 되게 하는 특성이  있다.  그러...",
+    "output": "자음‘ㄴ,  ㄹ,  ㅁ,  ㅇ’을 제외한 다른 자음들은 모두가 무성자음이다.  무성자음이  받침으로 될 때에는 언제나아래음절의  첫소리를 된소리로 되게 하는 특성이  있다.  그러므로 유향음‘ㄴ,  ㄹ,  ㅁ,  ㅇ’이외의  받침  아래에서는언제나 순한소리로 적기로 한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 152,
+      "paragraph_index": 1059
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이 규정에서는 줄어진 음절의  첫소리를 앞 음절의  받침으로 바로잡아 적는다고 하였다.  이와 같이 규정한 것은우리말에서 단어  안의  형태소의 말소리를 줄여쓰는 현상이있는데  이...",
+    "output": "이 규정에서는 줄어진 음절의  첫소리를 앞 음절의  받침으로 바로잡아 적는다고 하였다.  이와 같이 규정한 것은우리말에서 단어  안의  형태소의 말소리를 줄여쓰는 현상이있는데  이  때 어떤 받침을 할 것인가가 문제로 되기  때문이다.  형태소 안에서 줄어지는 현상을 보면 자음보다 모음이  많다.  례를 들면 ‘엊저녁’은 ‘어제저녁’이 줄어들어  이루어진  것이다.  ‘엊저녁’에서  ‘엊’  대신에  ‘엇,  얻, 얼,엏, 었’등으로 적을 가능성도 있다.  이  때‘엊’에서‘ㅈ’받침은 모음‘ㅔ’가 줄어들면서 그 음절의  첫소리인 자음‘ㅈ’이  받침으로 올라간 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 320,
+      "paragraph_index": 1074
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이와 같이  적는 것은 단어의  형태소의 소리를 줄여서말할 때 되도록 그 형태를 고정시킴으로써 표기와 발음이모순이  없도록 하며  그 뜻을 쉽게  알 수  있도록 하기 위한 것이다...",
+    "output": "이와 같이  적는 것은 단어의  형태소의 소리를 줄여서말할 때 되도록 그 형태를 고정시킴으로써 표기와 발음이모순이  없도록 하며  그 뜻을 쉽게  알 수  있도록 하기 위한 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 101,
+      "paragraph_index": 1075
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이 규정은 맞춤법에서 중요한 한 부분을 이루고 있다.만일 어간과 토를 밝혀 적지 않는다면 ‘꽃이, 꽃을, 꽃에’를‘꼬치, 꼬츨, 꼬체’로, ‘앉다, 앉으니,  앉아, 앉지’를‘안따...",
+    "output": "이 규정은 맞춤법에서 중요한 한 부분을 이루고 있다.만일 어간과 토를 밝혀 적지 않는다면 ‘꽃이, 꽃을, 꽃에’를‘꼬치, 꼬츨, 꼬체’로, ‘앉다, 앉으니,  앉아, 앉지’를‘안따, 안즈니,  안자,  안찌’로 적을 수 있다.  이와 같이적는다면 어간과 토의 형태가 드려나지 않아 글을 보고 인차 리해하기 어렵게 된다.  따라서 각각 어간과 토의 형태를 밝혀서 고정시켜 표기하기로 하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 217,
+      "paragraph_index": 1090
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "어간에 토가 붙은 것으로 인정되는 경우라 하더라도뜻이  달라진 것은 어간과 토를 밝혀 적지 않는다. 우의 폐를 들면  ‘너머’는 동사 ‘넘다’의  어간 ‘넘—’에  접속토‘—어’가...",
+    "output": "어간에 토가 붙은 것으로 인정되는 경우라 하더라도뜻이  달라진 것은 어간과 토를 밝혀 적지 않는다. 우의 폐를 들면  ‘너머’는 동사 ‘넘다’의  어간 ‘넘—’에  접속토‘—어’가 붙은 형태로 인정할 수  있다.  그러나 “저  고개너머에도 새 공장이  섰다.”에서  ‘너머’는 ‘어떤 사물의 높은 것의 저쪽’이라는 뜻을 나타내므로 다른 뜻을 가진 단어로 되였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 203,
+      "paragraph_index": 1108
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "일부 용언에서 어간에 토가 어울릴 적에 그 어간의 형태가 현행 어음규칙과는 달리  바뀌여지는 경우에  어간의형태를 고정시켜 표기하기  힘들다.  때문에  어간의 끝소리가 일정하게 ...",
+    "output": "일부 용언에서 어간에 토가 어울릴 적에 그 어간의 형태가 현행 어음규칙과는 달리  바뀌여지는 경우에  어간의형태를 고정시켜 표기하기  힘들다.  때문에  어간의 끝소리가 일정하게  바뀌여지는 것은 바뀐 내로 적음으로써 오히려  언어생활에서 편리를 가져올 수 있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 147,
+      "paragraph_index": 1120
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "용언어간의 모음이  ‘ㅏㅡ, ㅗㅡ’인 경우라도 어간의끝에 받침이  있는 단어는 이 부류에 들지 않는다.  례를 들면 ‘공글다, 다듬다, 만들다…’에서는 ‘공글아, 공글았다;다듬아,...",
+    "output": "용언어간의 모음이  ‘ㅏㅡ, ㅗㅡ’인 경우라도 어간의끝에 받침이  있는 단어는 이 부류에 들지 않는다.  례를 들면 ‘공글다, 다듬다, 만들다…’에서는 ‘공글아, 공글았다;다듬아, 다듬았다; 만들아, 만들았다…’로 적지  않고 ‘공글어, 공글였다; 다듬어, 다듬었다; 만들어, 만들였다…’로 적는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 167,
+      "paragraph_index": 1241
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이  밖에도  ‘나쁘다’,  ‘모으다’,  ‘바쁘다’,  ‘크다’,‘르다’,  ‘따르다’, ‘쓰다’,  ‘아프다’등 많이 들 수 있다.‘모으다’에서  ‘모으ㅡ’는 어간이고 ‘ㅡ다’...",
+    "output": "이  밖에도  ‘나쁘다’,  ‘모으다’,  ‘바쁘다’,  ‘크다’,‘르다’,  ‘따르다’, ‘쓰다’,  ‘아프다’등 많이 들 수 있다.‘모으다’에서  ‘모으ㅡ’는 어간이고 ‘ㅡ다’는 토이다.  ‘모으+-아’에서와 같이  모음토 ‘ㅡ아’를 만나면  어간 모음‘ㅡ’가 빠져나가면서  ‘모아’로 된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 165,
+      "paragraph_index": 1326
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "합성어란 두개 어근 또는 그 이성의  어근이 합쳐서  이루어진 단어를 말한다.  ‘부삽’은 ‘불’이라는 명사어근과‘삽’이라는 명사어근이  합쳐서  이루어진  것이고 ‘된장’은‘되다...",
+    "output": "합성어란 두개 어근 또는 그 이성의  어근이 합쳐서  이루어진 단어를 말한다.  ‘부삽’은 ‘불’이라는 명사어근과‘삽’이라는 명사어근이  합쳐서  이루어진  것이고 ‘된장’은‘되다’라는 형용사어근 ‘되—’와 ‘장’이라는 명사어근이합쳐서  이루어진 것이며  ‘검붉다’는 ‘검다’와 ‘붉다’의  형용사어근 ‘검—’과 ‘붉—’이  서로 어울려  합성어를  이룬것이다.  이와 같이 둘 또는 그 이상의  어근이 합쳐서  이루어진 합성어의  적기에서는 매개  어근의  형태를 각각 밝혀주는 형태주의원칙을 기본으로 따르면서  어근과 어근이  어",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 298,
+      "paragraph_index": 1380
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "다시 말하면 어근과 어근이  어울려 합성어를 이룰 때어근과 어근 사이에  어음동화현상이  일어나거나 런음 또는절음 현상이 일어날 경우에도 매개 어근의 원 형태를 각각밝혀 적는다는 ...",
+    "output": "다시 말하면 어근과 어근이  어울려 합성어를 이룰 때어근과 어근 사이에  어음동화현상이  일어나거나 런음 또는절음 현상이 일어날 경우에도 매개 어근의 원 형태를 각각밝혀 적는다는 것이다.  어음동화현상이  일어나지  않는 경우는 그 형태를 밝혀 적기 어렵지  않다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 148,
+      "paragraph_index": 1389
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이와 같이 동화현상이  일어나게  되는 주되는 요인은두 형태소 사이에서 유향음의  영향을 받기  때문이다.  자음과 자음 사이에서 유향음에 의한 동화현상은 어음법칙에 맞는 것이므로...",
+    "output": "이와 같이 동화현상이  일어나게  되는 주되는 요인은두 형태소 사이에서 유향음의  영향을 받기  때문이다.  자음과 자음 사이에서 유향음에 의한 동화현상은 어음법칙에 맞는 것이므로 맞춤법에서는 그 형태를 얼마든지 밝혀적을 수 있다.  따라서  이런 경우에 맞춤법에서는 동화된발음 내로 적지  말고 언제나 원 형태를 밝혀 적어야 한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 186,
+      "paragraph_index": 1397
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이와 같이 두 어근(또는 접두사와 어근) 사이에서  받침  아래에 모음이 올 때 그것을 이어서  발음하지  않고 받침과 모음 사이를 끊어서  받침소리로 발음하다가 그 받침소리를 그...",
+    "output": "이와 같이 두 어근(또는 접두사와 어근) 사이에서  받침  아래에 모음이 올 때 그것을 이어서  발음하지  않고 받침과 모음 사이를 끊어서  받침소리로 발음하다가 그 받침소리를 그대로 모음에  이어서  발음하는 현상을 절음현상이라고 한다.  우리말에서  절음현상이  일어나는 경우를 보면두 어근(또는 접두사와 어근) 사이에서  모음으로 시작한고유어어근의  앞에  있는 받침  ‘ㅋ, ㄲ, ㄹ’,  ‘ㅅ, ㅈ,  ㅊ,ㅌ’,  ‘ㅍ,  ㅃ,  ㅂ’등이 각각 받침소리  ‘ㄱ’,  ‘ㄷ’,  ‘ㅂ’으로 발음하다가 그 받침소리를 모음에  이어  발음하므로절음현상이  일어난다.  이러한 규칙적인 발음현상은 우리말맞춤법에서  발음 내로 적지  않고 원  형태를 밝혀  적기로한 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 378,
+      "paragraph_index": 1405
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘며칠’은 ‘몇날,  몇달’에서의 의문대명사 ‘몇’과 명사인 ‘일’로 갈라볼 수 있을 것 같으나 사실은 ‘일’의  어원적 근거가 똑똑하지  않다.  만일 ‘일’이  ‘날’과 같은 ...",
+    "output": "‘며칠’은 ‘몇날,  몇달’에서의 의문대명사 ‘몇’과 명사인 ‘일’로 갈라볼 수 있을 것 같으나 사실은 ‘일’의  어원적 근거가 똑똑하지  않다.  만일 ‘일’이  ‘날’과 같은 그런어근이라면 ‘몇+일’은 [면닐]로 발음하여야 한다.  ‘며칠’은 ‘수량’을 나타낼 뿐 아니라 ‘순서’를 나타내기도 한다.(래일이  음력으로 며칠인가?) 그러므로 이  단어는 ‘몇일’",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 203,
+      "paragraph_index": 1407
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘오라버니’도 ‘울’과 ‘아버니’로 갈라서  볼 수  있으나‘울’의  어원이  명확지  않아서 그것을 한 형태소로 보기  어렵다.  따라서  이런 경우에도 발음 내로 ‘오라버니’로...",
+    "output": "‘오라버니’도 ‘울’과 ‘아버니’로 갈라서  볼 수  있으나‘울’의  어원이  명확지  않아서 그것을 한 형태소로 보기  어렵다.  따라서  이런 경우에도 발음 내로 ‘오라버니’로 적기로 하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 109,
+      "paragraph_index": 1413
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘이틀’,  ‘이래’도 그 어원이  뚜렷하지  않다.  ‘이틀’을‘읻흘(읻+흘)’로 보고  ‘~흘’을  ‘사흘,  나흘,  열흘’의‘흘’로 본다 해도 ‘읻’이 무엇인지  그 어원을...",
+    "output": "‘이틀’,  ‘이래’도 그 어원이  뚜렷하지  않다.  ‘이틀’을‘읻흘(읻+흘)’로 보고  ‘~흘’을  ‘사흘,  나흘,  열흘’의‘흘’로 본다 해도 ‘읻’이 무엇인지  그 어원을 밝힐 수 없다.  이와 마찬가지로 ‘이래’도 ‘읻해(읻+해)’로 보고 ‘~해’는 ‘한해, 두해,  여러해’의  ‘해’로 본다 해도 ‘읻’은그 어원을 밝힐 수 없으며 한 형태소로 보기 어렵다.  그러므로 이  때에도 모두 발음 내로 ‘이틀’,  ‘이래’로 적기로하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 250,
+      "paragraph_index": 1414
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "단어  ‘맵쌀, 좁쌀,  참쌀’은 ‘메(日)+쌀’,  ‘조(日)+쌀’,  ‘차(日)+쌀’에서  보다싶이  두 형태소가 합쳐지면서‘ㅂ’이  덧난 것이다.  이것은 아래어근 ‘쌀’에 ...",
+    "output": "단어  ‘맵쌀, 좁쌀,  참쌀’은 ‘메(日)+쌀’,  ‘조(日)+쌀’,  ‘차(日)+쌀’에서  보다싶이  두 형태소가 합쳐지면서‘ㅂ’이  덧난 것이다.  이것은 아래어근 ‘쌀’에 의하여  이루어진 것이다.  옛날에 ‘쌀’은 ‘빨’이였다.  옛날의  ‘ㅄ’이 오늘날 된소리  ‘ㅆ’으로 변하여  ‘쌀’로 됨과 동시에  합성어에서는 ‘ㅄ’에서의  ‘ㅂ’이 잔존형태로 남아서 오늘날 덧나",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 213,
+      "paragraph_index": 1418
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이러한 현상은 ‘휩쓸다’,  ‘몹쓸놈’,  ‘부릅뜨다’등에서도 불 수 있다.  ‘쓸다’는 지난날 ‘뿔다’에서,  ‘뜨다’는‘쁘다’에서 온 것이다....",
+    "output": "이러한 현상은 ‘휩쓸다’,  ‘몹쓸놈’,  ‘부릅뜨다’등에서도 불 수 있다.  ‘쓸다’는 지난날 ‘뿔다’에서,  ‘뜨다’는‘쁘다’에서 온 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 81,
+      "paragraph_index": 1424
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들면 ‘머리카락(머리+가락)’,  ‘수탉(수+탉)’,‘마파람(마+바람)’등에서 보는 바와 같이 두 형태소 사이에‘ㅎ’소리가 보래여져서 뒤의 순한소리가 거센소리로되었다.  이것...",
+    "output": "례를 들면 ‘머리카락(머리+가락)’,  ‘수탉(수+탉)’,‘마파람(마+바람)’등에서 보는 바와 같이 두 형태소 사이에‘ㅎ’소리가 보래여져서 뒤의 순한소리가 거센소리로되었다.  이것은 지난날 일부 단어의 어근에‘ㅎ’이 첨가되던 현상(ㅎ종성체언)인데 현대어에 와서 극히 개별적인 어근에 붙으면서  뒤의 순한소리가 거센소리로 바뀌어  나는것은 합성어의 뒤 단위의  첫소리가‘ㄱ,  ㄷ,  ㅂ’과 같은자음으로 시작되었을 경우에‘ㅎ’을 만나면서 같은 계렬의거센소리로 이루어지기  때문이다.  이러한 류형에  속하는단어들은 다음과 같다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 294,
+      "paragraph_index": 1427
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘부나비(불+나비)’,  ‘소나무(솔+나무)’는 ‘ㄴ’  앞에서‘ㄹ’이 빠져나간 것이고 ‘다달이(달+달+이)’,  ‘차돌(찰+돌)’은‘ㄷ’앞에서; ‘마소(말+소)’, ‘화살(활+살...",
+    "output": "‘부나비(불+나비)’,  ‘소나무(솔+나무)’는 ‘ㄴ’  앞에서‘ㄹ’이 빠져나간 것이고 ‘다달이(달+달+이)’,  ‘차돌(찰+돌)’은‘ㄷ’앞에서; ‘마소(말+소)’, ‘화살(활+살)’은‘ㅅ’앞에서; ‘바느질(바늘+질)’,  ‘오지다(올+지다)’는‘ㅈ’앞에서‘ㄹ’이 각각 빠져나간 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 160,
+      "paragraph_index": 1436
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "접두사는 어근의  앞에 붙어서  일정한 뜻을 더해주면서새 단어를 만들어 표현을 섬세하고 다양하게 하며  어휘를풍부히 한다.  그런데 접두사도 어근과 어울릴 때 받침소리가 일정하게 ...",
+    "output": "접두사는 어근의  앞에 붙어서  일정한 뜻을 더해주면서새 단어를 만들어 표현을 섬세하고 다양하게 하며  어휘를풍부히 한다.  그런데 접두사도 어근과 어울릴 때 받침소리가 일정하게 바뀌여 나는 경우가 있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 114,
+      "paragraph_index": 1451
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들면‘샛말갛다—센말가라’,  ‘맏며느리—만며느리’, ‘덧이불—던이불—던니불’등에서와 같이  받침소리가바뀌여 나는 경우가 있다.  이런 경우라도 접두사의 원 형래를 밝혀 적지 ...",
+    "output": "례를 들면‘샛말갛다—센말가라’,  ‘맏며느리—만며느리’, ‘덧이불—던이불—던니불’등에서와 같이  받침소리가바뀌여 나는 경우가 있다.  이런 경우라도 접두사의 원 형래를 밝혀 적지  않고 소리 나는 대로 적는다면 그 형태가일정하게 고정되지  않아 뜻을 알아보기 힘들다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 149,
+      "paragraph_index": 1452
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들면‘덮개, 맞추다,  엮히다’에서  어근‘덮—,맞—, 엮—’과 자음으로 시작된  접미사  ‘—개,  —추,—히’의 형태소 계선이 쉽게 갈라진다.  이와 같이  형태소계선이 ...",
+    "output": "례를 들면‘덮개, 맞추다,  엮히다’에서  어근‘덮—,맞—, 엮—’과 자음으로 시작된  접미사  ‘—개,  —추,—히’의 형태소 계선이 쉽게 갈라진다.  이와 같이  형태소계선이 명확한 것은 본래 형태를 밝혀 적음으로 하여 뜻을포착하고 리해하기 쉽다.  만일 ‘덮개’에서의  ‘덮’을 ‘덥’으로 적는다면‘날씨가 덥다.’에서의  ‘덥—’의 뜻과 혼동된다.  자음으로 시작된 대부분의 접미사는 어근과의 계선이 분명하므로 본래 형태를 밝혀 적기로 하고 그 가운데일부는 받침소리의 규칙에 맞지 않아 발음 내로 적기로 하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 289,
+      "paragraph_index": 1481
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "[붙임] ‘나직하다’에서  ‘나직’은 원래  형용사 ‘낮다’의  어근 ‘낮’과 ‘높직하다’ 등에서의  접미사 ‘-직’이  어울린  것이다.  이것을 형태를 밝혀 적는다면 ‘낮직’으...",
+    "output": "[붙임] ‘나직하다’에서  ‘나직’은 원래  형용사 ‘낮다’의  어근 ‘낮’과 ‘높직하다’ 등에서의  접미사 ‘-직’이  어울린  것이다.  이것을 형태를 밝혀 적는다면 ‘낮직’으로 적어야 한다.  그러나 실제 발음은 ‘나직-’이므로 발음 내로‘나직-’으로 표기하였다.  (‘느직하다’도  이와 마찬가지다.)",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 172,
+      "paragraph_index": 1499
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들면 ‘놓치다, 덮치다, 돋치다, 밀치다, 받치다,부딪치다, 엎치다, 뻗치다’등에서  ‘—치’는 각각 동사어근에 붙어서 동사의 의미를 강조하여주는 역할을 한다....",
+    "output": "례를 들면 ‘놓치다, 덮치다, 돋치다, 밀치다, 받치다,부딪치다, 엎치다, 뻗치다’등에서  ‘—치’는 각각 동사어근에 붙어서 동사의 의미를 강조하여주는 역할을 한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 92,
+      "paragraph_index": 1512
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "[붙임] 맞춤법에서  강조의 뜻을 나타내는 접미사 ‘-치’와 사역 또는 피동을 나타내는 접미사 ‘-히’가 ‘ㄷ’,‘ㅈ’받침으로 끝난 동사어근의 뒤에 붙을 때 발음이 갈게난다 하더라...",
+    "output": "[붙임] 맞춤법에서  강조의 뜻을 나타내는 접미사 ‘-치’와 사역 또는 피동을 나타내는 접미사 ‘-히’가 ‘ㄷ’,‘ㅈ’받침으로 끝난 동사어근의 뒤에 붙을 때 발음이 갈게난다 하더라도 문법적인 측면이 전혀 다름에 따라 뜻도 다르므로 이것을 엄격히 갈라서 틀리지  않게 써야 한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 155,
+      "paragraph_index": 1518
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘걷다’는 ‘이부자리를 걷다, 소매를 걷다, 빨래를 걷다’등에서 쓰인 것처럼  ‘일정하게  널려져있는 것을 접거나 말거나 또는 한테 모으다.’라는 뜻이지만 ‘거두다’는주로 ‘일정한...",
+    "output": "‘걷다’는 ‘이부자리를 걷다, 소매를 걷다, 빨래를 걷다’등에서 쓰인 것처럼  ‘일정하게  널려져있는 것을 접거나 말거나 또는 한테 모으다.’라는 뜻이지만 ‘거두다’는주로 ‘일정한 노력을 들여서  목적의식적으로 포치한 물건이나 일을 한테 모아서 그 노력의  열매를 얻다.’라는 뜻으로 쓰인다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 163,
+      "paragraph_index": 1543
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이 단어는 원래  ‘받다’의 사역형에서 온 것이다.  ‘상대편으로 하여금 받게 하는 것’이  ‘가져다 드리는 것’으로되었다.  오늘날 ‘바치다’를 ‘받다’와 결부시켜  어원을 따질...",
+    "output": "이 단어는 원래  ‘받다’의 사역형에서 온 것이다.  ‘상대편으로 하여금 받게 하는 것’이  ‘가져다 드리는 것’으로되었다.  오늘날 ‘바치다’를 ‘받다’와 결부시켜  어원을 따질 필요가 없다.  그리고 이 단어가 뜻이  변한 만큼(앞의단어가 용언일 때 보조용언으로 처리함)  ‘받히다’로 적지않는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 168,
+      "paragraph_index": 1548
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘부치다’는 원래‘붙다’의 사역형에서 온 것이다.  ‘물건이나 바람으로 하여금 상대편에게 가서 붙게(닿게) 하다.’라는 뜻에서부터‘편지를 부치다.’, ‘부채로 부치다.’의‘부치다’...",
+    "output": "‘부치다’는 원래‘붙다’의 사역형에서 온 것이다.  ‘물건이나 바람으로 하여금 상대편에게 가서 붙게(닿게) 하다.’라는 뜻에서부터‘편지를 부치다.’, ‘부채로 부치다.’의‘부치다’라는 뜻이  생졌다.  오늘날 이것은 ‘붙다’와 런계  없는편 단어로 생각하는 만큼‘붙이다’로 적지  않는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 161,
+      "paragraph_index": 1554
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이 단어는 원래 동사 ‘돌다’에 사역의  접미사 ‘ㅡ이’가 들어가서  이루어진 것이다.  그러나 오늘날 ‘돌게 하다’라는 일반적인 뜻에서는 쓰이지  않고 ‘특수하게 돌게 하는것’,...",
+    "output": "이 단어는 원래 동사 ‘돌다’에 사역의  접미사 ‘ㅡ이’가 들어가서  이루어진 것이다.  그러나 오늘날 ‘돌게 하다’라는 일반적인 뜻에서는 쓰이지  않고 ‘특수하게 돌게 하는것’, 즉‘킬 같은 것을 둥글게  빙  돌려서 무엇을 베거나파내기 위한 동작’에 한해서만 쓰인다.  이것을 구래여  ‘돌다’와 결부시켜  ‘돌이다’로 적을 필요가 없다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 191,
+      "paragraph_index": 1556
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이 단어는 동사 ‘들다’에 사역의  접미사 ‘ㅡ이’가 들어가서  이루어진 것이다.  ‘물건으로 하여금 상대편의 손에들게 하다.’라는 뜻으로 쓰는 데서 오늘날의  ‘바치다, 올리다’...",
+    "output": "이 단어는 동사 ‘들다’에 사역의  접미사 ‘ㅡ이’가 들어가서  이루어진 것이다.  ‘물건으로 하여금 상대편의 손에들게 하다.’라는 뜻으로 쓰는 데서 오늘날의  ‘바치다, 올리다’의 뜻과 같은 ‘드리다’가 생긴  것이다.  이  단어는‘들다’와 관련이  없을 만큼 그 런계가 멀어졌다.  그러므로이 단어를 구래여  ‘들이다’로 적을 필요가 없다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 193,
+      "paragraph_index": 1558
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이 단어는 원래 형용사 ‘길다’에 동사를 만들면서  사역의 뜻을 나타내는 접미사 ‘ㅡ으(우)’가 들어가서  이루어진 것이다.  그러나 오늘날 주로 ‘어떤 자랄 수 있는 동식물 같은...",
+    "output": "이 단어는 원래 형용사 ‘길다’에 동사를 만들면서  사역의 뜻을 나타내는 접미사 ‘ㅡ으(우)’가 들어가서  이루어진 것이다.  그러나 오늘날 주로 ‘어떤 자랄 수 있는 동식물 같은 것을 일정한 목적을 가지고 힘을 넣어서  자라게하다.’라는 뜻으로만 쓰인다.  이것은 ‘길다’와 뜻이  달라졌으므로 ‘길으다’로 적지  않는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 181,
+      "paragraph_index": 1560
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이 단어는 ‘추측하다’,  ‘정한 날자보다 뒤로 물리다’라는 뜻으로 쓰이므로 ‘밀다’와는 그 뜻에서  런계가 없다.따라서  ‘밀다’와 런계시켜  ‘밀우다’로 적을 필요가 없다....",
+    "output": "이 단어는 ‘추측하다’,  ‘정한 날자보다 뒤로 물리다’라는 뜻으로 쓰이므로 ‘밀다’와는 그 뜻에서  런계가 없다.따라서  ‘밀다’와 런계시켜  ‘밀우다’로 적을 필요가 없다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 98,
+      "paragraph_index": 1568
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이 단어도 원래는 동사 ‘일다’의 사역과 관련되여 발전한단어다. 왜냐하면 ‘일어나게 시키는 것’이 바로 ‘달성하는 것(이루는 것)’이였기 때문이다.  그러나 이 단어는 ‘일다’와 ...",
+    "output": "이 단어도 원래는 동사 ‘일다’의 사역과 관련되여 발전한단어다. 왜냐하면 ‘일어나게 시키는 것’이 바로 ‘달성하는 것(이루는 것)’이였기 때문이다.  그러나 이 단어는 ‘일다’와 뜻에서  런계가 없다.  따라서  ‘일우다’로 적지  않는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 134,
+      "paragraph_index": 1570
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들면 ‘고치다’,  ‘만나다’와 같은 것도  ‘곧다’,‘맞다’와는 런관시켜 생각할 수 없을 만큼 그 뜻이  달라졌다.  따라서  ‘곧히다’,  ‘맞나다’로 적지  않는다....",
+    "output": "례를 들면 ‘고치다’,  ‘만나다’와 같은 것도  ‘곧다’,‘맞다’와는 런관시켜 생각할 수 없을 만큼 그 뜻이  달라졌다.  따라서  ‘곧히다’,  ‘맞나다’로 적지  않는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 98,
+      "paragraph_index": 1572
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "마찬가지로 ‘점잖다’와 같은 단어도 원래는 ‘젊지  않다’에서 온 것이지만 그 뜻이  ‘젊지  않은 것’과는 상당히멀어졌다.  따라서 ‘젊잖다’로 적지 않고 ‘점잖다’로 적는다....",
+    "output": "마찬가지로 ‘점잖다’와 같은 단어도 원래는 ‘젊지  않다’에서 온 것이지만 그 뜻이  ‘젊지  않은 것’과는 상당히멀어졌다.  따라서 ‘젊잖다’로 적지 않고 ‘점잖다’로 적는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 99,
+      "paragraph_index": 1573
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "여기서  ‘길이, 깊이, 높이’ 등은 형용사 ‘길다, 깊다,높다’에서  어근 ‘길ㅡ’,  ‘깊ㅡ’,  ‘높ㅡ’에  접미사 ‘ㅡ이’가 붙어서  명사로도 되고 부사로도 된다....",
+    "output": "여기서  ‘길이, 깊이, 높이’ 등은 형용사 ‘길다, 깊다,높다’에서  어근 ‘길ㅡ’,  ‘깊ㅡ’,  ‘높ㅡ’에  접미사 ‘ㅡ이’가 붙어서  명사로도 되고 부사로도 된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 95,
+      "paragraph_index": 1587
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘미닫이’는 동사 ‘밀다’의  어근 ‘밀ㅡ’에 동사 ‘닫다’의  어근 ‘닫ㅡ’이  어울리여 합성어를 이룬 다음 또다시  접미사 ‘ㅡ이’가 덧붙어서  명사를 이룬 것이다....",
+    "output": "‘미닫이’는 동사 ‘밀다’의  어근 ‘밀ㅡ’에 동사 ‘닫다’의  어근 ‘닫ㅡ’이  어울리여 합성어를 이룬 다음 또다시  접미사 ‘ㅡ이’가 덧붙어서  명사를 이룬 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 94,
+      "paragraph_index": 1588
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘거름’은 원래  ‘땅이  걸다, 죽이  걸다’에서 볼 수  있는 바와 같이  형용사 ‘걸다’의 어근 ‘걸’에 접미사 ‘ㅡ음’이 붙어서  ‘걸음→거름’으로 된  것이지만 ‘걸다’(...",
+    "output": "‘거름’은 원래  ‘땅이  걸다, 죽이  걸다’에서 볼 수  있는 바와 같이  형용사 ‘걸다’의 어근 ‘걸’에 접미사 ‘ㅡ음’이 붙어서  ‘걸음→거름’으로 된  것이지만 ‘걸다’(형용사)와는 의미가 다르다.  그러므로 이런 경우에  ‘걸다’와 런계시켜  ‘걸음’으로 적을 필요가 없다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 159,
+      "paragraph_index": 1605
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들면 ‘바깥(밖+알)’, ‘지붕(집+웅)’, ‘꼬락서니(꼴+악서니)’에서  접미사 ‘ㅡ알,  ㅡ웅,  ㅡ악서니’등은그 뜻이 무엇인지 명확하지 못하다....",
+    "output": "례를 들면 ‘바깥(밖+알)’, ‘지붕(집+웅)’, ‘꼬락서니(꼴+악서니)’에서  접미사 ‘ㅡ알,  ㅡ웅,  ㅡ악서니’등은그 뜻이 무엇인지 명확하지 못하다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 86,
+      "paragraph_index": 1669
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들면  ‘두루미’를 “두룸두룸” 한다고,  ‘제비’를“접접”, ‘파리’를 “짤짤” 한다고 그 소리를 본딴 것인지원래부터 한 어근으로 되어있는 것인지  그 어원을 밝혀내기  어...",
+    "output": "례를 들면  ‘두루미’를 “두룸두룸” 한다고,  ‘제비’를“접접”, ‘파리’를 “짤짤” 한다고 그 소리를 본딴 것인지원래부터 한 어근으로 되어있는 것인지  그 어원을 밝혀내기  어렵다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 103,
+      "paragraph_index": 1676
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘갑자기’는 ‘갑작이’로 적지  않는다.  왜냐하면  ‘갑작스럽다,  갑작스레’라고는 하여도  ‘갑작하다’라고는 하지않기  때문이다.  그리고 ‘술며시’를 ‘술몃이’로 적지  않고...",
+    "output": "‘갑자기’는 ‘갑작이’로 적지  않는다.  왜냐하면  ‘갑작스럽다,  갑작스레’라고는 하여도  ‘갑작하다’라고는 하지않기  때문이다.  그리고 ‘술며시’를 ‘술몃이’로 적지  않고‘일찌기’를 ‘일찍’으로는 쓰나 ‘일찍이’로 적지  않는 것은어근 ‘술몃,  일찍’에  ‘하다’가 붙는 일이  없으며  또한 토가 붙어서 단어로 쓰이는 일이  없기  때문이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 198,
+      "paragraph_index": 1685
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘반드지’와 ‘반듯이’는 의미적으로 다르다.  ‘반드지’는‘틀림없이  꼭’의  뜻으로 쓰이고  ‘반듯이’는  ‘아주 바르다.’의 뜻으로 쓰인다.  ‘반드시  하여야 한다.’에서의 ...",
+    "output": "‘반드지’와 ‘반듯이’는 의미적으로 다르다.  ‘반드지’는‘틀림없이  꼭’의  뜻으로 쓰이고  ‘반듯이’는  ‘아주 바르다.’의 뜻으로 쓰인다.  ‘반드시  하여야 한다.’에서의  ‘반드’에는 ‘하다’가 붙지  않으므로 밝혀  적지  않는다.  이려한 단어들로는 ‘까끄라기, 호르래기, 두드려기, 부스레기’등이  더  있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 181,
+      "paragraph_index": 1686
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘가맣다’는 형용사 ‘감다’의  어근 ‘감ㅡ’에  접미사‘ㅡ앟’이 붙어서  이루어진 것이고 형용사 ‘써느렇다’는 어근 ‘써늘ㅡ’에 접미사 ‘ㅡ엱’이 붙어  이루어진 것이다....",
+    "output": "‘가맣다’는 형용사 ‘감다’의  어근 ‘감ㅡ’에  접미사‘ㅡ앟’이 붙어서  이루어진 것이고 형용사 ‘써느렇다’는 어근 ‘써늘ㅡ’에 접미사 ‘ㅡ엱’이 붙어  이루어진 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 96,
+      "paragraph_index": 1693
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘노렇다, 누렇다, 발갛다,  벌겋다, 파랗다,  퍼렇다…’등 단어들도 이 부류에 속한다.  이러한 단어들은 모음조화현상이  비교적  체계  정연하게  일어나고 양성모음과 음성모음...",
+    "output": "‘노렇다, 누렇다, 발갛다,  벌겋다, 파랗다,  퍼렇다…’등 단어들도 이 부류에 속한다.  이러한 단어들은 모음조화현상이  비교적  체계  정연하게  일어나고 양성모음과 음성모음이 규칙적으로 바뀌면서  새로운 단어를 이루는 것이  그특징의 하나로 된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 142,
+      "paragraph_index": 1694
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "단어  ‘보드랍다’는 의성의태어  ‘보들ㅡ보들보들’의  어근 ‘보들’에 접미사 ‘ㅡ압’이 붙어서  이루어진 것이고 ‘어지럽다’는 어근 ‘어질’에  접미사 ‘ㅡ엽’이  붙어서  이루...",
+    "output": "단어  ‘보드랍다’는 의성의태어  ‘보들ㅡ보들보들’의  어근 ‘보들’에 접미사 ‘ㅡ압’이 붙어서  이루어진 것이고 ‘어지럽다’는 어근 ‘어질’에  접미사 ‘ㅡ엽’이  붙어서  이루어진 것이며  ‘간지럽다’는 ‘간절ㅡ간절간절ㅡ간절거리다’의어근 ‘간절’에  접미사 ‘ㅡ업’이 붙어서  이루어진  것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 167,
+      "paragraph_index": 1711
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례를 들면 ‘거멓다’는 ‘검(다)+옇다’에서,  ‘씨느랗다’는 ‘씨늘(하다)+앟다’에서  그 어근을 찾아볼 수  있지만‘까맣다’는 ‘깜앟다’에서  ‘깜’이  어근으로 되기  어렵다...",
+    "output": "례를 들면 ‘거멓다’는 ‘검(다)+옇다’에서,  ‘씨느랗다’는 ‘씨늘(하다)+앟다’에서  그 어근을 찾아볼 수  있지만‘까맣다’는 ‘깜앟다’에서  ‘깜’이  어근으로 되기  어렵다.또 ‘노랗다, 파랗다,  벌겋다’에서  ‘놀’,  ‘팔’, ‘뻥’이 각각해당한 단어의  어근으로 되기  어렵다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 163,
+      "paragraph_index": 1715
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "왼쪽의 부사들은 단음절의 명사가 겹쳐서  이루어진 어근으로서  이런 어근에는 ‘하다’가 붙어서 형용사를 이루지못한다.  오른쪽의 부사들은 그 어근에 ‘하다’가 붙어서  형용사로 될...",
+    "output": "왼쪽의 부사들은 단음절의 명사가 겹쳐서  이루어진 어근으로서  이런 어근에는 ‘하다’가 붙어서 형용사를 이루지못한다.  오른쪽의 부사들은 그 어근에 ‘하다’가 붙어서  형용사로 될 수 있다.  그려므로 어근에  ‘하다’를 붙여보아형용사로 되는 것은 접미사 ‘ㅡ히’를 붙이고 형용사로 되지  않는 것은 접미사 ‘ㅡ이’를 붙이면 된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 185,
+      "paragraph_index": 1747
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "한자어는 뜻글자인 한자를 기초로 하여  이루어진  것만큼 매개 글자가 일정한 뜻을 가지고 작용한다.  ‘국가’,‘국영’, ‘대국’에서 한자 ‘국’은 여전히  ‘나라’라는 뜻을가지고...",
+    "output": "한자어는 뜻글자인 한자를 기초로 하여  이루어진  것만큼 매개 글자가 일정한 뜻을 가지고 작용한다.  ‘국가’,‘국영’, ‘대국’에서 한자 ‘국’은 여전히  ‘나라’라는 뜻을가지고 단어를 구성한다.  한자의  이런 특성을 살려서 발음에서  변화가 일어난다 하더라도 매개 글자를 고정시켜  한자의 오늘날의 조선식 발음에 따라 글자마다 밝혀 적는 원칙에 따른다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 200,
+      "paragraph_index": 1750
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "한자를 글자마다 현대조선말 발음에 따라 고정시켜  적으면 한자에서의 적지  않은 동음이의어를 표기로 갈라줌으로써 서사생활에 편리를 가져다주며  매개  글자를  언제나고정시켜  적으...",
+    "output": "한자를 글자마다 현대조선말 발음에 따라 고정시켜  적으면 한자에서의 적지  않은 동음이의어를 표기로 갈라줌으로써 서사생활에 편리를 가져다주며  매개  글자를  언제나고정시켜  적으므로 글자가 가지고 있는 뜻을 리해하는 데도움이 크다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 130,
+      "paragraph_index": 1760
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "발음하여왔다.  이런 것들은 오늘날 굳어진 발음 내로 적기로 하였다.  ‘남색’을 ‘람색’으로,  ‘유리’를 ‘류리’로 적지않고 각각 ‘남색’, ‘유리’로 고정하여 적는 것도 굳어...",
+    "output": "발음하여왔다.  이런 것들은 오늘날 굳어진 발음 내로 적기로 하였다.  ‘남색’을 ‘람색’으로,  ‘유리’를 ‘류리’로 적지않고 각각 ‘남색’, ‘유리’로 고정하여 적는 것도 굳어진 발음습관에 따른 것이다.  ‘류월(六月), 지월(十月), 오뉴월(五六月)’도 습관에  따라 달리 발음되는 내로 적는다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 168,
+      "paragraph_index": 1768
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "한자어에서  ‘ㄹ’이  ‘ㄷ,  ㅈ’을 만날 때  ‘발달,  발작’에서와 같이  ‘ㄹ’이  줄어들지  않으나 한자‘불’자만은‘ㄷ,  ㅈ’앞에서  ‘ㄹ’이  줄어든다.  그러므로 발...",
+    "output": "한자어에서  ‘ㄹ’이  ‘ㄷ,  ㅈ’을 만날 때  ‘발달,  발작’에서와 같이  ‘ㄹ’이  줄어들지  않으나 한자‘불’자만은‘ㄷ,  ㅈ’앞에서  ‘ㄹ’이  줄어든다.  그러므로 발음 내로‘부’로 적기로 하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 117,
+      "paragraph_index": 1771
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "한자어에  있어서는 옛날 일정한 시기에 모음‘ㅖ’가자음‘ㄱ, ㄷ, ㄹ,  ㅁ, ㅅ, ㅈ, ㅊ,  ㅌ,  ㅍ, ㅎ’등과 꽝범히  결합되였었다.  따라서  ‘계’,  ‘례’,  ‘혜’...",
+    "output": "한자어에  있어서는 옛날 일정한 시기에 모음‘ㅖ’가자음‘ㄱ, ㄷ, ㄹ,  ㅁ, ㅅ, ㅈ, ㅊ,  ㅌ,  ㅍ, ㅎ’등과 꽝범히  결합되였었다.  따라서  ‘계’,  ‘례’,  ‘혜’,  ‘예’이외에도 ‘떼’, ‘떼’, ‘셰’,  ‘제’,  ‘체’,  ‘떼’,  ‘폐’등이  들어있었다.  그러나 오랜  세월을  거치면서  ‘계’,  ‘례’,‘혜’, ‘예’를 제외하고 기타의  것들은 각각 [떼],  [메],[세], [제], [체], [떼], [폐]등으로 발음함에 따라 표기도 그와 같이  달라졌다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 277,
+      "paragraph_index": 1779
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "한자어에서는‘협의, 희생,  희곡, 환희, 의견, 의문,건의’등과 같이‘의’와‘희’가 들어있는 단어를 많이  들수 있으나 고유조선어에서는‘의, 늬, 희’등의 음절에 의하여  이루어...",
+    "output": "한자어에서는‘협의, 희생,  희곡, 환희, 의견, 의문,건의’등과 같이‘의’와‘희’가 들어있는 단어를 많이  들수 있으나 고유조선어에서는‘의, 늬, 희’등의 음절에 의하여  이루어진 단어가 많지  않다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 113,
+      "paragraph_index": 1790
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "띄여쓰기란 문장을 글로 적을 때 어떤 단위를 띄여쓰고 어떤 단위를 붙여쓰는가 하는 것을 규정한 규칙을 말한다.  이런 띄여쓰기규범은 독서능률을 높이고 문장을 빠르고도 정확히 리해하...",
+    "output": "띄여쓰기란 문장을 글로 적을 때 어떤 단위를 띄여쓰고 어떤 단위를 붙여쓰는가 하는 것을 규정한 규칙을 말한다.  이런 띄여쓰기규범은 독서능률을 높이고 문장을 빠르고도 정확히 리해하는 데 큰 의의를 가진다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 114,
+      "paragraph_index": 1817
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "띄여쓰기규범을 잘 세우면 글의 내용이 한눈에 안겨와글을 쉽게 리해하고 빨리 읽을 수 있게 된다.  반면에 단어들을 쭉 잇달아 붙여쓰거나 지나치게 토막토막 띄여쓰면글을 읽기도 힘들고...",
+    "output": "띄여쓰기규범을 잘 세우면 글의 내용이 한눈에 안겨와글을 쉽게 리해하고 빨리 읽을 수 있게 된다.  반면에 단어들을 쭉 잇달아 붙여쓰거나 지나치게 토막토막 띄여쓰면글을 읽기도 힘들고 그 뜻을 파악하기도 힘들다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 116,
+      "paragraph_index": 1818
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "례하면 띄여쓰기를 하지  않고 ‘학생이백명’이라고 쭉붙여쓴다면 ‘학생이  백명’인지  ‘학생  이백명’인지 그 내용을 잘 알 수 없게 되며 ‘아버지가방으로들어간다.’의 띄여쓰기를 ...",
+    "output": "례하면 띄여쓰기를 하지  않고 ‘학생이백명’이라고 쭉붙여쓴다면 ‘학생이  백명’인지  ‘학생  이백명’인지 그 내용을 잘 알 수 없게 되며 ‘아버지가방으로들어간다.’의 띄여쓰기를 잘못하면 ‘아버지 가방으로 들어간다’와 같이 잘못리해될 수도 있다.  반면 ‘학생 이 백 명’처럼 너무 토막토막 띄여써도 읽기 힘들고 그 뜻을 파악하기 힘들다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 189,
+      "paragraph_index": 1819
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "그것은 띄여쓰기가 문장을 제대로 읽도록 어음—의미적 단위를 갈라줌으로써 발음상 막힘이  없이  읽는 속도를보장하며 눈으로 볼 때 합리적인 하나의 뜻덩이를 구획해...",
+    "output": "그것은 띄여쓰기가 문장을 제대로 읽도록 어음—의미적 단위를 갈라줌으로써 발음상 막힘이  없이  읽는 속도를보장하며 눈으로 볼 때 합리적인 하나의 뜻덩이를 구획해",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 89,
+      "paragraph_index": 1822
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "더우기 띄여쓰기는 우리글이 소리글자이면서도 음절을단위로 묶어서  표기하는 특성으로 하여  단어의  형태화가되어있지  않고 따라서 단어와 단어 사이의 한계가 명백하지  않은 조건에서...",
+    "output": "더우기 띄여쓰기는 우리글이 소리글자이면서도 음절을단위로 묶어서  표기하는 특성으로 하여  단어의  형태화가되어있지  않고 따라서 단어와 단어 사이의 한계가 명백하지  않은 조건에서  더욱 중요하게 제기된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 115,
+      "paragraph_index": 1828
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "단어 가운데는 ‘꽃’,  ‘물’,  ‘우리’와 같이  세개의  말소리로 이루어진 것이  있는가 하면 ‘주다’, ‘오늘’과 같이비개의 말소리로 이루어진 것이  있고 ‘장백산’과 같이...",
+    "output": "단어 가운데는 ‘꽃’,  ‘물’,  ‘우리’와 같이  세개의  말소리로 이루어진 것이  있는가 하면 ‘주다’, ‘오늘’과 같이비개의 말소리로 이루어진 것이  있고 ‘장백산’과 같이  아홉개의 말소리로 이루어진 것도 있다.  기타 단어들도 마찬가지로 말소리가 없이는 단어를 이루지 못하는 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 164,
+      "paragraph_index": 1839
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "단어 가운데‘어머니’,  ‘꽃’,  ‘물’,  ‘오늘’,  ‘날씨’,‘장백산’, ‘성산’, ‘교질’등은 어떤 사물의  이름을 나타내고‘여기’, ‘우리’는 어떤 장소나 사람을 내신하...",
+    "output": "단어 가운데‘어머니’,  ‘꽃’,  ‘물’,  ‘오늘’,  ‘날씨’,‘장백산’, ‘성산’, ‘교질’등은 어떤 사물의  이름을 나타내고‘여기’, ‘우리’는 어떤 장소나 사람을 내신하여 가리킨다.  ‘주다’는 사물의 움직임을 나타내며‘좋다’,  ‘아름답다’는 사물의  상태를 나타낸다.  이와 같이  뜻을 가지고있지  않은 단어란 있을 수 없는 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 195,
+      "paragraph_index": 1845
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "우의 문장에서  밑줄을 그은 부분은 모두 단어들인데문장을 짜는 데  기초적인 단위들이다.  문장에서  쓰일 수없거나 쓰이지  않는 단어란 있을 수 없는 것이다.  단어는문장을 짜는...",
+    "output": "우의 문장에서  밑줄을 그은 부분은 모두 단어들인데문장을 짜는 데  기초적인 단위들이다.  문장에서  쓰일 수없거나 쓰이지  않는 단어란 있을 수 없는 것이다.  단어는문장을 짜는 가장 작은 단위이기 때문에 몇개 단어들로 이루어진 성구나 단어들의 굳은 맞물림  등과 구별되며 또한형태소와도 구별된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 167,
+      "paragraph_index": 1847
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "단어는 형태소로 이루어지는데 단어를 이루는 형태소는 그 기능이나 결합관계에 따라 어근, 접사, 어간으로 나눈다.  어근은 단어를 이루는 핵심요소이며  접사는 어근의앞이나 뒤에 첨가...",
+    "output": "단어는 형태소로 이루어지는데 단어를 이루는 형태소는 그 기능이나 결합관계에 따라 어근, 접사, 어간으로 나눈다.  어근은 단어를 이루는 핵심요소이며  접사는 어근의앞이나 뒤에 첨가되여 새로운 의미를 보충하며  새로운 단어를 만드는 구실을 한다.  어근의  앞에 붙는 접사를 접두사라 하고 뒤에 붙는 접사를 접미사라 한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 179,
+      "paragraph_index": 1855
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "어간 또는 줄기라고 하는 것은 한 단어가 지닌 고유의성분 전체를 일컫는다.  일반적으로 어근과 접사를 모두 합친 것이  어간이다.  한 단어가 어근 하나만으로 이루어진경우에는 그 ...",
+    "output": "어간 또는 줄기라고 하는 것은 한 단어가 지닌 고유의성분 전체를 일컫는다.  일반적으로 어근과 접사를 모두 합친 것이  어간이다.  한 단어가 어근 하나만으로 이루어진경우에는 그 어근 자체가 어간이며  한 어근에  딴 어근이결합되여  이루어진 날말은 그 결합체가 어간이 된다.  어간은 적어도 한 어근을 지니는 구성체인데  실질적으로 단어자체를 가리키는 것이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 202,
+      "paragraph_index": 2044
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "어근이 둘 이상이고 거기에 접사가 붙는 경우도 더러있으므로 어간의 구조는 상당히 복잡할 수 있다.  례를 들면‘헛탕치기’, ‘헛기침소리’, ‘술래잠기’등은 두 어근에접사가 붙어서 ...",
+    "output": "어근이 둘 이상이고 거기에 접사가 붙는 경우도 더러있으므로 어간의 구조는 상당히 복잡할 수 있다.  례를 들면‘헛탕치기’, ‘헛기침소리’, ‘술래잠기’등은 두 어근에접사가 붙어서  이루어진 어간이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 111,
+      "paragraph_index": 2056
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "단어는 각 형태소의 어울림관계에 따라 몇가지 구조류형으로 나누어 볼 수 있다.  어간이 한 형태조만으로 이루어진 단어를 단순어 또는 단일어라 하고 둘 또는 그보다많은 형태소가 결합...",
+    "output": "단어는 각 형태소의 어울림관계에 따라 몇가지 구조류형으로 나누어 볼 수 있다.  어간이 한 형태조만으로 이루어진 단어를 단순어 또는 단일어라 하고 둘 또는 그보다많은 형태소가 결합된 단어를 복합어라 부른다.  복합어는다시 어근에 파생접사가 덧붙어서 된 파생어와 둘 또는 그보다 많은 어근이  어울려  어간을 이룬 합성어로 가를 수있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 187,
+      "paragraph_index": 2058
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "명사란 대상을 이름 지어 나타내는 품사를 말한다.  따라서 인물, 동물, 사물, 식물 및 기타 여러가지 대상의 이름을 나타내는 단어는 다 명사에 속하게 된다....",
+    "output": "명사란 대상을 이름 지어 나타내는 품사를 말한다.  따라서 인물, 동물, 사물, 식물 및 기타 여러가지 대상의 이름을 나타내는 단어는 다 명사에 속하게 된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 88,
+      "paragraph_index": 2088
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "그런데 명사의 개념을 규정할 때 대상이라고 하는 것은 순수한 어휘적 의미에서의 대상이  아니라 문법적 특성도 함께 고려한 어휘—문법적 측면에서의 대상으로 파악되는 모든 것을 의미하...",
+    "output": "그런데 명사의 개념을 규정할 때 대상이라고 하는 것은 순수한 어휘적 의미에서의 대상이  아니라 문법적 특성도 함께 고려한 어휘—문법적 측면에서의 대상으로 파악되는 모든 것을 의미하기에 각종 추상적인 현장이나 사건,어떤 행동이나 상래 등을 나타내는 단어들도 그 문법적 특성에 의하여  대상성을 획득하면서 명사로 인정된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 178,
+      "paragraph_index": 2089
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "토는 문장 속에서 독자적으로는 쓰이지 못하고 앞 단위에 붙어서만 자체의 문법적  기능을 나타낸다.  대부분의단어는 토를 매개로 하여 다른 단어와 관계를 맺는다.  그러므로 토를 가...",
+    "output": "토는 문장 속에서 독자적으로는 쓰이지 못하고 앞 단위에 붙어서만 자체의 문법적  기능을 나타낸다.  대부분의단어는 토를 매개로 하여 다른 단어와 관계를 맺는다.  그러므로 토를 가지고 나타난 단어는 그것이 그 뒤의 단어와구별되는 딴 단어라는 것을 말해주는 것이다.  즉 토는 앞단위에 붙어서 그 단위가 하나의 단어이거나 그에 준하는단위라는 것을 구획 지어준다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 201,
+      "paragraph_index": 2098
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "명사는 명사 뿐 아니라 기타 다른 품사들과 결합하여또 다른 새로운 단어를 만든다.  이  때 쓰이는 단어조성수법이 바로 어근합성법이다.  어근합성법에 의하여 만들어진단어는 그 전체...",
+    "output": "명사는 명사 뿐 아니라 기타 다른 품사들과 결합하여또 다른 새로운 단어를 만든다.  이  때 쓰이는 단어조성수법이 바로 어근합성법이다.  어근합성법에 의하여 만들어진단어는 그 전체가 하나의 단어로 되기에 붙여쓴다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 119,
+      "paragraph_index": 2100
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "명사에 토가 붙은 경우에는 뒤의 단어와 띄여쓴다고하였으나 명사가 토를 매개로 다른 명사, 동사, 형용사와결합되는 경우에는 하나의 뜻덩이로 묶어지기에 앞의 단어에 붙여쓴다.  ①에서...",
+    "output": "명사에 토가 붙은 경우에는 뒤의 단어와 띄여쓴다고하였으나 명사가 토를 매개로 다른 명사, 동사, 형용사와결합되는 경우에는 하나의 뜻덩이로 묶어지기에 앞의 단어에 붙여쓴다.  ①에서의  ‘곰의열, 귀에고리, 쩡의바람꽃,닭의살, 닭의홰’등과 같은 경우이다.  이  경우 토를 셍략하지 못한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 161,
+      "paragraph_index": 2116
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "불완전명사란 문장구조 속에서  다른 단어에 의존하지않고서는 홀로 자립적으로 쓰일 수 없는 명사를 가리킨다.불완전명사는 다른 어떤 표식의 보충을 받지  않고서는 어면 대상에 대하여 ...",
+    "output": "불완전명사란 문장구조 속에서  다른 단어에 의존하지않고서는 홀로 자립적으로 쓰일 수 없는 명사를 가리킨다.불완전명사는 다른 어떤 표식의 보충을 받지  않고서는 어면 대상에 대하여  이름을 지어준다고 보기  어려울 정도로대상적 의미가 불완전하나 명사의 하위분류로서 하나의 단어로 인식되기에 앞의 단어와 띄여써야 한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 176,
+      "paragraph_index": 2126
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "새 규범에서는 고유어불완전명사는 앞의 단어와 띄여쓰고 한자어불완전명사는 앞의 단어에 붙여쓴다고 규정하였다.  한자는 매개 글자가 뜻글자이기에 앞의 단어와 띄여...",
+    "output": "새 규범에서는 고유어불완전명사는 앞의 단어와 띄여쓰고 한자어불완전명사는 앞의 단어에 붙여쓴다고 규정하였다.  한자는 매개 글자가 뜻글자이기에 앞의 단어와 띄여",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 88,
+      "paragraph_index": 2127
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "쓰면 그것이 완전명사인지  아니면 불완전명사인지를 가늠하기 힘들다.  그러므로 그것이 불완전명사라는 것을 뚜렷이 하기 위하여  한자어불완전명사는 앞의 단어와 붙여쓴다....",
+    "output": "쓰면 그것이 완전명사인지  아니면 불완전명사인지를 가늠하기 힘들다.  그러므로 그것이 불완전명사라는 것을 뚜렷이 하기 위하여  한자어불완전명사는 앞의 단어와 붙여쓴다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 93,
+      "paragraph_index": 2132
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "② 여러 말마디로 된 긴 학술용어는 토가 없이  결합된단위가 너무 길 때 뜻을 단위로 띄여쓸 수 있다는 규정에따라 뜻의  리해에 맞게 띄여쓰기를 할 수 있다....",
+    "output": "② 여러 말마디로 된 긴 학술용어는 토가 없이  결합된단위가 너무 길 때 뜻을 단위로 띄여쓸 수 있다는 규정에따라 뜻의  리해에 맞게 띄여쓰기를 할 수 있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 88,
+      "paragraph_index": 2439
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "호칭어(부름말)란 말을 듣는 상대방을 부르는 말이고칭호란 ‘박사,  영웅, 계관인’등꽈 같이 국가적으로나 사회적으로 인정하여 부르는 이름을 말한다....",
+    "output": "호칭어(부름말)란 말을 듣는 상대방을 부르는 말이고칭호란 ‘박사,  영웅, 계관인’등꽈 같이 국가적으로나 사회적으로 인정하여 부르는 이름을 말한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 82,
+      "paragraph_index": 2451
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이므로 붙여쓴다.  ‘리부 부장’으로 떠여쓰면 두 글자로 된이름 뒤에 관직명이 온 경우이므로 ‘리부부장’과 다른 의미가 된다.  ‘장총국장’도 마찬가지로 성씨  뒤에  관직명이온 ...",
+    "output": "이므로 붙여쓴다.  ‘리부 부장’으로 떠여쓰면 두 글자로 된이름 뒤에 관직명이 온 경우이므로 ‘리부부장’과 다른 의미가 된다.  ‘장총국장’도 마찬가지로 성씨  뒤에  관직명이온 경우로서  ‘장총 국장’과 의미가 다르다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 123,
+      "paragraph_index": 2469
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "고유한 대상의  이름이란 사람, 나라, 정당, 사회단체,기관, 기업소,  회사,  학교 이름과 같이  사회적으로 다른것들과 구별하기 위하여 정식으로 지어 부르는 이름을 말한다....",
+    "output": "고유한 대상의  이름이란 사람, 나라, 정당, 사회단체,기관, 기업소,  회사,  학교 이름과 같이  사회적으로 다른것들과 구별하기 위하여 정식으로 지어 부르는 이름을 말한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 98,
+      "paragraph_index": 2474
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "고유한 대상의  이름과 관련한 띄여쓰기에는 고유하다고 볼 수 있는 대상의 명칭 례하면 내중운동, 사변, 전쟁,회의, 기념일, 강령, 선언 등과 같이  특별히  지어 부르는일정한 대...",
+    "output": "고유한 대상의  이름과 관련한 띄여쓰기에는 고유하다고 볼 수 있는 대상의 명칭 례하면 내중운동, 사변, 전쟁,회의, 기념일, 강령, 선언 등과 같이  특별히  지어 부르는일정한 대상들의  이름도 포함된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 114,
+      "paragraph_index": 2483
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "동격어란 어떤 대상에 대하여 같은 자격을 가진 말을덧붙여 보래여주어 그것을 두드려지게  강조하는 규정어의일종이다.  따라서 동격어는 뒤의 말과 띄여써야 한다....",
+    "output": "동격어란 어떤 대상에 대하여 같은 자격을 가진 말을덧붙여 보래여주어 그것을 두드려지게  강조하는 규정어의일종이다.  따라서 동격어는 뒤의 말과 띄여써야 한다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 88,
+      "paragraph_index": 2520
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘할빈지 흑룡강일보사’는 ‘할빈시에  있는 흑룡강일보사’라는 뜻을 나타내는데 붙여쓰면  ‘할빈지흑룡강일보사’즉 또 다른 하나의  고유한 대상의  이름으로 될 수  있어오해를 일으킬...",
+    "output": "‘할빈지 흑룡강일보사’는 ‘할빈시에  있는 흑룡강일보사’라는 뜻을 나타내는데 붙여쓰면  ‘할빈지흑룡강일보사’즉 또 다른 하나의  고유한 대상의  이름으로 될 수  있어오해를 일으킬 수 있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 106,
+      "paragraph_index": 2529
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "이  경우 폐하면 ‘답사자 일행’에서  ‘일행’은 ‘답사자’를 다시 가리키는데 만약 ‘답사자일행’처럼 붙여쓴다면 하나의 뜻덩이를 나타내는 것으로 인식된다.  즉 ‘일행’은 앞의  ...",
+    "output": "이  경우 폐하면 ‘답사자 일행’에서  ‘일행’은 ‘답사자’를 다시 가리키는데 만약 ‘답사자일행’처럼 붙여쓴다면 하나의 뜻덩이를 나타내는 것으로 인식된다.  즉 ‘일행’은 앞의  명사를 다시 가리키는 역할을 놓 수 없게 된다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 126,
+      "paragraph_index": 2540
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "‘중세 조선어연구’는‘중세에 진행된  언어연구’라는뜻을 나타내고‘중제조선어  연구’는‘중제의  언어에 대한연구’라는 뜻을 나타낸다.  ‘김인옥어머니’는‘어머니  자신’을 가리키고 ...",
+    "output": "‘중세 조선어연구’는‘중세에 진행된  언어연구’라는뜻을 나타내고‘중제조선어  연구’는‘중제의  언어에 대한연구’라는 뜻을 나타낸다.  ‘김인옥어머니’는‘어머니  자신’을 가리키고 ‘김인옥 어머니’는 ‘김인옥의  어머니’를가리킨다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 128,
+      "paragraph_index": 2551
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "수사란 대상의 일정한 수량이나 순서를 나타내는 품사를 말한다.  수사는 십진법에 따라 떠여쓰면 리상적이라고생각되지만 그렇게 되면 너무 토막토막 작게 갈라놓아 의미 파악에 지장이 될...",
+    "output": "수사란 대상의 일정한 수량이나 순서를 나타내는 품사를 말한다.  수사는 십진법에 따라 떠여쓰면 리상적이라고생각되지만 그렇게 되면 너무 토막토막 작게 갈라놓아 의미 파악에 지장이 될 수 있기 때문에 십진법을 따르지  않고 있다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 126,
+      "paragraph_index": 2554
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "라 당연히 띄여쓰게 되여있기 때문이다.  그리고 새 규범의제22항 “단위명사는 앞의 단어와 붙여쓴다.”는 규칙에  따라 붙여쓰게 되여있기 때문에 더 설명할 필요가 없게 되였다.  ...",
+    "output": "라 당연히 띄여쓰게 되여있기 때문이다.  그리고 새 규범의제22항 “단위명사는 앞의 단어와 붙여쓴다.”는 규칙에  따라 붙여쓰게 되여있기 때문에 더 설명할 필요가 없게 되였다.  따라서 삭제하였다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 110,
+      "paragraph_index": 2570
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "동사와 형용사는 일반적으로 자립적으로 쓰이는 경우가 많으며 문장에서 다른 단어들과 결합될 때 토를 매개로한다.  즉 자립적으로 쓰이는 경우 앞뒤 단어와 띄여쓴다....",
+    "output": "동사와 형용사는 일반적으로 자립적으로 쓰이는 경우가 많으며 문장에서 다른 단어들과 결합될 때 토를 매개로한다.  즉 자립적으로 쓰이는 경우 앞뒤 단어와 띄여쓴다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 90,
+      "paragraph_index": 2613
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "보조용언은 규칙에 따라 앞의 단어와 띄여쓴다.  보조용언은 의미적 측면에서  여러가지 보충적 의미를 나타내지만 문장 속에서는 자립적 단어들과 같은 기능을 하기에 총칙에 따라 앞의 ...",
+    "output": "보조용언은 규칙에 따라 앞의 단어와 띄여쓴다.  보조용언은 의미적 측면에서  여러가지 보충적 의미를 나타내지만 문장 속에서는 자립적 단어들과 같은 기능을 하기에 총칙에 따라 앞의 단어와 띄여쓴다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 109,
+      "paragraph_index": 2615
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "새 규범에서는 토‘ㅡ아, ㅡ어, ㅡ여’ 바로 다음에 오는 보조용언은 앞말에 붙여쓴다고 규정하였다.  2007년의규범에서는 토‘ㅡ아, ㅡ어, ㅡ여, ㅡ아다, ㅡ어다, ㅡ여다’가 붙은...",
+    "output": "새 규범에서는 토‘ㅡ아, ㅡ어, ㅡ여’ 바로 다음에 오는 보조용언은 앞말에 붙여쓴다고 규정하였다.  2007년의규범에서는 토‘ㅡ아, ㅡ어, ㅡ여, ㅡ아다, ㅡ어다, ㅡ여다’가 붙은 동사나 형용사가 다른 동사나 형용사와 어울려하나의 동작, 상태를 나타내는 것은 붙여쓴다고 규정하였다.  새 규범에서는 ‘ㅡ아다, ㅡ어다, ㅡ여다’가 붙은 동사의 경우를 제외하였다.  왜냐하면 ‘ㅡ아다,  ㅡ어다,  ㅡ여다’는 방식의 뜻을 갖고 있기에  이것들이 붙은 동사는 뒤의 행동이  이루어지는 방식을 나타내므로 하나의 뜻덩이로인식되지  않기 때문이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 300,
+      "paragraph_index": 2646
+    }
+  },
+  {
+    "instruction": "解释以下朝鲜语规范",
+    "input": "서로 다른 품사들이  결합되여  새로운 동사를 조성할수 있다.  동사의 단어조성에서 가장 중요한 수법의 하나가둘 또는 그 이상의 어근들이 결합하여 새로운 단어를 조성하는 어근합성법...",
+    "output": "서로 다른 품사들이  결합되여  새로운 동사를 조성할수 있다.  동사의 단어조성에서 가장 중요한 수법의 하나가둘 또는 그 이상의 어근들이 결합하여 새로운 단어를 조성하는 어근합성법이다.  따라서  띄여쓰기를 어떻게  해야 하는가 하는 문제가 제기된다.  왜냐하면 총칙에 “조선말은단어를 단위로 하여 띄여쓰는 것을 원칙으로 한다.”고 했기 때문이다.",
+    "metadata": {
+      "category": "article_explanation",
+      "type": "article_explanation",
+      "length": 194,
+      "paragraph_index": 2658
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 0
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 朝鲜语规范集",
+    "output": "完整上下文：《朝鲜语规范集》解说：朝鲜文/金哲俊等编写.一延吉：延边教育出版社，2019.2",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 26
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 中国少数民族语言",
+    "output": "完整上下文：Ⅰ.①朝⋯ Ⅱ.①金⋯ Ⅲ.①朝鲜语(中国少数民族语言)一规范一研究 Ⅳ.①H219-65",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 28
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 朝鲜语规范集",
+    "output": "完整上下文：《朝鲜语规范集》解说",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 37
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 吉林省延吉市长白山东路98号 邮编：133000",
+    "output": "完整上下文：出版：延边教育出版社(吉林省延吉市长白山东路98号 邮编：133000)",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 39
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《〈조선말규범집〉해설》편찬위원회",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 50
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 〈조선말규범집〉해설",
+    "output": "完整上下文：《〈조선말규범집〉해설》편찬위원회",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 50
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：2016년 11월에 간행된 《조선말규범집》은 2007년에  출판된 《조선말규범집》을 바탕으로 부분적  내용들을 수정,보충하였다.  이 규범집에 수록된 내용들은 중국조선어사정위원회에서  심의, 채택한 것이므로 국내 조선어사용에서반드시  지켜야 할 규범들이다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 62
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：2016년 11월에 간행된 《조선말규범집》은 2007년에  출판된 《조선말규범집》을 바탕으로 부분적  내용들을 수정,보충하였다.  이 규범집에 수록된 내용들은 중국조선어사정위원회에서  심의, 채택한 것이므로 국내 조선어사용에서반드시  지켜야 할 규범들이다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 62
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：새 《조선말규범집》이  발간된 지도 이젠 2년이란 시간이  지났다.  이에 우리는 새 《조선말규범집》에 규정된 제반규범들을 더 잘 리해하고 더 잘 장악하도록 하기 위하여1986년 10월에 연변인민출판사에서 출판한 《〈조선말규범집〉해설》의 내용을 참고로 새로 보충하여 《〈조선말규범집〉해설》을 펴낸다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 63
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：새 《조선말규범집》이  발간된 지도 이젠 2년이란 시간이  지났다.  이에 우리는 새 《조선말규범집》에 규정된 제반규범들을 더 잘 리해하고 더 잘 장악하도록 하기 위하여1986년 10월에 연변인민출판사에서 출판한 《〈조선말규범집〉해설》의 내용을 참고로 새로 보충하여 《〈조선말규범집〉해설》을 펴낸다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 63
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：새 《조선말규범집》이  발간된 지도 이젠 2년이란 시간이  지났다.  이에 우리는 새 《조선말규범집》에 규정된 제반규범들을 더 잘 리해하고 더 잘 장악하도록 하기 위하여1986년 10월에 연변인민출판사에서 출판한 《〈조선말규범집〉해설》의 내용을 참고로 새로 보충하여 《〈조선말규범집〉해설》을 펴낸다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 63
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：새 《조선말규범집》이  발간된 지도 이젠 2년이란 시간이  지났다.  이에 우리는 새 《조선말규범집》에 규정된 제반규범들을 더 잘 리해하고 더 잘 장악하도록 하기 위하여1986년 10월에 연변인민출판사에서 출판한 《〈조선말규범집〉해설》의 내용을 참고로 새로 보충하여 《〈조선말규범집〉해설》을 펴낸다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 63
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 〈조선말규범집〉해설",
+    "output": "完整上下文：새 《조선말규범집》이  발간된 지도 이젠 2년이란 시간이  지났다.  이에 우리는 새 《조선말규범집》에 규정된 제반규범들을 더 잘 리해하고 더 잘 장악하도록 하기 위하여1986년 10월에 연변인민출판사에서 출판한 《〈조선말규범집〉해설》의 내용을 참고로 새로 보충하여 《〈조선말규범집〉해설》을 펴낸다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 63
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 〈조선말규범집〉해설",
+    "output": "完整上下文：새 《조선말규범집》이  발간된 지도 이젠 2년이란 시간이  지났다.  이에 우리는 새 《조선말규범집》에 규정된 제반규범들을 더 잘 리해하고 더 잘 장악하도록 하기 위하여1986년 10월에 연변인민출판사에서 출판한 《〈조선말규범집〉해설》의 내용을 참고로 새로 보충하여 《〈조선말규범집〉해설》을 펴낸다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 63
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：새로운 《〈조선말규범집〉해설》에서는 〈조선말 표준발음법〉, 〈조선말 맞춤법〉, 〈조선말 떠여쓰기〉,  〈조선말 문장부호법〉의 매개 조항들에 대해 리론과 실천을 결부시켜 상세한 해설을 가하도록 노력하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 64
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：새로운 《〈조선말규범집〉해설》에서는 〈조선말 표준발음법〉, 〈조선말 맞춤법〉, 〈조선말 떠여쓰기〉,  〈조선말 문장부호법〉의 매개 조항들에 대해 리론과 실천을 결부시켜 상세한 해설을 가하도록 노력하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 64
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 맞춤법",
+    "output": "完整上下文：새로운 《〈조선말규범집〉해설》에서는 〈조선말 표준발음법〉, 〈조선말 맞춤법〉, 〈조선말 떠여쓰기〉,  〈조선말 문장부호법〉의 매개 조항들에 대해 리론과 실천을 결부시켜 상세한 해설을 가하도록 노력하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 64
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 떠여쓰기",
+    "output": "完整上下文：새로운 《〈조선말규범집〉해설》에서는 〈조선말 표준발음법〉, 〈조선말 맞춤법〉, 〈조선말 떠여쓰기〉,  〈조선말 문장부호법〉의 매개 조항들에 대해 리론과 실천을 결부시켜 상세한 해설을 가하도록 노력하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 64
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 문장부호법",
+    "output": "完整上下文：새로운 《〈조선말규범집〉해설》에서는 〈조선말 표준발음법〉, 〈조선말 맞춤법〉, 〈조선말 떠여쓰기〉,  〈조선말 문장부호법〉의 매개 조항들에 대해 리론과 실천을 결부시켜 상세한 해설을 가하도록 노력하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 64
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 〈조선말규범집〉해설",
+    "output": "完整上下文：새로운 《〈조선말규범집〉해설》에서는 〈조선말 표준발음법〉, 〈조선말 맞춤법〉, 〈조선말 떠여쓰기〉,  〈조선말 문장부호법〉의 매개 조항들에 대해 리론과 실천을 결부시켜 상세한 해설을 가하도록 노력하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 64
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：새로운 《〈조선말규범집〉해설》이 중국에서의 조선어의바른 사용과 건전한 발전에 중대한 기여를 할 것이라는 것을 믿어마지않는다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 65
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 〈조선말규범집〉해설",
+    "output": "完整上下文：새로운 《〈조선말규범집〉해설》이 중국에서의 조선어의바른 사용과 건전한 발전에 중대한 기여를 할 것이라는 것을 믿어마지않는다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 65
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 78
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 맞춤법",
+    "output": "完整上下文：〈조선말 맞춤법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 89
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 102
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 띄여쓰기",
+    "output": "完整上下文：〈조선말 띄여쓰기〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 104
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 전람회, 운동회 명칭도 포함",
+    "output": "完整上下文：13) 회의명칭(전람회, 운동회 명칭도 포함)과 관련한",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 126
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 177
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 문장부호법",
+    "output": "完整上下文：〈조선말 문장부호법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 180
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 소괄호, 중괄호, 내괄호",
+    "output": "完整上下文：제15항 묵음표(소괄호, 중괄호, 내괄호)( ( ),〔 〕, { } )",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 197
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 210
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말  표준발음법",
+    "output": "完整上下文：〈조선말  표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 213
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉의 총칙에서는 조선말 표준발음법은 우리 나라 조선족 인민들에게 널리 쓰이고 조선말 발달에 맞는 발음을 가려잡는 것을 원칙으로 한다고 규정하였다.  이는 표준발음법을 규정함에  있어서의 총적인 원칙으로 된다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 218
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 226
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 받침소리의  발음",
+    "output": "完整上下文：2007년 〈조선말 표준발음법〉은 총칙과 8개 장으로 구성되였다.  그러나 새로운 규범집은 총칙과 7개 장으로 구성되였다.  2007년 표준발음법에서의 제3장(받침소리의  발음)과 제4장(받침이 뒤의 모음과 이어질 때의  발음)을 새규범집에서는 한개 장으로 처리하였고 2007년 표준발음법에서의 제5장(받침에 따라 그 뒤의 순한소리를 된소리로내는 발음)을 새 규범집에서는 제4장(된소리현상과 관련한발음)으로 처리하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 230
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 받침이 뒤의 모음과 이어질 때의  발음",
+    "output": "完整上下文：2007년 〈조선말 표준발음법〉은 총칙과 8개 장으로 구성되였다.  그러나 새로운 규범집은 총칙과 7개 장으로 구성되였다.  2007년 표준발음법에서의 제3장(받침소리의  발음)과 제4장(받침이 뒤의 모음과 이어질 때의  발음)을 새규범집에서는 한개 장으로 처리하였고 2007년 표준발음법에서의 제5장(받침에 따라 그 뒤의 순한소리를 된소리로내는 발음)을 새 규범집에서는 제4장(된소리현상과 관련한발음)으로 처리하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 230
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 받침에 따라 그 뒤의 순한소리를 된소리로내는 발음",
+    "output": "完整上下文：2007년 〈조선말 표준발음법〉은 총칙과 8개 장으로 구성되였다.  그러나 새로운 규범집은 총칙과 7개 장으로 구성되였다.  2007년 표준발음법에서의 제3장(받침소리의  발음)과 제4장(받침이 뒤의 모음과 이어질 때의  발음)을 새규범집에서는 한개 장으로 처리하였고 2007년 표준발음법에서의 제5장(받침에 따라 그 뒤의 순한소리를 된소리로내는 발음)을 새 규범집에서는 제4장(된소리현상과 관련한발음)으로 처리하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 230
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 된소리현상과 관련한발음",
+    "output": "完整上下文：2007년 〈조선말 표준발음법〉은 총칙과 8개 장으로 구성되였다.  그러나 새로운 규범집은 총칙과 7개 장으로 구성되였다.  2007년 표준발음법에서의 제3장(받침소리의  발음)과 제4장(받침이 뒤의 모음과 이어질 때의  발음)을 새규범집에서는 한개 장으로 처리하였고 2007년 표준발음법에서의 제5장(받침에 따라 그 뒤의 순한소리를 된소리로내는 발음)을 새 규범집에서는 제4장(된소리현상과 관련한발음)으로 처리하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 230
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：2007년 〈조선말 표준발음법〉은 총칙과 8개 장으로 구성되였다.  그러나 새로운 규범집은 총칙과 7개 장으로 구성되였다.  2007년 표준발음법에서의 제3장(받침소리의  발음)과 제4장(받침이 뒤의 모음과 이어질 때의  발음)을 새규범집에서는 한개 장으로 처리하였고 2007년 표준발음법에서의 제5장(받침에 따라 그 뒤의 순한소리를 된소리로내는 발음)을 새 규범집에서는 제4장(된소리현상과 관련한발음)으로 처리하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 230
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 237
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 245
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 259
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 보통 [에]보다 높게  발음한다.",
+    "output": "完整上下文：속격토 ‘의’는 보통 [의]로 발음하나 [에]로 발음하는 현상도 적지  않다.  (보통 [에]보다 높게  발음한다.)특히 지, 노래에서는 [에]로 발음하는 것이 보통이다.  그리고 장소적 의미를 나타내는 속격토 ‘의’는 [에]로 발음하는 것이  더 순통하다.  그러므로 속격토 ‘의’는 [의]로발음하는 것을 원칙으로 하고 [에]로 발음하는 것을 허용하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 260
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 267
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ‘ㄴ’이  ‘냐’와 결합된 음은 없다.",
+    "output": "完整上下文：자음‘ㄴ’은 전통적 발음에서는 단어의  첫머리에서  다음에 오는 모음‘ㅕ, ㅍ, ㅠ, ㅣ’를 만날 때 탈락되여 발음하지  않는다.  (‘ㄴ’이  ‘냐’와 결합된 음은 없다.)  례를들면‘녀자’를 [여자]로,  ‘니탄’을 [이탄]으로 발음한다.그 뿐만 아니라 이 전통적 발음법은 아직도 적지  않은 사람들이  지키고 있으며  일부 단어들의  발음은 상당한 정도로 굳어지고  있다.  례를 들면  ‘녀자’[여자],  ‘녀성’[여성], ‘년령’[연령] 등과 같다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 274
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 283
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 292
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ㄱ, ㄴ, ㄷ, ㄹ, ㅁ,  ㅂ,  ㅇ",
+    "output": "完整上下文：조선말에서 자음은 음절의 위치에  따라 발음이  다르다.  음절의 첫소리로 될 때는 모든 자음을 똑똑히 발음하나 음절의 끝소리, 즉 받침으로 될 때에는 닫힌소리로 되면서 [ㄱ, ㄴ, ㄷ, ㄹ, ㅁ,  ㅂ,  ㅇ]의 7개 받침소리로 발음한다.  그중 [ㄱ,  ㄷ,  ㅂ]은 무성음이고 [ㄴ,  ㄹ,  ㅁ,",
+    "metadata": {
+      "category": "parentheses",
+      "type": "square_parentheses",
+      "paragraph_index": 315
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ㄱ,  ㄷ,  ㅂ",
+    "output": "完整上下文：조선말에서 자음은 음절의 위치에  따라 발음이  다르다.  음절의 첫소리로 될 때는 모든 자음을 똑똑히 발음하나 음절의 끝소리, 즉 받침으로 될 때에는 닫힌소리로 되면서 [ㄱ, ㄴ, ㄷ, ㄹ, ㅁ,  ㅂ,  ㅇ]의 7개 받침소리로 발음한다.  그중 [ㄱ,  ㄷ,  ㅂ]은 무성음이고 [ㄴ,  ㄹ,  ㅁ,",
+    "metadata": {
+      "category": "parentheses",
+      "type": "square_parentheses",
+      "paragraph_index": 315
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말  표준발음",
+    "output": "完整上下文：〈조선말  표준발음〉해",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 319
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 328
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 340
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 350
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 363
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 374
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 382
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 392
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 400
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》 해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 413
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 423
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 438
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 449
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 어근+어근+접미사",
+    "output": "完整上下文：안받침[안받침](어근+어근+접미사)",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 453
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 어근+어근+접미사",
+    "output": "完整上下文：남잡이[남자비](어근+어근+접미사)",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 455
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 467
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말  표준발음",
+    "output": "完整上下文：〈조선말  표준발음〉해",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 477
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ㅋ, ㅌ, ㅊ",
+    "output": "完整上下文：제13항에서는“받침‘ㅎ, ㅂ,  ’‘’이순한소‘ㄱ, ㄷ, ㅈ’파 어울릴 빼 자자 [ㅋ, ㅌ, ㅊ]으로 발음한",
+    "metadata": {
+      "category": "parentheses",
+      "type": "square_parentheses",
+      "paragraph_index": 486
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 490
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 501
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 516
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 526
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 준비있게  발음하는 단어의  첫머리의‘ㅎ’은 똑똑히 발음한다.  례: 회의",
+    "output": "完整上下文：‘ㅎ’이  약화되거나 탈락되는 것은 모두 모음 사이거나유향음과 모음 사이인 것이다. 모음과 유향음은 모두 성문에서 목청을 울리는 소리이고‘ㅎ’은 성문을 마찰하는 소리로서 모두가 성문에서 소리가 이루어진다는 데 그 원인이  있다.  이런 음들은 런이어  발음할 때, 특히‘ㅎ’은 준비있게  발음하지  않으면(준비있게  발음하는 단어의  첫머리의‘ㅎ’은 똑똑히 발음한다.  례: 회의) 성문의 울림소리에압도되여  발음하지  않거나 약화된다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 529
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ㄱ, ㄷ,  ㅂ",
+    "output": "完整上下文：제17항에서는“받침소리 [ㄱ, ㄷ,  ㅂ] 뒤에‘ㅎ’이 올때 그‘ㅎ’은 각각 [ㅋ,  ㅌ, ㅍ]으로 발음한다.”고 규정하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "square_parentheses",
+      "paragraph_index": 531
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ㅋ,  ㅌ, ㅍ",
+    "output": "完整上下文：제17항에서는“받침소리 [ㄱ, ㄷ,  ㅂ] 뒤에‘ㅎ’이 올때 그‘ㅎ’은 각각 [ㅋ,  ㅌ, ㅍ]으로 발음한다.”고 규정하였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "square_parentheses",
+      "paragraph_index": 531
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ㄱ,  ㄷ,  ㅂ",
+    "output": "完整上下文：‘ㅎ’이 순한소리‘ㄱ, ㄷ,  ㅂ, ㅈ’ 우에서나 아래에서직접 그 순한소리와 어울리여  거센소리로 된다는 것은 우에서  이미  설명하였다.  본 항은 받침소리  [ㄱ,  ㄷ,  ㅂ]꽈",
+    "metadata": {
+      "category": "parentheses",
+      "type": "square_parentheses",
+      "paragraph_index": 532
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 536
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 구티다→구치다",
+    "output": "完整上下文：이것도 빠른 발음에서는 보통 ‘굳히다[구티다→구치다]’로 된다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "square_parentheses",
+      "paragraph_index": 539
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 546
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》 해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 558
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 565
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 581
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ‘먹는다[멍는다]’에서와 같이 혀뿌리소리 [ㄱ]이 같은 혀뿌리소리 [ㅇ]으로 동화되는 것",
+    "output": "完整上下文：조선어의 동화현상에서 동화되는 소리가 자기 계렬의소리로 동화되는 것은 표준발음으로 인정하나(‘먹는다[멍는다]’에서와 같이 혀뿌리소리 [ㄱ]이 같은 혀뿌리소리 [ㅇ]으로 동화되는 것) 동화되는 소리가 다른 계령의 소리로동화되는 것은 표준발음으로 인정하지 않는다(‘받고[박ㅍ]’에서와 같이 혀끝소리 [ㄷ]이 혀뿌리소리 [ㄱ]으로 동화되는 것).",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 589
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ‘받고[박ㅍ]’에서와 같이 혀끝소리 [ㄷ]이 혀뿌리소리 [ㄱ]으로 동화되는 것",
+    "output": "完整上下文：조선어의 동화현상에서 동화되는 소리가 자기 계렬의소리로 동화되는 것은 표준발음으로 인정하나(‘먹는다[멍는다]’에서와 같이 혀뿌리소리 [ㄱ]이 같은 혀뿌리소리 [ㅇ]으로 동화되는 것) 동화되는 소리가 다른 계령의 소리로동화되는 것은 표준발음으로 인정하지 않는다(‘받고[박ㅍ]’에서와 같이 혀끝소리 [ㄷ]이 혀뿌리소리 [ㄱ]으로 동화되는 것).",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 589
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 594
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ㄱ,  ㄷ,  ㅂ",
+    "output": "完整上下文：제21항에서는 “받침소리  [ㄱ,  ㄷ,  ㅂ] 뒤에  유향음‘ㄴ,  ㅁ,  ㄹ’이 올 때 그 받침소리를 해당한 계렬의 유향",
+    "metadata": {
+      "category": "parentheses",
+      "type": "square_parentheses",
+      "paragraph_index": 600
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 604
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 웃는다→운는다",
+    "output": "完整上下文：본 항은 모두 역행동화에 속하는 것들이다.  우에서 본바와 같이  뒤에 오는 유향음이  앞의 무성자음을 동화시켜유향음으로 되게 하였는데  어떤 것은 완전동화되고(웃는다→운는다)  어떤 것은 부분동화되었다(닦는다→당는다).",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 606
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 닦는다→당는다",
+    "output": "完整上下文：본 항은 모두 역행동화에 속하는 것들이다.  우에서 본바와 같이  뒤에 오는 유향음이  앞의 무성자음을 동화시켜유향음으로 되게 하였는데  어떤 것은 완전동화되고(웃는다→운는다)  어떤 것은 부분동화되었다(닦는다→당는다).",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 606
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 613
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 622
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 633
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 642
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말  표준발음",
+    "output": "完整上下文：〈조선말  표준발음〉해",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 652
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ‘ㄹ’은 제회",
+    "output": "完整上下文：둘째, 기라 자음(‘ㄹ’은 제회) 야래에서의‘렬’, ‘률’의 발음.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 657
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말규범집",
+    "output": "完整上下文：《조선말규범집》해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "book_parentheses",
+      "paragraph_index": 678
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ㄱ+ㄹ→0+ㄹ→0+ㄴ",
+    "output": "完整上下文：발음은 호상동화가 일어난 것이다.  즉‘격렬’은 [ㄱ+ㄹ→0+ㄹ→0+ㄴ]으로 되고‘법률’은 [ㅂ+ㄹ→ㅁ+ㄹ→ㅁ+ㄴ]으로 되였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "square_parentheses",
+      "paragraph_index": 679
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: ㅂ+ㄹ→ㅁ+ㄹ→ㅁ+ㄴ",
+    "output": "完整上下文：발음은 호상동화가 일어난 것이다.  즉‘격렬’은 [ㄱ+ㄹ→0+ㄹ→0+ㄴ]으로 되고‘법률’은 [ㅂ+ㄹ→ㅁ+ㄹ→ㅁ+ㄴ]으로 되였다.",
+    "metadata": {
+      "category": "parentheses",
+      "type": "square_parentheses",
+      "paragraph_index": 679
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 조선말 표준발음법",
+    "output": "完整上下文：〈조선말 표준발음법〉해설",
+    "metadata": {
+      "category": "parentheses",
+      "type": "angle_parentheses",
+      "paragraph_index": 687
+    }
+  },
+  {
+    "instruction": "解释括号内的内容",
+    "input": "括号内容: 따라서  ‘곤난’만은 [곤난]으로 발음하는 것이 비표준발음이다.",
+    "output": "完整上下文：만은 [골란]으로 하고 기타의  것은 모두 [ㄴ, ㄴ] 그대로발음하기로 하였다.  (따라서  ‘곤난’만은 [곤난]으로 발음하는 것이 비표준발음이다.)",
+    "metadata": {
+      "category": "parentheses",
+      "type": "round_parentheses",
+      "paragraph_index": 688
+    }
+  }
+]

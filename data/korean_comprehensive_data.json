@@ -1,0 +1,3757 @@
+{
+  "pronunciation_variants": [
+    {
+      "type": "pronunciation_variant",
+      "word": "윙윙",
+      "standard": "윙윙",
+      "variant": "위잉위잉",
+      "context": "윙윙\t[윙윙]\t[위잉위잉]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "위대하다",
+      "standard": "위대하다",
+      "variant": "위이대하다",
+      "context": "위대하다\t[위대하다]\t[위이대하다]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "갑갑증",
+      "standard": "갑깝쯩",
+      "variant": "각깝쫑",
+      "context": "갑갑증\t[갑깝쯩]\t[각깝쫑]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "꽃보라",
+      "standard": "곧뽀라",
+      "variant": "꼽뽀라",
+      "context": "꽃보라\t[곧뽀라]\t[꼽뽀라]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "낮고",
+      "standard": "낟꼬",
+      "variant": "낙꼬",
+      "context": "낮고\t[낟꼬]\t[낙꼬]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "낮보다",
+      "standard": "낟뽀다",
+      "variant": "납뽀다",
+      "context": "낮보다\t[낟뽀다]\t[납뽀다]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "낮꽈",
+      "standard": "낟꽈",
+      "variant": "낙꽈",
+      "context": "낮꽈\t[낟꽈]\t[낙꽈]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "낮바닥",
+      "standard": "낟빠닥",
+      "variant": "납빠닥",
+      "context": "낮바닥\t[낟빠닥]\t[납빠닥]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "늦고",
+      "standard": "는꼬",
+      "variant": "늑꼬",
+      "context": "늦고\t[는꼬]\t[늑꼬]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "늦보리",
+      "standard": "늘뽀리",
+      "variant": "늡뽀리",
+      "context": "늦보리\t[늘뽀리]\t[늡뽀리]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "돋보기",
+      "standard": "돋뽀기",
+      "variant": "돕뽀기",
+      "context": "돋보기\t[돋뽀기]\t[돕뽀기]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "돕고",
+      "standard": "돕꼬",
+      "variant": "독꼬",
+      "context": "돕고\t[돕꼬]\t[독꼬]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "돕기",
+      "standard": "돕끼",
+      "variant": "독끼",
+      "context": "돕기\t[돕끼]\t[독끼]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "듣고",
+      "standard": "듣꼬",
+      "variant": "득꼬",
+      "context": "듣고\t[듣꼬]\t[득꼬]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "듣보다",
+      "standard": "듣뽀다",
+      "variant": "듭뽀다",
+      "context": "듣보다\t[듣뽀다]\t[듭뽀다]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "맛꽈",
+      "standard": "맏꽈",
+      "variant": "막꽈",
+      "context": "맛꽈\t[맏꽈]\t[막꽈]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "맛보기",
+      "standard": "맏뽀기",
+      "variant": "맙뽀기",
+      "context": "맛보기\t[맏뽀기]\t[맙뽀기]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "말기다",
+      "standard": "맏끼다",
+      "variant": "막끼다",
+      "context": "말기다\t[맏끼다]\t[막끼다]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "간부",
+      "standard": "간부",
+      "variant": "감부",
+      "context": "간부\t[간부]\t[감부]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "간판",
+      "standard": "간판",
+      "variant": "감판",
+      "context": "간판\t[간판]\t[감판]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "눈물",
+      "standard": "눈물",
+      "variant": "눔물",
+      "context": "눈물\t[눈물]\t[눔물]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "눈보라",
+      "standard": "눈보라",
+      "variant": "눔보라",
+      "context": "눈보라\t[눈보라]\t[눔보라]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "눈비",
+      "standard": "눈비",
+      "variant": "눔비",
+      "context": "눈비\t[눈비]\t[눔비]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "눈뿌리",
+      "standard": "눈뿌리",
+      "variant": "눔뿌리",
+      "context": "눈뿌리\t[눈뿌리]\t[눔뿌리]"
+    },
+    {
+      "type": "pronunciation_variant",
+      "word": "산뿌리",
+      "standard": "산뿌리",
+      "variant": "삼뿌리",
+      "context": "산뿌리\t[산뿌리]\t[삼뿌리]"
+    }
+  ],
+  "pronunciation_single": [
+    {
+      "type": "pronunciation_single",
+      "word": "경우에는",
+      "pronunciation": "위이",
+      "context": "모음‘ㅟ’도 발음할 때 입술모양이  처음부터 마지막까지  변하지  않는 홀모음이다.  ‘ㅟ’는‘ㅣ’를 발음하려다가입술을 동글리고 발음하면 되는 소리이다.  그러나 우리들의 실제  발음을 보면‘ㅟ’ 같은 음절을 길게  발음하거나강조할 경우에는 [위이]로 발음하는 현상이  있다.  그러므로 본 규정에서는 전통적  발음법  내로 홀모음으로 발음하는 것을 원칙으로"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "겹모음",
+      "pronunciation": "위이",
+      "context": "모음‘ㅟ’도 발음할 때 입술모양이  처음부터 마지막까지  변하지  않는 홀모음이다.  ‘ㅟ’는‘ㅣ’를 발음하려다가입술을 동글리고 발음하면 되는 소리이다.  그러나 우리들의 실제  발음을 보면‘ㅟ’ 같은 음절을 길게  발음하거나강조할 경우에는 [위이]로 발음하는 현상이  있다.  그러므로 본 규정에서는 전통적  발음법  내로 홀모음으로 발음하는 것을 원칙으로"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "혜택",
+      "pronunciation": "혜택",
+      "context": "혜택\t[혜택]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "은혜",
+      "pronunciation": "은혜",
+      "context": "은혜\t[은혜]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "앞에서",
+      "pronunciation": "ㄴ, ㄹ",
+      "context": "제4항에서는“단어 첫머리의‘ㄴ, ㄹ’은 모든 모음 앞에서 [ㄴ, ㄹ]로 발음하는 것을 원칙으로 한다.”고 규정하였다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "나라",
+      "pronunciation": "나라",
+      "context": "나라\t[나라]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "락원",
+      "pronunciation": "라권",
+      "context": "락원\t[라권]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "랑비",
+      "pronunciation": "랑비",
+      "context": "랑비\t[랑비]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "래일",
+      "pronunciation": "래일",
+      "context": "래일\t[래일]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "랑심",
+      "pronunciation": "랑심",
+      "context": "랑심\t[랑심]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "레루",
+      "pronunciation": "레루",
+      "context": "레루\t[레루]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "력자",
+      "pronunciation": "력씨",
+      "context": "력자\t[력씨]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "례외",
+      "pronunciation": "례외",
+      "context": "례외\t[례외]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "로동",
+      "pronunciation": "로동",
+      "context": "로동\t[로동]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "로동자",
+      "pronunciation": "로동자",
+      "context": "로동자\t[로동자]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "로인",
+      "pronunciation": "로인",
+      "context": "로인\t[로인]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "뢰관",
+      "pronunciation": "뢰관",
+      "context": "뢰관\t[뢰관]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "뢰성",
+      "pronunciation": "뢰성",
+      "context": "뢰성\t[뢰성]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "료리사",
+      "pronunciation": "료리사",
+      "context": "료리사\t[료리사]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "료해",
+      "pronunciation": "료해",
+      "context": "료해\t[료해]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "루락",
+      "pronunciation": "루락",
+      "context": "루락\t[루락]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "류학생",
+      "pronunciation": "류학생",
+      "context": "류학생\t[류학생]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "리론",
+      "pronunciation": "리론",
+      "context": "리론\t[리론]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "그중",
+      "pronunciation": "ㄱ,  ㄷ,  ㅂ",
+      "context": "조선말에서 자음은 음절의 위치에  따라 발음이  다르다.  음절의 첫소리로 될 때는 모든 자음을 똑똑히 발음하나 음절의 끝소리, 즉 받침으로 될 때에는 닫힌소리로 되면서 [ㄱ, ㄴ, ㄷ, ㄹ, ㅁ,  ㅂ,  ㅇ]의 7개 받침소리로 발음한다.  그중 [ㄱ,  ㄷ,  ㅂ]은 무성음이고 [ㄴ,  ㄹ,  ㅁ,"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "유향음인비",
+      "pronunciation": "ㄱ, o",
+      "context": "ㅇ]은 유향음인비 [ㄱ, o]은 혀뿌리소리이고 [ㄴ, ㄷ]은혀끝소리이고 [ㅁ, ㅂ]은 입술소리이고 [ㄹ]흔  혀옆소리냐."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "혀뿌리소리이고",
+      "pronunciation": "ㄴ, ㄷ",
+      "context": "ㅇ]은 유향음인비 [ㄱ, o]은 혀뿌리소리이고 [ㄴ, ㄷ]은혀끝소리이고 [ㅁ, ㅂ]은 입술소리이고 [ㄹ]흔  혀옆소리냐."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "은혀끝소리이고",
+      "pronunciation": "ㅁ, ㅂ",
+      "context": "ㅇ]은 유향음인비 [ㄱ, o]은 혀뿌리소리이고 [ㄴ, ㄷ]은혀끝소리이고 [ㅁ, ㅂ]은 입술소리이고 [ㄹ]흔  혀옆소리냐."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "있냐",
+      "pronunciation": "읻따",
+      "context": "삐를  들‘사,  자,  차,  싸’에 서음절 의첫리‘h, ス, ス, ㅆ’은  똑똑 히구별된.  그러‘[ ],낮[낟], 빛[빋], 있냐[읻따]'에서  음절 의끝소‘,  ,ㅊ, ㅆ’은  모 두받켐 [리]ㄷ흐로발음. 냐조선말받침으로 쓰이는 자모는  홓받칀‘,  ,  ,  ,  ,日, 又, ò, ス, ス, コ, そ, コ, ㅎ, ㄲ, ス’의 16개, 둘받침에‘ㄳ,"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "앓고",
+      "pronunciation": "알코",
+      "context": "앓고[알코], 앓다[알타], 앓지[알치]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "앓다",
+      "pronunciation": "알타",
+      "context": "앓고[알코], 앓다[알타], 앓지[알치]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "앓지",
+      "pronunciation": "알치",
+      "context": "앓고[알코], 앓다[알타], 앓지[알치]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "히읕",
+      "pronunciation": "히읃",
+      "context": "‘ㅎ’의  명칭으로서의‘히읕’은 받침소리로 될  때는‘히읕[히읃], 히읕과[히읕꽈]’로 되나 모음에  이어질 때는‘히읕이[히으시], 히읕에[히으세]’로 된다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "히읕과",
+      "pronunciation": "히읕꽈",
+      "context": "‘ㅎ’의  명칭으로서의‘히읕’은 받침소리로 될  때는‘히읕[히읃], 히읕과[히읕꽈]’로 되나 모음에  이어질 때는‘히읕이[히으시], 히읕에[히으세]’로 된다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "히읕이",
+      "pronunciation": "히으시",
+      "context": "‘ㅎ’의  명칭으로서의‘히읕’은 받침소리로 될  때는‘히읕[히읃], 히읕과[히읕꽈]’로 되나 모음에  이어질 때는‘히읕이[히으시], 히읕에[히으세]’로 된다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "히읕에",
+      "pronunciation": "히으세",
+      "context": "‘ㅎ’의  명칭으로서의‘히읕’은 받침소리로 될  때는‘히읕[히읃], 히읕과[히읕꽈]’로 되나 모음에  이어질 때는‘히읕이[히으시], 히읕에[히으세]’로 된다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "밝고",
+      "pronunciation": "발꼬",
+      "context": "밝고[발꼬], 밝기[발끼], 밝게[발께]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "밝기",
+      "pronunciation": "발끼",
+      "context": "밝고[발꼬], 밝기[발끼], 밝게[발께]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "밝게",
+      "pronunciation": "발께",
+      "context": "밝고[발꼬], 밝기[발끼], 밝게[발께]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "넓고",
+      "pronunciation": "널꼬",
+      "context": "넓고[널꼬], 넓기[널끼], 넓게[널께]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "넓기",
+      "pronunciation": "널끼",
+      "context": "넓고[널꼬], 넓기[널끼], 넓게[널께]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "넓게",
+      "pronunciation": "널께",
+      "context": "넓고[널꼬], 넓기[널끼], 넓게[널께]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "안다",
+      "pronunciation": "안따",
+      "context": "안다[안따],  안고[안꼬], 안지[안찌]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "안고",
+      "pronunciation": "안꼬",
+      "context": "안다[안따],  안고[안꼬], 안지[안찌]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "안지",
+      "pronunciation": "안찌",
+      "context": "안다[안따],  안고[안꼬], 안지[안찌]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "논발",
+      "pronunciation": "논받",
+      "context": "논발[논받](어근+어근)"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "안받침",
+      "pronunciation": "안받침",
+      "context": "안받침[안받침](어근+어근+접미사)"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "넘보다",
+      "pronunciation": "넘보다",
+      "context": "넘보다[넘보다](어근+어근)"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "남잡이",
+      "pronunciation": "남자비",
+      "context": "남잡이[남자비](어근+어근+접미사)"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "알다",
+      "pronunciation": "알다",
+      "context": "알다[알다], 알고[알고], 알지[알지]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "알고",
+      "pronunciation": "알고",
+      "context": "알다[알다], 알고[알고], 알지[알지]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "알지",
+      "pronunciation": "알지",
+      "context": "알다[알다], 알고[알고], 알지[알지]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "달다",
+      "pronunciation": "달다",
+      "context": "달다[달다], 달고[달고], 달지[달지]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "달고",
+      "pronunciation": "달고",
+      "context": "달다[달다], 달고[달고], 달지[달지]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "달지",
+      "pronunciation": "달지",
+      "context": "달다[달다], 달고[달고], 달지[달지]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "흔들거리다",
+      "pronunciation": "흔들거리다",
+      "context": "흔들거리다[흔들거리다], 유별스럽다[유별스럽따]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "유별스럽다",
+      "pronunciation": "유별스럽따",
+      "context": "흔들거리다[흔들거리다], 유별스럽다[유별스럽따]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "그리고",
+      "pronunciation": "붙임",
+      "context": "그리고 [붙임]에 밝히여있냐싶이 같은 한자가 겹쳐서이루어진 한자어에서는 된소리로  발음하 지않는."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "자자",
+      "pronunciation": "ㅋ, ㅌ, ㅊ",
+      "context": "제13항에서는“받침‘ㅎ, ㅂ,  ’‘’이순한소‘ㄱ, ㄷ, ㅈ’파 어울릴 빼 자자 [ㅋ, ㅌ, ㅊ]으로 발음한"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "좋다",
+      "pronunciation": "조타",
+      "context": "본 항은‘ㅎ’이  받침소리로 되면서  거센소리로 되는것이다.  그런데‘ㅎ’이  받침소리로 될 경우에  아래소리와어울리여서 거센소리로 되고 일반적으로 받침소리를 남기지  않는다.  즉 ‘좋다[조타], 좋고[조코], 좋지[조치]’로된다.  따라서  억지로 ‘좋다[졷타], 좋고[졷코], 좋지[졷치]’로 발음하지 말아야 한다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "좋고",
+      "pronunciation": "조코",
+      "context": "본 항은‘ㅎ’이  받침소리로 되면서  거센소리로 되는것이다.  그런데‘ㅎ’이  받침소리로 될 경우에  아래소리와어울리여서 거센소리로 되고 일반적으로 받침소리를 남기지  않는다.  즉 ‘좋다[조타], 좋고[조코], 좋지[조치]’로된다.  따라서  억지로 ‘좋다[졷타], 좋고[졷코], 좋지[졷치]’로 발음하지 말아야 한다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "좋지",
+      "pronunciation": "조치",
+      "context": "본 항은‘ㅎ’이  받침소리로 되면서  거센소리로 되는것이다.  그런데‘ㅎ’이  받침소리로 될 경우에  아래소리와어울리여서 거센소리로 되고 일반적으로 받침소리를 남기지  않는다.  즉 ‘좋다[조타], 좋고[조코], 좋지[조치]’로된다.  따라서  억지로 ‘좋다[졷타], 좋고[졷코], 좋지[졷치]’로 발음하지 말아야 한다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "그리고",
+      "pronunciation": "붙임",
+      "context": "그리고 [붙임]에 밝혀있다싶이  ‘ㅎ’이  아래에 오는 어근의 첫소리로 순한소리를 만날 경우에는 거센소리로 되지않는다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "옳바르다",
+      "pronunciation": "울바르다",
+      "context": "옳바르다[울바르다]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "싫증",
+      "pronunciation": "실쫑",
+      "context": "싫증[실쫑]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "발음에서는",
+      "pronunciation": "조쏘",
+      "context": "경우에도 빠른 발음에서는 [조쏘], [조씀니다], [노쏘],[노씀니다]와 같이 발음한다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "받침소리",
+      "pronunciation": "ㄱ, ㄷ,  ㅂ",
+      "context": "제17항에서는“받침소리 [ㄱ, ㄷ,  ㅂ] 뒤에‘ㅎ’이 올때 그‘ㅎ’은 각각 [ㅋ,  ㅌ, ㅍ]으로 발음한다.”고 규정하였다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "각각",
+      "pronunciation": "ㅋ,  ㅌ, ㅍ",
+      "context": "제17항에서는“받침소리 [ㄱ, ㄷ,  ㅂ] 뒤에‘ㅎ’이 올때 그‘ㅎ’은 각각 [ㅋ,  ㅌ, ㅍ]으로 발음한다.”고 규정하였다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "받침소리",
+      "pronunciation": "ㄱ,  ㄷ,  ㅂ",
+      "context": "‘ㅎ’이 순한소리‘ㄱ, ㄷ,  ㅂ, ㅈ’ 우에서나 아래에서직접 그 순한소리와 어울리여  거센소리로 된다는 것은 우에서  이미  설명하였다.  본 항은 받침소리  [ㄱ,  ㄷ,  ㅂ]꽈"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "굳히다",
+      "pronunciation": "구티다→구치다",
+      "context": "이것도 빠른 발음에서는 보통 ‘굳히다[구티다→구치다]’로 된다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "첫해",
+      "pronunciation": "처래",
+      "context": "첫해[처래], 늦호박[느토박], 꽃향기[꼬향기]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "늦호박",
+      "pronunciation": "느토박",
+      "context": "첫해[처래], 늦호박[느토박], 꽃향기[꼬향기]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "꽃향기",
+      "pronunciation": "꼬향기",
+      "context": "첫해[처래], 늦호박[느토박], 꽃향기[꼬향기]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "먹는다",
+      "pronunciation": "멍는다",
+      "context": "조선어의 동화현상에서 동화되는 소리가 자기 계렬의소리로 동화되는 것은 표준발음으로 인정하나(‘먹는다[멍는다]’에서와 같이 혀뿌리소리 [ㄱ]이 같은 혀뿌리소리 [ㅇ]으로 동화되는 것) 동화되는 소리가 다른 계령의 소리로동화되는 것은 표준발음으로 인정하지 않는다(‘받고[박ㅍ]’에서와 같이 혀끝소리 [ㄷ]이 혀뿌리소리 [ㄱ]으로 동화되는 것)."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "받고",
+      "pronunciation": "박ㅍ",
+      "context": "조선어의 동화현상에서 동화되는 소리가 자기 계렬의소리로 동화되는 것은 표준발음으로 인정하나(‘먹는다[멍는다]’에서와 같이 혀뿌리소리 [ㄱ]이 같은 혀뿌리소리 [ㅇ]으로 동화되는 것) 동화되는 소리가 다른 계령의 소리로동화되는 것은 표준발음으로 인정하지 않는다(‘받고[박ㅍ]’에서와 같이 혀끝소리 [ㄷ]이 혀뿌리소리 [ㄱ]으로 동화되는 것)."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "각각",
+      "pronunciation": "지, 치",
+      "context": "제20항에서는“받침‘ㄷ,  ㅌ,  ㅍ’ 뒤에 토나 접미사‘ㅡ이’,  ‘ㅡ히’가 올 때 받침‘ㄷ,  ㅌ’은 그 ‘ㅡ이’,  ‘ㅡ히’와 어울려 각각 [지, 치]로 발음한다.”고 규정하였다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "받침소리",
+      "pronunciation": "ㄱ,  ㄷ,  ㅂ",
+      "context": "제21항에서는 “받침소리  [ㄱ,  ㄷ,  ㅂ] 뒤에  유향음‘ㄴ,  ㅁ,  ㄹ’이 올 때 그 받침소리를 해당한 계렬의 유향"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "즉폭로",
+      "pronunciation": "퐁로→퐁노",
+      "context": "여기에서  ‘폭로’, ‘협력’등은 보통 호상동화된다.  즉폭로[퐁로→퐁노], 협력[혐력→혐녁]으로 된다.  다시  말하면 아래 유향음 ‘ㄹ’이 우의 무성자음을 동화시켜 코소리‘o,  ㅁ’으로 되게 하였고 코소리  ‘o,  ㅁ’은 다시 ‘ㄹ’을동화시켜 코소리  ‘ㄴ’으로 되게 하였다.  이 호상동화의 발음은 허용발음이다.  례를 더 들면 다음과 같다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "협력",
+      "pronunciation": "혐력→혐녁",
+      "context": "여기에서  ‘폭로’, ‘협력’등은 보통 호상동화된다.  즉폭로[퐁로→퐁노], 협력[혐력→혐녁]으로 된다.  다시  말하면 아래 유향음 ‘ㄹ’이 우의 무성자음을 동화시켜 코소리‘o,  ㅁ’으로 되게 하였고 코소리  ‘o,  ㅁ’은 다시 ‘ㄹ’을동화시켜 코소리  ‘ㄴ’으로 되게 하였다.  이 호상동화의 발음은 허용발음이다.  례를 더 들면 다음과 같다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "그리고",
+      "pronunciation": "붙임",
+      "context": "그리고 [붙임]에서는 “단어들이  어울릴  때 우와 같이역행동화현상이  일어나는 것은 본 항의 규정을 따른다.”고규정하였다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "산량",
+      "pronunciation": "살량",
+      "context": "본 항은 모두 역행동화에 속하며  또한 완전동화와 직접동화에 속하는 것들이다.  여기에서  보면 우의  받침소리[ㄴ]이  아래음절의  첫소리‘ㄹ’의  영향으로 [ㄹ]로 되였다.  이것도 표기로는 모두 뒤김소리로 하나 발음은 모두설측음 즉 혀옆소리로 한다.  특히  ‘산량[살량]’을 [산냥]으로,  ‘전략[절략]’을 [전냐]으로 발음하지 말아야 한다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "전략",
+      "pronunciation": "절략",
+      "context": "본 항은 모두 역행동화에 속하며  또한 완전동화와 직접동화에 속하는 것들이다.  여기에서  보면 우의  받침소리[ㄴ]이  아래음절의  첫소리‘ㄹ’의  영향으로 [ㄹ]로 되였다.  이것도 표기로는 모두 뒤김소리로 하나 발음은 모두설측음 즉 혀옆소리로 한다.  특히  ‘산량[살량]’을 [산냥]으로,  ‘전략[절략]’을 [전냐]으로 발음하지 말아야 한다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "제대로",
+      "pronunciation": "ㄴ,  ㄹ",
+      "context": "제24항에서는 “합성어 또는 파생어에서  앞 형태소의끝소리가 ‘ㄴ’이고 뒤 형태소의  첫소리가 ‘ㄹ’일 때는 제대로 [ㄴ,  ㄹ]로 발음하는 것을 원칙으로 하면서 [ㄴ, ㄴ]으로 발음할 수도 있다.”고 규정하였다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "하면서",
+      "pronunciation": "ㄴ, ㄴ",
+      "context": "제24항에서는 “합성어 또는 파생어에서  앞 형태소의끝소리가 ‘ㄴ’이고 뒤 형태소의  첫소리가 ‘ㄹ’일 때는 제대로 [ㄴ,  ㄹ]로 발음하는 것을 원칙으로 하면서 [ㄴ, ㄴ]으로 발음할 수도 있다.”고 규정하였다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "내렬",
+      "pronunciation": "내열",
+      "context": "내렬\t[내열]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "소화률",
+      "pronunciation": "소화율",
+      "context": "소화률\t[소화율]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "격렬",
+      "pronunciation": "경녈",
+      "context": "격렬\t[경녈]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "입학률",
+      "pronunciation": "입팡늄",
+      "context": "입학률\t[입팡늄]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "진렬",
+      "pronunciation": "진녈",
+      "context": "진렬\t[진녈]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "선렬",
+      "pronunciation": "선녈",
+      "context": "선렬\t[선녈]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "선률",
+      "pronunciation": "선늄",
+      "context": "선률\t[선늄]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "전률",
+      "pronunciation": "전늄",
+      "context": "전률\t[전늄]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "생산률",
+      "pronunciation": "생산늄",
+      "context": "생산률\t[생산늄]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "음렬",
+      "pronunciation": "흠녈",
+      "context": "음렬\t[흠녈]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "음률",
+      "pronunciation": "음늄",
+      "context": "음률\t[음늄]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "법률",
+      "pronunciation": "범늄",
+      "context": "법률\t[범늄]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "배합률",
+      "pronunciation": "배함늄",
+      "context": "배합률\t[배함늄]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "강렬하냐",
+      "pronunciation": "강녈하냐",
+      "context": "강렬하냐\t[강녈하냐]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "능률",
+      "pronunciation": "능늄",
+      "context": "능률\t[능늄]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "제대로",
+      "pronunciation": "ㄴ, ㄴ",
+      "context": "제26항에서는“한자어  안에서  받침  ‘ㄴ’ 뒤에  ‘ㄴ’이올 때는 제대로 [ㄴ, ㄴ]으로 발음하는 것을 원칙으로 한다.”고 규정하였다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "관념",
+      "pronunciation": "관렴",
+      "context": "조선어의  전통적인 발음법에서는 일부 한자어에서의자음‘ㄴ,  ㄴ’의  기피현상을 인정하여  ‘관념[관렴], 만난[말란], 만년필[말런필]’에서와 같이  [ㄹ,  ㄹ]로 발음하였다.  그러나 오늘날에 와서는 ‘ㄴ,  ㄴ’을 절대내부분 그내로 발음하고 있는 언어현실에  비추어  이미 굳어진‘곤난’"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "만난",
+      "pronunciation": "말란",
+      "context": "조선어의  전통적인 발음법에서는 일부 한자어에서의자음‘ㄴ,  ㄴ’의  기피현상을 인정하여  ‘관념[관렴], 만난[말란], 만년필[말런필]’에서와 같이  [ㄹ,  ㄹ]로 발음하였다.  그러나 오늘날에 와서는 ‘ㄴ,  ㄴ’을 절대내부분 그내로 발음하고 있는 언어현실에  비추어  이미 굳어진‘곤난’"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "만년필",
+      "pronunciation": "말런필",
+      "context": "조선어의  전통적인 발음법에서는 일부 한자어에서의자음‘ㄴ,  ㄴ’의  기피현상을 인정하여  ‘관념[관렴], 만난[말란], 만년필[말런필]’에서와 같이  [ㄹ,  ㄹ]로 발음하였다.  그러나 오늘날에 와서는 ‘ㄴ,  ㄴ’을 절대내부분 그내로 발음하고 있는 언어현실에  비추어  이미 굳어진‘곤난’"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "같이",
+      "pronunciation": "ㄹ,  ㄹ",
+      "context": "조선어의  전통적인 발음법에서는 일부 한자어에서의자음‘ㄴ,  ㄴ’의  기피현상을 인정하여  ‘관념[관렴], 만난[말란], 만년필[말런필]’에서와 같이  [ㄹ,  ㄹ]로 발음하였다.  그러나 오늘날에 와서는 ‘ㄴ,  ㄴ’을 절대내부분 그내로 발음하고 있는 언어현실에  비추어  이미 굳어진‘곤난’"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "만은",
+      "pronunciation": "골란",
+      "context": "만은 [골란]으로 하고 기타의  것은 모두 [ㄴ, ㄴ] 그대로발음하기로 하였다.  (따라서  ‘곤난’만은 [곤난]으로 발음하는 것이 비표준발음이다.)"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "모두",
+      "pronunciation": "ㄴ, ㄴ",
+      "context": "만은 [골란]으로 하고 기타의  것은 모두 [ㄴ, ㄴ] 그대로발음하기로 하였다.  (따라서  ‘곤난’만은 [곤난]으로 발음하는 것이 비표준발음이다.)"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "받고",
+      "pronunciation": "박ㅍ",
+      "context": "이 동화는 무성자음의  역행동화로서(이  동화는 또한완전동화와 직접동화에 속한다.) 동화의 결과 동화되는 소리가 다른 계렬의 소리로 되였다.  즉 혀끝소리  [ㄷ](ㄷ,E, ㅅ, ㅆ, ㅈ, ㅊ)이  혀뿌리소리 또는 입술소리의 동화에 의하여  혀뿌리소리(받고[박ㅍ](ㄷ→ㄱ)) 또는 입술소리(돋보기[돕뽀기](ㄷ→ㅂ))로 되였다.  그리고 입술소리 [ㅂ]이  혀"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "돋보기",
+      "pronunciation": "돕뽀기",
+      "context": "이 동화는 무성자음의  역행동화로서(이  동화는 또한완전동화와 직접동화에 속한다.) 동화의 결과 동화되는 소리가 다른 계렬의 소리로 되였다.  즉 혀끝소리  [ㄷ](ㄷ,E, ㅅ, ㅆ, ㅈ, ㅊ)이  혀뿌리소리 또는 입술소리의 동화에 의하여  혀뿌리소리(받고[박ㅍ](ㄷ→ㄱ)) 또는 입술소리(돋보기[돕뽀기](ㄷ→ㅂ))로 되였다.  그리고 입술소리 [ㅂ]이  혀"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "받침소리",
+      "pronunciation": "ㄴ,  ㅁ",
+      "context": "2) 받침소리 [ㄴ,  ㅁ]이 뒤에 오는 자음‘ㄱ, ㅋ, ㄲ’을 닮아서 [ㅇ]으로 발음하는 것은 표준발음으로 인정하지않는다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "반갑다",
+      "pronunciation": "방갑다",
+      "context": "이 현상 역시  역행동화로서(이 동화는 또한 부분동화와 직접동화에 속한다.) 동화의 결과 동화되는 소리가 다른 계렬의 소리로 되였다. 즉 혀끝소리가 혀뿌리소리의 동화에 의하여 혀뿌리소리(반갑다[방갑다](ㄴ→0))로 되고입술소리가 혀뿌리소리의 동화에 의하여 혀뿌리소리(참기름[창기름](ㅁ→0))로 되였다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "참기름",
+      "pronunciation": "창기름",
+      "context": "이 현상 역시  역행동화로서(이 동화는 또한 부분동화와 직접동화에 속한다.) 동화의 결과 동화되는 소리가 다른 계렬의 소리로 되였다. 즉 혀끝소리가 혀뿌리소리의 동화에 의하여 혀뿌리소리(반갑다[방갑다](ㄴ→0))로 되고입술소리가 혀뿌리소리의 동화에 의하여 혀뿌리소리(참기름[창기름](ㅁ→0))로 되였다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "전보",
+      "pronunciation": "점보",
+      "context": "이 현상 역시  역행동화로서(이 동화는 또한 직접동화에 속하며 또 어떤 것은 부분동화에 속하고 어떤 것은 완전동화에 속한다.) 혀끝소리가 아래에 오는 입술소리에 동화되여 입술소리(전보[점보](ㄴ→ㅁ))로 되였다.  이 동화현상도 다른 계렬의 소리로 되는 동화이므로 표준발음으로인정하지  않는다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "기발",
+      "pronunciation": "긷빨",
+      "context": "기발\t[긷빨]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "바다가",
+      "pronunciation": "바닫까",
+      "context": "바다가\t[바닫까]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "바다길",
+      "pronunciation": "바닫껄",
+      "context": "바다길\t[바닫껄]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "바다바람",
+      "pronunciation": "바닫빠람",
+      "context": "바다바람\t[바닫빠람]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "보리짚",
+      "pronunciation": "보릳쩝",
+      "context": "보리짚\t[보릳쩝]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "코등",
+      "pronunciation": "곧똥",
+      "context": "코등\t[곧똥]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "표기법",
+      "pronunciation": "표긷쨉",
+      "context": "표기법\t[표긷쨉]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "원가",
+      "pronunciation": "원까",
+      "context": "~가(价): 원가[원까], 물가[물까], 대가[내까]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "물가",
+      "pronunciation": "물까",
+      "context": "~가(价): 원가[원까], 물가[물까], 대가[내까]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "대가",
+      "pronunciation": "내까",
+      "context": "~가(价): 원가[원까], 물가[물까], 대가[내까]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "문건",
+      "pronunciation": "문껀",
+      "context": "~건(件): 문건[문껀], 사건[사껀]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "사건",
+      "pronunciation": "사껀",
+      "context": "~건(件): 문건[문껀], 사건[사껀]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "성격",
+      "pronunciation": "성껴",
+      "context": "~격(格): 성격[성껴], 엄격성[엄꺽썽], 주격[주껴]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "엄격성",
+      "pronunciation": "엄꺽썽",
+      "context": "~격(格): 성격[성껴], 엄격성[엄꺽썽], 주격[주껴]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "주격",
+      "pronunciation": "주껴",
+      "context": "~격(格): 성격[성껴], 엄격성[엄꺽썽], 주격[주껴]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "성구",
+      "pronunciation": "성꾸",
+      "context": "~구(句): 성구[성꾸], 례구[레꾸]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "례구",
+      "pronunciation": "레꾸",
+      "context": "~구(句): 성구[성꾸], 례구[레꾸]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "창고",
+      "pronunciation": "창ㅍ",
+      "context": "~고(库): 창고[창ㅍ], 금고[금ㅍ], 저장고[저장ㅍ]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "금고",
+      "pronunciation": "금ㅍ",
+      "context": "~고(库): 창고[창ㅍ], 금고[금ㅍ], 저장고[저장ㅍ]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "저장고",
+      "pronunciation": "저장ㅍ",
+      "context": "~고(库): 창고[창ㅍ], 금고[금ㅍ], 저장고[저장ㅍ]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "성과",
+      "pronunciation": "성꽈",
+      "context": "~과(果): 성과[성꽈], 효과[효꽈]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "효과",
+      "pronunciation": "효꽈",
+      "context": "~과(果): 성과[성꽈], 효과[효꽈]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "분과",
+      "pronunciation": "분꽈",
+      "context": "~과(科): 분과[분꽈], 내과[내꽈]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "내과",
+      "pronunciation": "내꽈",
+      "context": "~과(科): 분과[분꽈], 내과[내꽈]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "정권",
+      "pronunciation": "정꿘",
+      "context": "~권(权): 정권[정꿘], 인권[인꿘]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "인권",
+      "pronunciation": "인꿘",
+      "context": "~권(权): 정권[정꿘], 인권[인꿘]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "헌법",
+      "pronunciation": "헌뼘",
+      "context": "~법(法): 헌법[헌뼘], 필법[필뼘], 가법[가뼘]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "필법",
+      "pronunciation": "필뼘",
+      "context": "~법(法): 헌법[헌뼘], 필법[필뼘], 가법[가뼘]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "가법",
+      "pronunciation": "가뼘",
+      "context": "~법(法): 헌법[헌뼘], 필법[필뼘], 가법[가뼘]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "허수",
+      "pronunciation": "허쑤",
+      "context": "~수(数): 허수[허쑤], 우수[우쑤]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "우수",
+      "pronunciation": "우쑤",
+      "context": "~수(数): 허수[허쑤], 우수[우쑤]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "문자",
+      "pronunciation": "문짜",
+      "context": "~자(字): 문자[문짜], 한자[한짜]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "한자",
+      "pronunciation": "한짜",
+      "context": "~자(字): 문자[문짜], 한자[한짜]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "인적",
+      "pronunciation": "인쩍",
+      "context": "~적(的): 인적[인쩍], 내적[내쩍]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "내적",
+      "pronunciation": "내쩍",
+      "context": "~적(的): 인적[인쩍], 내적[내쩍]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "관점",
+      "pronunciation": "관쩜",
+      "context": "~점(点): 관점[관쩜], 중점[중쩜], 우점[우쩜]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "중점",
+      "pronunciation": "중쩜",
+      "context": "~점(点): 관점[관쩜], 중점[중쩜], 우점[우쩜]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "우점",
+      "pronunciation": "우쩜",
+      "context": "~점(点): 관점[관쩜], 중점[중쩜], 우점[우쩜]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "러행권",
+      "pronunciation": "러행퀸",
+      "context": "~권(券): 러행권[러행퀸], 관람권[팔람퀸]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "관람권",
+      "pronunciation": "팔람퀸",
+      "context": "~권(券): 러행권[러행퀸], 관람권[팔람퀸]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "랭병",
+      "pronunciation": "랭뻥",
+      "context": "~병(病): 랭병[랭뻥], 급성병[급썽뻥]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "급성병",
+      "pronunciation": "급썽뻥",
+      "context": "~병(病): 랭병[랭뻥], 급성병[급썽뻥]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "만성",
+      "pronunciation": "만성",
+      "context": "~성(性): 만성[만성], 본성[본성]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "본성",
+      "pronunciation": "본성",
+      "context": "~성(性): 만성[만성], 본성[본성]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "초급",
+      "pronunciation": "초급",
+      "context": "~급(级): 초급[초급], 중급[중급]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "중급",
+      "pronunciation": "중급",
+      "context": "~급(级): 초급[초급], 중급[중급]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "부증",
+      "pronunciation": "부증",
+      "context": "~증(症): 부증[부증]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "본병",
+      "pronunciation": "본병",
+      "context": "~병(病): 본병[본병], 만병[만병]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "만병",
+      "pronunciation": "만병",
+      "context": "~병(病): 본병[본병], 만병[만병]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "받침소리",
+      "pronunciation": "ㄴ,  ㅁ,  ㅇ",
+      "context": "첫째, 받침소리 [ㄴ,  ㅁ,  ㅇ]일 때 뒤  형태소의  첫소리에 [ㄴ]만 첨가된다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "웃받침소리가",
+      "pronunciation": "ㄴ,  ㅁ,  ㅇ",
+      "context": "셋째, 기타 받침소리  아래에서는 뒤  형태소의  첫소리에 [ㄴ]이  첨가됨과 동시에 그것이  역행동화하여 웃받침소리가 [ㄴ,  ㅁ,  ㅇ]으로 된다."
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "개나리",
+      "pronunciation": "개나리",
+      "context": "개나리\t[개나리]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "개나발",
+      "pronunciation": "개나발",
+      "context": "개나발\t[개나발]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "나무못",
+      "pronunciation": "나무몬",
+      "context": "나무못\t[나무몬]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "머루나무",
+      "pronunciation": "머루나무",
+      "context": "머루나무\t[머루나무]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "머리말",
+      "pronunciation": "머리말",
+      "context": "머리말\t[머리말]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "머리맡",
+      "pronunciation": "머리맏",
+      "context": "머리맡\t[머리맏]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "배나무",
+      "pronunciation": "배나무",
+      "context": "배나무\t[배나무]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "새매",
+      "pronunciation": "재매",
+      "context": "새매\t[재매]"
+    },
+    {
+      "type": "pronunciation_single",
+      "word": "사이에",
+      "pronunciation": "ㄴ, ㄴ",
+      "context": "제31항에서는“합성어(또는 파생어)에서  앞 형태소가모음으로 끝나고 뒤 형태소가 ‘야, 여, 요, 유,  이’로 시작될 때는 그 사이에 [ㄴ, ㄴ]을 덧내여  발음한다.”고 규정하였다."
+    }
+  ],
+  "spacing_rules": [
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "15) 장소를 나타내는 고유명사와 관련한 띄여쓰기",
+      "context": "15) 장소를 나타내는 고유명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "16) 앞의 명사를 다시 받는 명사와 관련한 띄여쓰기",
+      "context": "16) 앞의 명사를 다시 받는 명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "18) 붙여쓰편 ㅂ른 뜻이 생길 경수외 관련한 띄여쓰",
+      "context": "18) 붙여쓰편 ㅂ른 뜻이 생길 경수외 관련한 띄여쓰"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말  띄여쓰기〉해설",
+      "context": "〈조선말  띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "따라서 띄여쓰기규범을 잘 세우고 규범 내로 글을 써야 글을 보는 사람들이 내용파악을 쉽게 할 수 있다.",
+      "context": "따라서 띄여쓰기규범을 잘 세우고 규범 내로 글을 써야 글을 보는 사람들이 내용파악을 쉽게 할 수 있다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "이와 같이 띄여쓰기는 글의 독서능률을 높이고 그 내용을 리해하는 데서 결정적  역할을 한다고 말할 수 있다.",
+      "context": "이와 같이 띄여쓰기는 글의 독서능률을 높이고 그 내용을 리해하는 데서 결정적  역할을 한다고 말할 수 있다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "그것은 띄여쓰기가 문장을 제대로 읽도록 어음—의미적 단위를 갈라줌으로써 발음상 막힘이  없이  읽는 속도를보장하며 눈으로 볼 때 합리적인 하나의 뜻덩이를 구획해",
+      "context": "그것은 띄여쓰기가 문장을 제대로 읽도록 어음—의미적 단위를 갈라줌으로써 발음상 막힘이  없이  읽는 속도를보장하며 눈으로 볼 때 합리적인 하나의 뜻덩이를 구획해"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "합성어를 이루고 있는 여러 단위를 띄여쓰는가 아니면 붙여쓰는가 하는 문제가 제기된다.",
+      "context": "합성어를 이루고 있는 여러 단위를 띄여쓰는가 아니면 붙여쓰는가 하는 문제가 제기된다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "제1장  명사와 관련한 띄여쓰기",
+      "context": "제1장  명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "1) 완전명사와 관련한 띄여쓰기",
+      "context": "1) 완전명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "2) 불완전명사와 관련한 띄여쓰기",
+      "context": "2) 불완전명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "3) 단위명사와 관련한 띄여쓰기",
+      "context": "3) 단위명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "단위명사를 앞의 단어에 붙여쓰게 되는 데는 다음과같은 경우가 있기 때문이다.",
+      "context": "단위명사를 앞의 단어에 붙여쓰게 되는 데는 다음과같은 경우가 있기 때문이다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "4) 전문용어와 관련한 띄여쓰기",
+      "context": "4) 전문용어와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "전문용어는 붙여쓴다. 그것은 전문용어를 이룬 단어들이 어울리여 하나의 내상을 나타내기 때문이다. 전문용어의 띄여쓰기는 다음과 같이 한다.",
+      "context": "전문용어는 붙여쓴다. 그것은 전문용어를 이룬 단어들이 어울리여 하나의 내상을 나타내기 때문이다. 전문용어의 띄여쓰기는 다음과 같이 한다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "(1) 붙여쓰는 경우",
+      "context": "(1) 붙여쓰는 경우"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "② 여러 말마디로 된 긴 학술용어는 토가 없이  결합된단위가 너무 길 때 뜻을 단위로 띄여쓸 수 있다는 규정에따라 뜻의  리해에 맞게 띄여쓰기를 할 수 있다.",
+      "context": "② 여러 말마디로 된 긴 학술용어는 토가 없이  결합된단위가 너무 길 때 뜻을 단위로 띄여쓸 수 있다는 규정에따라 뜻의  리해에 맞게 띄여쓰기를 할 수 있다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "5) 인명과 관련한 띄여쓰기",
+      "context": "5) 인명과 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "6) 호칭어와 관련한 띄여쓰기",
+      "context": "6) 호칭어와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "호칭어와 관련한 띄여쓰기는 사람의 사회적 관계를 나타내는 말의 띄여쓰기이다.",
+      "context": "호칭어와 관련한 띄여쓰기는 사람의 사회적 관계를 나타내는 말의 띄여쓰기이다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "호칭어는 주로 입말에서 쓰이기에  이름에 붙든 직위에붙든 앞의 단어와 붙여쓰고 뒤의 단어와는 띄여쓴다.  호칭어  다음에는 반점을 찍는다.",
+      "context": "호칭어는 주로 입말에서 쓰이기에  이름에 붙든 직위에붙든 앞의 단어와 붙여쓰고 뒤의 단어와는 띄여쓴다.  호칭어  다음에는 반점을 찍는다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "7) 관직명과 관련한 띄여쓰기",
+      "context": "7) 관직명과 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "8) 지명과 관련한 띄여쓰기",
+      "context": "8) 지명과 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "9) 고유한 대상의 이름과 관련한 띄여쓰기",
+      "context": "9) 고유한 대상의 이름과 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "10) 당조직, 국가기구, 인민단체, 행정구역 등의 명칭과 관련한 띄여쓰기",
+      "context": "10) 당조직, 국가기구, 인민단체, 행정구역 등의 명칭과 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "11) 국가나 정당, 사회단체 등의 정식 이름 뒤에 오는 보통명사와 관련한 띄여쓰기",
+      "context": "11) 국가나 정당, 사회단체 등의 정식 이름 뒤에 오는 보통명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "12) 기관이나 부서의 이름, 직무 이름과 관련한 띄여쓰기",
+      "context": "12) 기관이나 부서의 이름, 직무 이름과 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "13) 회의명칭(전람회, 운동회 명칭도 포함)과 관련한 띄여쓰기",
+      "context": "13) 회의명칭(전람회, 운동회 명칭도 포함)과 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "14) 동격어와 관련한 띄여쓰기",
+      "context": "14) 동격어와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "15) 장소를 나타내는 고유명사와 관련한 띄여쓰기",
+      "context": "15) 장소를 나타내는 고유명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "장소를 나타내는 고유명사는 뒤에 오는 명칭과 띄여쓴다.  붙여쓰면 그 전체가 또 하나의 고유한 대상의  이름으로 될 수 있기 때문이다.",
+      "context": "장소를 나타내는 고유명사는 뒤에 오는 명칭과 띄여쓴다.  붙여쓰면 그 전체가 또 하나의 고유한 대상의  이름으로 될 수 있기 때문이다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "16) 앞의 명사를 다시 받는 명사와 관련한 띄여쓰기",
+      "context": "16) 앞의 명사를 다시 받는 명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "17) 사람의 이름 뒤에 오는 ‘작곡. 작사. 안무. 각색. 목각.시…’등 명사와 관련한 띄여쓰기",
+      "context": "17) 사람의 이름 뒤에 오는 ‘작곡. 작사. 안무. 각색. 목각.시…’등 명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "18)붙여쓰면 다른 뜻이 생길 경우와 관련한 띄여쓰기",
+      "context": "18)붙여쓰면 다른 뜻이 생길 경우와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "“한국과 조선이 합의를 본 것은 그대로 쓴다.”는 총칙에 따라 명사결합체에서 붙여쓰면 다른 뜻이 생길 경우 의미단위별로 뜻이 통하게 떠여쓴다.",
+      "context": "“한국과 조선이 합의를 본 것은 그대로 쓴다.”는 총칙에 따라 명사결합체에서 붙여쓰면 다른 뜻이 생길 경우 의미단위별로 뜻이 통하게 떠여쓴다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "제2장  수사와 관련한  띄여쓰기",
+      "context": "제2장  수사와 관련한  띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "2007년의 규범에서는 띄여쓰기 제7항과 제8항에서 수",
+      "context": "2007년의 규범에서는 띄여쓰기 제7항과 제8항에서 수"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "사의 띄여쓰기에 대하여 다음과 같이 규정하였다.",
+      "context": "사의 띄여쓰기에 대하여 다음과 같이 규정하였다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "새 규범 제23항에서는 수사의 띄여쓰기를 다음과 같이규정하였다.",
+      "context": "새 규범 제23항에서는 수사의 띄여쓰기를 다음과 같이규정하였다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "1) 아라비아수자로 적을 때의 띄여쓰기",
+      "context": "1) 아라비아수자로 적을 때의 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "2) 순 조선문자로 적을 때의 띄여쓰기",
+      "context": "2) 순 조선문자로 적을 때의 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "3) 조선문자와 아라비아수자를 섞어적는 경우의 띄여쓰기",
+      "context": "3) 조선문자와 아라비아수자를 섞어적는 경우의 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "4) 수사가 인체기관 이름과 결합될 때의 띄여쓰기",
+      "context": "4) 수사가 인체기관 이름과 결합될 때의 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "제3장  대명사와 관련한  띄여쓰기",
+      "context": "제3장  대명사와 관련한  띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "1) 인칭내명사와 관련한 띄여쓰기",
+      "context": "1) 인칭내명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "인칭대명사에서  ‘우리’의  띄여쓰기는 “한국과 조선이합의를 본 것은 그대로 쓴다.”는 총칙에 따라 다음과 같이띄여쓰기를 한다.",
+      "context": "인칭대명사에서  ‘우리’의  띄여쓰기는 “한국과 조선이합의를 본 것은 그대로 쓴다.”는 총칙에 따라 다음과 같이띄여쓰기를 한다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "‘우리말’,  ‘우리글’은 합성어로 보아 붙여쓰고 ‘우리나라’는 구로 보아 띄여쓴다.",
+      "context": "‘우리말’,  ‘우리글’은 합성어로 보아 붙여쓰고 ‘우리나라’는 구로 보아 띄여쓴다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "2) 지시대명사와 관련한 띄여쓰기",
+      "context": "2) 지시대명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "3) 의문내명사와 관련한 띄여쓰기",
+      "context": "3) 의문내명사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "제4장 동사,  형용사와 관련한 띄여쓰기",
+      "context": "제4장 동사,  형용사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "1) 보조용언과 관련한 띄여쓰기",
+      "context": "1) 보조용언과 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "(1) 보조적 동사와 관련한 띄여쓰기",
+      "context": "(1) 보조적 동사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "(2) 보조적  형용사와 관련한 띄여쓰기",
+      "context": "(2) 보조적  형용사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "(3) 토 ‘—아, —어, —어’ 바로 다음에 오는 보조용언과 관련한 띄여쓰기",
+      "context": "(3) 토 ‘—아, —어, —어’ 바로 다음에 오는 보조용언과 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "2) 서로 다른 품사들이 결합되여 새로운 동사를 이룰 경우의띄여쓰기",
+      "context": "2) 서로 다른 품사들이 결합되여 새로운 동사를 이룰 경우의띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "3) 서로 다른 품사들이 결합되여 새로운 형용사를 이룰 경우의띄여쓰기",
+      "context": "3) 서로 다른 품사들이 결합되여 새로운 형용사를 이룰 경우의띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "제5장  관형사와 관련한 띄여쓰기",
+      "context": "제5장  관형사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "제6장  부사와 관련한 띄여쓰기",
+      "context": "제6장  부사와 관련한 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "동사나 형용사와 마찬가지로 어근합성법으로 이루어진부사들이  적지  않다.  이럴 때에 띄여쓰기를 어떻게  해야하는가 하는 문제가 제기된다.",
+      "context": "동사나 형용사와 마찬가지로 어근합성법으로 이루어진부사들이  적지  않다.  이럴 때에 띄여쓰기를 어떻게  해야하는가 하는 문제가 제기된다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "〈조선말 띄여쓰기〉해설",
+      "context": "〈조선말 띄여쓰기〉해설"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "이상의 단어조성수법에 의하여 만들어진 부사는 그 전체가 하나의 단어로 되기에 붙여쓰게 된다.",
+      "context": "이상의 단어조성수법에 의하여 만들어진 부사는 그 전체가 하나의 단어로 되기에 붙여쓰게 된다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "제7장  기타 띄여쓰기",
+      "context": "제7장  기타 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "새 규범에서는 2007년의 규범과는 달리 제33항 문장의첫머리와 단락을 바꿀 때의 띄여쓰기, 제34항 문장부호의띄여쓰기를 보충하였다.",
+      "context": "새 규범에서는 2007년의 규범과는 달리 제33항 문장의첫머리와 단락을 바꿀 때의 띄여쓰기, 제34항 문장부호의띄여쓰기를 보충하였다."
+    },
+    {
+      "type": "spacing_rule",
+      "text": "1) 문장의 첫머리와 단락을 바꿀 때의 띄여쓰기",
+      "context": "1) 문장의 첫머리와 단락을 바꿀 때의 띄여쓰기"
+    },
+    {
+      "type": "spacing_rule",
+      "text": "2) 문장부호의 띄여쓰기",
+      "context": "2) 문장부호의 띄여쓰기"
+    }
+  ],
+  "grammar_rules": [
+    {
+      "type": "grammar_rule",
+      "text": "새로운 《〈조선말규범집〉해설》에서는 〈조선말 표준발음법〉, 〈조선말 맞춤법〉, 〈조선말 떠여쓰기〉,  〈조선말 문장부호법〉의 매개 조항들에 대해 리론과 실천을 결부시켜 상세한 해설을 가하도록 노력하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "이것은 어느 품사에서나 무성자음 야래의 순한소리는언제팃소리로  발음한냐 는것 을말해준.  무성자음으이루어죄 받침소리는 꼭 닫혔냐가 냐슴에 호는 순한소리를반냐게 되끄로 순한소리를 언제나 된소리로 발슴하게 된니. 여기에서 받‘ㄱ, ㅋ, ㄲ, ㄳ, ㄺ’의 받쉠소리는[7]이고 받침‘ㄷ, ㅅ, ㅈ, ㅊ, ㄹ, ㅆ’의 받침소리는[ㄷ]이며 받캪‘日, ㅍ, 괜, 改, ㅄ’희  받쉠소리 [ ]니. 이  받침소리 는모 두무성슴들. 냐그버 끄 로그희 순한소리는 엔제나  된소리 로된."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "구개음화는 우에서 본 바와 같이  반드시  토나 접미사‘ㅡ이’,  ‘히’ 우에서야 실현된다.  이 조건이  아닌 경우에는 구개음화가 실현되지  않는다.  즉 형태소 내부의  경우에는 구개음화가 실현되지  않는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "그리고 ‘ㄴ+ㄹ’이  ‘ㄹ+ㄹ’로의 동화는 한 음절 사이에서라는 것을 잊지 말아야 한다.  따라서 형태소와 형태소사이에서는 이 동화가 일어나지  않는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "또한 형태소 안에서라도 ‘렬, 률’을 가진 음절을 만나면  이 동화가 일어나지  않는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "제24항에서는 “합성어 또는 파생어에서  앞 형태소의끝소리가 ‘ㄴ’이고 뒤 형태소의  첫소리가 ‘ㄹ’일 때는 제대로 [ㄴ,  ㄹ]로 발음하는 것을 원칙으로 하면서 [ㄴ, ㄴ]으로 발음할 수도 있다.”고 규정하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "‘ㄴ+ㄹ’이‘ㄹ+ㄹ’로의  여행동화는 한 형태소 내부에서 진행되나 형태소와 형태소 사이, 즉 접두사와 어근사이, 어근과 접미사 사이, 어근과 어근 사이에서는 진행되지  않고 그대로 발음한다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "받침소리 [ㄴ]과 아래음절의 첫소리 [ㄹ]이  결합할 때형태소와 형태소 사이에는 역행동화가 일어나지  않으나 순행동화가 일어날 수 있다.  즉 ‘순리윤’이 [순니윤]으로 될수 있다.  이것은 허용발음으로서  비표준발음이  아니다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "제7장에서는 사이소리 즉 형태소와 형태소 사이에 가첨되는 어음적 현상의 발음에 대하여 규정하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "제28항에서는 “합성어(또는 파생어)에서  앞 형태소가유향음이거나 모음으로 끝나고 뒤 형태소의 첫소리가 순한소리일 때는 그 순한소리를 된소리로 발음한다.”고 규정하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "합성어 또는 파생어의  형태소 사이에서 보동 된소리현상이  일어난다.  즉 앞 형태소의 끝소리가 유향음이거나 모음이여야 하고 뒤  형태소의  첫소리가 순한소리  ‘ㄱ,  ㄷ,ㅂ,  ㅈ’이여야 한다.  그러나 이  경우에도 언제나 된소리현상이  일어나는 것은 아니다.  합성어의  어근들이  병렬적  결합관계에 놓여있을 때는 된소리현상이  일어나지  않는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "합성어의  어근들이  종속적  결합관계에 놓여있을 때도언제나 된소리현상이  일어나는 것은 아니다.  합성어들의어근 사이에 규정토 ‘ㅡㄹ’이 끼일 때는 뒤 형태소의 첫소"
+    },
+    {
+      "type": "grammar_rule",
+      "text": "제29항에서는 “합성어(또는 파생어)에서  앞 형태소가자음으로 끝나고 뒤 형태소가 모음 ‘ㅑ,  ㅕ, ㅛ, ㅠ,  ㅣ’로 시작될 때는 아래음절의 첫소리에  언제나 [ㄴ]을 덧내여 발음한다.”고 규정하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "여기에서 보면 합성어 또는 파생어의  형태소와 형태소들이  결합할 때  앞 형태소의 끝소리가 자음이고 뒤  형태소의 첫소리가 모음‘ㅑ, ㅕ, ㅛ, ㅠ, ㅣ’, 다시 말하면 모음‘ㅣ’거나‘ㅣ’를 가진 상승적  이중모음일 때는 반드시 첫소리에 [ㄴ]이 첨가된다.  이것은 고유어에서나 한자어에서나마찬가지다.  아래에 세가지로 나누어  설명할 수 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "첫째, 받침소리 [ㄴ,  ㅁ,  ㅇ]일 때 뒤  형태소의  첫소리에 [ㄴ]만 첨가된다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "셋째, 기타 받침소리  아래에서는 뒤  형태소의  첫소리에 [ㄴ]이  첨가됨과 동시에 그것이  역행동화하여 웃받침소리가 [ㄴ,  ㅁ,  ㅇ]으로 된다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "제30항에서는 “합성어(또는 파생어)에서  앞 형태소가모음으로 끝나고 뒤 형태소가 유향음‘ㄴ,ㅁ’으로 시작될때는 그 사이에 [ㄴ]을 덧내여 발음한다.”고 규정하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "여기에서  보면 합성어  또는 파생어에서  앞 형태소의끝소리가 모음이고 뒤 형태소의 첫소리가 유향음‘ㄴ,ㅁ’일 때 앞 형태소의 끝소리에 받침소리 [ㄴ]을 첨가하여 발음한다.  이것은 필수적 현상이 아니라 합성어 또는 파생어사이에서의 된소리현상과 같이 단어에 따라 첨가한다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "제31항에서는“합성어(또는 파생어)에서  앞 형태소가모음으로 끝나고 뒤 형태소가 ‘야, 여, 요, 유,  이’로 시작될 때는 그 사이에 [ㄴ, ㄴ]을 덧내여  발음한다.”고 규정하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "이것은 합성어 또는 파생어에서 모음과 모음 사이(뒤형태소의  첫소리는 반드시  ‘ㅣ’거나 ‘ㅣ’를 가진 상승적이중모음이여야 한다.)에서  어음을 첨가하는 현상이다.  여기에서  앞 형태소의 끝소리에  받침소리  [ㄴ]을 첨가하고뒤  형태소의 첫소리에 또 [ㄴ]을 첨가한다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "조선말 맞춤법은 단어에서 어음변화의 규칙에 따라 그음들이  변한다 하더라도 글로 적을 때에는 변화되는 음 대로 적지 않고 그 형태소들을 언제나 갈게 적는 형태주의원칙을 기본으로 하였다.  따라서 우리말 맞춤법에 적용되고있는 이 원칙을 더 정확히 말하면 형태——음운론적  원칙이라고 할 수 있다.  그것은 형태소들이 결합될 때 여러 어음조건에서도 매개의 음운은 변화되는 소리  내로 적는 것이아니라 그 기본이 되는 음을 나타내는 자모로 적기 때문이다.  맞춤법에서 형태주의를 기본으로 하면 뜻을 가진 매개부분을 언제나 갈게 적기 때문에 단어의 뜻을 쉽게 포착하"
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례를 들어 단어  ‘헛걱정, 헛구역,  헛고생,  헛공부’에서‘헛—’은‘보람없는’, ‘속이  없는’,  ‘소용이  없는’의뜻을 가지고 다른 단어와 결합하여 씌였다.  이  때‘헛—’은 하나의 뜻 단위로 갈라진다.  이와 마찬가지로‘갈거미,강다짐, 군침, 날고기, 둘배’에서도 ‘갈—,  강—, 군—,날—, 돌—’은‘보충적 의미’를 나타내는 형태소이고‘거미, 다짐, 침, 고기, 배’등은 ‘실질적 의미’를 나타내는형래소이다.  ‘눈매,  알맹이, 쇠붙이, 가래질, 손젖,  멋쟁이, 욕심꾸러기, 귀패기’에서도 ‘눈,  알, 쇠, 가래, 손,멋, 욕심, 귀’는 어떤 사물의  이름을 나타내고 ‘—매,—맹이, —붙이, —절, —젖, —쟁이, —꾸려기, —패기’는 앞 명사에 붙어서 보충적 의미를 나타내는 형태소이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "뜻 단위로 갈라지는 가장 작은 단위는 각각 하나의 형태소이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "형래소를 고정시켜 표기하는 문제에서  받침을 어떻게바로잡아 쓸 것인가? 제2항과 제3항에서는 이 문제에 대하여 규정하였고 제7항에서는 형태소가 줄어질 때의  받침을바로잡아 쓰는 문제를 규정하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "제4항과 제5항에서는 주로 한 형태소 안에서 두 모음사이의 자음을 어떻게  적을 것인가에 대하여 규정하였다.이에 대한 규정은 다음과 같다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "첫째, 한 형태소 안의 두 모음 사이에서 나는 설측음만은‘ㄹㄹ’로 적는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "이와 같이  한 형태소 안의 두 모음 사이에서  나는 설측음을 ‘ㄹㄴ’으로 적지  않고 ‘ㄹㄹ’로 적는 것은 소리 나는 원리에도 맞거니와 두 형태소 사이에서 동화현상에 의해 일어나는 설측음과 구별하여 적는 데도 좋은 점이  있는것이다.  례를 들면 ‘설날’에서 모음 ‘ㅓ’와 ‘ㅏ’사이에서나는 설측음을 ‘ㄹㄹ’로 적지  않고 ‘ㄹㄴ’으로 적는 것은한 형태소에서가 아니고 두 형태소 사이에서  일어나는 소리이므로 각각 형태를 밝혀서  ‘설’과 ‘날’로 적어야 동화현상에서  일어나는 소리라는 근거가 뚜렷해진다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "금’과 같이  적을 수도 있고 받침을 하지  않고 적을 수도있다.  이 때 한 형태소 안에서의 맞춤법은 두 모음 사이에자음 하나가 끼인 경우에는 설측음이  아닌 한 일률로 받침을 적지  않는다는 것이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "두 모음 사이에서  받침이 하나가 끼인 경우에  받침을하여 적지  않은 것은 받침을 하여 적는 것과 구별하여주면서 그 받침이 가지는 의의를 뚜렷이 하여준다. 두 모음 사이에서 하나의 자음을 어떻게  적느냐 하는 문제는 형태소사이의 계선을 밝혀주는 면에서도 자못 큰 의의가 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례를 들면 ‘물오리’에서 모음 ‘ㅜ’와 ‘ㅗ’ 사이에 자음‘ㄹ’하나가 끼였지만 ‘물’과‘오리’는 두 형태소 사이에 놓인 것이므로 각각 형태를 밝혀 적는다.  그러나 ‘지키다’는 ‘직히다’로 적지  않고 한 형태소 안에서는 발음 내로 적는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "따라서 한 형태소 안에서 유향음‘ㄴ, ㄹ, ㅁ,  ㅇ’뒤에서 나는 된소리는 된소리로 적기로 하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "이와 같이  적는 것은 한 형태소 안에서 소리  나는 원리 내로 적는 형태—음운론적 원칙에도 부합된다고 본다.그려나 토에서는 ‘ㄹ’다음에 오는 순한소리가 된소리로나더라도 된소리로 적지  않는 까닭은 오늘날 토들의 호상관계와 체계성을 고려하였기 때문이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "제6항은 한 형태소 안에서 같은 음절이나 비슷한 음절이  겹쳐나는 것을 갈거나 비슷한 글자로 적는 규정이다.이와 같은 규정은 ‘ㅡ하다’형 형용사의  어근적  단어를 고정시키고 음절간의  발음현상을 직접 표기에  반영하려는 목적에서  나온 규정이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "제7항에서는 형태소의 소리가 줄어질 때  받침을 어떻게  바로잡아 적을 것인가 하는 데 내한 규정을 하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "이 규정에서는 줄어진 음절의  첫소리를 앞 음절의  받침으로 바로잡아 적는다고 하였다.  이와 같이 규정한 것은우리말에서 단어  안의  형태소의 말소리를 줄여쓰는 현상이있는데  이  때 어떤 받침을 할 것인가가 문제로 되기  때문이다.  형태소 안에서 줄어지는 현상을 보면 자음보다 모음이  많다.  례를 들면 ‘엊저녁’은 ‘어제저녁’이 줄어들어  이루어진  것이다.  ‘엊저녁’에서  ‘엊’  대신에  ‘엇,  얻, 얼,엏, 었’등으로 적을 가능성도 있다.  이  때‘엊’에서‘ㅈ’받침은 모음‘ㅔ’가 줄어들면서 그 음절의  첫소리인 자음‘ㅈ’이  받침으로 올라간 것이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "이와 같이  적는 것은 단어의  형태소의 소리를 줄여서말할 때 되도록 그 형태를 고정시킴으로써 표기와 발음이모순이  없도록 하며  그 뜻을 쉽게  알 수  있도록 하기 위한 것이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "이와 같이 동화현상이  일어나게  되는 주되는 요인은두 형태소 사이에서 유향음의  영향을 받기  때문이다.  자음과 자음 사이에서 유향음에 의한 동화현상은 어음법칙에 맞는 것이므로 맞춤법에서는 그 형태를 얼마든지 밝혀적을 수 있다.  따라서  이런 경우에 맞춤법에서는 동화된발음 내로 적지  말고 언제나 원 형태를 밝혀 적어야 한다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "‘오라버니’도 ‘울’과 ‘아버니’로 갈라서  볼 수  있으나‘울’의  어원이  명확지  않아서 그것을 한 형태소로 보기  어렵다.  따라서  이런 경우에도 발음 내로 ‘오라버니’로 적기로 하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "‘이틀’,  ‘이래’도 그 어원이  뚜렷하지  않다.  ‘이틀’을‘읻흘(읻+흘)’로 보고  ‘~흘’을  ‘사흘,  나흘,  열흘’의‘흘’로 본다 해도 ‘읻’이 무엇인지  그 어원을 밝힐 수 없다.  이와 마찬가지로 ‘이래’도 ‘읻해(읻+해)’로 보고 ‘~해’는 ‘한해, 두해,  여러해’의  ‘해’로 본다 해도 ‘읻’은그 어원을 밝힐 수 없으며 한 형태소로 보기 어렵다.  그러므로 이  때에도 모두 발음 내로 ‘이틀’,  ‘이래’로 적기로하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "단어  ‘맵쌀, 좁쌀,  참쌀’은 ‘메(日)+쌀’,  ‘조(日)+쌀’,  ‘차(日)+쌀’에서  보다싶이  두 형태소가 합쳐지면서‘ㅂ’이  덧난 것이다.  이것은 아래어근 ‘쌀’에 의하여  이루어진 것이다.  옛날에 ‘쌀’은 ‘빨’이였다.  옛날의  ‘ㅄ’이 오늘날 된소리  ‘ㅆ’으로 변하여  ‘쌀’로 됨과 동시에  합성어에서는 ‘ㅄ’에서의  ‘ㅂ’이 잔존형태로 남아서 오늘날 덧나"
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례를 들면 ‘머리카락(머리+가락)’,  ‘수탉(수+탉)’,‘마파람(마+바람)’등에서 보는 바와 같이 두 형태소 사이에‘ㅎ’소리가 보래여져서 뒤의 순한소리가 거센소리로되었다.  이것은 지난날 일부 단어의 어근에‘ㅎ’이 첨가되던 현상(ㅎ종성체언)인데 현대어에 와서 극히 개별적인 어근에 붙으면서  뒤의 순한소리가 거센소리로 바뀌어  나는것은 합성어의 뒤 단위의  첫소리가‘ㄱ,  ㄷ,  ㅂ’과 같은자음으로 시작되었을 경우에‘ㅎ’을 만나면서 같은 계렬의거센소리로 이루어지기  때문이다.  이러한 류형에  속하는단어들은 다음과 같다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "제20항에서는“자음으로 시작된 접미사가 어근과 어울릴 때 그 형태를 각각 밝혀 적는 것을 원칙으로 한다.”고규정하였다.  그것은 자음으로 시작된 대부분의  접미사는어근과 어울릴  경우에도 형태소 계선이 분명하므로 능히형태소를 밝혀 적을 수 있기 때문이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례를 들면‘덮개, 맞추다,  엮히다’에서  어근‘덮—,맞—, 엮—’과 자음으로 시작된  접미사  ‘—개,  —추,—히’의 형태소 계선이 쉽게 갈라진다.  이와 같이  형태소계선이 명확한 것은 본래 형태를 밝혀 적음으로 하여 뜻을포착하고 리해하기 쉽다.  만일 ‘덮개’에서의  ‘덮’을 ‘덥’으로 적는다면‘날씨가 덥다.’에서의  ‘덥—’의 뜻과 혼동된다.  자음으로 시작된 대부분의 접미사는 어근과의 계선이 분명하므로 본래 형태를 밝혀 적기로 하고 그 가운데일부는 받침소리의 규칙에 맞지 않아 발음 내로 적기로 하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "모음으로 시작된 접미사는 그 수가 상당히 많다.  모음으로 시작된 접미사들 가운데 어떤 것은 활용성이 많아 어근과 접미사를 갈라내기 쉽고 어떤 것은 활용성이  어느 정도 있다 하더라도 그 계선이 분명하지  않아 어근과 접미사를 밝혀내기 어렵다.  어떤 것은 어근의 끋음절의  받침소리가 상당히 녹아들어가서  어근과 접미사를 밝히려 드는 것이  더  번거롭고 힘든 경우가 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "어근과 접미사의  계선이  분명한가, 활용성이  어뗘한가를보아 어근과 접미사를 밝혀 적는 경우와 밝혀  적지  않는경우를 보게 된다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "모음으로 시작된 접미사들 가운데서 활용성이  많아 어근과 접미사의 계선이 분명한 것은 밝혀 적는다.  이에  관한 것을 류형별로 갈라 보이면 다음과 같다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례하면 ‘꾸례미, 시렁, 시루, 시래기…’등에서  그것이 한 형태소에 속하는 것인지  아니면 ‘꿀+에미’,  ‘실+엉’, ‘실+우’, ‘실+애기’인지 하는 데 대한 연구가 필요하다.  이런 것들의 어원을 밝혀내자고 한다면 수많은 단어들에 대한 주관적 추측이 생길 수 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "띄여쓰기란 문장을 글로 적을 때 어떤 단위를 띄여쓰고 어떤 단위를 붙여쓰는가 하는 것을 규정한 규칙을 말한다.  이런 띄여쓰기규범은 독서능률을 높이고 문장을 빠르고도 정확히 리해하는 데 큰 의의를 가진다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "그것은 띄여쓰기가 문장을 제대로 읽도록 어음—의미적 단위를 갈라줌으로써 발음상 막힘이  없이  읽는 속도를보장하며 눈으로 볼 때 합리적인 하나의 뜻덩이를 구획해"
+    },
+    {
+      "type": "grammar_rule",
+      "text": "단어란 일정한 말소리에 싸인 뜻의  덩어리로서 문장을짜는 데 쓰이는 언어의  기초적  단위이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례에서  ‘어머니’,  ‘꽃’,  ‘물’,  ‘주다’,  ‘오늘’,  ‘날씨’, ‘매우’,  ‘좋다’,  ‘장백산’, ‘아름답다’, ‘성산’,  ‘여기’, ‘우리’, ‘교실’등은 문장을 이루는 단어들이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "우의 문장에서  밑줄을 그은 부분은 모두 단어들인데문장을 짜는 데  기초적인 단위들이다.  문장에서  쓰일 수없거나 쓰이지  않는 단어란 있을 수 없는 것이다.  단어는문장을 짜는 가장 작은 단위이기 때문에 몇개 단어들로 이루어진 성구나 단어들의 굳은 맞물림  등과 구별되며 또한형태소와도 구별된다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "우의 례에서 보여주다싶이  일부 단어들은 형태변화를하면서 문장에서  알맞게 쓰이도록 하는 문법적 특성이  있으며 또 일부 단어들은 형태변화를 하지 않거나 또는 외딴성분으로 되면서 문법적 특성을 지니고 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "단어는 형태소로 이루어지는데 단어를 이루는 형태소는 그 기능이나 결합관계에 따라 어근, 접사, 어간으로 나눈다.  어근은 단어를 이루는 핵심요소이며  접사는 어근의앞이나 뒤에 첨가되여 새로운 의미를 보충하며  새로운 단어를 만드는 구실을 한다.  어근의  앞에 붙는 접사를 접두사라 하고 뒤에 붙는 접사를 접미사라 한다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "문장의 ‘날씨’,  ‘매우’,  ‘좋-’,  ‘꽃나비’,  ‘아름-’은 모두 어근이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "단어는 각 형태소의 어울림관계에 따라 몇가지 구조류형으로 나누어 볼 수 있다.  어간이 한 형태조만으로 이루어진 단어를 단순어 또는 단일어라 하고 둘 또는 그보다많은 형태소가 결합된 단어를 복합어라 부른다.  복합어는다시 어근에 파생접사가 덧붙어서 된 파생어와 둘 또는 그보다 많은 어근이  어울려  어간을 이룬 합성어로 가를 수있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "단순어는 그 어간이 한 형태소로 된 것이다.  단순어는어근, 어간과 단어가 서로 같은 형태로 되여있다.  그러므로 뼈여쓰기가 제기되지  않는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "‘가’의 례는 어근, 어간 및 단어  형태가 같은 단순어이고 ‘나’의 례는 용언의 경우로서 어미  ‘-다’를 빼면 단일 어근인 단순어임을 알 수 있다. 단순어는 형태로 볼 때"
+    },
+    {
+      "type": "grammar_rule",
+      "text": "명사란 대상을 이름 지어 나타내는 품사를 말한다.  따라서 인물, 동물, 사물, 식물 및 기타 여러가지 대상의 이름을 나타내는 단어는 다 명사에 속하게 된다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "명사는 문장 속에서 자립적으로 쓰일 수 있는가 없는가에 따라 완전명사와 불완전명사로 나뉜다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "토는 문장 속에서 독자적으로는 쓰이지 못하고 앞 단위에 붙어서만 자체의 문법적  기능을 나타낸다.  대부분의단어는 토를 매개로 하여 다른 단어와 관계를 맺는다.  그러므로 토를 가지고 나타난 단어는 그것이 그 뒤의 단어와구별되는 딴 단어라는 것을 말해주는 것이다.  즉 토는 앞단위에 붙어서 그 단위가 하나의 단어이거나 그에 준하는단위라는 것을 구획 지어준다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "명사는 명사 뿐 아니라 기타 다른 품사들과 결합하여또 다른 새로운 단어를 만든다.  이  때 쓰이는 단어조성수법이 바로 어근합성법이다.  어근합성법에 의하여 만들어진단어는 그 전체가 하나의 단어로 되기에 붙여쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "불완전명사란 문장구조 속에서  다른 단어에 의존하지않고서는 홀로 자립적으로 쓰일 수 없는 명사를 가리킨다.불완전명사는 다른 어떤 표식의 보충을 받지  않고서는 어면 대상에 대하여  이름을 지어준다고 보기  어려울 정도로대상적 의미가 불완전하나 명사의 하위분류로서 하나의 단어로 인식되기에 앞의 단어와 띄여써야 한다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "수사란 대상의 일정한 수량이나 순서를 나타내는 품사를 말한다.  수사는 십진법에 따라 떠여쓰면 리상적이라고생각되지만 그렇게 되면 너무 토막토막 작게 갈라놓아 의미 파악에 지장이 될 수 있기 때문에 십진법을 따르지  않고 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "동사와 형용사는 일반적으로 자립적으로 쓰이는 경우가 많으며 문장에서 다른 단어들과 결합될 때 토를 매개로한다.  즉 자립적으로 쓰이는 경우 앞뒤 단어와 띄여쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "보조용언은 규칙에 따라 앞의 단어와 띄여쓴다.  보조용언은 의미적 측면에서  여러가지 보충적 의미를 나타내지만 문장 속에서는 자립적 단어들과 같은 기능을 하기에 총칙에 따라 앞의 단어와 띄여쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "보조적 동사란 문장구조 속에서 자립적 단어와 함께 쓰이면서  여러가지 보충적 의미를 나타내는 동사를 가리킨다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "2) 서로 다른 품사들이 결합되여 새로운 동사를 이룰 경우의띄여쓰기"
+    },
+    {
+      "type": "grammar_rule",
+      "text": "서로 다른 품사들이  결합되여  새로운 동사를 조성할수 있다.  동사의 단어조성에서 가장 중요한 수법의 하나가둘 또는 그 이상의 어근들이 결합하여 새로운 단어를 조성하는 어근합성법이다.  따라서  띄여쓰기를 어떻게  해야 하는가 하는 문제가 제기된다.  왜냐하면 총칙에 “조선말은단어를 단위로 하여 띄여쓰는 것을 원칙으로 한다.”고 했기 때문이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "3) 서로 다른 품사들이 결합되여 새로운 형용사를 이룰 경우의띄여쓰기"
+    },
+    {
+      "type": "grammar_rule",
+      "text": "형용사도 동사와 마찬가지로 서로 다른 품사들이  결합되여 새로운 형용사를 조성할 수 있다.  어근합성법에 의하여 만들어진 단어도 하나의 단어로 되므로 붙여써야 한다.즉 서로 다른 품사들이 직접 어울려서 하나의 형용사로 된것은 붙여쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "관형사는 대상의 특성을 규정하는 품사로서 하나의 단어이고 접두사는 어근에 첨가되여 새로운 의미를 부여하면서 새로운 단어를 만드는 형태소이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "둘째, 두 형태소 사이에 휴지를 둘 수 있는가 없는가를 보아야 한다.  관형사는 자립적인 악센트를 가지고 다음단어와의 사이에 일정한 휴지가 오면서 발음되나 접두사적형태는 그 자체가 하나의 단어로 되지 못하기에 자립적인악센트를 가지지 못하고 다음에 오는 명사적 어근과 이어서 발음된다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "셋째, 두 형태소 사이에 다른 말을 끼울 수 있는가 없는가를 보아야 한다.  관형사와 명사 사이에는 다른 말을끼울 수 있지만 접두사적 형태와 명사적 어근 사이에는 다른 말을 끼울 수 없다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "1) 관형사는 독자적인 품사이기 때문에 대부분의 관형사는 아래 단위와 띄여쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "부사는 일반적으로 토를 취하지 못한다.  때문에 문장에서 토를 취하지 않고 다른 단어들과 띄여쓰게 된다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "새 규범에서는 2007년의 규범과는 달리 제33항 문장의첫머리와 단락을 바꿀 때의 띄여쓰기, 제34항 문장부호의띄여쓰기를 보충하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "한국에서는 문장의  첫머리와 단락을 바꿀 때 한칸을띄여쓴다.  중국의 조선말규범에서  이 부분을 규정하지  않았지만 문장의 첫머리와 단락을 바꿀 때 두칸을 띄여씀을규칙으로 삼아왔다. 하기에 새 규범에서는 이를 명문화하였다. 즉 문장의 첫머리와 단락을 바꿀 때 두칸을 띄어써야 한다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "종전의 규범에서는 문장부호의 띄여쓰기를 규범하지않았다.  그러나 시대의 발전과 더불어  언어도 변화하게 되고 언어전산화의 발전과 더불어 조선말의 맞춤법, 띄여쓰기 등에 대한 과학성 요구가 더욱 높아지고 있는 시점에서일부 문장부호 례하면 마침표, 쉼표, 물음표, 느낌표, 가운테점, 두점의 띄여쓰기에 대하여 간단히 규정하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "〈조선말 문장부호법〉의 총칙에서는 “첫째, 중국, 한국, 조선에서 통용으로 쓰는 문장부호는 그대로 사용한다.둘째, 중국, 한국, 조선에서 서로 달리 쓰는 문장부호는문장 리해의 편리에 따라 사용한다.  셋째, 기능과 모양에따라 문장부호의 이름을 단다.”라고 규정하였다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "우리는 글을 쓰거나 읽을 때 글의 내용을 쉽게 알려주고 파악하기 위하여 문장들 사이 또는 문장 안에서의 각단위들 사이에 필요되는 문장부호를 찍는다.  물론 문장과문장, 단락과 단락, 문단과 문단 사이에서의 런계는 주로접속어, 토, 어순 등에 의하여 맺어질 수도 있고 장, 절을나타내는 말을 쓰거나 기타 수단들이  리용될 수도 있다.그러나 글에서 여러 단위들 사이의  런계가 이러한 언어적수단으로써만 충분한 것이 아니다.  문장부호는 여러  언어자체의 수단만으로는 맡아나설 수 없는 여러가지 독특한역할을 하면서 문장들, 문장 속에서의 여러 단위들 사이의런계와 다양한 뜻, 그 기능을 잘 나타내기 위하여 효과적으로 쓰인다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "첫째, 하나의 문장이 완전히 끝났음을 보일 때 문장끝의 오른편 아래쪽에 찍는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "우리말에서는 종결토에 의하여 한 문장이 끝났음을 나타내는 일이 많다.  그러나 종결토가 없이도 문장을 이루는경우가 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "이 때 마침표를 찍으면 문장이 끝났음을 보여준다.  종결토로 끝난 문장에서도 마침표를 치면 문장이 끝났음을더 직관적으로 보여주는 데 그 의의가 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "그러나 문장은 어느 때나 종결토거나 마침표를 쳐서만끝나는 것이 아니다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례문의 “돌격!”에서는 마침표를 쓰지  않고 느낌표를쳐서 하나의 단어가 문장으로 끝났음을 나타내였다.  이와같이 느낌표나 물음표로 끝난 것은 그것으로도 문장이 끝"
+    },
+    {
+      "type": "grammar_rule",
+      "text": "반두점은 한 문장에서 쉼표로 구분된 말이  여러개  잇달아있을 때 더 크게 묶어지는 단위 사이에 찍을 수 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "첫째, 복합문에서 절속로가 없이 문장들이 이어질 때단순문 사이에 찍는냐."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "둘째, 종결토로 끝난 문장 또는 구절이라 하더라도 뒤의 문장이나 구절에 밀접히 런계되였을 때는 그 종결토 뒤에 찍는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "이 글에서 종결토‘다’로 끝난 각각의 부분이 하나의완전한 문장을 구성한 것이  아니다.  종결토 뒤에  쉼표를찍은 부분은 하나의 문장 안에서  여러개 단위들을 상대적으로 갈라보이고 그 전체로 하나의 복합문을 구성하였다.그러므로 우의 폐문은 마침표로 표시된 부분에 가서 문장이 완전히 끝난 것으로 된다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "그리고 일반적으로 종결토가 오면 문장이 끝난 것으로되지만 종결토 뒤에 마침표를 찍지 않고 쉼표를 찍게 되면억양이  맺음억양으로 되지  않고 이음억양으로 되면서 뒤에오는 단위와 밀접한 런계를 갖게 된다.  따라서 종결토가온다 하더라도 쉼표로 런결된 것은 그 런결된 전체의 단위가 하나의 문장으로 되므로 이 때 문장부호 쉼표는 문장으로 끝나지  않은 단위임을 뚜렷이 보여주는 역할을 한다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "셋째, 문장 속에  있는 호칭어, 삽입어,  감동어, 제시어 등을 구분하기 위하여 찍는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "여기에서  ‘선생님’은 호칭어,  ‘간단히 말하면’은 삽입어이고 ‘아’는 감동어, ‘용기’는 제지어이다.  이것들은 문장 안에서  어느 한 성분과만 런계되여있는 것이  아니라 상대적으로 떨어져서 뒤에 오는 전체 문장과 관계를 발생한다.  이런 독립적인 성분을 문장에서의 다른 성분들과 갈라보기 위하여 그 뒤에 쉼표를 찍는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "넷째, 문장성분이  전도된 어순에서  종결술어  뒤에 찍는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "전도된 어순은 문장성분의  차례가 바뀌여  나타난다.우의 례에서 보다싶이 문장성분의 차례가 어떻게  바뀌였는가를 뚜렷이  갈라보이기 위하여  앞에  내세운 성분의  뒤에"
+    },
+    {
+      "type": "grammar_rule",
+      "text": "그리고 우리말에서  시간 또는 장소와 관련된 것은 문정의 맨앞에 내세워 독립적이라 할 수 있을 정도로 독자성을 가지고 뒤의 문장 전체와 관련되게 하는 경우가  있다.이  때  앞에 내세운 성분의 뒤에 반점을 찍는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "다섯째, 동종의 문장성분들을 똑똑히  갈라주기 위하여그 사이에 찍는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "같은 자격으로 나란히 놓인 단위들은 단어들로 이루어질 수도 있고 단어결합으로 이루어질 수도 있으며  문장으로 이루어질 수도 있다.  지어는 여러 문장이 묶인 큰 단위로 이루어질 수도 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "물음표는 이러저러하게 물음과 관련되는 문장에 쓰인다.  물음표는 문장이 끝난 뒤에만 치는데 그 구체적 사용규정은 다음과 같다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "의문의 뜻을 가진 문장은 여러가지 류형으로 이루어진다. 우에서 첫번째  례문은 ‘얼마나’,  ‘왜’,  ‘어떻게’등의문을 나타내는 말과 함께 의문토가 붙어서  이루어진 것"
+    },
+    {
+      "type": "grammar_rule",
+      "text": "이고 두번째 례문은 의문을 나타내는 단어는 쓰이지  않고의문토만 쓰인 것이며 세번째 례문은 의문을 나타내는 단어만 쓰이고 의문토가 없는 것이고 네번째 례문은 의문을나타내는 토도, 단어도 없이  이루어진 것이다.  특히  네번째 례문에서 볼 수 있는 바와 같이  의문을 나타내는 단어도, 토도 없는 경우에는 어조만 낮추어서는 의문문으로 되지  않는다.  이 때 의문표를 치는 것은 문장의 류형을 밝혀내는 데 자못 큰 의의가 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "그러면 의문과 관련된 문장에는 꼭 물음표를 쳐야 하는가? 그것은 문장의  성질로 보아서 무엇을 알려고 묻지않을 경우에는 물음표를 치지  않고 다른 부호를 칠 수도있다.  “얼마나 훌륭한 기둥감이냐”에서는 꼭 물음표를 쳐야 할 리유가 없다.  느낌의 뜻으로 강한 어조가 동반될 때에는 느낌표를 칠 수 있고 일반적으로 이야기를 끝낼 경우라면 마침표를 찍을 수도 있으며 문장이 끝나지  않고 아래오는 말과 밀접히  런관되였을 경우에는 쉼표를 찍을 수도있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "음 을 나타낼 때에 물음표를 친다.  이런 류형의 문장에 물음표를 치게 되는 것은 먼저 물음의 형식을 취한 뒤에는스스로 대답이 따라오기 마련이기 때문이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "셋째, 의문과 감탄의 뜻이 동반되는 문장에서는 물음표와 느낌표를 함께 쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "첫째, 감탄의 뜻을 나타내거나 강한 억양을 가지는 문장 끝에 쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "이와 같이  감탄의 뜻을 나타내거나 강한 어조를 동반하는 경우에는 그 어떤 문장의 류형이거나를 가리지  않고느낌표를 쳐서 나타낼 수 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "호칭어, 감동어, 제시어 같은 것들은 어느 정도 독자성이  강하여 문장에서 특별한 자리에  있다.  이런 단위들에는 느낌표를 칠  수 있다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례문과 같이 동종의 문장성분간에는 쉼표로 갈라주고동종의 문장성분들과 총괄어 사이에는 풀이표를 쳐서  갈라준다.  만약 동종의 문장성분들과 총괄어 사이에도 쉼표를찍는다면 쉼표가 계속되여  이 사이를 섞갈릴 수 있기 때문이다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "일곱째, 문장의  내용을 보충설명하는 삽입어 또는 삽입문의  앞뒤에 묶음표 내신 쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "른 사람의 말을 옮겨오면서 줄인 것이나 관계없이  줄임표는 두루 쓰인다.  때로는 문장들 사이에서 하나 또는 둘 이상의 구절이나 문장이 줄어지는 경우에도 쓰인다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "첫째, 다른 사람의 말이나 글을 그대로 인용할 때 그문장의 앞뒤에 갈라 쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "넷째, 문장에서 중요한 부분을 두드러지게  나타낼 때거듭인용표(‘ ’)를 쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례문에서 “중국 조선족은 … 보존하고 있다.”라는 문장의 출처는 《중국조선어문》제6호, 2015년, 제7페지이므"
+    },
+    {
+      "type": "grammar_rule",
+      "text": "로 앞뒤에 소괄호를 치고 이 문장의 제목은 〈9월 2일의 의미〉이므로 전체의  앞뒤에 중괄호를 쳐서 출처와 문장제목을 갈라서 나타낸다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "여섯째, 사전 등에서 올림말의 품사거나 발음을 표시할 때 중괄호를 쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례문의 어휘들은 《조선말사전》에 수록된 올림말로서매 올림말 뒤의  첫번째 중괄호는 발음을 나타내고 두번째중팔호는 해당 올림말의 품사 소속을 나타낸다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "문장 가운데서 특히 중요하다고 생각되거나 읽는 사람의 주의를 끌기 위하여 그 부분을 강조할 필요가 있을 때해당한 부분의 글자 밑에 굿는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "숨김표는 문장에서 글자로 나타내고 싶지  않을 때에그 글자수 만큼 친다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례문과 같이 숨김표는 문장에서 글로 나타내고 싶지않을 때거나 어떤 비밀사항을 여러 사람에게 알릴 필요가없을 경우에 쓴다. 숨김표는 글자수 만큼 치는 것이 좋다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "인용표나 묶음표 안에는 이러저려한 단위가 묶어져 들어간다.  이런 경우에 문장부호를 어떻게 치느냐 하는 문제가 나서는데 이에 대한 규정은 다음과 같다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "첫째, 인용표 안의 말이 문장인 경우는 거기에 문장으로서 필요한 부호를 쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례문에서  인용표 안의  내화부분이  문장으로 구성되였으므로 느낌표(  !  ), 쉼표(  , ),  마침표( .  ), 줄임표( … ) 등 문장부호를 해당한 곳에 찍었다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "둘째, 인용표 안의  말이  문장이  아닐  경우는 그것을위한 아무 부호도 치지  않는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례문에서  인용표 안에 들어간 ‘혁명’, ‘참된 삶’은 문장보다 작은 단위인 단어나 단어결합으로 이루어졌기에  인용표 안에 아무 부호도 치지  않았다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "셋째, 인용표 안의 문장과 전체로서의 문장이 같은 종류의 문장일 때에는 인용표 밖에만 해당한 부호를 쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "전체로서의 문장이 갈게 끝난 경우이므로 문장부호를 겹쳐치지  않고 인용표 밖에 갈이  친다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "넷째, 인용표 안의 문장과 전체로서의 문장이 다른 종류의 문장일 때에는 인용표의  안팎에 각각 해당한 부호를쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "여기에서  인용표 안의 문장기능과 문장 전체로서의  기능이 다른 경우에는 해당한 문장부호를 각기  쳐서  문장기능이 서로 다름을 나타낸다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "다섯째, 묶음표 안의 말이 전체 문장의 끝에  있고 그뒤에 다른 문장이  이어져있지  않는 경우에는 묶음표 뒤에아무 부호도 치지  않는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "묶음표 안의 말은 앞 문장에  대해 내용상 보충설명하는 기능을 할 뿐 형식상으로는 문장 전체와 아무런 관계를발생하지  않는다.  이런 경우에는 묶음표 안에서 보충적으로 설명된 말의 끝에 해당한 문장부호를 쳐주고 괄호 밖에는 아무 부호도 치지 않는다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "첫째, 제목이 종결토로 끝난 감탄문, 의문문인 경우는문장의 끝에 해당한 부호를 쓴다."
+    },
+    {
+      "type": "grammar_rule",
+      "text": "례문과 같이 신문, 잡지 등에서 제목이 종결토로 끝나지  않은 명명문, 불완전문인 경우에는 문장부호를 치지  않는다."
+    }
+  ],
+  "word_formations": [
+    {
+      "type": "word_formation",
+      "suffix": "가",
+      "meaning": "价",
+      "context": "~가(价): 원가[원까], 물가[물까], 대가[내까]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "건",
+      "meaning": "件",
+      "context": "~건(件): 문건[문껀], 사건[사껀]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "격",
+      "meaning": "格",
+      "context": "~격(格): 성격[성껴], 엄격성[엄꺽썽], 주격[주껴]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "구",
+      "meaning": "句",
+      "context": "~구(句): 성구[성꾸], 례구[레꾸]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "고",
+      "meaning": "库",
+      "context": "~고(库): 창고[창ㅍ], 금고[금ㅍ], 저장고[저장ㅍ]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "과",
+      "meaning": "果",
+      "context": "~과(果): 성과[성꽈], 효과[효꽈]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "과",
+      "meaning": "科",
+      "context": "~과(科): 분과[분꽈], 내과[내꽈]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "권",
+      "meaning": "权",
+      "context": "~권(权): 정권[정꿘], 인권[인꿘]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "법",
+      "meaning": "法",
+      "context": "~법(法): 헌법[헌뼘], 필법[필뼘], 가법[가뼘]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "수",
+      "meaning": "数",
+      "context": "~수(数): 허수[허쑤], 우수[우쑤]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "자",
+      "meaning": "字",
+      "context": "~자(字): 문자[문짜], 한자[한짜]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "적",
+      "meaning": "的",
+      "context": "~적(的): 인적[인쩍], 내적[내쩍]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "점",
+      "meaning": "点",
+      "context": "~점(点): 관점[관쩜], 중점[중쩜], 우점[우쩜]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "권",
+      "meaning": "券",
+      "context": "~권(券): 러행권[러행퀸], 관람권[팔람퀸]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "병",
+      "meaning": "病",
+      "context": "~병(病): 랭병[랭뻥], 급성병[급썽뻥]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "성",
+      "meaning": "性",
+      "context": "~성(性): 만성[만성], 본성[본성]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "급",
+      "meaning": "级",
+      "context": "~급(级): 초급[초급], 중급[중급]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "증",
+      "meaning": "症",
+      "context": "~증(症): 부증[부증]"
+    },
+    {
+      "type": "word_formation",
+      "suffix": "병",
+      "meaning": "病",
+      "context": "~병(病): 본병[본병], 만병[만병]"
+    }
+  ],
+  "punctuation_rules": [
+    {
+      "type": "punctuation_rule",
+      "text": "새로운 《〈조선말규범집〉해설》에서는 〈조선말 표준발음법〉, 〈조선말 맞춤법〉, 〈조선말 떠여쓰기〉,  〈조선말 문장부호법〉의 매개 조항들에 대해 리론과 실천을 결부시켜 상세한 해설을 가하도록 노력하였다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "새 규범에서는 2007년의 규범과는 달리 제33항 문장의첫머리와 단락을 바꿀 때의 띄여쓰기, 제34항 문장부호의띄여쓰기를 보충하였다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "종전의 규범에서는 문장부호의 띄여쓰기를 규범하지않았다.  그러나 시대의 발전과 더불어  언어도 변화하게 되고 언어전산화의 발전과 더불어 조선말의 맞춤법, 띄여쓰기 등에 대한 과학성 요구가 더욱 높아지고 있는 시점에서일부 문장부호 례하면 마침표, 쉼표, 물음표, 느낌표, 가운테점, 두점의 띄여쓰기에 대하여 간단히 규정하였다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "〈조선말 문장부호법〉의 총칙에서는 “첫째, 중국, 한국, 조선에서 통용으로 쓰는 문장부호는 그대로 사용한다.둘째, 중국, 한국, 조선에서 서로 달리 쓰는 문장부호는문장 리해의 편리에 따라 사용한다.  셋째, 기능과 모양에따라 문장부호의 이름을 단다.”라고 규정하였다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "우리는 글을 쓰거나 읽을 때 글의 내용을 쉽게 알려주고 파악하기 위하여 문장들 사이 또는 문장 안에서의 각단위들 사이에 필요되는 문장부호를 찍는다.  물론 문장과문장, 단락과 단락, 문단과 문단 사이에서의 런계는 주로접속어, 토, 어순 등에 의하여 맺어질 수도 있고 장, 절을나타내는 말을 쓰거나 기타 수단들이  리용될 수도 있다.그러나 글에서 여러 단위들 사이의  런계가 이러한 언어적수단으로써만 충분한 것이 아니다.  문장부호는 여러  언어자체의 수단만으로는 맡아나설 수 없는 여러가지 독특한역할을 하면서 문장들, 문장 속에서의 여러 단위들 사이의런계와 다양한 뜻, 그 기능을 잘 나타내기 위하여 효과적으로 쓰인다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "문장부호의 종류와 이름을 다음과 같이 규정하였다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "넷째, 대목이나 장과 절을 가르는 부호에 소괄호, 중괄호, 대괄호나 동그라미가 없을 때에는 그 부호 뒤에 찍는다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "그리고 일반적으로 종결토가 오면 문장이 끝난 것으로되지만 종결토 뒤에 마침표를 찍지 않고 쉼표를 찍게 되면억양이  맺음억양으로 되지  않고 이음억양으로 되면서 뒤에오는 단위와 밀접한 런계를 갖게 된다.  따라서 종결토가온다 하더라도 쉼표로 런결된 것은 그 런결된 전체의 단위가 하나의 문장으로 되므로 이 때 문장부호 쉼표는 문장으로 끝나지  않은 단위임을 뚜렷이 보여주는 역할을 한다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "그러면 의문과 관련된 문장에는 꼭 물음표를 쳐야 하는가? 그것은 문장의  성질로 보아서 무엇을 알려고 묻지않을 경우에는 물음표를 치지  않고 다른 부호를 칠 수도있다.  “얼마나 훌륭한 기둥감이냐”에서는 꼭 물음표를 쳐야 할 리유가 없다.  느낌의 뜻으로 강한 어조가 동반될 때에는 느낌표를 칠 수 있고 일반적으로 이야기를 끝낼 경우라면 마침표를 찍을 수도 있으며 문장이 끝나지  않고 아래오는 말과 밀접히  런관되였을 경우에는 쉼표를 찍을 수도있다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "문정부호법에서  이음표에 대한 규정에는 “두개  이상의단어가 어울려 하나의 통일된 개념을 나타낼 때 그 단어들사이에 쓴다.”고 하였다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "갈음표는 우에 적은 것꽈 같다는 것을 나타내는 부호이므로 한페지 안에서 우에 적은 것꽈 꼭같은 경우에만 쓰인다.  만약 같은 것이 여러 페지에 걸쳐서  잇달아있을 때"
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "물결표는 한 단어  안에서 같은 형태가 되풀이되여  나올 때 그것을 일일이 적지  않고 간단히 적기 위한 부호로리용되는 것이다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "제21항  인용표나 묶음표  안에서의  부호"
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "인용표나 묶음표 안에는 이러저려한 단위가 묶어져 들어간다.  이런 경우에 문장부호를 어떻게 치느냐 하는 문제가 나서는데 이에 대한 규정은 다음과 같다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "첫째, 인용표 안의 말이 문장인 경우는 거기에 문장으로서 필요한 부호를 쓴다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "례문에서  인용표 안의  내화부분이  문장으로 구성되였으므로 느낌표(  !  ), 쉼표(  , ),  마침표( .  ), 줄임표( … ) 등 문장부호를 해당한 곳에 찍었다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "둘째, 인용표 안의  말이  문장이  아닐  경우는 그것을위한 아무 부호도 치지  않는다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "례문에서  인용표 안에 들어간 ‘혁명’, ‘참된 삶’은 문장보다 작은 단위인 단어나 단어결합으로 이루어졌기에  인용표 안에 아무 부호도 치지  않았다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "셋째, 인용표 안의 문장과 전체로서의 문장이 같은 종류의 문장일 때에는 인용표 밖에만 해당한 부호를 쓴다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "전체로서의 문장이 갈게 끝난 경우이므로 문장부호를 겹쳐치지  않고 인용표 밖에 갈이  친다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "넷째, 인용표 안의 문장과 전체로서의 문장이 다른 종류의 문장일 때에는 인용표의  안팎에 각각 해당한 부호를쓴다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "여기에서  인용표 안의 문장기능과 문장 전체로서의  기능이 다른 경우에는 해당한 문장부호를 각기  쳐서  문장기능이 서로 다름을 나타낸다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "다섯째, 묶음표 안의 말이 전체 문장의 끝에  있고 그뒤에 다른 문장이  이어져있지  않는 경우에는 묶음표 뒤에아무 부호도 치지  않는다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "묶음표 안의 말은 앞 문장에  대해 내용상 보충설명하는 기능을 할 뿐 형식상으로는 문장 전체와 아무런 관계를발생하지  않는다.  이런 경우에는 묶음표 안에서 보충적으로 설명된 말의 끝에 해당한 문장부호를 쳐주고 괄호 밖에는 아무 부호도 치지 않는다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "첫째, 제목이 종결토로 끝난 감탄문, 의문문인 경우는문장의 끝에 해당한 부호를 쓴다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "제목에서  이런 부호는 치지 않을 수도 있으나 그 부호의 기능을 의도적으로 나타내기 위하여  쳐줄 수도 있다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "둘째, 신문, 잡지 등에서 제목이 명명문이거나 종결토가 없이 끝난 경우는 부호를 치지  않는다."
+    },
+    {
+      "type": "punctuation_rule",
+      "text": "례문과 같이 신문, 잡지 등에서 제목이 종결토로 끝나지  않은 명명문, 불완전문인 경우에는 문장부호를 치지  않는다."
+    }
+  ],
+  "contrast_examples": [
+    {
+      "type": "contrast_example",
+      "text": "이것도 빠른 발음에서는 보통 ‘굳히다[구티다→구치다]’로 된다."
+    },
+    {
+      "type": "contrast_example",
+      "text": "본 항은 모두 역행동화에 속하는 것들이다.  우에서 본바와 같이  뒤에 오는 유향음이  앞의 무성자음을 동화시켜유향음으로 되게 하였는데  어떤 것은 완전동화되고(웃는다→운는다)  어떤 것은 부분동화되었다(닦는다→당는다)."
+    },
+    {
+      "type": "contrast_example",
+      "text": "여기에서  ‘폭로’, ‘협력’등은 보통 호상동화된다.  즉폭로[퐁로→퐁노], 협력[혐력→혐녁]으로 된다.  다시  말하면 아래 유향음 ‘ㄹ’이 우의 무성자음을 동화시켜 코소리‘o,  ㅁ’으로 되게 하였고 코소리  ‘o,  ㅁ’은 다시 ‘ㄹ’을동화시켜 코소리  ‘ㄴ’으로 되게 하였다.  이 호상동화의 발음은 허용발음이다.  례를 더 들면 다음과 같다."
+    },
+    {
+      "type": "contrast_example",
+      "text": "발음은 호상동화가 일어난 것이다.  즉‘격렬’은 [ㄱ+ㄹ→0+ㄹ→0+ㄴ]으로 되고‘법률’은 [ㅂ+ㄹ→ㅁ+ㄹ→ㅁ+ㄴ]으로 되였다."
+    },
+    {
+      "type": "contrast_example",
+      "text": "이 현상 역시  역행동화로서(이 동화는 또한 부분동화와 직접동화에 속한다.) 동화의 결과 동화되는 소리가 다른 계렬의 소리로 되였다. 즉 혀끝소리가 혀뿌리소리의 동화에 의하여 혀뿌리소리(반갑다[방갑다](ㄴ→0))로 되고입술소리가 혀뿌리소리의 동화에 의하여 혀뿌리소리(참기름[창기름](ㅁ→0))로 되였다."
+    },
+    {
+      "type": "contrast_example",
+      "text": "이 현상 역시  역행동화로서(이 동화는 또한 직접동화에 속하며 또 어떤 것은 부분동화에 속하고 어떤 것은 완전동화에 속한다.) 혀끝소리가 아래에 오는 입술소리에 동화되여 입술소리(전보[점보](ㄴ→ㅁ))로 되였다.  이 동화현상도 다른 계렬의 소리로 되는 동화이므로 표준발음으로인정하지  않는다."
+    },
+    {
+      "type": "contrast_example",
+      "text": "‘거름’은 원래  ‘땅이  걸다, 죽이  걸다’에서 볼 수  있는 바와 같이  형용사 ‘걸다’의 어근 ‘걸’에 접미사 ‘ㅡ음’이 붙어서  ‘걸음→거름’으로 된  것이지만 ‘걸다’(형용사)와는 의미가 다르다.  그러므로 이런 경우에  ‘걸다’와 런계시켜  ‘걸음’으로 적을 필요가 없다."
+    },
+    {
+      "type": "contrast_example",
+      "text": "뜨텀뜨덤←‘뜯(다)+엄+뜯(다)+엄’"
+    },
+    {
+      "type": "contrast_example",
+      "text": "불긋불긋←‘붐(다)+읒+붐(다)+읒’"
+    },
+    {
+      "type": "contrast_example",
+      "text": "거뭇거뭇←‘검(다)+읒+검(다)+읒’"
+    },
+    {
+      "type": "contrast_example",
+      "text": "오긋오긋←‘옥(다)+읒+옥(다)+읒’"
+    },
+    {
+      "type": "contrast_example",
+      "text": "호칭어, 직명은 아니라도 이름 뒤에 오는 ‘작곡,  작사,  안무, 각색, 펀저, 지음, 저, 지…’등과 같은 단어들은 이름,  직명  뒤에 오는 호칭어, 칭호와 달리  띄여써야한다.  띄여쓰면 그 사이에  일정한 휴지가 오게  되고 휴지가 오게  되면 강조하려는 부분이  명확해지기  때문이다."
+    }
+  ],
+  "explanatory_paragraphs": [
+    {
+      "type": "explanatory_paragraph",
+      "text": "삐를  들‘사,  자,  차,  싸’에 서음절 의첫리‘h, ス, ス, ㅆ’은  똑똑 히구별된.  그러‘[ ],낮[낟], 빛[빋], 있냐[읻따]'에서  음절 의끝소‘,  ,ㅊ, ㅆ’은  모 두받켐 [리]ㄷ흐로발음. 냐조선말받침으로 쓰이는 자모는  홓받칀‘,  ,  ,  ,  ,日, 又, ò, ス, ス, コ, そ, コ, ㅎ, ㄲ, ス’의 16개, 둘받침에‘ㄳ, 以, 以, 己, 即, 己, 己, 己, 己, 己, 以’의11개 도합 27개나 있으니 받침소리로 발음하는 것은 7개밖에 없냐. 둘받챰은 하나의 받침소리로만 나는네 페빼정히강한 소리만 발음한냐."
+    },
+    {
+      "type": "explanatory_paragraph",
+      "text": "이것은 어느 품사에서나 무성자음 야래의 순한소리는언제팃소리로  발음한냐 는것 을말해준.  무성자음으이루어죄 받침소리는 꼭 닫혔냐가 냐슴에 호는 순한소리를반냐게 되끄로 순한소리를 언제나 된소리로 발슴하게 된니. 여기에서 받‘ㄱ, ㅋ, ㄲ, ㄳ, ㄺ’의 받쉠소리는[7]이고 받침‘ㄷ, ㅅ, ㅈ, ㅊ, ㄹ, ㅆ’의 받침소리는[ㄷ]이며 받캪‘日, ㅍ, 괜, 改, ㅄ’희  받쉠소리 [ ]니. 이  받침소리 는모 두무성슴들. 냐그버 끄 로그희 순한소리는 엔제나  된소리 로된."
+    },
+    {
+      "type": "explanatory_paragraph",
+      "text": "받침 ‘ㄴ,  ㄴ’의 받침소리는 [ㄴ]이고 받침 ‘ㅁ, ㅁ’의 받침소리는 [ㅁ]이며  받침  ‘王’의  받침소리는 [ㄹ]이다.  이 받침소리들은 제9항과는 사정이 달라서 첫째로, 반드시 용언어근의 끝음절 받침소리여야 되고 둘째로, 반드시 토나 접미사를 만날 경우여야 되고 셋째로, [ㄹ]받침소리는 반드시 둘받침의  받침소리여야 한다."
+    },
+    {
+      "type": "explanatory_paragraph",
+      "text": "단어  ‘맵쌀, 좁쌀,  참쌀’은 ‘메(日)+쌀’,  ‘조(日)+쌀’,  ‘차(日)+쌀’에서  보다싶이  두 형태소가 합쳐지면서‘ㅂ’이  덧난 것이다.  이것은 아래어근 ‘쌀’에 의하여  이루어진 것이다.  옛날에 ‘쌀’은 ‘빨’이였다.  옛날의  ‘ㅄ’이 오늘날 된소리  ‘ㅆ’으로 변하여  ‘쌀’로 됨과 동시에  합성어에서는 ‘ㅄ’에서의  ‘ㅂ’이 잔존형태로 남아서 오늘날 덧나"
+    },
+    {
+      "type": "explanatory_paragraph",
+      "text": "발음하여왔다.  이런 것들은 오늘날 굳어진 발음 내로 적기로 하였다.  ‘남색’을 ‘람색’으로,  ‘유리’를 ‘류리’로 적지않고 각각 ‘남색’, ‘유리’로 고정하여 적는 것도 굳어진 발음습관에 따른 것이다.  ‘류월(六月), 지월(十月), 오뉴월(五六月)’도 습관에  따라 달리 발음되는 내로 적는다."
+    },
+    {
+      "type": "explanatory_paragraph",
+      "text": "이상의 관형사들 가운데서  ‘그까짓, 근, 런, 만, 모든, 무슨,  별별,  별의별, 불과,  야,  어느,  어느,  여러,연, 오른, 온,  이른바,  이까짓,  일때,  웬,  저까짓,  제(諸), 제반, 한날, 한다는, 한다하는…’등은 관형사로만쓰이기에  언제나 뒤 단어와 띄여쓰면 된다."
+    }
+  ],
+  "chapters": [
+    {
+      "index": 78,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 81,
+      "title": "제1장  모음‘ㅚ, ㅟ, ㅢ, ㅖ’의 발음 \t 2",
+      "level": 1
+    },
+    {
+      "index": 82,
+      "title": "제2장 단어 첫머리의 자음‘ㄴ, ㄹ’의 발음 \t 6",
+      "level": 1
+    },
+    {
+      "index": 83,
+      "title": "제3장  받침소리의 발음 \t 8",
+      "level": 1
+    },
+    {
+      "index": 84,
+      "title": "제4장  된소리현상과 관련한 발음 \t 18",
+      "level": 1
+    },
+    {
+      "index": 85,
+      "title": "제5장  ‘ㅎ’과 관련한 발음 \t 23",
+      "level": 1
+    },
+    {
+      "index": 86,
+      "title": "제6장  동화현상이 일어날 때의 발음  \t 31",
+      "level": 1
+    },
+    {
+      "index": 87,
+      "title": "제7장  사이소리현상이 일어날 때의 발음  \t 44",
+      "level": 1
+    },
+    {
+      "index": 89,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 92,
+      "title": "제1장  자모의 차례와 그 이름 \t 57",
+      "level": 1
+    },
+    {
+      "index": 93,
+      "title": "제2장  형태소 적기\t 59",
+      "level": 1
+    },
+    {
+      "index": 94,
+      "title": "제3장  어간과 토 적기 \t 70",
+      "level": 1
+    },
+    {
+      "index": 95,
+      "title": "제4장  합성어 적기\t 95",
+      "level": 1
+    },
+    {
+      "index": 96,
+      "title": "제5장  접두사와 어근 적기\t 102",
+      "level": 1
+    },
+    {
+      "index": 97,
+      "title": "제6장  어근과 접미사 적기\t 105",
+      "level": 1
+    },
+    {
+      "index": 98,
+      "title": "제7장  한자어 적기 \t 128",
+      "level": 1
+    },
+    {
+      "index": 104,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 145,
+      "title": "제2장 수사 봐관 련한킈 \t 178",
+      "level": 1
+    },
+    {
+      "index": 154,
+      "title": "제3장 ㅃ평사 봐관련 한몈여 \t 181",
+      "level": 1
+    },
+    {
+      "index": 180,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 197,
+      "title": "제15항 묵음표(소괄호, 중괄호, 내괄호)( ( ),〔 〕, { } )",
+      "level": 2
+    },
+    {
+      "index": 210,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 213,
+      "title": "〈조선말  표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 232,
+      "title": "제1장  모음  ‘ㅚ,  ㅟ,  ㅝ,  ㅖ’의  발음",
+      "level": 1
+    },
+    {
+      "index": 233,
+      "title": "제1항에서는 “‘ㅚ, ㅟ’는 홀모음으로 발음하는 것을원칙으로 한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 237,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 252,
+      "title": "제2항에서는 “‘니’는 단어의  첫머리에서  겹모음으로발음하는 것을 원칙으로 한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 259,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 272,
+      "title": "제2장  단어  첫머리의  자음‘ㄴ,  ㄹ’의  발음",
+      "level": 1
+    },
+    {
+      "index": 273,
+      "title": "제4항에서는“단어 첫머리의‘ㄴ, ㄹ’은 모든 모음 앞에서 [ㄴ, ㄹ]로 발음하는 것을 원칙으로 한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 283,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 314,
+      "title": "제3장  받침소리의  발음",
+      "level": 1
+    },
+    {
+      "index": 340,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 363,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 376,
+      "title": "제6항에서는 “단어  안에서 받침은 뒤의 모음에  이어서발음한다.  둘받침의 왼쪽 받침은 받침소리로 되고 오른쪽받침은 뒤의 모음에  이어서  발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 382,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 388,
+      "title": "제7항에서는“‘아, 어, 오, 우, 으, 애, 에, 외’로 시작한 어근의  앞에  있는 받침‘ㅋ, ㄲ,  ㄹ’,  ‘ㅅ, ㅈ,  ㅊ,",
+      "level": 2
+    },
+    {
+      "index": 400,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 404,
+      "title": "제8항에서는 “받침‘ㅇ’은 모음  앞에서도 받침소리[ㅇ]으로 발음하는 것을 원칙으로 한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 415,
+      "title": "제4장   된소리현상 과관련 한",
+      "level": 1
+    },
+    {
+      "index": 417,
+      "title": "제9항에서는“받켐‘ㄱ, ㅋ, ㄲ, ㄳ, ㄺ’, ‘ㄷ, ㅅ,ㅈ, s, ㅌ, ㅆ’, ‘日, ㅍ, ㅃ, ㄻ, ㅄ’니음에 호는 순한소리는 된소리로 발음한냐.”고  규정햐였.",
+      "level": 2
+    },
+    {
+      "index": 423,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 430,
+      "title": "제10항에서는 “용언어근의 끝음절받침  ‘ㄴ,  ㄴ’,‘ㅁ,口,다음에 오는 토나 접미사의 첫머리에 오는 순한四’,‘王’소리는 된소리로 발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 449,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 462,
+      "title": "제11항에서는 “용언토내에서  받침  ‘ㄹ’ 다음에 오는순한소리는 된소리로 발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 471,
+      "title": "제12항에서는 “한자어 안에서는 받침‘ㄹ’뒤에 오는 순한소리  ‘ㄷ, ㅅ, ㅈ’을 된소리로 발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 481,
+      "title": "제5장 ‘ㅎ’과 관련한 발음",
+      "level": 1
+    },
+    {
+      "index": 486,
+      "title": "제13항에서는“받침‘ㅎ, ㅂ,  ’‘’이순한소‘ㄱ, ㄷ, ㅈ’파 어울릴 빼 자자 [ㅋ, ㅌ, ㅊ]으로 발음한",
+      "level": 2
+    },
+    {
+      "index": 501,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 508,
+      "title": "제14항에서는“받침‘ㅎ’은‘ㅅ, ㅊ’이나‘ㄴ’앞에서는 [ㄷ]으로 발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 519,
+      "title": "제15항에서는“둘받침‘냐, 끔’은‘ㅅ’이나‘ㄴ,  ㄹ’앞에서 각각 [ㄴ], [ㄹ]로 발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 521,
+      "title": "제16항에서는“받침‘ㅎ’은 모음 앞에서  발음하지  않는다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 526,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 531,
+      "title": "제17항에서는“받침소리 [ㄱ, ㄷ,  ㅂ] 뒤에‘ㅎ’이 올때 그‘ㅎ’은 각각 [ㅋ,  ㅌ, ㅍ]으로 발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 546,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 551,
+      "title": "제18항에서는“둘받침‘以,以, 𢣣’은 뒤에‘ㅎ’이 올때 그 둘받침의 왼쪽 받침은 제대로 받침소리를 내고 오른쪽 받침은‘ㅎ’과 어울려 해당한 거센소리로 발음한다.”고규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 553,
+      "title": "제19항에서는“모음이나 유향음 뒤에 오는 음절의  첫소리‘ㅎ’은 약하게 발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 554,
+      "title": "제16항의 해설에서  이미  언급한 바와 같이 모음 사이,유향음과 모음 사이에서‘ㅎ’은 약하게  발음한다.  그러나",
+      "level": 2
+    },
+    {
+      "index": 565,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 567,
+      "title": "제6장  동화현상이  일어날 때의  발음",
+      "level": 1
+    },
+    {
+      "index": 594,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 600,
+      "title": "제21항에서는 “받침소리  [ㄱ,  ㄷ,  ㅂ] 뒤에  유향음‘ㄴ,  ㅁ,  ㄹ’이 올 때 그 받침소리를 해당한 계렬의 유향",
+      "level": 2
+    },
+    {
+      "index": 613,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 617,
+      "title": "제22항에서는 “받침소리  [ㄹ] 뒤에  ‘ㄴ’이  울 때  그‘ㄴ’을 [ㄹ]로 발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 626,
+      "title": "제23항에서는“한자어  음절 사이에서  받침  ‘ㄴ’ 뒤에‘ㄹ’이 올 때에 그‘ㄴ’을 [ㄹ]로 발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 633,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 645,
+      "title": "제25항에서는 “한자 ‘렬’,  ‘률’은 모음  아래에서는[열], [율]로 발음하고 ‘ㄹ’을 제외한 기타 자음 아래에서는 [널], [눌]로 발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 680,
+      "title": "제26항에서는“한자어  안에서  받침  ‘ㄴ’ 뒤에  ‘ㄴ’이올 때는 제대로 [ㄴ, ㄴ]으로 발음하는 것을 원칙으로 한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 687,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 689,
+      "title": "제27항에서는 다음과 같은 동화현상은 표준발음으로인정하지 않는다고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 721,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 742,
+      "title": "제7장  사이소리현상이  일어날 때의  발음",
+      "level": 1
+    },
+    {
+      "index": 744,
+      "title": "제7장에서는 사이소리 즉 형태소와 형태소 사이에 가첨되는 어음적 현상의 발음에 대하여 규정하였다.",
+      "level": 1
+    },
+    {
+      "index": 745,
+      "title": "제28항에서는 “합성어(또는 파생어)에서  앞 형태소가유향음이거나 모음으로 끝나고 뒤 형태소의 첫소리가 순한소리일 때는 그 순한소리를 된소리로 발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 750,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 767,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 830,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 847,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 848,
+      "title": "제30항에서는 “합성어(또는 파생어)에서  앞 형태소가모음으로 끝나고 뒤 형태소가 유향음‘ㄴ,ㅁ’으로 시작될때는 그 사이에 [ㄴ]을 덧내여 발음한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 873,
+      "title": "〈조선말 표준발음법〉해설",
+      "level": 0
+    },
+    {
+      "index": 896,
+      "title": "〈조선말  맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 907,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 910,
+      "title": "제1장  자모의  차례와  그  이름",
+      "level": 1
+    },
+    {
+      "index": 911,
+      "title": "제1항에서는 조선말 자모의 차례와 그 이름을 다음과같이 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 947,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 949,
+      "title": "제2장  형태소 적기",
+      "level": 1
+    },
+    {
+      "index": 957,
+      "title": "제2항에서는 조선말에서 쓰이는 받침들을 적었다.  오늘날 우리가 쓰는 받침소리는 7개뿐이지만 글로 적는 받침",
+      "level": 2
+    },
+    {
+      "index": 992,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1012,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1020,
+      "title": "제4항과 제5항에서는 주로 한 형태소 안에서 두 모음사이의 자음을 어떻게  적을 것인가에 대하여 규정하였다.이에 대한 규정은 다음과 같다.",
+      "level": 2
+    },
+    {
+      "index": 1034,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1054,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1072,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1073,
+      "title": "제7항에서는 형태소의 소리가 줄어질 때  받침을 어떻게  바로잡아 적을 것인가 하는 데 내한 규정을 하였다.",
+      "level": 2
+    },
+    {
+      "index": 1085,
+      "title": "제3장  어간과  토 적기",
+      "level": 1
+    },
+    {
+      "index": 1088,
+      "title": "제8항에서는 어간과 토가 어울릴 때에 각각 그 원 형래를 밝혀 적는 것을 원칙으로 하면서 밝혀 적지 못하는경우에 대해서도 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1095,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1116,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1119,
+      "title": "제9항에서는 일부 용언에서  어간에 토가 어울릴 적에어간의 끝소리가 일정하게  바뀌여지는 것은 바뀐 내로 적는다고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1142,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1166,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1190,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1211,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1238,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1274,
+      "title": "제11항에서는“모음으로 끝난 어간꽈 모음흐로 시작한토나 접미사가 어울릴 빼에는 소리가 줄어진 것은 준 내로적을 수 있냐.”고 규정하였냐.",
+      "level": 2
+    },
+    {
+      "index": 1282,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1303,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1324,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1335,
+      "title": "제12항에서는 어간과 토가 녹아붙어 소리가 줄어질 때에는 줄어진 내로 적을 수 있다고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1345,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1348,
+      "title": "제13항에서는“어간의 끝음절‘하—’의‘ㅏ’가 줄어서뒤에 오는‘ㄱ, ㄷ, ㅈ’이 거센소리로 될 때에는 거센소리로 적는다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1372,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1375,
+      "title": "제14항 에 서 는  “토  ‘—지’  뒤 에  ‘않—’이  어울려",
+      "level": 2
+    },
+    {
+      "index": 1379,
+      "title": "제4장  합성어  적기",
+      "level": 1
+    },
+    {
+      "index": 1386,
+      "title": "제4장은 모두 4개 항으로 나뉘여 규정되었다.  제15항은 기본적으로 형태주의원칙에 준한 것이고 제16항, 제17항, 제18항은 표음주의원칙을 따르는 특수한 경우에 대한규정이다.",
+      "level": 1
+    },
+    {
+      "index": 1388,
+      "title": "제15항에서는“합성어는 매개  어근의  형태를 각각 밝혀 적는 것을 원칙으로 한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1394,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1411,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1432,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1435,
+      "title": "제17항에서는“합성어(또는 파생어)를 이룰 때  ‘ㄹ’이‘ㄴ, ㄷ, ㅅ, ㅈ’ 우에서 빠지는 경우에는 빠진 내로 적는다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1440,
+      "title": "제18항에서는“합성어에서  어근의 받침소리 [ㄹ]이 뒤에 오는 어근과 어울리면서 페쇄음으로 된 것은 ‘ㄷ’으로적는다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1449,
+      "title": "제5장  접두사와  어근 적기",
+      "level": 1
+    },
+    {
+      "index": 1450,
+      "title": "제19항에서는“접두사와 어근이  어울릴 때 각각 그 형래를 밝혀 적는다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1460,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1474,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1476,
+      "title": "제6장  어근과 접미사 적기",
+      "level": 1
+    },
+    {
+      "index": 1494,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1516,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1537,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1539,
+      "title": "제21항에서는 “어근과 접미사가 어울리여  그 뜻이  달라질 때에는 어근과 접미사를 밝혀 적지  않는다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1566,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1575,
+      "title": "제22항에서는 모음으로 시작된 접미사가 어근과 어울릴 때 나서는 맞춤법에  대하여 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1592,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1613,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1639,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1658,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1681,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1704,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1717,
+      "title": "제23항에서는 부사를 만드는 접미사 ‘ㅡ이’와 ‘ㅡ히’를 어떻게  갈라 적을 것인가 하는 데  대하여  규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1735,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1748,
+      "title": "제7장  한자어  적기",
+      "level": 1
+    },
+    {
+      "index": 1749,
+      "title": "제24항에서는 “한자어는 음절마다 조선어  현대 한자음에 따라 적는 것을 원칙으로 한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1758,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1770,
+      "title": "제25항에서는“한자‘不’의 음은‘ㄷ, ㅈ’을 첫소리로하는 자가 뒤에  올 때는‘부’로 적고 그 외에는‘불’로적는다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1776,
+      "title": "〈조선말 맞춤법〉해설",
+      "level": 0
+    },
+    {
+      "index": 1777,
+      "title": "제26항에서는“한자어에서 모음‘ㅖ’가 들어있는 음절로는‘계’,  ‘례’,  ‘혜’,  ‘예’만을 인정한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1788,
+      "title": "제27항에서는“한자어에서 모음‘니’가 들어있는 음절로는‘희’,  ‘의’만을 인정한다.”고 규정하였다.",
+      "level": 2
+    },
+    {
+      "index": 1809,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 1812,
+      "title": "〈조선말  띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 1844,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 1865,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 1900,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 1922,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 1947,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 1971,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 1995,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2018,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2041,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2065,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2083,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2087,
+      "title": "제1장  명사와 관련한 띄여쓰기",
+      "level": 1
+    },
+    {
+      "index": 2107,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2131,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2191,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2250,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2304,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2368,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2426,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2458,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2480,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2499,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2518,
+      "title": "제1회 전국조선족축구대회",
+      "level": 2
+    },
+    {
+      "index": 2538,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2553,
+      "title": "제2장  수사와 관련한  띄여쓰기",
+      "level": 1
+    },
+    {
+      "index": 2559,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2561,
+      "title": "제7항 수사는 아라비아수자로 적는 것을 원칙으로 하되 조선문자로 단위를 달아줄 경우거나 순 조선문자로 적을 경우에는 ‘만,  억, 조’등의 단위에서 띄여쓴다.",
+      "level": 2
+    },
+    {
+      "index": 2562,
+      "title": "제8항 수사가 완전명사와 어울리는 경우에는 띄여쓴다.  … 그러나 단위명사와 어울리는 경우에는 붙여쓴다.",
+      "level": 2
+    },
+    {
+      "index": 2581,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2586,
+      "title": "제3장  대명사와 관련한  띄여쓰기",
+      "level": 1
+    },
+    {
+      "index": 2608,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2612,
+      "title": "제4장 동사,  형용사와 관련한 띄여쓰기",
+      "level": 1
+    },
+    {
+      "index": 2634,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2654,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2676,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2690,
+      "title": "제5장  관형사와 관련한 띄여쓰기",
+      "level": 1
+    },
+    {
+      "index": 2702,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2719,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2746,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2768,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2789,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2810,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2834,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2859,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2874,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2883,
+      "title": "제6장  부사와 관련한 띄여쓰기",
+      "level": 1
+    },
+    {
+      "index": 2895,
+      "title": "〈조선말 띄여쓰기〉해설",
+      "level": 0
+    },
+    {
+      "index": 2903,
+      "title": "제7장  기타 띄여쓰기",
+      "level": 1
+    },
+    {
+      "index": 2915,
+      "title": "〈조선말  문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 2923,
+      "title": "제1항  문장부호의  종류와  이름",
+      "level": 1
+    },
+    {
+      "index": 2929,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 2937,
+      "title": "제2항  마침표(. )",
+      "level": 2
+    },
+    {
+      "index": 2949,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 2961,
+      "title": "제3항  가운데점(  ·  )",
+      "level": 2
+    },
+    {
+      "index": 2970,
+      "title": "제4항  두점(:)",
+      "level": 2
+    },
+    {
+      "index": 2978,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 2987,
+      "title": "제5항  반두점(;)",
+      "level": 2
+    },
+    {
+      "index": 2998,
+      "title": "제6항  빗금(/)",
+      "level": 2
+    },
+    {
+      "index": 3005,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3019,
+      "title": "제7항  슘( , )",
+      "level": 2
+    },
+    {
+      "index": 3029,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3050,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3066,
+      "title": "제8항  물음표(?)",
+      "level": 2
+    },
+    {
+      "index": 3073,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3086,
+      "title": "제9항  느낌표(! )",
+      "level": 2
+    },
+    {
+      "index": 3092,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3106,
+      "title": "제10항  이음표(-)",
+      "level": 2
+    },
+    {
+      "index": 3111,
+      "title": "제11항  풀이표(——)",
+      "level": 2
+    },
+    {
+      "index": 3117,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3147,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3151,
+      "title": "제12항  줄임표(……)",
+      "level": 2
+    },
+    {
+      "index": 3171,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3175,
+      "title": "제13항  인용표(“”,  ‘  ’)",
+      "level": 2
+    },
+    {
+      "index": 3191,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3200,
+      "title": "제14항  서명표(《  》,  〈  〉)",
+      "level": 2
+    },
+    {
+      "index": 3208,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3220,
+      "title": "제15항  묶음표(소괄호,  중괄호,  내괄호)",
+      "level": 2
+    },
+    {
+      "index": 3231,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3252,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3255,
+      "title": "제16항  드러냄표(   )",
+      "level": 2
+    },
+    {
+      "index": 3258,
+      "title": "제17항  숨김표(  ◯◯◯,  ×××  )",
+      "level": 2
+    },
+    {
+      "index": 3266,
+      "title": "제18항  빠짐표( □□□ )",
+      "level": 2
+    },
+    {
+      "index": 3273,
+      "title": "제19항  갈음표(〃)",
+      "level": 2
+    },
+    {
+      "index": 3280,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3283,
+      "title": "제20항  물결표(~)",
+      "level": 2
+    },
+    {
+      "index": 3298,
+      "title": "제21항  인용표나 묶음표  안에서의  부호",
+      "level": 2
+    },
+    {
+      "index": 3306,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3326,
+      "title": "〈조선말 문장부호법〉해설",
+      "level": 0
+    },
+    {
+      "index": 3328,
+      "title": "제22항  제목에서의  부호",
+      "level": 2
+    }
+  ]
+}
