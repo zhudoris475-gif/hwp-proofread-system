@@ -29,6 +29,10 @@ class FileProcessor:
         """
         hwp_path = Path(hwp_file_path)
 
+        # 경로 검증 (v19.0 우수 기능)
+        if not hwp_path.exists():
+            raise FileNotFoundError(f"백업할 파일을 찾을 수 없습니다: {hwp_file_path}")
+
         # Determine backup directory
         if self.backup_directory:
             backup_dir = Path(self.backup_directory)
@@ -116,6 +120,10 @@ class FileProcessor:
         """
         hwp_path = Path(hwp_file_path)
 
+        # 경로 검증 (v19.0 우수 기능)
+        if not hwp_path.exists():
+            raise FileNotFoundError(f"교정할 파일을 찾을 수 없습니다: {hwp_file_path}")
+
         # Create backup if requested
         if backup:
             self.create_backup(hwp_file_path)
@@ -167,12 +175,16 @@ class FileProcessor:
         """
         hwp_path = Path(hwp_file_path)
 
+        # 경로 검증 (v19.0 우수 기능)
+        if not hwp_path.exists():
+            raise FileNotFoundError(f"파일 정보를 찾을 수 없습니다: {hwp_file_path}")
+
         return {
             "path": str(hwp_path),
             "name": hwp_path.name,
             "stem": hwp_path.stem,
             "suffix": hwp_path.suffix,
-            "exists": hwp_path.exists(),
-            "size": hwp_path.stat().st_size if hwp_path.exists() else 0,
+            "exists": True,
+            "size": hwp_path.stat().st_size,
             "parent": str(hwp_path.parent),
         }

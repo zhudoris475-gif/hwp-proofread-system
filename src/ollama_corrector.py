@@ -61,20 +61,46 @@ class OllamaCorrector:
 
             # Load LoRA adapter if provided
             if self.lora_path and Path(self.lora_path).exists():
-                self._model = PeftModel.from_pretrained(
-                    self._model,
-                    self.lora_path,
-                )
+                lora_config_path = Path(self.lora_path) / "adapter_config.json"
+                if lora_config_path.exists():
+                    # It's a LoRA adapter
+                    self._model = PeftModel.from_pretrained(
+                        self._model,
+                        self.lora_path,
+                    )
+                    print(f"Loaded LoRA adapter from {self.lora_path}")
+                else:
+                    # It's a full model, try to load it directly
+                    print(f"Loading full model from {self.lora_path}")
+                    self._model = AutoModelForCausalLM.from_pretrained(
+                        self.lora_path,
+                        torch_dtype="auto",
+                        device_map="auto",
+                        trust_remote_code=True,
+                    )
 
             self._model.eval()
             return True
 
         except Exception as e:
             print(f"Failed to load model: {e}")
+            import traceback
+            traceback.print_exc()
             return False
 
     def generate_correction(self, text: str) -> str:
-        """Generate correction for text.
+        """Generate correction for text using v2 extraction method.
+
+        Args:
+            text: Input text to correct.
+
+        Returns:
+            Corrected text.
+        """
+        return self.generate_correction_v2(text)
+
+    def generate_correction_v2(self, text: str) -> str:
+        """Generate correction for text (v2 - more robust extraction).
 
         Args:
             text: Input text to correct.
@@ -116,6 +142,9 @@ class OllamaCorrector:
         device = self._model.device
         inputs = {k: v.to(device) for k, v in inputs.items()}
 
+        # Get prompt token length
+        prompt_len = inputs["input_ids"].shape[1]
+
         # Generate correction
         with torch.no_grad():
             outputs = self._model.generate(
@@ -126,18 +155,9 @@ class OllamaCorrector:
                 pad_token_id=self._tokenizer.eos_token_id,
             )
 
-        # Extract corrected text
-        generated_text = self._tokenizer.decode(outputs[0], skip_special_tokens=True)
-
-        if self.chat_template and self._tokenizer:
-            # Extract only the correction part
-            correction = generated_text[len(prompt) :].strip()
-        else:
-            # Extract after "Assistant:"
-            if "Assistant:" in generated_text:
-                correction = generated_text.split("Assistant:")[-1].strip()
-            else:
-                correction = generated_text
+        # Extract only the new tokens (after prompt)
+        new_tokens = outputs[0, prompt_len:]
+        correction = self._tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
 
         return correction
 

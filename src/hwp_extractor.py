@@ -1,5 +1,7 @@
 """HWP text extraction using COM automation."""
 
+import sys
+import os
 import win32com.client as win32
 import time
 from typing import Optional, Dict, Any
@@ -28,10 +30,31 @@ class HWPExtractor:
         Returns:
             Extracted text or None if extraction fails.
         """
-        hwp_file_path = Path(hwp_file_path).resolve()
+        # 인코딩 처리: 중국어/한자 경로 지원 (v19.0 에서 가져온 우수 기능)
+        try:
+            # Windows UNC 경로 사용 (인코딩 문제 해결)
+            if sys.platform == 'win32':
+                # 절대 경로로 변환
+                abs_path = Path(hwp_file_path).resolve()
 
-        if not hwp_file_path.exists():
-            raise FileNotFoundError(f"HWP file not found: {hwp_file_path}")
+                # UNC 경로 형식 (인코딩 문제 방지)
+                # \\?\ 접두사로 장경로 및 특수 문자 지원
+                path_str = str(abs_path)
+                if not path_str.startswith('\\\\?\\'):
+                    path_str = '\\\\?\\' + path_str
+
+                # 경로 존재 확인 (UNC 경로용 os.path 사용)
+                if not os.path.exists(path_str):
+                    raise FileNotFoundError(f"HWP 파일을 찾을 수 없습니다: {hwp_file_path}")
+
+                hwp_file_path = path_str
+            else:
+                hwp_file_path = str(Path(hwp_file_path).resolve())
+                if not Path(hwp_file_path).exists():
+                    raise FileNotFoundError(f"HWP 파일을 찾을 수 없습니다: {hwp_file_path}")
+
+        except Exception as e:
+            raise FileNotFoundError(f"경로 처리 오류: {hwp_file_path} - {e}")
 
         for attempt in range(self.max_retries):
             try:

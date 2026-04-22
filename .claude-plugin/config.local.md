@@ -2,7 +2,7 @@
 
 # Ollama settings
 ollama_model: "Qwen/Qwen2.5-3B-Instruct"
-lora_path: "C:/Users/51906/.agent-browser/round2_98percent_lora"
+# lora_path: null  # No compatible LoRA available
 chat_template: true
 
 # HWP settings

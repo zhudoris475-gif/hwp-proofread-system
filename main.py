@@ -31,6 +31,15 @@ def correct_single_file(
     Returns:
         Correction result dictionary.
     """
+    # 경로 검증 (v19.0 우수 기능)
+    from pathlib import Path
+    if not Path(hwp_file_path).exists():
+        return {
+            "file": hwp_file_path,
+            "status": "failed",
+            "error": f"파일을 찾을 수 없습니다: {hwp_file_path}",
+        }
+
     print(f"Processing: {hwp_file_path}")
 
     # Initialize components
@@ -240,9 +249,11 @@ def main():
         )
 
         if result["status"] == "success":
-            print("\n✓ Correction complete!")
+            print("\n[Success] Correction complete!")
         else:
-            print(f"\n✗ Failed: {result.get('error', 'Unknown error')}")
+            error_msg = result.get('error', 'Unknown error')
+            print("\n[Failed]")
+            print(error_msg.encode('ascii', 'replace').decode('ascii'))
             sys.exit(1)
     else:
         parser.print_help()
