@@ -1,0 +1,20 @@
+{
+  "name": "hwp-ollama-autocorrect",
+  "version": "1.0.0",
+  "description": "Autonomous Ollama-based sentence correction for Korean HWP documents using qwen2.5:3b model",
+  "author": {
+    "name": "HWP Auto-Correction Plugin",
+    "email": "plugin@example.com"
+  },
+  "keywords": [
+    "hwp",
+    "ollama",
+    "autocorrect",
+    "korean",
+    "sentence-correction",
+    "qwen2.5"
+  ],
+  "homepage": "https://github.com/user/hwp-ollama-autocorrect",
+  "repository": "https://github.com/user/hwp-ollama-autocorrect",
+  "license": "MIT"
+}
