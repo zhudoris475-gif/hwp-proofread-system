@@ -1,6 +1,7 @@
 """Ollama-based text correction using LoRA fine-tuned model."""
 
 import time
+import torch
 from typing import Optional, List, Dict, Any
 from pathlib import Path
 
@@ -81,6 +82,7 @@ class OllamaCorrector:
         Returns:
             Corrected text.
         """
+        # Ensure model is loaded
         if self._model is None:
             if not self.load_model():
                 return text
@@ -139,6 +141,20 @@ class OllamaCorrector:
 
         return correction
 
+    def is_model_loaded(self) -> bool:
+        """Check if model is loaded."""
+        return self._model is not None and self._tokenizer is not None
+
+    def unload_model(self):
+        """Unload model to free memory."""
+        if self._model is not None:
+            del self._model
+            self._model = None
+        if self._tokenizer is not None:
+            del self._tokenizer
+            self._tokenizer = None
+        torch.cuda.empty_cache() if torch.cuda.is_available() else None
+
     def correct_sentences(self, text: str) -> List[Dict[str, Any]]:
         """Correct text sentence by sentence.
 
@@ -182,6 +198,11 @@ class OllamaCorrector:
     def _calculate_confidence(self, original: str, corrected: str) -> float:
         """Calculate confidence score for correction.
 
+        Uses multiple factors:
+        - Length difference ratio
+        - Character overlap
+        - Correction patterns
+
         Args:
             original: Original text.
             corrected: Corrected text.
@@ -189,17 +210,29 @@ class OllamaCorrector:
         Returns:
             Confidence score between 0 and 1.
         """
+        # Length difference ratio
         original_len = len(original)
         corrected_len = len(corrected)
 
-        # Calculate length difference ratio
+        if original_len == 0:
+            return 1.0
+
         length_diff = abs(corrected_len - original_len)
-        correction_ratio = length_diff / max(original_len, 1)
+        length_ratio = length_diff / original_len
 
-        # Higher ratio = more changes = lower confidence
-        confidence = 1.0 - min(correction_ratio, 0.5)
+        # Character overlap (simple Jaccard-like)
+        original_chars = set(original)
+        corrected_chars = set(corrected)
+        intersection = len(original_chars & corrected_chars)
+        union = len(original_chars | corrected_chars)
+        overlap_ratio = intersection / union if union > 0 else 0
 
-        return round(confidence, 2)
+        # Confidence calculation
+        # Penalize large changes, reward high overlap
+        length_penalty = min(length_ratio * 2, 0.5)  # Max 0.5 penalty
+        confidence = (1.0 - length_penalty) * overlap_ratio
+
+        return round(max(0.0, min(1.0, confidence)), 2)
 
     def reassemble_text(self, corrections: List[Dict[str, Any]]) -> str:
         """Reassemble corrected sentences into text.

@@ -73,6 +73,8 @@ def correct_single_file(
     corrections = corrector.correct_sentences(clean_text)
 
     if not corrections:
+        # Unload model to free memory
+        corrector.unload_model()
         return {
             "file": hwp_file_path,
             "status": "failed",
@@ -84,7 +86,7 @@ def correct_single_file(
 
     # Save file
     print("  Saving corrected file...")
-    if backup and config.get_backup_directory() or config.get("backup_before_correction"):
+    if (backup and config.get_backup_directory()) or config.get("backup_before_correction"):
         backup_path = file_processor.create_backup(hwp_file_path)
         print(f"  Backup created: {backup_path}")
 
@@ -105,6 +107,9 @@ def correct_single_file(
 
     print(f"  Corrections: {len(corrections)}")
     print(f"  Output: {output_file}")
+
+    # Unload model to free memory
+    corrector.unload_model()
 
     return {
         "file": hwp_file_path,
