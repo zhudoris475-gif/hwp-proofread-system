@@ -1,0 +1,29 @@
+{
+  "total_items": 426,
+  "categories": {
+    "spacing": 118,
+    "grammar": 37,
+    "wordformation": 184,
+    "punctuation": 87
+  },
+  "type_distribution": {
+    "general_rule": 99,
+    "number": 17,
+    "dependent_noun": 2,
+    "word_class": 16,
+    "sentence_component": 14,
+    "conjugation": 3,
+    "ending": 1,
+    "word_order": 3,
+    "root": 111,
+    "compound": 39,
+    "derivation": 15,
+    "suffix": 19,
+    "parenthesis": 16,
+    "comma": 17,
+    "period": 11,
+    "question_exclamation": 15,
+    "ellipsis_dash": 6,
+    "quotation": 22
+  }
+}

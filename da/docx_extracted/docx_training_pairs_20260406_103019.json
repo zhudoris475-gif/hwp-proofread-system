@@ -1,0 +1,41 @@
+[
+  {
+    "type": "rule_with_example",
+    "rule": "①  그러나 규정토 뒤에 울 때에는 띄여쓴다.",
+    "example": "창럽한 이래",
+    "source": "docx_rule"
+  },
+  {
+    "type": "rule_with_example",
+    "rule": "②  그러나 규정토 뒤에 울 때에는 띄여쓴다.",
+    "example": "생각한 외에",
+    "source": "docx_rule"
+  },
+  {
+    "type": "rule_with_example",
+    "rule": "③  그러나 규정토 뒤에 울 때에는 띄여쓴다.",
+    "example": "보던 중에서",
+    "source": "docx_rule"
+  },
+  {
+    "type": "rule_with_example",
+    "rule": "④  그러나 규정토 뒤에 울 때에는 띄여쓴다.",
+    "example": "세월이 흘러",
+    "source": "docx_rule"
+  },
+  {
+    "type": "example",
+    "content": "옳음\t그름",
+    "source": "docx_example"
+  },
+  {
+    "type": "example",
+    "content": "접미사\t옳음\t그름",
+    "source": "docx_example"
+  },
+  {
+    "type": "example",
+    "content": "옳음\t그름",
+    "source": "docx_example"
+  }
+]

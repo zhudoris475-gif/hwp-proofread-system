@@ -1,0 +1,73 @@
+{
+  "name": "朝鲜语发音知识库",
+  "description": "从《朝鲜语规范集解说》提取的发音规则、变体和标注",
+  "version": "1.0.0",
+  "files": [
+    "pronunciation_knowledge.json",
+    "pronunciation_raw_data.json",
+    "spacing_knowledge.json",
+    "spacing_raw_data.json",
+    "grammar_knowledge.json",
+    "grammar_raw_data.json",
+    "wordformation_knowledge.json",
+    "wordformation_raw_data.json",
+    "punctuation_knowledge.json",
+    "punctuation_raw_data.json"
+  ],
+  "statistics": {
+    "total_items": 312,
+    "type_distribution": {
+      "phonetic_rule": 36,
+      "single_pronunciation": 174,
+      "pronunciation_variant": 25,
+      "position_pronunciation": 77
+    },
+    "spacing": {
+      "total_items": 118,
+      "type_distribution": {
+        "spacing_rule": 99,
+        "number_spacing": 17,
+        "dependent_noun_spacing": 2
+      }
+    },
+    "grammar": {
+      "total_items": 37,
+      "type_distribution": {
+        "word_class_rule": 16,
+        "sentence_component": 14,
+        "conjugation_rule": 3,
+        "ending_rule": 1,
+        "word_order_rule": 3
+      }
+    },
+    "wordformation": {
+      "total_items": 184,
+      "type_distribution": {
+        "root_usage": 111,
+        "compound_word": 39,
+        "derivation": 15,
+        "suffix_derivation": 19
+      }
+    },
+    "punctuation": {
+      "total_items": 87,
+      "type_distribution": {
+        "parenthesis_rule": 16,
+        "comma_rule": 17,
+        "period_rule": 11,
+        "question_exclamation_rule": 15,
+        "ellipsis_dash_rule": 6,
+        "quotation_rule": 22
+      }
+    }
+  },
+  "categories": [
+    "pronunciation",
+    "phonetics",
+    "korean_language",
+    "spacing",
+    "grammar",
+    "wordformation",
+    "punctuation"
+  ]
+}

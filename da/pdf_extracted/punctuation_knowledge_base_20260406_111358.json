@@ -1,0 +1,21 @@
+{
+  "punctuation_rules": [
+    {
+      "type": "comma",
+      "name": "쉼표",
+      "description": "쉼표 사용 규칙"
+    },
+    {
+      "type": "comma",
+      "name": "쉼표",
+      "description": "쉼표 사용 규칙"
+    },
+    {
+      "type": "exclamation",
+      "name": "느낌표",
+      "description": "느낌표 사용 규칙"
+    }
+  ],
+  "examples": [],
+  "created_at": "2026-04-06T11:13:58.309736"
+}

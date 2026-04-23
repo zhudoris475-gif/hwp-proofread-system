@@ -1,0 +1,674 @@
+[
+  {
+    "instruction": "다음 수사의 띄여쓰기 오류를 수정하라.",
+    "input": "9억8,765만4,321",
+    "output": "9억 8,765만 4,321",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_correction",
+      "rule": "number_unit_spacing",
+      "chinese_meaning": "9亿 8,765万 4,321",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'9억 8,765만 4,321'의 띄여쓰기 규칙은?",
+    "input": "올바름: 9억 8,765만 4,321\n그릇됨: 9억8,765만4,321",
+    "output": "아라비아수자로 적을 때는 단위에서 띄여쓴다. 수사는 아라비아수자로 적는 것을 원칙으로 하되 조선문자로 단위를 달아줄 경우에는 '만, 억, 조' 등의 단위에서 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_explanation",
+      "rule": "number_unit_spacing",
+      "chinese_meaning": "9亿 8,765万 4,321",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사의 띄여쓰기 오류를 수정하라.",
+    "input": "10억5,000만",
+    "output": "10억 5,000만",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_correction",
+      "rule": "number_unit_spacing",
+      "chinese_meaning": "10亿 5,000万",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'10억 5,000만'의 띄여쓰기 규칙은?",
+    "input": "올바름: 10억 5,000만\n그릇됨: 10억5,000만",
+    "output": "아라비아수자로 적을 때는 단위에서 띄여쓴다. 수사는 아라비아수자로 적는 것을 원칙으로 하되 조선문자로 단위를 달아줄 경우에는 '만, 억, 조' 등의 단위에서 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_explanation",
+      "rule": "number_unit_spacing",
+      "chinese_meaning": "10亿 5,000万",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사의 띄여쓰기 오류를 수정하라.",
+    "input": "100만5천",
+    "output": "100만 5천",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_correction",
+      "rule": "number_unit_spacing",
+      "chinese_meaning": "100万 5千",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'100만 5천'의 띄여쓰기 규칙은?",
+    "input": "올바름: 100만 5천\n그릇됨: 100만5천",
+    "output": "아라비아수자로 적을 때는 단위에서 띄여쓴다. 수사는 아라비아수자로 적는 것을 원칙으로 하되 조선문자로 단위를 달아줄 경우에는 '만, 억, 조' 등의 단위에서 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_explanation",
+      "rule": "number_unit_spacing",
+      "chinese_meaning": "100万 5千",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사의 띄여쓰기 오류를 수정하라.",
+    "input": "1조5,000억",
+    "output": "1조 5,000억",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_correction",
+      "rule": "number_unit_spacing",
+      "chinese_meaning": "1兆 5,000亿",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'1조 5,000억'의 띄여쓰기 규칙은?",
+    "input": "올바름: 1조 5,000억\n그릇됨: 1조5,000억",
+    "output": "아라비아수자로 적을 때는 단위에서 띄여쓴다. 수사는 아라비아수자로 적는 것을 원칙으로 하되 조선문자로 단위를 달아줄 경우에는 '만, 억, 조' 등의 단위에서 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_explanation",
+      "rule": "number_unit_spacing",
+      "chinese_meaning": "1兆 5,000亿",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 순 조선문자 수사의 띄여쓰기 오류를 수정하라.",
+    "input": "구억팔천칠백육십오만사천삼백이십일",
+    "output": "구억 팔천칠백육십오만 사천삼백이십일",
+    "metadata": {
+      "category": "spacing",
+      "type": "korean_number_unit_correction",
+      "rule": "korean_number_unit_spacing",
+      "chinese_meaning": "九亿 八千七百六十五万 四千三百二十一",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'구억 팔천칠백육십오만 사천삼백이십일'의 띄여쓰기 규칙은?",
+    "input": "올바름: 구억 팔천칠백육십오만 사천삼백이십일\n그릇됨: 구억팔천칠백육십오만사천삼백이십일",
+    "output": "순 조선문자로 적을 때도 단위에서 띄여쓴다. 순 조선문자로 적을 경우에도 '만, 억, 조' 등의 단위에서 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "korean_number_unit_explanation",
+      "rule": "korean_number_unit_spacing",
+      "chinese_meaning": "九亿 八千七百六十五万 四千三百二十一",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 순 조선문자 수사의 띄여쓰기 오류를 수정하라.",
+    "input": "십오만이천",
+    "output": "십오만 이천",
+    "metadata": {
+      "category": "spacing",
+      "type": "korean_number_unit_correction",
+      "rule": "korean_number_unit_spacing",
+      "chinese_meaning": "十五万 二千",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'십오만 이천'의 띄여쓰기 규칙은?",
+    "input": "올바름: 십오만 이천\n그릇됨: 십오만이천",
+    "output": "순 조선문자로 적을 때도 단위에서 띄여쓴다. 순 조선문자로 적을 경우에도 '만, 억, 조' 등의 단위에서 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "korean_number_unit_explanation",
+      "rule": "korean_number_unit_spacing",
+      "chinese_meaning": "十五万 二千",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 순 조선문자 수사의 띄여쓰기 오류를 수정하라.",
+    "input": "백만오천",
+    "output": "백만 오천",
+    "metadata": {
+      "category": "spacing",
+      "type": "korean_number_unit_correction",
+      "rule": "korean_number_unit_spacing",
+      "chinese_meaning": "一百万 五千",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'백만 오천'의 띄여쓰기 규칙은?",
+    "input": "올바름: 백만 오천\n그릇됨: 백만오천",
+    "output": "순 조선문자로 적을 때도 단위에서 띄여쓴다. 순 조선문자로 적을 경우에도 '만, 억, 조' 등의 단위에서 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "korean_number_unit_explanation",
+      "rule": "korean_number_unit_spacing",
+      "chinese_meaning": "一百万 五千",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 순 조선문자 수사의 띄여쓰기 오류를 수정하라.",
+    "input": "일조오천억",
+    "output": "일조 오천억",
+    "metadata": {
+      "category": "spacing",
+      "type": "korean_number_unit_correction",
+      "rule": "korean_number_unit_spacing",
+      "chinese_meaning": "一兆 五千亿",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'일조 오천억'의 띄여쓰기 규칙은?",
+    "input": "올바름: 일조 오천억\n그릇됨: 일조오천억",
+    "output": "순 조선문자로 적을 때도 단위에서 띄여쓴다. 순 조선문자로 적을 경우에도 '만, 억, 조' 등의 단위에서 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "korean_number_unit_explanation",
+      "rule": "korean_number_unit_spacing",
+      "chinese_meaning": "一兆 五千亿",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 완전명사의 띄여쓰기 오류를 수정하라.",
+    "input": "두사람",
+    "output": "두 사람",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_correction",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "两个人",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'두 사람'의 띄여쓰기 규칙은?",
+    "input": "올바름: 두 사람\n그릇됨: 두사람",
+    "output": "수사가 완전명사와 어울리는 경우에는 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_explanation",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "两个人",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 완전명사의 띄여쓰기 오류를 수정하라.",
+    "input": "일곱학생",
+    "output": "일곱 학생",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_correction",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "七个学生",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'일곱 학생'의 띄여쓰기 규칙은?",
+    "input": "올바름: 일곱 학생\n그릇됨: 일곱학생",
+    "output": "수사가 완전명사와 어울리는 경우에는 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_explanation",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "七个学生",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 완전명사의 띄여쓰기 오류를 수정하라.",
+    "input": "다섯나라",
+    "output": "다섯 나라",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_correction",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "五个国家",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'다섯 나라'의 띄여쓰기 규칙은?",
+    "input": "올바름: 다섯 나라\n그릇됨: 다섯나라",
+    "output": "수사가 완전명사와 어울리는 경우에는 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_explanation",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "五个国家",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 완전명사의 띄여쓰기 오류를 수정하라.",
+    "input": "13억중국인민",
+    "output": "13억 중국인민",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_correction",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "13亿中国人民",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'13억 중국인민'의 띄여쓰기 규칙은?",
+    "input": "올바름: 13억 중국인민\n그릇됨: 13억중국인민",
+    "output": "수사가 완전명사와 어울리는 경우에는 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_explanation",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "13亿中国人民",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 완전명사의 띄여쓰기 오류를 수정하라.",
+    "input": "70평생",
+    "output": "70 평생",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_correction",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "70平生",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'70 평생'의 띄여쓰기 규칙은?",
+    "input": "올바름: 70 평생\n그릇됨: 70평생",
+    "output": "수사가 완전명사와 어울리는 경우에는 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_explanation",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "70平生",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 완전명사의 띄여쓰기 오류를 수정하라.",
+    "input": "30나이",
+    "output": "30 나이",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_correction",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "30岁",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'30 나이'의 띄여쓰기 규칙은?",
+    "input": "올바름: 30 나이\n그릇됨: 30나이",
+    "output": "수사가 완전명사와 어울리는 경우에는 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_explanation",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "30岁",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 완전명사의 띄여쓰기 오류를 수정하라.",
+    "input": "스묪명",
+    "output": "스무 명",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_correction",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "二十名",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'스무 명'의 띄여쓰기 규칙은?",
+    "input": "올바름: 스무 명\n그릇됨: 스묪명",
+    "output": "수사가 완전명사와 어울리는 경우에는 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_explanation",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "二十名",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 완전명사의 띄여쓰기 오류를 수정하라.",
+    "input": "백년",
+    "output": "백 년",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_correction",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "百年",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'백 년'의 띄여쓰기 규칙은?",
+    "input": "올바름: 백 년\n그릇됨: 백년",
+    "output": "수사가 완전명사와 어울리는 경우에는 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_explanation",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "百年",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 완전명사의 띄여쓰기 오류를 수정하라.",
+    "input": "천리",
+    "output": "천 리",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_correction",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "千里",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'천 리'의 띄여쓰기 규칙은?",
+    "input": "올바름: 천 리\n그릇됨: 천리",
+    "output": "수사가 완전명사와 어울리는 경우에는 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_explanation",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "千里",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 완전명사의 띄여쓰기 오류를 수정하라.",
+    "input": "만인",
+    "output": "만 인",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_correction",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "万人",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'만 인'의 띄여쓰기 규칙은?",
+    "input": "올바름: 만 인\n그릇됨: 만인",
+    "output": "수사가 완전명사와 어울리는 경우에는 띄여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_full_noun_explanation",
+      "rule": "number_full_noun_spacing",
+      "chinese_meaning": "万人",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 단위명사의 띄여쓰기를 수정하라.",
+    "input": "두 명",
+    "output": "두명",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_correction",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "两名",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'두명'의 띄여쓰기 규칙은?",
+    "input": "올바름: 두명\n그릇됨: 두 명",
+    "output": "수사가 단위명사와 어울리는 경우에는 붙여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_explanation",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "两名",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 단위명사의 띄여쓰기를 수정하라.",
+    "input": "세 마리",
+    "output": "세마리",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_correction",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "三只",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'세마리'의 띄여쓰기 규칙은?",
+    "input": "올바름: 세마리\n그릇됨: 세 마리",
+    "output": "수사가 단위명사와 어울리는 경우에는 붙여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_explanation",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "三只",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 단위명사의 띄여쓰기를 수정하라.",
+    "input": "네 권",
+    "output": "네권",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_correction",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "四本",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'네권'의 띄여쓰기 규칙은?",
+    "input": "올바름: 네권\n그릇됨: 네 권",
+    "output": "수사가 단위명사와 어울리는 경우에는 붙여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_explanation",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "四本",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 단위명사의 띄여쓰기를 수정하라.",
+    "input": "다섯 개",
+    "output": "다섯개",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_correction",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "五个",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'다섯개'의 띄여쓰기 규칙은?",
+    "input": "올바름: 다섯개\n그릇됨: 다섯 개",
+    "output": "수사가 단위명사와 어울리는 경우에는 붙여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_explanation",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "五个",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 단위명사의 띄여쓰기를 수정하라.",
+    "input": "여섯 자루",
+    "output": "여섯자루",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_correction",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "六支",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'여섯자루'의 띄여쓰기 규칙은?",
+    "input": "올바름: 여섯자루\n그릇됨: 여섯 자루",
+    "output": "수사가 단위명사와 어울리는 경우에는 붙여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_explanation",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "六支",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 단위명사의 띄여쓰기를 수정하라.",
+    "input": "일곱 벌",
+    "output": "일곱벌",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_correction",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "七套",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'일곱벌'의 띄여쓰기 규칙은?",
+    "input": "올바름: 일곱벌\n그릇됨: 일곱 벌",
+    "output": "수사가 단위명사와 어울리는 경우에는 붙여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_explanation",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "七套",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 단위명사의 띄여쓰기를 수정하라.",
+    "input": "여덟 켤레",
+    "output": "여덟켤레",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_correction",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "八双",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'여덟켤레'의 띄여쓰기 규칙은?",
+    "input": "올바름: 여덟켤레\n그릇됨: 여덟 켤레",
+    "output": "수사가 단위명사와 어울리는 경우에는 붙여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_explanation",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "八双",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 단위명사의 띄여쓰기를 수정하라.",
+    "input": "아홉 장",
+    "output": "아홉장",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_correction",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "九张",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'아홉장'의 띄여쓰기 규칙은?",
+    "input": "올바름: 아홉장\n그릇됨: 아홉 장",
+    "output": "수사가 단위명사와 어울리는 경우에는 붙여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_explanation",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "九张",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 단위명사의 띄여쓰기를 수정하라.",
+    "input": "열 필",
+    "output": "열필",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_correction",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "十匹",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'열필'의 띄여쓰기 규칙은?",
+    "input": "올바름: 열필\n그릇됨: 열 필",
+    "output": "수사가 단위명사와 어울리는 경우에는 붙여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_explanation",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "十匹",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "다음 수사와 단위명사의 띄여쓰기를 수정하라.",
+    "input": "스무 그루",
+    "output": "스묵루",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_correction",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "二十棵",
+      "source": "user_provided"
+    }
+  },
+  {
+    "instruction": "'스묵루'의 띄여쓰기 규칙은?",
+    "input": "올바름: 스묵루\n그릇됨: 스무 그루",
+    "output": "수사가 단위명사와 어울리는 경우에는 붙여쓴다.",
+    "metadata": {
+      "category": "spacing",
+      "type": "number_unit_noun_explanation",
+      "rule": "number_unit_noun_combined",
+      "chinese_meaning": "二十棵",
+      "source": "user_provided"
+    }
+  }
+]

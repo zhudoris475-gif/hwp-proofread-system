@@ -1,0 +1,22 @@
+{
+  "total": 17,
+  "by_category": {
+    "punctuation_period": 1,
+    "punctuation_middle_dot": 1,
+    "punctuation_colon": 1,
+    "punctuation_semicolon": 1,
+    "punctuation_slash": 1,
+    "punctuation_comma": 1,
+    "punctuation_question": 1,
+    "punctuation_exclamation": 1,
+    "punctuation_ellipsis": 1,
+    "punctuation_quotes": 1,
+    "punctuation_brackets": 1,
+    "punctuation_dash": 1,
+    "punctuation_hyphen": 1,
+    "punctuation_book_title": 1,
+    "punctuation_proper_noun": 1,
+    "punctuation_emphasis": 1,
+    "paragraph_spacing_rule": 1
+  }
+}
