@@ -1,3 +1,0 @@
-삭제된 항목 수: 2674개
-추가된 항목 수: 2674개
-저장 완료: deleted_items.txt, added_items.txt
