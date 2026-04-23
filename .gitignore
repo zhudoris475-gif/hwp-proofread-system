@@ -1,71 +1,146 @@
-# Python
+# === Python ===
 __pycache__/
 *.pyc
 *.pyo
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+*.pyd
 *.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+dist/
+build/
+gen_py/
 
-# Virtual environments
-venv/
-ENV/
-env/
-.venv
+# === Large binary files (GitHub 100MB limit) ===
+*.bin
+*.dll
+*.gguf
+*.safetensors
+*.tlb
+train_output/
 
-# IDE
-.vscode/
-.idea/
+# === HWP documents (binary, large) ===
+*.hwp
+*.hwpx
+
+# === Office documents ===
+*.doc
+*.docx
+*.pdf
+
+# === Temp/backup ===
+*.bak
+*.tmp
+*.log
 *.swp
-*.swo
 *~
 
-# OS
-Thumbs.db
-.DS_Store
-
-# Logs (keep latest, ignore old)
-hwp_comparison_log_v*.txt
-!hwp_final_report_*.txt
-*.log
-
-# Cache
-.cache/
-.modelscope/
-
-# Config (sensitive)
+# === Config with secrets ===
+CLAUDE.json
+cache.json
+cc-switch_settings_new.json
 config.local.md
 *.key
 *.pem
 
-# Agent Browser
-.agent-browser/
+# === Temp text outputs ===
+added_items.txt
+deleted_items.txt
+deletion_analysis.txt
+compare_full.txt
+compare_result.txt
+com_proofread_log.txt
+hwp_ollama_proofread_log.txt
+hwp_exported_text.txt
 
-# Test
+# === Temp directories ===
+.planning/
+.agent-browser/
+.cache/
+.modelscope/
+HWP_Ollama_Addin_temp/
+HWP_Ollama_Model_temp/
+HwpInstall/
 test_hwp/
 
-# Large model files
-train_output/
-*.bin
-*.pt
-*.safetensors
+# === OS ===
+Thumbs.db
+.DS_Store
 
-# HWP backup files
-P_원본_백업_*.hwp
-*_교정본.hwp
+# === Temp/intermediate scripts ===
+cleanup_git.py
+diagnose_all_systems.py
+test_*.py
+check_*.py
+debug_*.py
+diag_*.py
+fix_json_*.py
+fix_cc_*.py
+fix_claude_*.py
+fix_auth_*.py
+fix_backup_*.py
+fix_gemini_*.py
+fix_iflytek_*.py
+fix_indent_*.py
+fix_url_*.py
+fix_settings_*.py
+fix_locked_*.py
+fix_endpoints_*.py
+fix_universal_*.py
+fix_current_*.py
+fix_all_providers_*.py
+fix_missing_*.py
+replace_*.py
+update_*.py
+scan_*.py
+search_*.py
+sync_*.py
+setup_both_*.py
+setup_ccswitch_*.py
+setup_ribbon_*.py
+restore_*.py
+step_*.py
+tmp_*.py
+utf16_*.py
+verify_*.py
+summarize_*.py
+copy_*.py
+add_word_*.py
+analyze_*.py
+apply_quotes*.py
+apply_quotes*.py
+binary_diff.py
+binary_quote_fix*.py
+com_*.py
+compare_*.py
+deep_*.py
+detailed_comparison_*.py
+extract_*.py
+final_*.py
+find_*.py
+full_*.py
+generate_*.py
+hanja_*.py
+hwp_allreplace.py
+hwp_com_*.py
+hwp_correction_system.py
+hwp_findreplace.py
+hwp_macro_gen.py
+hwp_ollama_proofread_detailed.py
+hwp_ollama_proofread_v17_1.py
+hwp_proofread_fast.py
+hwp_rule_only.py
+jkl_*.py
+list_*.py
+olefile_*.py
+raw_*.py
+reapply_*.py
+recheck_*.py
+run_*.py
+segment_*.py
+
+# === Temp batch files ===
+cleanup_hwp_files.bat
+fix_hwp2024_*.bat
+force_cleanup_hwp.bat
+install_hwp2024_*.bat
+install_hwp_compat.bat
+install_hwp_ollama.bat
+manual_install_hwp.bat
