@@ -1,4 +1,7 @@
 import sys, os, time, re, struct, zlib, shutil, hashlib
+# 인코딩 문제 해결
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout = open(sys.stdout.fileno(), 'w', encoding='utf-8', errors='ignore')
 sys.path.insert(0, r"C:\AMD\AJ\hwp_proofreading_package")
 try:
     import olefile
@@ -12,8 +15,8 @@ LOG_DIR = r"C:\Users\doris\Desktop\한국어_문장_수정본_최종결과"
 FILES = [
     {
         "label": "J",
-        "src": r"C:\Users\doris\Desktop\【大中朝 14】J 1419-1693--275--20240920_1st_copy.hwp",
-        "out": r"C:\Users\doris\Desktop\【大中朝 14】J 1419-1693--275--20240920.hwp",
+        "src": r"C:\Users\doris\Desktop\新词典\【大中朝 14】J 1419-1693--275--20240920.hwp",
+        "out": r"C:\Users\doris\Desktop\【大中朝 14】J 1419-1693--275--20240920_교정.hwp",
     },
     {
         "label": "L",
@@ -796,7 +799,7 @@ def process_single_file(file_info, log):
                 stream_changes += actual_cnt
                 total_changes += actual_cnt
                 if cat.startswith("1단계") or cat.startswith("2단계"):
-                    change_details[cat[:4]].append((src_word, dst_word, actual_cnt))
+                    change_details["1 단계" if cat.startswith("1 단계") else "2 단계"].append((src_word, dst_word, actual_cnt))
                 elif cat.startswith("3단계"):
                     change_details["3단계"].append((src_word, dst_word, actual_cnt, cat))
                 elif cat.startswith("4단계"):
@@ -969,7 +972,10 @@ def process_all():
     log_lines = []
 
     def log(msg):
-        print(msg)
+        try:
+            print(msg)
+        except UnicodeEncodeError:
+            print(msg.encode('utf-8').decode('utf-8'))
         log_lines.append(msg)
 
     log(f"{'=' * 80}")

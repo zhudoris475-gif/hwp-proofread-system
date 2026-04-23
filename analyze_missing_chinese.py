@@ -62,16 +62,16 @@ class HWPTextExtractor:
                             continue
 
                     if parts:
-                        texts.append('\n'.join(parts))
+                        texts.append(chr(10).join(parts))
 
-        except Exception:
-            return "", []
+                except Exception:
+                    return "", []
 
-        finally:
-            if ole:
-                ole.close()
+            finally:
+                if ole:
+                    ole.close()
 
-        return '\n'.join(texts), chinese_locations
+        return chr(10).join(texts), chinese_locations
 
     def _parse_records(self, data: bytes) -> List[Dict]:
         """HWP 레코드 파싱"""
