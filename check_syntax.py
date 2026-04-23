@@ -1,7 +1,10 @@
 import ast
 import os
 
-files = ['compare_hwp.py', 'generate_recovery_list.py', 'chinese_detail_check.py']
+files = [
+    'compare_hwp.py', 'compare_hwp_v2.py', 'compare_hwp_v5.py',
+    'generate_recovery_list.py', 'chinese_detail_check.py',
+]
 for f in files:
     path = os.path.join(os.path.dirname(__file__), f)
     try:
