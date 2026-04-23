@@ -682,8 +682,8 @@ def apply_dependent_noun_inspection(text):
         "대로": (r'([가-힣]{2,6}대로)', DAERO_NOSPLIT, 2, None),
         "만큼": (r'([가-힣]{2,6}만큼)', MANKEUM_NOSPLIT, 2, None),
         "중": (r'([가-힣]{2,6}중)', JUNG_NOSPLIT, 1, None),
-        "이상": (r'([가-힣]{2,6}이상)', ISANG_NOSPLIT, 2, None),
-        "이하": (r'([가-힣]{2,6}이하)', IHA_NOSPLIT, 2, None),
+        "이상": (r'([가-힣]{1,6}이상)', ISANG_NOSPLIT, 2, None),
+        "이하": (r'([가-힣]{1,6}이하)', IHA_NOSPLIT, 2, None),
         "척": (r'([가-힣]{2,6}척)', CHUK_NOSPLIT, 1, None),
         "상": (r'([가-힣]{2,6}상)', SANG_NOSPLIT, 1, "exclude_isang_iha"),
         "우": (r'([가-힣]{2,6}우)', U_NOSPLIT, 1, None),
@@ -706,8 +706,6 @@ def apply_dependent_noun_inspection(text):
         found = Counter(pattern.findall(text)).most_common(100)
         attached = []
         for word, cnt in found:
-            if nosplit and word in nosplit:
-                continue
             if word == noun:
                 continue
             if check == "modifier_check" and not _has_modifier_ending(word, slen):
@@ -716,8 +714,13 @@ def apply_dependent_noun_inspection(text):
                 continue
             if check == "exclude_gaunde" and word.endswith("가운데"):
                 continue
+            is_nosplit = nosplit and word in nosplit
             spaced_ver = word[:-slen] + " " + word[-slen:]
-            attached.append((word, spaced_ver, cnt))
+            if noun in BOTH_FORMS_DEP_NOUNS:
+                attached.append((word, spaced_ver, cnt, is_nosplit))
+            else:
+                if not is_nosplit:
+                    attached.append((word, spaced_ver, cnt))
         if noun in BOTH_FORMS_DEP_NOUNS:
             both_forms_results[noun] = attached
         else:
