@@ -117,6 +117,8 @@ DE_NOSPLIT = {
     "사람가운데", "것가운데", "곳가운데", "땅가운데",
     "집가운데", "물가운데", "산가운데", "길가운데",
     "또래가운데", "세계가운데", "국민소득가운데",
+    "가운데서", "가운데에", "가운데로", "가운데의",
+    "한가운데서", "한가운데에",
     "데구르르", "데굴데굴", "데미지", "데시벨",
     "데탕트", "데투라", "데우다", "데워",
 }
@@ -426,6 +428,135 @@ DDUT_NOSPLIT = {
 
 MODU_NOSPLIT = {
     "모두", "모두가", "모두를", "모두의", "모두는", "모두도",
+}
+
+JI_NOSPLIT = {
+    "목적지", "목적지에", "목적지로", "목적지를",
+    "허벅지", "허벅지를", "허벅지에",
+    "둥지", "둥지에", "둥지를",
+    "궁지", "궁지에", "궁지를",
+    "기지", "기지가", "기지를", "기지에",
+    "바지", "바지가", "바지를",
+    "두가지", "세가지", "네가지", "다섯가지", "여섯가지", "일곱가지",
+    "여덟가지", "아홉가지", "열가지", "여러가지", "몇가지",
+    "강하지", "약하지", "높지", "낮지", "크지", "작지",
+    "좋지", "나쁘지", "많지", "적지", "길지", "짧지",
+    "있지만", "없지만", "않지만", "되지만", "하지만",
+    "있지도", "없지도", "않지도",
+    "이루어지는", "이루어지고", "이루어져",
+    "가리키는", "가리키고",
+    "까지도", "까지도",
+    "지구", "지도", "지역", "지점", "지방", "지진", "지식", "지위",
+    "지배", "지시", "지속", "지연", "지원", "지정", "지출",
+    "지리", "지름", "지붕", "지폐", "지해", "지형",
+}
+
+DEUNG_NOSPLIT = {
+    "균등", "고등", "강등", "대등", "초등", "상등", "하등", "중등",
+    "동등", "평등", "갈등", "비등", "일등", "이등", "삼등",
+    "발등", "책등", "칼등", "산등", "주민등", "선수등",
+    "기회균등", "일반중등",
+    "가로등", "형광등", "섬광등", "전등", "신호등", "랭음극형광등",
+    "급섬광등", "착신등", "집어등", "교통신호등",
+    "등불", "등대", "등산", "등장", "등급", "등록", "등에", "등으로",
+    "홍등가",
+    "벌등", "개등", "세등", "계혈등", "임금등", "기준등", "네개등",
+    "한등", "뢰공등", "립식전등", "련결등", "신용등", "풍력등",
+    "초불등",
+}
+
+TTAE_NOSPLIT = {
+    "제때", "제때에", "제때로", "한때", "그때", "이때", "그때부터",
+    "때때로", "때때", "때아닌", "때이른",
+    "점심때", "아침때", "저녁때", "밤때",
+    "명절때", "명절때는",
+    "단오때", "추석때", "설때",
+    "당나라때", "조선때", "고려때",
+    "본때", "본때를", "본때가",
+    "가뭄때", "침수때", "지진때", "전쟁때", "홍수때",
+    "결혼때", "혼례때", "회의때", "의식때",
+    "때때로", "때때",
+}
+
+CHEOK_NOSPLIT = {
+    "수척하다", "수척하고", "수척한",
+    "간척하다", "간척하고", "간척한",
+    "배척하다", "배척하고", "배척한",
+    "개척하다", "개척하고", "개척한",
+    "질척질척", "질척질척한",
+    "부척", "인척", "혈척",
+}
+
+GE_NOSPLIT = {
+    "이렇게", "그렇게", "저렇게", "어떻게",
+    "길게", "짧게", "크게", "작게", "많게", "적게",
+    "높게", "낮게", "넓게", "좁게", "깊게", "얕게",
+    "쉽게", "어렵게", "빠르게", "느리게",
+    "좋게", "나쁘게", "강하게", "약하게",
+    "가게", "가게에", "가게를",
+    "에게", "에게서", "에게로",
+    "하게", "못하게", "않게",
+    "지나치게", "급하게", "엄격하게", "겸손하게",
+    "즐겁게", "슬프게", "기쁘게", "아프게",
+    "리롭게", "해롭게",
+    "어지럽게", "세차게", "곧게",
+    "모르게", "알게", "맞게",
+    "밝게", "어둡게", "뜨겁게", "차갑게",
+    "예쁘게", "아름답게", "깨끗하게", "정확하게",
+    "조용하게", "시끄럽게", "똑똑하게", "똑같게",
+    "다르게", "같게", "새롭게", "오래게",
+    "게으르게", "부지런하게",
+    "적극적으로", "소극적으로",
+    "게시판", "게임", "게이트",
+}
+
+TTAWI_NOSPLIT = {
+    "따위따위",
+}
+
+SAI_NOSPLIT = {
+    "일사이", "제사이", "이사이", "그사이",
+    "사이사이", "사이버",
+    "갈비대사이",
+}
+
+GAUNDE_NOSPLIT = {
+    "한가운데", "가운데", "한가운데서",
+    "사람가운데", "것가운데", "곳가운데", "땅가운데",
+    "집가운데", "물가운데", "산가운데", "길가운데",
+    "또래가운데", "세계가운데", "국민소득가운데",
+}
+
+AN_NOSPLIT = {
+    "집안", "집안에", "집안의", "집안이", "집안을", "집안에서",
+    "방안", "방안에", "방안의", "방안을", "방안으로",
+    "해안", "해안에", "해안의", "해안을", "해안으로",
+    "평안", "평안하게", "평안한", "평안히",
+    "편안", "편안하게", "편안한", "편안히",
+    "불안", "불안하게", "불안한", "불안해",
+    "미안", "미안하게", "미안한", "미안해",
+    "위안", "위안을", "위안이", "위안으로",
+    "동안", "동안에", "동안의",
+    "한동안", "오래동안", "한참동안", "시간동안", "며칠동안",
+    "껴안", "껴안고", "껴안아", "껴안은",
+    "끌어안", "끌어안고", "끌어안아",
+    "안경", "안내", "안전", "안정", "안주", "안방", "안쪽",
+    "답안", "답안을", "답안이",
+    "육안", "육안으로", "육안에",
+    "로안", "수로안", "룡안", "립안", "관광안",
+    "문안", "문안으로", "문안에",
+    "돋보기안", "아침안",
+    "안개", "안과", "안기다", "안도", "안려", "안막", "안반",
+    "안부", "안색", "안심", "안약", "안양", "안은", "안입",
+}
+
+BAK_NOSPLIT = {
+    "뜻밖에", "뜻밖의", "뜻밖", "뜻밖이",
+    "예상밖", "예상밖으로", "예상밖의",
+    "생각밖", "생각밖이", "생각밖으로",
+    "밖으로", "밖에", "밖에서",
+    "밖의",
+    "범위밖", "규정밖",
 }
 
 
@@ -754,6 +885,173 @@ def generate_context_rules(text):
     # 문맥 확인 결과 "고하다" 패턴은 모두 단일어로 확인됨
 
     # 14. 모두 - 부사 (띄어쓰기 해당사항 없음)
+
+    # 15. 지 - 의존명사 (할지, 갈지, 볼지, 알지 등)
+    ji_dep_stems = ['할', '될', '있을', '없을', '갈', '볼', '알', '쓸', '칠', '먹을',
+                    '걸을', '탈', '받을', '만들', '줄', '놓을', '다닐', '살', '열', '팔',
+                    '뽑을', '고를', '고칠', '넣을', '지을', '지킬', '따를', '이길',
+                    '느낄', '바꿀', '뗄', '그릴', '누릴', '맡을', '외울', '일으킬',
+                    '읽을', '찾을', '닦을', '뛸', '부를', '지낼', '빚을', '깎을',
+                    '막을', '빼앗을', '깨울', '빨', '핥']
+    for stem in ji_dep_stems:
+        for suffix in ['지', '지도', '지만', '지를', '지가', '지는']:
+            orig = stem + suffix
+            base = stem + '지'
+            if orig in JI_NOSPLIT or base in JI_NOSPLIT:
+                continue
+            cnt = text.count(orig)
+            if cnt > 0:
+                add(orig, f"{stem} {suffix}", "지")
+
+    # 16. 는데 - 연결어미 vs 의존명사 구분
+    # "하는데", "있는데" 등은 대부분 연결어미(-ㄴ데) → 분리 불가
+    # 의존명사 "데"는 이미 규칙 3에서 처리됨
+    # 추가: "~기때문에" → "~기 때문에" 패턴
+    ttaemun_pattern = re.compile(r'([가-힣]+)기때문(에|으로|이다|이고)')
+    for m in ttaemun_pattern.finditer(text):
+        before = m.group(1)
+        suffix = m.group(2)
+        full = m.group(0)
+        add(full, f"{before}기 때문{suffix}", "때문")
+
+    # "~기때" → "~기 때" (의존명사)
+    ttae_gi_pattern = re.compile(r'([가-힣]+)기때(에|는|도|부터|까지|의|를|가|에도)')
+    for m in ttae_gi_pattern.finditer(text):
+        before = m.group(1)
+        suffix = m.group(2)
+        full = m.group(0)
+        base = before + '기때'
+        if base in TTAE_NOSPLIT or full in TTAE_NOSPLIT:
+            continue
+        add(full, f"{before}기 때{suffix}", "때")
+
+    # 17. 등 - 의존명사/조사 (명사+등)
+    deung_dep_pattern = re.compile(r'([가-힣]{2,})등(?:이|가|의|에|을|는|도|만|으로|과|와)?')
+    for m in deung_dep_pattern.finditer(text):
+        before = m.group(1)
+        full = m.group(0)
+        base = before + '등'
+        if base in DEUNG_NOSPLIT or full in DEUNG_NOSPLIT:
+            continue
+        if before in DEUNG_NOSPLIT:
+            continue
+        suffix = full[len(base):]
+        add(full, f"{before} 등{suffix}", "등")
+
+    # 18. 때 - 의존명사 (관형사형+때)
+    ttae_dep_stems = ['좋을', '나쁜', '힘든', '어려운', '쉬운', '편한', '불편한',
+                      '즐거운', '슬픈', '기쁜', '아픈', '배고픈', '지친', '피곤한',
+                      '한가한', '바쁜', '외로운', '궂은', '절실한', '급한', '위급한',
+                      '적절한', '부적절한', '필요한', '중요한', '결정적', '위대한',
+                      '할', '갈', '볼', '알', '쓸', '먹을', '다닐', '살', '읽을',
+                      '만들', '배울', '놀', '쉴', '지낼']
+    for stem in ttae_dep_stems:
+        for suffix in ['때', '때에', '때는', '때도', '때부터', '때까지', '때의', '때를', '때가']:
+            orig = stem + suffix
+            base = stem + '때'
+            if orig in TTAE_NOSPLIT or base in TTAE_NOSPLIT:
+                continue
+            cnt = text.count(orig)
+            if cnt > 0:
+                add(orig, f"{stem} {suffix}", "때")
+
+    # 19. 척하다 - 의존명사 (아는척하다 → 아는 척하다)
+    cheok_dep_stems = ['아는', '모르는', '없는', '있는', '듣지', '보지', '알면서',
+                       '모르면서', '아무렇지', '괜찮은', '편안한', '슬픈', '기쁜']
+    for stem in cheok_dep_stems:
+        for suffix in ['척하다', '척하고', '척하여', '척한', '척했다', '척했다가']:
+            orig = stem + suffix
+            base = stem + '척'
+            if orig in CHEOK_NOSPLIT or base in CHEOK_NOSPLIT:
+                continue
+            cnt = text.count(orig)
+            if cnt > 0:
+                add(orig, f"{stem} {suffix}", "척하다")
+
+    # 20. 게 - 의존명사 (할게, 될게 등 - 매우 제한적)
+    # 주의: 대부분의 "~게"는 부사형 어미이므로 분리 불가
+    # 오직 의존명사 "게" 패턴만 처리: "~ㄹ게", "~ㄹ게요"
+    ge_dep_stems = ['할', '될', '갈', '볼', '알', '쓸', '칠', '먹을', '만들', '줄']
+    for stem in ge_dep_stems:
+        for suffix in ['게', '게요', '게나']:
+            orig = stem + suffix
+            base = stem + '게'
+            if orig in GE_NOSPLIT or base in GE_NOSPLIT:
+                continue
+            cnt = text.count(orig)
+            if cnt > 0:
+                add(orig, f"{stem} {suffix}", "게")
+
+    # 21. 따위 - 의존명사 (명사+따위)
+    ttawi_dep_pattern = re.compile(r'([가-힣]{2,})따위(?:의|가|는|를|이|에|도|만|과|와)?')
+    for m in ttawi_dep_pattern.finditer(text):
+        before = m.group(1)
+        full = m.group(0)
+        base = before + '따위'
+        if base in TTAWI_NOSPLIT or full in TTAWI_NOSPLIT:
+            continue
+        suffix = full[len(base):]
+        add(full, f"{before} 따위{suffix}", "따위")
+
+    # 22. 사이 - 의존명사 (명사+사이)
+    sai_dep_pattern = re.compile(r'([가-힣]{2,})사이(?:에|의|에서|로|가|는|를|이|도|만|과|와)?')
+    for m in sai_dep_pattern.finditer(text):
+        before = m.group(1)
+        full = m.group(0)
+        base = before + '사이'
+        if base in SAI_NOSPLIT or full in SAI_NOSPLIT:
+            continue
+        if before in SAI_NOSPLIT:
+            continue
+        suffix = full[len(base):]
+        add(full, f"{before} 사이{suffix}", "사이")
+
+    # 23. 가운데 - 의존명사 (명사+가운데)
+    gaunde_dep_pattern = re.compile(r'([가-힣]{2,})가운데(?:서|에|의|로|가|는|를|이|도|만)?')
+    for m in gaunde_dep_pattern.finditer(text):
+        before = m.group(1)
+        full = m.group(0)
+        base = before + '가운데'
+        if base in GAUNDE_NOSPLIT or full in GAUNDE_NOSPLIT:
+            continue
+        suffix = full[len(base):]
+        add(full, f"{before} 가운데{suffix}", "가운데")
+
+    # 24. 안 - 방위 의존명사 (명사+안 → 명사 안)
+    # 주의: "집안", "방안", "해안" 등은 복합명사
+    # 의존명사 "안"은 제한적으로만 적용
+    an_dep_stems = ['마음', '품', '가슴', '품안', '세상', '나라', '울타리']
+    for stem in an_dep_stems:
+        for suffix in ['안', '안에', '안으로', '안에서', '안의', '안도']:
+            orig = stem + suffix
+            base = stem + '안'
+            if orig in AN_NOSPLIT or base in AN_NOSPLIT:
+                continue
+            cnt = text.count(orig)
+            if cnt > 0:
+                add(orig, f"{stem} {suffix}", "안")
+
+    # 25. 밖 - 방위 의존명사 (명사+밖 → 명사 밖)
+    bak_dep_stems = ['문', '집', '나라', '마을', '도시', '학교', '회사', '산']
+    for stem in bak_dep_stems:
+        for suffix in ['밖', '밖에', '밖으로', '밖에서', '밖의']:
+            orig = stem + suffix
+            base = stem + '밖'
+            if orig in BAK_NOSPLIT or base in BAK_NOSPLIT:
+                continue
+            cnt = text.count(orig)
+            if cnt > 0:
+                add(orig, f"{stem} {suffix}", "밖")
+
+    # 26. 수밖에 - 의존명사 (할수밖에 → 할 수밖에)
+    subak_pattern = re.compile(r'([가-힣]+)수밖에')
+    for m in subak_pattern.finditer(text):
+        before = m.group(1)
+        full = m.group(0)
+        base = before + '수'
+        if base in SU_NOSPLIT:
+            continue
+        add(full, f"{before} 수밖에", "수밖에")
 
     return changes
 

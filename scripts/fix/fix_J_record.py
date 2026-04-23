@@ -86,6 +86,10 @@ CHUK_NOSPLIT = {
 
 ISANG_NOSPLIT = {"이상", "이상의", "이상으로", "이상하다", "이상하게", "이상한", "정상이상", "비정상이상"}
 MIT_NOSPLIT = {"밑", "밑바닥", "밑면", "밑부분", "밑천"}
+AP_NOSPLIT = {"앞날", "앞으로", "앞서", "앞뒤", "앞문", "앞길", "앞장", "앞니", "앞발", "앞다리", "앞머리", "앞바다", "앞바람", "앞뒤", "앞쪽", "앞부분", "앞사람", "앞뒤로", "앞으로서", "앞에서", "앞에", "앞의"}
+GE_NOSPLIT = {"게다가", "게으르다", "게으름", "게시판", "게임", "게으른", "게을러", "게을리", "장게", "게시", "게재", "게르만", "게릴라", "게이트", "게르마늄", "훈계게", "총계게", "통계게"}
+DEUT_NOSPLIT = {"반듯", "반듯이", "빠듯", "빠듯이", "여느듯", "그듯", "가득듯", "오직듯", "마치듯", "함듯", "듯이", "듯하다", "듯싶다", "인듯", "듯이", "만듯", "같은듯", "하는듯", "있는듯", "없는듯"}
+CHARYE_NOSPLIT = {"차례차례", "차례대로", "이차례", "삼차례", "첫차례", "다음차례", "뒷차례", "차례로", "차례차례로"}
 
 DEUNG_NOSPLIT = {
     "균등", "고등", "강등", "상등", "대등", "초등", "일등", "발등",
@@ -763,6 +767,8 @@ def apply_text_corrections(text):
         ("대로", DAERO_NOSPLIT, 2),
         ("만큼", MANKEUM_NOSPLIT, 2),
         ("중", JUNG_NOSPLIT, 1),
+        ("앞", AP_NOSPLIT, 1),
+        ("게", GE_NOSPLIT, 1),
     ]:
         pattern = re.compile(r'([가-힣]+' + cat + r')')
         for word, cnt in Counter(pattern.findall(text)).most_common(500):
@@ -777,6 +783,14 @@ def apply_text_corrections(text):
                 if word[-2:] in ("는데", "은데", "던데", "는데"):
                     continue
                 if re.search(r'(하|는|은|던|었|였|았)는데$', word):
+                    continue
+            if cat == "앞" and len(word) >= 3:
+                if re.search(r'앞(으로|서|에|의|에서|쪽|길|날|문|발|니|바다|바람|머리|다리|장|뒤|부분|사람|고)', word):
+                    continue
+            if cat == "게" and len(word) >= 3:
+                if re.search(r'게(다가|으르|으름|으른|을러|을리|시판|임|시|재|르만|릴라|이트|르마늄)', word):
+                    continue
+                if not re.search(r'[할될있을없을갈볼알쓸칠먹을걸을탈받을만들줄놓을다닐살열팔는은던]게$', word):
                     continue
             stem = word[:-suffix_len]
             add(word, f"{stem} {cat}", cat)
@@ -808,8 +822,6 @@ def apply_text_corrections(text):
             continue
         add(word, f"{word[:-1]} 줄", "줄")
 
-    DEUT_NOSPLIT = {"반듯", "반듯이", "빠듯", "빠듯이", "여느듯", "그듯", "가득듯"}
-    CHARYE_NOSPLIT = {"차례차례", "차례대로", "이차례", "삼차례", "첫차례"}
     for cat, suffix_len, nosplit in [("듯", 1, DEUT_NOSPLIT), ("차례", 2, CHARYE_NOSPLIT), ("무렵", 2, set())]:
         pattern = re.compile(r'([가-힣]+' + cat + r')')
         for word, cnt in Counter(pattern.findall(text)).most_common(200):
