@@ -229,6 +229,37 @@ HA_NOSPLIT = {
 
 GAT_NOSPLIT = {"똑같다","똑같이","똑같은","마찬가지로","같이","같은","같다"}
 
+GAUNDE_NOSPLIT = {
+    "가운데","한가운데","그가운데","이가운데","저가운데",
+    "사람가운데","학생가운데","것가운데","곳가운데","땅가운데",
+    "집가운데","물가운데","산가운데","길가운데","또래가운데",
+    "세계가운데","국민소득가운데","도시가운데","마을가운데",
+    "숲가운데","바다가운데","방가운데","운동장가운데","광장가운데",
+    "군중가운데","아이가운데","여성가운데","남성가운데","노인가운데",
+    "청년가운데","학자가운데","직원가운데","시민가운데","국민가운데",
+    "동료가운데","친구가운데","가족가운데","이웃가운데","형제가운데",
+}
+
+BAKK_NOSPLIT = {
+    "바깥","바깥쪽","바깥으로","밖","밖으로",
+}
+
+AN_NOSPLIT = {
+    "집안","방안","실내","안방","안쪽","안골","안마당","안뜰","안채",
+    "안팎","안으로","안에",
+    "안정","안전","안심","안녕","안내","안부","안착","안료",
+    "수안","편안","평안","대안","편안하다","평안하다",
+}
+
+DWI_NOSPLIT = {
+    "뒤","뒤로","뒤에","뒤에서","뒤로부터","뒷문","뒷마당","뒷모습","뒷산",
+    "뒷방","뒷골목","뒷편","뒷전","뒷일","뒷맛","뒷걸음","뒷발",
+    "앞뒤","뒤바뀌다","뒤바뀐","뒤따르다","뒤따라","뒤쫓다",
+    "여드레","사흘뒤","나흘뒤","이틀뒤","며칠뒤","한달뒤","일주일뒤",
+}
+
+BOTH_FORMS_DEP_NOUNS = {"줄","대로","상","가운데","밖","안","등","뒤"}
+
 def file_hash(filepath):
     h = hashlib.sha256()
     with open(filepath, 'rb') as f:
@@ -505,8 +536,8 @@ def apply_text_corrections(text):
 
     for cat, nosplit, suffix_len in [
         ("이상", ISANG_NOSPLIT, 2), ("이하", IHA_NOSPLIT, 2), ("밑", MIT_NOSPLIT, 1),
-        ("등", DEUNG_NOSPLIT, 1), ("때", TTE_NOSPLIT, 1), ("때문", TTAE_MUN_NOSPLIT, 2),
-        ("번", BEON_NOSPLIT, 1), ("데", DE_NOSPLIT, 1), ("대로", DAERO_NOSPLIT, 2),
+        ("때", TTE_NOSPLIT, 1), ("때문", TTAE_MUN_NOSPLIT, 2),
+        ("번", BEON_NOSPLIT, 1), ("데", DE_NOSPLIT, 1),
         ("만큼", MANKEUM_NOSPLIT, 2), ("중", JUNG_NOSPLIT, 1),
     ]:
         pattern = re.compile(r'([가-힣]+' + cat + r')')
@@ -535,23 +566,6 @@ def apply_text_corrections(text):
             stem = word[:-1]
             add(word, f"{stem} 하", "하(방향)")
             continue
-
-    jul_pattern = re.compile(r'([가-힣]+줄)')
-    for word, cnt in Counter(jul_pattern.findall(text)).most_common(500):
-        if word == '줄' or word in JUL_NOSPLIT:
-            continue
-        if re.search(r'[는은던할갈볼알줄]줄$', word):
-            continue
-        if word.endswith('줄') and len(word) >= 3:
-            before = word[:-1]
-            last_code = ord(before[-1])
-            if 0xAC00 <= last_code <= 0xD7A3:
-                jongseong = (last_code - 0xAC00) % 28
-                if jongseong > 0:
-                    continue
-        if re.search(r'(닻|불|태|시계|비|견|버팀|포승|미역|이음|해|땅우)줄$', word):
-            continue
-        add(word, f"{word[:-1]} 줄", "줄")
 
     DEUT_NOSPLIT = {"반듯","반듯이","빠듯","빠듯이","여느듯","그듯","가득듯"}
     CHARYE_NOSPLIT = {"차례차례","차례대로","이차례","삼차례","첫차례"}
@@ -671,17 +685,22 @@ def apply_dependent_noun_inspection(text):
         "이상": (r'([가-힣]{2,6}이상)', ISANG_NOSPLIT, 2, None),
         "이하": (r'([가-힣]{2,6}이하)', IHA_NOSPLIT, 2, None),
         "척": (r'([가-힣]{2,6}척)', CHUK_NOSPLIT, 1, None),
-        "상": (r'([가-힣]{2,6}상)', SANG_NOSPLIT, 1, None),
+        "상": (r'([가-힣]{2,6}상)', SANG_NOSPLIT, 1, "exclude_isang_iha"),
         "우": (r'([가-힣]{2,6}우)', U_NOSPLIT, 1, None),
         "줄": (r'([가-힣]{2,6}줄)', JUL_NOSPLIT, 1, "modifier_check"),
         "바": (r'([가-힣]{2,6}바)', BA_NOSPLIT, 1, "modifier_check"),
         "터": (r'([가-힣]{2,6}터)', TEO_NOSPLIT, 1, None),
         "채": (r'([가-힣]{2,6}채)', CHAE_NOSPLIT, 1, None),
-        "데": (r'([가-힣]{2,6}데)', DE_NOSPLIT, 1, None),
+        "데": (r'([가-힣]{2,6}데)', DE_NOSPLIT, 1, "exclude_gaunde"),
         "뿐": (r'([가-힣]{2,6}뿐)', PPUN_NOSPLIT, 1, None),
         "따위": (r'([가-힣]{2,6}따위)', TTAWI_NOSPLIT, 2, None),
         "사이": (r'([가-힣]{2,6}사이)', SAI_NOSPLIT, 2, None),
+        "가운데": (r'([가-힣]{2,6}가운데)', GAUNDE_NOSPLIT, 3, None),
+        "밖": (r'([가-힣]{1,6}밖)', BAKK_NOSPLIT, 1, None),
+        "안": (r'([가-힣]{1,6}안)', AN_NOSPLIT, 1, None),
+        "뒤": (r'([가-힣]{1,6}뒤)', DWI_NOSPLIT, 1, None),
     }
+    both_forms_results = {}
     for noun, (pat, nosplit, slen, check) in dep_noun_patterns.items():
         pattern = re.compile(pat)
         found = Counter(pattern.findall(text)).most_common(100)
@@ -693,10 +712,17 @@ def apply_dependent_noun_inspection(text):
                 continue
             if check == "modifier_check" and not _has_modifier_ending(word, slen):
                 continue
+            if check == "exclude_isang_iha" and (word.endswith("이상") or word.endswith("이하")):
+                continue
+            if check == "exclude_gaunde" and word.endswith("가운데"):
+                continue
             spaced_ver = word[:-slen] + " " + word[-slen:]
             attached.append((word, spaced_ver, cnt))
-        results[noun] = attached
-    return results
+        if noun in BOTH_FORMS_DEP_NOUNS:
+            both_forms_results[noun] = attached
+        else:
+            results[noun] = attached
+    return results, both_forms_results
 
 def build_all_rules(text, use_regex=True):
     china_rules = load_china_place_rules()

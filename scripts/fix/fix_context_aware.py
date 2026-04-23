@@ -16,8 +16,8 @@ if sys.platform == 'win32':
 PY312 = r"C:\Users\doris\AppData\Local\Programs\Python\Python312\python.exe"
 
 FILES = {
-    "J": r"C:\Users\doris\Desktop\新词典\【大中朝 14】J 1419-1693--275--20240920_original_copy.hwp",
-    "L": r"C:\Users\doris\Desktop\【大中朝 16】L 1787-1958--172--20240920.hwp",
+    "J": r"C:\Users\doris\Desktop\新词典\【大中朝 14】J 1419-1693--275--20240920.hwp",
+    "L": r"C:\Users\doris\Desktop\新词典\【大中朝 16】L 1787-1958--172--20240920.hwp",
 }
 
 OUT_DIR = r"c:\Users\doris\.agent-skills\output"
@@ -392,6 +392,13 @@ JUNG_NOSPLIT = {
     "극중", "극중의", "극중에",
     "전중", "전중을", "전중에",
     "주중", "야중",
+    "애지중", "애지중지", "고대중", "별자리중", "공기중", "마약중",
+    "첨가중", "전용기중", "정미중", "정하중", "국외중",
+    "권토중", "동종중", "단독중", "나무쪼각중", "중얼중",
+    "근간중", "기본군중", "일반중", "즉발중",
+    "공기중의", "공기중에", "마약중의", "마약중에",
+    "별자리중의", "별자리중에", "고대중의", "고대중에",
+    "첨가중의", "첨가중에", "정미중의", "정미중에",
 }
 
 ISANG_NOSPLIT = {"이상", "이상의", "이상으로", "이상하다", "이상하게", "이상한", "정상이상", "비정상이상"}
@@ -528,7 +535,7 @@ GAUNDE_NOSPLIT = {
 }
 
 AN_NOSPLIT = {
-    "집안", "집안에", "집안의", "집안이", "집안을", "집안에서",
+    "집안", "집안에", "집안의", "집안이", "집안을", "집안에서", "집안으로",
     "방안", "방안에", "방안의", "방안을", "방안으로",
     "해안", "해안에", "해안의", "해안을", "해안으로",
     "평안", "평안하게", "평안한", "평안히",
@@ -538,16 +545,24 @@ AN_NOSPLIT = {
     "위안", "위안을", "위안이", "위안으로",
     "동안", "동안에", "동안의",
     "한동안", "오래동안", "한참동안", "시간동안", "며칠동안",
+    "십년동안", "몇해동안", "년동안", "러해동안", "몇년동안",
     "껴안", "껴안고", "껴안아", "껴안은",
     "끌어안", "끌어안고", "끌어안아",
     "안경", "안내", "안전", "안정", "안주", "안방", "안쪽",
-    "답안", "답안을", "답안이",
+    "답안", "답안을", "답안이", "시험답안",
     "육안", "육안으로", "육안에",
     "로안", "수로안", "룡안", "립안", "관광안",
     "문안", "문안으로", "문안에",
     "돋보기안", "아침안",
     "안개", "안과", "안기다", "안도", "안려", "안막", "안반",
     "안부", "안색", "안심", "안약", "안양", "안은", "안입",
+    "연안", "현안", "공안", "의안", "검안", "제안", "강안", "보안",
+    "감안", "단안", "준안", "묘안", "장안", "술안", "왕안", "근시안",
+    "가나안", "강의안", "연산방안", "한집안",
+    "방안", "품안", "강연안", "병문안", "계선안",
+    "한어병음방안", "창고안", "보이라원통안", "둥지안",
+    "철도보안", "다이야", "가씨집", "분자안", "나무틀안", "상자안", "식당안",
+    "한해동안", "잠간동안", "교실안",
 }
 
 BAK_NOSPLIT = {
@@ -556,7 +571,8 @@ BAK_NOSPLIT = {
     "생각밖", "생각밖이", "생각밖으로",
     "밖으로", "밖에", "밖에서",
     "밖의",
-    "범위밖", "규정밖",
+    "범위밖", "규정밖", "상식밖", "기준밖", "선밖",
+    "수밖에", "수밖에는",
 }
 
 
@@ -849,6 +865,19 @@ def generate_context_rules(text):
             continue
         add(full, f"{before} {jung_suffix}", "중")
 
+    # 중 - 넓은 패턴 (2글자 이상 명사+중+조사)
+    jung_wide_pattern = re.compile(r'([가-힣]{2,})중(에|에서|의|인|이|을|은|도|만|으로)')
+    for m in jung_wide_pattern.finditer(text):
+        before = m.group(1)
+        suffix = m.group(2)
+        full = m.group(0)
+        base = before + '중'
+        if base in JUNG_NOSPLIT or full in JUNG_NOSPLIT:
+            continue
+        if before in JUNG_NOSPLIT:
+            continue
+        add(full, f"{before} 중{suffix}", "중")
+
     # 10. 앞 - 의존명사
     ap_dep_stems = ['하는', '한', '있는', '선', '나선', '앞장선']
     for stem in ap_dep_stems:
@@ -1020,9 +1049,11 @@ def generate_context_rules(text):
     # 24. 안 - 방위 의존명사 (명사+안 → 명사 안)
     # 주의: "집안", "방안", "해안" 등은 복합명사
     # 의존명사 "안"은 제한적으로만 적용
-    an_dep_stems = ['마음', '품', '가슴', '품안', '세상', '나라', '울타리']
+    an_dep_stems = ['마음', '품', '가슴', '세상', '나라', '울타리',
+                    '우물', '산', '들', '숲', '동굴', '성', '궁',
+                    '감옥', '울', '담', '장벽', '토성', '보루']
     for stem in an_dep_stems:
-        for suffix in ['안', '안에', '안으로', '안에서', '안의', '안도']:
+        for suffix in ['안', '안에', '안으로', '안에서', '안의', '안도', '안만']:
             orig = stem + suffix
             base = stem + '안'
             if orig in AN_NOSPLIT or base in AN_NOSPLIT:
@@ -1031,10 +1062,24 @@ def generate_context_rules(text):
             if cnt > 0:
                 add(orig, f"{stem} {suffix}", "안")
 
+    # 안 - 넓은 패턴 (2글자 이상 명사+안)
+    an_dep_pattern = re.compile(r'([가-힣]{2,})안(에|으로|에서|의|도|만|이|을|은)')
+    for m in an_dep_pattern.finditer(text):
+        before = m.group(1)
+        suffix = m.group(2)
+        full = m.group(0)
+        base = before + '안'
+        if base in AN_NOSPLIT or full in AN_NOSPLIT:
+            continue
+        if before in AN_NOSPLIT:
+            continue
+        add(full, f"{before} 안{suffix}", "안")
+
     # 25. 밖 - 방위 의존명사 (명사+밖 → 명사 밖)
-    bak_dep_stems = ['문', '집', '나라', '마을', '도시', '학교', '회사', '산']
+    bak_dep_stems = ['문', '집', '나라', '마을', '도시', '학교', '회사', '산',
+                     '창', '벽', '궁', '감옥', '동구', '성', '담', '울타리']
     for stem in bak_dep_stems:
-        for suffix in ['밖', '밖에', '밖으로', '밖에서', '밖의']:
+        for suffix in ['밖', '밖에', '밖으로', '밖에서', '밖의', '밖도', '밖만']:
             orig = stem + suffix
             base = stem + '밖'
             if orig in BAK_NOSPLIT or base in BAK_NOSPLIT:
@@ -1042,6 +1087,22 @@ def generate_context_rules(text):
             cnt = text.count(orig)
             if cnt > 0:
                 add(orig, f"{stem} {suffix}", "밖")
+
+    # 밖 - 넓은 패턴 (2글자 이상 명사+밖)
+    # 주의: "수밖에"는 별도 규칙(26번)에서 처리
+    bak_dep_pattern = re.compile(r'([가-힣]{2,})밖(에|으로|에서|의|도|만|이|을|은)')
+    for m in bak_dep_pattern.finditer(text):
+        before = m.group(1)
+        suffix = m.group(2)
+        full = m.group(0)
+        base = before + '밖'
+        if base in BAK_NOSPLIT or full in BAK_NOSPLIT:
+            continue
+        if before in BAK_NOSPLIT:
+            continue
+        if before.endswith('수'):
+            continue
+        add(full, f"{before} 밖{suffix}", "밖")
 
     # 26. 수밖에 - 의존명사 (할수밖에 → 할 수밖에)
     subak_pattern = re.compile(r'([가-힣]+)수밖에')

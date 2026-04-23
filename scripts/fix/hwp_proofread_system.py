@@ -5,12 +5,12 @@ from collections import Counter, defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from hwp_proofread_lib import (
     extract_text, build_all_rules, process_hwp_binary,
-    apply_dependent_noun_inspection, file_hash
+    apply_dependent_noun_inspection, file_hash, BOTH_FORMS_DEP_NOUNS
 )
 
 FILE_CONFIGS = {
     "J": {
-        "src": r"C:\Users\doris\Desktop\新词典\【大中朝 14】J 1419-1693--275-20240920_original_copy.hwp",
+        "src": r"C:\Users\doris\Desktop\新词典\【大中朝 14】J 1419-1693--275--20240920_original_copy.hwp",
         "out_dir": r"C:\Users\doris\Desktop\WORD",
         "out_name": "【大中朝 14】J 1419-1693--275-최종v5.hwp",
     },
@@ -60,12 +60,17 @@ def run_correction(label, src_path, out_path, log_lines):
     for k, v in rule_stats.items():
         log(f"    {k}: {v}")
 
-    dep_results = apply_dependent_noun_inspection(text)
+    dep_results, both_forms_results = apply_dependent_noun_inspection(text)
     total_dep = sum(len(v) for v in dep_results.values())
+    total_both = sum(len(v) for v in both_forms_results.values())
     log(f"  의존명사 검사 결과: {total_dep}건 발견")
     for noun, items in dep_results.items():
         if items:
             log(f"    {noun}: {len(items)}건")
+    log(f"  양쪽가능 의존명사: {total_both}건 (자동교정 제외)")
+    for noun, items in both_forms_results.items():
+        if items:
+            log(f"    {noun}(양쪽가능): {len(items)}건")
 
     log(f"\n  [3/4] HWP 바이너리 교정 중...")
     result_path, change_log, total_changes = process_hwp_binary(
