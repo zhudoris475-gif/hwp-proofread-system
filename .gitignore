@@ -65,3 +65,7 @@ train_output/
 *.bin
 *.pt
 *.safetensors
+
+# HWP backup files
+P_원본_백업_*.hwp
+*_교정본.hwp
