@@ -121,6 +121,8 @@ DE_NOSPLIT = {
     "한가운데서", "한가운데에",
     "데구르르", "데굴데굴", "데미지", "데시벨",
     "데탕트", "데투라", "데우다", "데워",
+    "있는데", "없는데", "한데", "많은데", "적은데", "좋은데", "어떤데",
+    "그런데", "이런데", "저런데", "어느데", "어디데",
 }
 
 SANG_DIR_NOSPLIT = {
@@ -456,6 +458,7 @@ JI_NOSPLIT = {
     "지구", "지도", "지역", "지점", "지방", "지진", "지식", "지위",
     "지배", "지시", "지속", "지연", "지원", "지정", "지출",
     "지리", "지름", "지붕", "지폐", "지해", "지형",
+    "간지", "산지", "한지", "고장지", "생산지", "원산지", "발상지", "산지의", "산지는",
 }
 
 DEUNG_NOSPLIT = {
@@ -561,7 +564,7 @@ AN_NOSPLIT = {
     "가나안", "강의안", "연산방안", "한집안",
     "방안", "품안", "강연안", "병문안", "계선안",
     "한어병음방안", "창고안", "보이라원통안", "둥지안",
-    "철도보안", "다이야", "가씨집", "분자안", "나무틀안", "상자안", "식당안",
+    "철도보안", "다이야", "가씨집", "분자안", "나무틀안", "식당안",
     "한해동안", "잠간동안", "교실안",
 }
 
@@ -910,6 +913,27 @@ def generate_context_rules(text):
         if orig not in ISANG_NOSPLIT and orig not in IHA_NOSPLIT:
             add(orig, f"{num} {dep}", "이상/이하")
 
+    # 12b. 이상/이하 - 한글+이상/이하 (두가지이상, 두개이상, 둘이상 등)
+    # 주의: "~이하다" 복합동사 (돈벌이하다, 괴이하다 등)는 제외
+    isang_hangul_pattern = re.compile(r'([가-힣]+)(이상|이하)(은|이|을|으로|의|도|만|부터|까지|에서|에)?')
+    IHA_VERB_STEMS = {'돈벌', '괴', '매갈', '같', '머슴살', '되풀', '벼슬살', '들놀', '꿈풀', '분풀',
+                      '맞', '판', '가까', '유일무', '용', '기', '특', '간', '부득', '경',
+                      '놀', '살', '벌', '모', '갈', '풀', '살림', '장사', '놀이', '꽃'}
+    for m in isang_hangul_pattern.finditer(text):
+        before = m.group(1)
+        dep = m.group(2)
+        suffix = m.group(3) or ''
+        full = m.group(0)
+        if full in ISANG_NOSPLIT or full in IHA_NOSPLIT:
+            continue
+        if before + dep in ISANG_NOSPLIT or before + dep in IHA_NOSPLIT:
+            continue
+        if before in IHA_VERB_STEMS:
+            continue
+        if dep == '이하' and suffix in ('', None):
+            continue
+        add(full, f"{before} {dep}{suffix}", "이상/이하")
+
     # 13. 고하다 - 모두 단일어 (견고하다, 경고하다 등) → 교정 불필요
     # 문맥 확인 결과 "고하다" 패턴은 모두 단일어로 확인됨
 
@@ -1012,7 +1036,7 @@ def generate_context_rules(text):
                 add(orig, f"{stem} {suffix}", "게")
 
     # 21. 따위 - 의존명사 (명사+따위)
-    ttawi_dep_pattern = re.compile(r'([가-힣]{2,})따위(?:의|가|는|를|이|에|도|만|과|와)?')
+    ttawi_dep_pattern = re.compile(r'([가-힣]{1,})따위(?:의|가|는|를|이|에|도|만|과|와)?')
     for m in ttawi_dep_pattern.finditer(text):
         before = m.group(1)
         full = m.group(0)
@@ -1023,7 +1047,7 @@ def generate_context_rules(text):
         add(full, f"{before} 따위{suffix}", "따위")
 
     # 22. 사이 - 의존명사 (명사+사이)
-    sai_dep_pattern = re.compile(r'([가-힣]{2,})사이(?:에|의|에서|로|가|는|를|이|도|만|과|와)?')
+    sai_dep_pattern = re.compile(r'([가-힣]{1,})사이(?:에|의|에서|로|가|는|를|이|도|만|과|와)?')
     for m in sai_dep_pattern.finditer(text):
         before = m.group(1)
         full = m.group(0)

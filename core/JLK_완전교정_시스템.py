@@ -81,7 +81,6 @@ SPACING_RULES = [
     ("친구사이", "친구 사이"), ("부부사이", "부부 사이"),
     ("이웃사이", "이웃 사이"), ("형제사이", "형제 사이"),
     ("학생가운데", "학생 가운데"), ("사람가운데", "사람 가운데"),
-    ("가운데서", "가운데 서"), ("한가운데서", "한가운데 서"),
     ("고하다", "고 하다"), ("고하였다", "고 하였다"), ("고합니다", "고 합니다"),
     ("고했다", "고 했다"), ("고하며", "고 하며"),
 ]
@@ -149,7 +148,7 @@ SPACING_NOSPLIT = {
     "뜻대로", "마음대로", "그대로",
     "중간", "중심", "중앙", "중요", "중세", "중단", "중계", "중복",
     "중순", "중량", "중년", "중국", "중학", "중독", "중상",
-    "가운데", "한가운데",
+    "가운데", "한가운데", "가운데서", "한가운데서",
     "앞날", "앞으로", "앞서", "앞뒤", "앞문", "앞길", "앞장",
     "앞니", "앞발", "앞다리", "앞머리", "앞바다", "앞바람", "앞쪽", "앞부분", "앞사람",
     "집안", "방안", "안방", "안쪽", "안전", "안정", "안내", "안녕", "안부", "안심",
@@ -268,12 +267,13 @@ class JLKProofreader:
 
         spacing_needed = []
         for src, dst in SPACING_RULES:
+            if src in SPACING_NOSPLIT:
+                continue
             skip = False
             for ns in SPACING_NOSPLIT:
-                if ns in src or src in ns:
-                    if text.count(ns) > 0 and ns != src:
-                        skip = True
-                        break
+                if ns != src and ns in src:
+                    skip = True
+                    break
             if skip:
                 continue
             cnt = text.count(src)
@@ -293,15 +293,33 @@ class JLKProofreader:
                 china_needed.append((src, dst, cnt))
 
         context_needed = []
+        context_expanded = []
+        CONTEXT_NOSPLIT_EXACT = {
+            "가운데", "한가운데", "가운데서", "한가운데서",
+            "집안", "집안에", "집안으로", "방안", "방안에", "방안으로",
+            "안방", "안쪽", "안전", "안정", "안내", "안녕", "안부", "안심",
+            "평안", "보안", "치안", "편안", "불안", "공안", "차안",
+            "바깥", "바깥쪽",
+            "사이좋다", "사이사이",
+            "뒷문", "뒷마당", "뒷산", "뒷모습", "뒷발", "뒷방", "뒷북", "뒷일",
+            "앞날", "앞으로", "앞서", "앞뒤", "앞문", "앞길", "앞장",
+        }
         for pattern, replacement in CONTEXT_SPACING_RULES:
-            matches = re.findall(pattern, text)
-            if matches:
-                if isinstance(replacement, str) and '\\' not in replacement:
-                    cnt = len(matches)
-                    context_needed.append((pattern, replacement, cnt, "정규식"))
-                else:
-                    cnt = len(matches)
-                    context_needed.append((pattern, replacement, cnt, "정규식"))
+            matches = list(re.finditer(pattern, text))
+            if not matches:
+                continue
+            cnt = len(matches)
+            context_needed.append((pattern, replacement, cnt, "정규식"))
+            for m in matches:
+                src = m.group(0)
+                dst = m.expand(replacement)
+                if src == dst:
+                    continue
+                if src in CONTEXT_NOSPLIT_EXACT:
+                    continue
+                if src in SPACING_NOSPLIT:
+                    continue
+                context_expanded.append((src, dst))
 
         return {
             "text_len": len(text),
@@ -311,6 +329,7 @@ class JLKProofreader:
             "quote_needed": quote_needed,
             "china_needed": china_needed,
             "context_needed": context_needed,
+            "context_expanded": context_expanded,
         }
 
     def proofread_file(self, label, work_path):
@@ -343,8 +362,9 @@ class JLKProofreader:
         all_fixes.extend(before['quote_needed'])
 
         context_fixes = before.get('context_needed', [])
+        context_expanded_fixes = before.get('context_expanded', [])
 
-        if not all_fixes and not context_fixes:
+        if not all_fixes and not context_fixes and not context_expanded_fixes:
             self.log(f"  수정 불필요 - 모든 규칙 이미 적용됨")
             self.all_results[label] = {"status": "no_change", "before": before, "after": before}
             return before
@@ -385,17 +405,21 @@ class JLKProofreader:
             self.log(f"\n  적용: {applied}종, 건너뜀: {skipped}종, 실패: {failed}종")
 
             context_applied = 0
-            for pattern, replacement, cnt, rtype in context_fixes:
-                if isinstance(replacement, str) and '\\' not in replacement:
-                    result = self.com_replace_all(hwp, pattern, replacement)
+            context_expanded = before.get('context_expanded', [])
+            if context_expanded:
+                self.log(f"\n  문맥띄어쓰기 교정 ({len(context_expanded)}건):")
+                seen = set()
+                for src, dst in context_expanded:
+                    if src in seen:
+                        continue
+                    seen.add(src)
+                    result = self.com_replace_all(hwp, src, dst)
                     if result:
                         context_applied += 1
-                        self.log(f"    [CTX-OK] '{pattern}' → '{replacement}' ({cnt}건)")
+                        self.log(f"    [CTX-OK] '{src}' → '{dst}'")
                     else:
-                        self.log(f"    [CTX-SKIP] '{pattern}' → '{replacement}'")
-                else:
-                    self.log(f"    [CTX-REGEX] '{pattern}' → 정규식교체 ({cnt}건) - 바이너리처리필요")
-                time.sleep(0.2)
+                        self.log(f"    [CTX-SKIP] '{src}' → '{dst}'")
+                    time.sleep(0.2)
 
             if context_applied > 0:
                 self.log(f"  문맥띄어쓰기 적용: {context_applied}종")
