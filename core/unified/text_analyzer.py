@@ -55,6 +55,10 @@ def generate_dependent_noun_rules(text):
         for word, cnt in Counter(pattern.findall(text)).most_common(500):
             if word in nosplit or word == cat:
                 continue
+            if cat == "데" and word.endswith("가운데"):
+                continue
+            if cat == "상" and (word.endswith("이상") or word.endswith("이하")):
+                continue
             if cat == "안" and len(word) >= 3:
                 if re.search(r'안(으로|에|서|의|쪽|방|전|정|내|녕|부|심|주|경|개|과|기|락|마|반|벽|색|성|약|양|입|장|중|치|태|팎|해|흥|전한|전하게|정적|정되)', word):
                     continue
