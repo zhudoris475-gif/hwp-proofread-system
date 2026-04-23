@@ -20,7 +20,30 @@ from .noise_filter import (
 )
 from .change_detector import classify_entry, is_valid_korean_word
 from .config import Config
-from .spacing_rules import SpacingCorrector
+from .spacing_rules import (
+    SpacingCorrector,
+    BOTH_FORMS_DEP_NOUNS,
+    apply_dependent_noun_inspection,
+    apply_text_corrections,
+    build_all_rules,
+    process_hwp_binary,
+    parse_records,
+    rebuild_stream,
+    extract_text_from_records,
+    load_china_place_rules,
+    parse_txt_rules,
+    parse_regex_rules,
+    generate_dynamic_nara_rules,
+    file_hash,
+    GEOT_NOSPLIT, SU_NOSPLIT, TTAWI_NOSPLIT, SAI_NOSPLIT, PPUN_NOSPLIT,
+    CHUK_NOSPLIT, ISANG_NOSPLIT, MIT_NOSPLIT, AP_NOSPLIT, GE_NOSPLIT,
+    DEUT_NOSPLIT, CHARYE_NOSPLIT, GAWUNDE_NOSPLIT, AN_NOSPLIT, BAK_NOSPLIT,
+    DWI_NOSPLIT, GAUNDE_NOSPLIT, BAKK_NOSPLIT, AN_NOSPLIT_NEW, DWI_NOSPLIT_NEW,
+    DEUNG_NOSPLIT, TTE_NOSPLIT, TTAE_MUN_NOSPLIT, BEON_NOSPLIT, DE_NOSPLIT,
+    DAERO_NOSPLIT, MANKEUM_NOSPLIT, JUL_NOSPLIT, TEO_NOSPLIT, CHAE_NOSPLIT,
+    JEOK_NOSPLIT, JI_NOSPLIT, BA_NOSPLIT, IHA_NOSPLIT, SANG_NOSPLIT,
+    U_NOSPLIT, JUNG_NOSPLIT, GAT_NOSPLIT,
+)
 
 __all__ = [
     'COMMON_CHINESE', 'PINYIN_TONES', 'NOISE_WORDS', 'NOISE_PHRASES',
@@ -40,4 +63,25 @@ __all__ = [
     'classify_entry', 'is_valid_korean_word',
     'Config',
     'SpacingCorrector',
+    'BOTH_FORMS_DEP_NOUNS',
+    'apply_dependent_noun_inspection',
+    'apply_text_corrections',
+    'build_all_rules',
+    'process_hwp_binary',
+    'parse_records',
+    'rebuild_stream',
+    'extract_text_from_records',
+    'load_china_place_rules',
+    'parse_txt_rules',
+    'parse_regex_rules',
+    'generate_dynamic_nara_rules',
+    'file_hash',
+    'GEOT_NOSPLIT', 'SU_NOSPLIT', 'TTAWI_NOSPLIT', 'SAI_NOSPLIT', 'PPUN_NOSPLIT',
+    'CHUK_NOSPLIT', 'ISANG_NOSPLIT', 'MIT_NOSPLIT', 'AP_NOSPLIT', 'GE_NOSPLIT',
+    'DEUT_NOSPLIT', 'CHARYE_NOSPLIT', 'GAWUNDE_NOSPLIT', 'AN_NOSPLIT', 'BAK_NOSPLIT',
+    'DWI_NOSPLIT', 'GAUNDE_NOSPLIT', 'BAKK_NOSPLIT', 'AN_NOSPLIT_NEW', 'DWI_NOSPLIT_NEW',
+    'DEUNG_NOSPLIT', 'TTE_NOSPLIT', 'TTAE_MUN_NOSPLIT', 'BEON_NOSPLIT', 'DE_NOSPLIT',
+    'DAERO_NOSPLIT', 'MANKEUM_NOSPLIT', 'JUL_NOSPLIT', 'TEO_NOSPLIT', 'CHAE_NOSPLIT',
+    'JEOK_NOSPLIT', 'JI_NOSPLIT', 'BA_NOSPLIT', 'IHA_NOSPLIT', 'SANG_NOSPLIT',
+    'U_NOSPLIT', 'JUNG_NOSPLIT', 'GAT_NOSPLIT',
 ]
