@@ -2,11 +2,60 @@
 __pycache__/
 *.pyc
 *.pyo
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Logs (keep latest, ignore old)
-hwp_comparison_log_v*.txt
-!hwp_final_report_*.txt
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # OS
 Thumbs.db
 .DS_Store
+
+# Logs (keep latest, ignore old)
+hwp_comparison_log_v*.txt
+!hwp_final_report_*.txt
+*.log
+
+# Cache
+.cache/
+.modelscope/
+
+# Config (sensitive)
+config.local.md
+*.key
+*.pem
+
+# Agent Browser
+.agent-browser/
+
+# Test
+test_hwp/
