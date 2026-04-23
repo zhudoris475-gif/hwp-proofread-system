@@ -17,6 +17,8 @@ from hwp_proofread.hwp_io import (
 )
 from hwp_proofread.change_detector import classify_entry
 from hwp_proofread.config import Config
+from hwp_proofread.spacing_rules import SpacingCorrector
+from hwp_proofread.constants import DEPENDENT_NOUNS, DEPENDENT_NOUN_PHRASES, SPACING_RULES
 
 
 def run_compare(section_key, output_dir=None):
@@ -221,6 +223,85 @@ def run_system_test():
         print()
 
 
+def run_spacing(section_key, output_dir=None):
+    section = SECTIONS.get(section_key)
+    if not section:
+        print(f'알 수 없는 섹션: {section_key}')
+        print(f'사용 가능: {", ".join(SECTIONS.keys())}')
+        return
+
+    orig_path = section['orig']
+    label = section['label']
+
+    if not os.path.exists(orig_path):
+        print(f'원본 파일 없음: {orig_path}')
+        return
+
+    print(f'{"="*60}')
+    print(f'띄어쓰기 교정 분석 — {label}')
+    print(f'{"="*60}')
+
+    print('\n[1/3] BodyText 추출...')
+    raw = extract_bodytext_raw(orig_path)
+    print(f'  추출 텍스트: {len(raw)}자')
+
+    print('[2/3] 표제어 파싱...')
+    entries = parse_entries(raw)
+    print(f'  표제어 수: {len(entries)}개')
+
+    print('[3/3] 띄어쓰기 교정 적용...')
+    corrector = SpacingCorrector()
+    for heading, text in sorted(entries.items()):
+        corrector.correct_spacing(text, heading)
+
+    stats = corrector.get_stats()
+    print(f'\n  교정 통계:')
+    print(f'    총 변경: {stats["total_changes"]}건')
+    for rule, count in stats['by_rule'].items():
+        print(f'    {rule}: {count}건')
+
+    if output_dir:
+        report_path = os.path.join(output_dir, f'spacing_report_{section_key}.txt')
+        with open(report_path, 'w', encoding='utf-8') as f:
+            f.write(f'띄어쓰기 교정 보고서 — {label}\n')
+            f.write(f'생성시간: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n')
+            f.write(f'총 변경: {stats["total_changes"]}건\n\n')
+
+            for entry in corrector.get_changelog():
+                f.write(f'【{entry["heading"]}】\n')
+                f.write(f'  규칙: {entry["rule"]}\n')
+                f.write(f'  변경: {entry["before"]} → {entry["after"]}\n')
+                f.write(f'  사유: {entry["reason"]}\n\n')
+
+        print(f'\n보고서 저장: {report_path}')
+
+    return stats
+
+
+def run_spacing_rules():
+    print(f'{"="*60}')
+    print(f'띄어쓰기 규칙 현황')
+    print(f'{"="*60}\n')
+
+    print('[1] 의존 명사 (앞말에서 띄어 씀):')
+    for noun in sorted(DEPENDENT_NOUNS):
+        print(f'  - {noun}')
+
+    print(f'\n[2] 의존 명사 구 (앞말에서 띄어 씀):')
+    for phrase in sorted(DEPENDENT_NOUN_PHRASES):
+        print(f'  - {phrase}')
+
+    print(f'\n[3] 상세 규칙:')
+    for rule_key, rule in SPACING_RULES.items():
+        print(f'  [{rule_key}]')
+        print(f'    설명: {rule["description"]}')
+        if 'examples' in rule:
+            print(f'    예시: {", ".join(rule["examples"])}')
+        if 'particles' in rule:
+            print(f'    조사: {", ".join(rule["particles"])}')
+        print()
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='대중한사전 HWP 교정시스템',
@@ -229,6 +310,8 @@ def main():
 사용 예시:
   python run.py compare J          J편 원본/교정본 비교
   python run.py compare L          L편 원본/교정본 비교
+  python run.py spacing J          J편 띄어쓰기 교정 분석
+  python run.py spacing-rules      띄어쓰기 규칙 확인
   python run.py test               전체 섹션 시스템 테스트
   python run.py config             현재 설정 확인
         """,
@@ -240,6 +323,11 @@ def main():
     compare_parser.add_argument('section', help='섹션 키 (J, K, L, M, N, O, P, Q, R)')
     compare_parser.add_argument('-o', '--output', help='출력 디렉토리')
 
+    spacing_parser = subparsers.add_parser('spacing', help='띄어쓰기 교정 분석')
+    spacing_parser.add_argument('section', help='섹션 키 (J, K, L, M, N, O, P, Q, R)')
+    spacing_parser.add_argument('-o', '--output', help='출력 디렉토리')
+
+    subparsers.add_parser('spacing-rules', help='띄어쓰기 규칙 확인')
     subparsers.add_parser('test', help='전체 시스템 테스트')
     subparsers.add_parser('config', help='현재 설정 확인')
 
@@ -247,6 +335,10 @@ def main():
 
     if args.command == 'compare':
         run_compare(args.section, args.output)
+    elif args.command == 'spacing':
+        run_spacing(args.section, args.output)
+    elif args.command == 'spacing-rules':
+        run_spacing_rules()
     elif args.command == 'test':
         run_system_test()
     elif args.command == 'config':

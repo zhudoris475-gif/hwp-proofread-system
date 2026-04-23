@@ -2,6 +2,8 @@ from .constants import (
     COMMON_CHINESE, PINYIN_TONES, NOISE_WORDS, NOISE_PHRASES,
     KNOWN_NOISE_WORDS, KR_XX00_XX04_WHITELIST,
     CJK_RANGE, KR_SYLLABLE, CONTENT_CHARS, SECTIONS,
+    DEPENDENT_NOUNS, DEPENDENT_NOUN_PHRASES, SPACING_RULES,
+    PROVINCE_ABBREV,
 )
 from .hwp_io import (
     extract_bodytext_raw, clean_text, parse_entries,
@@ -18,11 +20,14 @@ from .noise_filter import (
 )
 from .change_detector import classify_entry, is_valid_korean_word
 from .config import Config
+from .spacing_rules import SpacingCorrector
 
 __all__ = [
     'COMMON_CHINESE', 'PINYIN_TONES', 'NOISE_WORDS', 'NOISE_PHRASES',
     'KNOWN_NOISE_WORDS', 'KR_XX00_XX04_WHITELIST',
     'CJK_RANGE', 'KR_SYLLABLE', 'CONTENT_CHARS', 'SECTIONS',
+    'DEPENDENT_NOUNS', 'DEPENDENT_NOUN_PHRASES', 'SPACING_RULES',
+    'PROVINCE_ABBREV',
     'extract_bodytext_raw', 'clean_text', 'parse_entries',
     'extract_chinese_words', 'extract_korean_words',
     'is_real_chinese_word',
@@ -34,4 +39,5 @@ __all__ = [
     'build_korean_whitelist', 'filter_noise_text',
     'classify_entry', 'is_valid_korean_word',
     'Config',
+    'SpacingCorrector',
 ]
