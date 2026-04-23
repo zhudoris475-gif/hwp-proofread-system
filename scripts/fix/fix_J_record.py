@@ -11,7 +11,7 @@ BACKUP_DIR = r"C:\Users\doris\AppData\Local\Temp\hwp_backup"
 LOG_DIR = r"C:\Users\doris\AppData\Local\Temp\hwp_logs"
 RULES_FILE = r"C:\AMD\AJ\hwp_proofreading_package\rules_documentation.txt"
 
-GEOT_NOSPLIT = {"이것", "그것", "저것", "이것저것", "그것저것"}
+GEOT_NOSPLIT = {"이것", "그것", "저것", "이것저것", "그것저것", "보잘것", "옛것", "새것", "별것", "그것", "모든것", "어느것", "어떤것", "들것", "말것"}
 
 SU_NOSPLIT = {
     "장수", "교수", "척수", "우수", "선수", "준수", "주파수", "정수", "함수",
