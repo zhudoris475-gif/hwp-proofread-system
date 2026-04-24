@@ -9,26 +9,24 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from hwp_proofread.constants import SECTIONS
-from hwp_proofread.hwp_io import (
-    extract_bodytext_raw, parse_entries,
-    build_korean_noise_char_set, build_char_whitelist_from_words,
-    build_valid_word_set, build_noise_char_set, extract_meaningful_text,
-)
-from hwp_proofread.change_detector import classify_entry
-from hwp_proofread.config import Config
-from hwp_proofread.spacing_rules import (
+from hwp_proofread import (
+    ProofreadPipeline,
     SpacingCorrector,
     BOTH_FORMS_DEP_NOUNS,
     apply_dependent_noun_inspection,
     apply_text_corrections,
     build_all_rules,
-    process_hwp_binary,
-    extract_text_from_records,
-    parse_records,
     file_hash,
+    Config,
 )
-from hwp_proofread.constants import DEPENDENT_NOUNS, DEPENDENT_NOUN_PHRASES, SPACING_RULES
+from hwp_proofread.constants import SECTIONS, DEPENDENT_NOUNS, DEPENDENT_NOUN_PHRASES, SPACING_RULES
+from hwp_proofread.io.hwp_io import (
+    extract_bodytext_raw, parse_entries,
+    build_korean_noise_char_set, build_char_whitelist_from_words,
+    build_valid_word_set, build_noise_char_set, extract_meaningful_text,
+)
+from hwp_proofread.io.binary_editor import extract_text, parse_records, extract_text_from_records
+from hwp_proofread.analysis.change_detector import classify_entry
 
 
 def run_compare(section_key, output_dir=None):
@@ -312,7 +310,7 @@ def run_spacing_rules():
         print()
 
 
-def run_proofread(section_key, output_dir=None, no_regex=False):
+def run_proofread(section_key, output_dir=None, no_regex=False, no_binary=False, no_com=False):
     section = SECTIONS.get(section_key)
     if not section:
         print(f'알 수 없는 섹션: {section_key}')
@@ -334,103 +332,57 @@ def run_proofread(section_key, output_dir=None, no_regex=False):
     out_path = os.path.join(output_dir, f'{base_name}_교정본.hwp')
     log_path = os.path.join(output_dir, f'{base_name}_교정로그_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt')
 
-    print(f'{"="*60}')
-    print(f'통합 교정 실행 — {label}')
-    print(f'{"="*60}')
-    print(f'원본: {orig_path}')
-    print(f'출력: {out_path}')
-    print(f'로그: {log_path}')
-
-    print(f'\n[1/4] 텍스트 추출 및 규칙 구축...')
-    import olefile, zlib
-    ole = olefile.OleFileIO(orig_path, write_mode=False)
-    all_text_parts = []
-    for sp in ole.listdir():
-        if sp[0] != "BodyText":
-            continue
-        raw = ole.openstream('/'.join(sp)).read()
-        try:
-            dec = zlib.decompress(raw, -15)
-            records = parse_records(dec)
-            text = extract_text_from_records(records)
-            all_text_parts.append(text)
-        except:
-            pass
-    ole.close()
-    full_text = ''.join(all_text_parts)
-    print(f'  추출 텍스트: {len(full_text):,}자')
-
-    all_rules, stats = build_all_rules(full_text, use_regex=not no_regex)
-    print(f'  규칙 통계:')
-    for k, v in stats.items():
-        print(f'    {k}: {v}')
-
-    print(f'\n[2/4] 의존명사 분석...')
-    dep_results, both_forms = apply_dependent_noun_inspection(full_text)
-    total_dep = sum(len(v) for v in dep_results.values())
-    total_both = sum(len(v) for v in both_forms.values())
-    print(f'  교정 대상 의존명사: {total_dep}건')
-    print(f'  양쪽 형식 허용 의존명사: {total_both}건')
-    print(f'  BOTH_FORMS 대상: {", ".join(BOTH_FORMS_DEP_NOUNS)}')
-
-    print(f'\n[3/4] HWP 바이너리 교정 실행...')
-
     log_lines = []
+
     def log_fn(msg):
         print(msg, flush=True)
         log_lines.append(msg)
 
-    result_path, change_log, total_changes = process_hwp_binary(
-        orig_path, out_path, all_rules, log_fn=log_fn
+    pipeline = ProofreadPipeline(
+        enable_binary=not no_binary,
+        enable_com=not no_com,
     )
 
-    print(f'\n[4/4] 결과 저장...')
+    result = pipeline.proofread(
+        orig_path,
+        output_path=out_path,
+        use_regex=not no_regex,
+        log_fn=log_fn,
+    )
+
     with open(log_path, 'w', encoding='utf-8') as f:
         f.write(f'통합 교정 로그 — {label}\n')
         f.write(f'실행시간: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n')
         f.write(f'원본: {orig_path}\n')
         f.write(f'원본 해시: {file_hash(orig_path)}\n')
-        if result_path and os.path.exists(result_path):
-            f.write(f'출력: {result_path}\n')
-            f.write(f'출력 해시: {file_hash(result_path)}\n')
-        f.write(f'총 교정: {total_changes}건\n\n')
-        f.write(f'규칙 통계:\n')
-        for k, v in stats.items():
-            f.write(f'  {k}: {v}\n')
-        f.write(f'\n의존명사 교정 대상: {total_dep}건\n')
-        f.write(f'BOTH_FORMS 허용: {total_both}건\n')
-        f.write(f'BOTH_FORMS 대상: {", ".join(BOTH_FORMS_DEP_NOUNS)}\n\n')
-        f.write(f'실행 로그:\n')
+        if result.get('result_path') and os.path.exists(result['result_path']):
+            f.write(f'출력: {result["result_path"]}\n')
+            f.write(f'출력 해시: {file_hash(result["result_path"])}\n')
+        f.write(f'총 교정: {result.get("total_changes", 0)}건\n\n')
+        if result.get('stats'):
+            f.write(f'규칙 통계:\n')
+            for k, v in result['stats'].items():
+                f.write(f'  {k}: {v}\n')
+        f.write(f'\n실행 로그:\n')
         for line in log_lines:
             f.write(f'  {line}\n')
-        f.write(f'\n변경 상세:\n')
-        change_summary = {}
-        for src, dst, cat, cnt in change_log:
-            key = f'{src}→{dst} ({cat})'
-            change_summary[key] = change_summary.get(key, 0) + cnt
-        for key, cnt in sorted(change_summary.items(), key=lambda x: -x[1])[:200]:
-            f.write(f'  {key}: {cnt}건\n')
+        if result.get('change_log'):
+            f.write(f'\n변경 상세:\n')
+            change_summary = {}
+            for src, dst, cat, cnt in result['change_log']:
+                key = f'{src}→{dst} ({cat})'
+                change_summary[key] = change_summary.get(key, 0) + cnt
+            for key, cnt in sorted(change_summary.items(), key=lambda x: -x[1])[:200]:
+                f.write(f'  {key}: {cnt}건\n')
 
     print(f'  로그 저장: {log_path}')
 
-    if result_path:
-        print(f'\n  교정 완료!')
-        print(f'  출력 파일: {result_path}')
-        print(f'  총 교정: {total_changes}건')
-    else:
-        print(f'\n  교정 실패!')
-
-    return {
-        'result_path': result_path,
-        'change_log': change_log,
-        'total_changes': total_changes,
-        'stats': stats,
-    }
+    return result
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description='대중한사전 HWP 교정시스템',
+        description='대중한사전 HWP 교정시스템 v4.0',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 사용 예시:
@@ -440,6 +392,8 @@ def main():
   python run.py proofread J        J편 통합 교정 실행
   python run.py proofread L -o C:\\output  L편 교정, 출력 디렉토리 지정
   python run.py proofread J --no-regex    J편 교정, 정규식 규칙 제외
+  python run.py proofread J --no-binary   J편 교정, 바이너리 교정 제외 (텍스트만)
+  python run.py proofread J --no-com      J편 교정, COM 교정 제외
   python run.py spacing-rules      띄어쓰기 규칙 확인
   python run.py test               전체 섹션 시스템 테스트
   python run.py config             현재 설정 확인
@@ -456,10 +410,12 @@ def main():
     spacing_parser.add_argument('section', help='섹션 키 (J, K, L, M, N, O, P, Q, R)')
     spacing_parser.add_argument('-o', '--output', help='출력 디렉토리')
 
-    proofread_parser = subparsers.add_parser('proofread', help='통합 교정 실행 (중한+TXT+REGEX+의존명사)')
+    proofread_parser = subparsers.add_parser('proofread', help='통합 교정 실행 (바이너리+COM+텍스트)')
     proofread_parser.add_argument('section', help='섹션 키 (J, K, L, M, N, O, P, Q, R)')
     proofread_parser.add_argument('-o', '--output', help='출력 디렉토리')
     proofread_parser.add_argument('--no-regex', action='store_true', help='정규식 규칙 제외')
+    proofread_parser.add_argument('--no-binary', action='store_true', help='바이너리 교정 제외')
+    proofread_parser.add_argument('--no-com', action='store_true', help='COM 교정 제외')
 
     subparsers.add_parser('spacing-rules', help='띄어쓰기 규칙 확인')
     subparsers.add_parser('test', help='전체 시스템 테스트')
@@ -472,7 +428,7 @@ def main():
     elif args.command == 'spacing':
         run_spacing(args.section, args.output)
     elif args.command == 'proofread':
-        run_proofread(args.section, args.output, args.no_regex)
+        run_proofread(args.section, args.output, args.no_regex, args.no_binary, args.no_com)
     elif args.command == 'spacing-rules':
         run_spacing_rules()
     elif args.command == 'test':
