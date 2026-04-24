@@ -9,6 +9,9 @@ from hwp_ollama_proofread import extract_text_from_hwp_binary
 import win32com.client
 import pythoncom
 
+sys.path.insert(0, r"c:\Users\doris\.agent-skills")
+from hwp_proofread.spacing_rules import SPACING_RULES as DEP_NOUN_SPACING_RULES
+
 L_ORIG = r"C:\Users\doris\Desktop\新词典\【大中朝 16】L 1787-1958--172--20240920.hwp"
 RULES_CHINA = r"C:\Users\doris\Desktop\WORD\rules_china_place.txt"
 RULES_DOCS = r"C:\Users\doris\Desktop\WORD\rules_documentation.txt"
@@ -98,6 +101,11 @@ def main():
         cnt = text_before.count(src)
         if cnt > 0:
             all_fixes.append((src, dst, cnt, "문서교정"))
+
+    for src, dst in DEP_NOUN_SPACING_RULES:
+        cnt = text_before.count(src)
+        if cnt > 0:
+            all_fixes.append((src, dst, cnt, "의존명사띄어쓰기"))
 
     for src, dst in QUOTE_RULES:
         cnt = text_before.count(src)
@@ -215,6 +223,7 @@ def main():
         remaining_china = sum(1 for src, dst in china_rules if text_after.count(src) > 0)
         remaining_nara = sum(1 for src, dst in NARA_RULES + NARA_EXTENDED if text_after.count(src) > 0)
         remaining_docs = sum(1 for src, dst in docs_rules if text_after.count(src) > 0)
+        remaining_spacing = sum(1 for src, dst in DEP_NOUN_SPACING_RULES if text_after.count(src) > 0)
         remaining_quote_open = text_after.count('\u201c')
         remaining_quote_close = text_after.count('\u201d')
 
@@ -222,9 +231,10 @@ def main():
         log(f"  잔여 중국지명: {remaining_china}종")
         log(f"  잔여 나라→조: {remaining_nara}종")
         log(f"  잔여 문서교정: {remaining_docs}종")
+        log(f"  잔여 의존명사띄어쓰기: {remaining_spacing}종")
         log(f"  잔여 따옴표: 열기={remaining_quote_open}, 닫기={remaining_quote_close}")
 
-        if remaining_china == 0 and remaining_nara == 0 and remaining_docs == 0 and remaining_quote_open == 0 and remaining_quote_close == 0:
+        if remaining_china == 0 and remaining_nara == 0 and remaining_docs == 0 and remaining_spacing == 0 and remaining_quote_open == 0 and remaining_quote_close == 0:
             log(f"\n✅ L파일 모든 규칙 완전 적용!")
         else:
             log(f"\n⚠️ 일부 규칙 잔여")
