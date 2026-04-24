@@ -153,3 +153,15 @@ scripts/fix/
 scripts/setup/
 .gsd/
 *.jsonl
+
+# === WeChat non-project files ===
+apm_record/
+business/
+config/
+db_storage/
+msg/
+resource/
+temp/
+multica-hwp-system/
+orig_20O.md
+corr_20O.md
