@@ -144,3 +144,12 @@ install_hwp2024_*.bat
 install_hwp_compat.bat
 install_hwp_ollama.bat
 manual_install_hwp.bat
+
+# === Large/unnecessary directories ===
+cache/
+data/
+logs/
+scripts/fix/
+scripts/setup/
+.gsd/
+*.jsonl

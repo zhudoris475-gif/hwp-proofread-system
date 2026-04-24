@@ -1,2 +1,0 @@
-Extracted 23 training examples
-Saved to: C:\Users\doris\Desktop\새 폴더 (2)\data\pdf_extracted_training.jsonl
